@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Background
+title: October
 nav_order: 3
 ---
 
-# Background
+# October
 
 Introduce the main topic and question.
 
