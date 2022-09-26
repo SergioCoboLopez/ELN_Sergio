@@ -6,6 +6,31 @@ nav_order: 2
 
 # Semptember
 
-Provide a synthesis of the project. This would be the equivalent of the abstract for a grant or an article. Keep it short (< 200). Use the space in [Home]({{ site.baseurl }}) to give the significance. Be more technical in the synthesis (with measure).
+## September 26 to 30
 
-Include a figure that captures the project.
+Goals of the week:
+1. Start and mantain this notebook
+1. Metabolic-Coinfection model: Calculate equilibrium concentrations for the coinfection model
+2. P.H.A.G.E.S. Goals - Interpret and analyze gas oscillations in the stocks of gases
+   		        Why are lysogens decreasing when they should be increasing?
+			Average over oscillations to find a long scale value of eDAR and probability of lysogeny
+			Fix PAR table
+
+Transient dynamics paper:
+1. If provided, incorporate feedback for the methods section.
+2. Prepare Figure 4
+
+Reading:
+1. Journal club: https://link.springer.com/content/pdf/10.1007/s40747-022-00846-y.pdf
+2. https://doi.org/10.1111/1462-2920.12553
+3. https://biodatamining.biomedcentral.com/articles/10.1186/s13040-015-0072-2
+
+Others:
+1. Prepare draft for grant workshop
+
+
+## September 26
+
+-I had a conversation with Forest about the P.H.A.G.E.S. goals. He proposes to measure concentrations (of bacteria, phages, fish...) in biomass and not items. I thought this was a bad idea, but today I understood that he proposes to measure bacteria, phages, algae etc in $$mol/m^3$$. That makes more sense to me. More specifically he says:
+Pools are measured in $$g/m^3$$ and "things" $$mol/g$$. Then you can do the conversion to $$mol/m^3$$
+
