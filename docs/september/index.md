@@ -32,5 +32,12 @@ Others:
 ## September 26
 
 -I had a conversation with Forest about the P.H.A.G.E.S. goals. He proposes to measure concentrations (of bacteria, phages, fish...) in biomass and not items. I thought this was a bad idea, but today I understood that he proposes to measure bacteria, phages, algae etc in $$mol/m^3$$. That makes more sense to me. More specifically he says:
-Pools are measured in $$g/m^3$$ and "things" $$mol/g$$. Then you can do the conversion to $$mol/m^3$$
+Pools are measured in $$g/m^3$$ and "things" $$mol/g$$. Then you can do the conversion to $$mol/m^3$$.
+
+-I am going to check the reasons of two unexpected behaviors in the GoldSim model.
+1. The stock of lysogens decreases after 
+
+![alt text](../results/26_09_1.jpg "Test")
+
+
 
