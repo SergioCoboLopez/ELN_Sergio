@@ -39,5 +39,11 @@ Pools are measured in $$g/m^3$$ and "things" $$mol/g$$. Then you can do the conv
 
 ![alt text](../results/26_09_1.jpg "Test")
 
+![alt text](../results/26_09_2.png "Test 2")
+This makes sense to me. Indeed, induction is as high as it appears to be. (Is induction too high?). At the beginning,
+I don't notice induction because the growth rate and the lysogenic infections are higher. Also, I've noticed that the growth rate 
+is very small. I have to correct that
+
+
 
 
