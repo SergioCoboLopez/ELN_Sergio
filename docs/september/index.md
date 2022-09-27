@@ -55,4 +55,4 @@ My hypothesis is that this is related to temporal timescales.
 in analyzing small reads of DNA called k-mers, where k represents the length of the read. The algorithm chooses the optimal k (the one that gives more accurately results, from what I understood). Then, it builds a matrix of $$2^k x 2^k$$ dimensions. The matrix is squeezed to $$nxn$$ dimensions with a statistical calculations (squared average), and then they convert the reduced matrix into a vector.
 -Each genome (I suppose) can be compared to others via a vectorial product. From that, they extract the similarity and make phylogenetic assignments. I need to keep reading the results.
 
--I tried to calculate the equilibrium concentrations of the coinfection model
+-I tried to calculate the equilibrium concentrations of the coinfection model. I had to do a few simplifications to make it more or less feasible in a day. Although I haven't finished, I am going to assume exponential growth (no carrying capacity). This will make my life easier and it is a fair approximation for small concentrations.
