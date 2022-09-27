@@ -32,7 +32,22 @@ Others:
 ## September 26
 
 -I had a conversation with Forest about the P.H.A.G.E.S. goals. He proposes to measure concentrations (of bacteria, phages, fish...) in biomass and not items. I thought this was a bad idea, but today I understood that he proposes to measure bacteria, phages, algae etc in $$mol/m^3$$. That makes more sense to me. More specifically he says:
-Pools are measured in $$g/m^3$$ and "things" $$mol/g$$. Then you can do the conversion to $$mol/m^3$$
+Pools are measured in $$g/m^3$$ and "things" $$mol/g$$. Then you can do the conversion to $$mol/m^3$$.
+
+-I am going to check the reasons of two unexpected behaviors in the GoldSim model.
+1. The stock of lysogens decreases after 
+
+![alt text](../results/26_09_1.jpg "Test")
+
+![alt text](../results/26_09_2.png "Test 2")
+This makes sense to me. Indeed, induction is as high as it appears to be. (Is induction too high?). At the beginning,
+I don't notice induction because the growth rate and the lysogenic infections are higher. Also, I've noticed that the growth rate 
+is very small. I have to correct that.
+
+2. Why do gas stocks oscillate? And why do they do it in such a way that stocks are empty for a while.
+My hypothesis is that this is related to temporal timescales.
+
+
 
 ## September 27
 
