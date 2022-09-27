@@ -34,3 +34,10 @@ Others:
 -I had a conversation with Forest about the P.H.A.G.E.S. goals. He proposes to measure concentrations (of bacteria, phages, fish...) in biomass and not items. I thought this was a bad idea, but today I understood that he proposes to measure bacteria, phages, algae etc in $$mol/m^3$$. That makes more sense to me. More specifically he says:
 Pools are measured in $$g/m^3$$ and "things" $$mol/g$$. Then you can do the conversion to $$mol/m^3$$
 
+## September 27
+
+-I read part of the paper for the Journal club. It seems an interesting technic for sequencing. They do an algorithm for Alignment Free (AF) for sequence analysis. Apparently, these algorithms are based
+in analyzing small reads of DNA called k-mers, where k represents the length of the read. The algorithm chooses the optimal k (the one that gives more accurately results, from what I understood). Then, it builds a matrix of $$2^k x 2^k$$ dimensions. The matrix is squeezed to $$nxn$$ dimensions with a statistical calculations (squared average), and then they convert the reduced matrix into a vector.
+-Each genome (I suppose) can be compared to others via a vectorial product. From that, they extract the similarity and make phylogenetic assignments. I need to keep reading the results.
+
+-I tried to calculate the equilibrium concentrations of the coinfection model
