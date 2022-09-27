@@ -60,4 +60,7 @@ in analyzing small reads of DNA called k-mers, where k represents the length of 
 -I got the equilibrium concentrations and will input them into the GoldSim model.
 
 -I also helped Greg conceptually thinking about a model. He wants to know the flow of sugar needed to have a constant stock of $$10^10 bacteria/ml$$. I hypothesize that he needs to find the equilibrium concentration of a bacterial growth equation where growth rate is controlled by the monod equation.
-
+$$
+\begin{align*}
+\frac{dB}{dt}&=&rB - dB
+\end{align*}
