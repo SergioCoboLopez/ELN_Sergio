@@ -64,3 +64,4 @@ $$
 \begin{align*}
 \frac{dB}{dt}&=&rB - dB
 \end{align*}
+$$
