@@ -56,3 +56,8 @@ in analyzing small reads of DNA called k-mers, where k represents the length of 
 -Each genome (I suppose) can be compared to others via a vectorial product. From that, they extract the similarity and make phylogenetic assignments. I need to keep reading the results.
 
 -I tried to calculate the equilibrium concentrations of the coinfection model. I had to do a few simplifications to make it more or less feasible in a day. Although I haven't finished, I am going to assume exponential growth (no carrying capacity). This will make my life easier and it is a fair approximation for small concentrations.
+
+-I got the equilibrium concentrations and will input them into the GoldSim model.
+
+-I also helped Greg conceptually thinking about a model. He wants to know the flow of sugar needed to have a constant stock of $$10^10 bacteria/ml$$. I hypothesize that he needs to find the equilibrium concentration of a bacterial growth equation where growth rate is controlled by the monod equation.
+
