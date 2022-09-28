@@ -110,4 +110,8 @@ I would like to be able to build networks from metagenomic data.
 I am going to start running some tests from my goals document. Some of the questions were solved before the group meeting, but I will discuss this in more detail here.
 1. Why are lysogens decreasing when they should be increasing?
 They are decreasing because the induction rate is very high and because viruses go extinct. If there are no viruses, there are no infections.
+As a test, I reduce lysogen inductions: from $$\mu_i=0.02 h^{-1}$$ to $$\mu_i=2e-4 h^{-1}$$.
+Doing this generates a negative outflow in sensitive bacteria. Why does this happen?
+This happens because I have equilibrium concentrations. I need to change that and get realistic concentrations.
+
 
