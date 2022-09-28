@@ -118,4 +118,6 @@ I will need to talk to Jenna to get:
 Initial concentrations for bacteria, phage, and lysogens
 Remaining values of the parameters: $$\mu_p$$, $$\mu_i$$, and c
 
+I've done an update on my goals and some of the parameters in the model
+
 
