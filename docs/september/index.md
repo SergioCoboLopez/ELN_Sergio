@@ -47,6 +47,28 @@ is very small. I have to correct that.
 2. Why do gas stocks oscillate? And why do they do it in such a way that stocks are empty for a while.
 My hypothesis is that this is related to temporal timescales. This hypothesis is partially correct. However, the other thing is that respiration and photosynthesis have both very high rates that drain the stocks.
 
+What I am thinking is that respiration will occur as long as there is enough O2 and glucose. That is why the pools run out of stock.
+I am going to check inflows and outflows of O2, sugar, CO2, and water.
+It makes sense that respiration occurs as long as there is stock, but shouldn't be the stock be replenished by photosynthesis?
+I am going to check that temporal scales match.
+The consumption in $$g/ml h$$ is identical. 
+
+From what I see, these oscillations are due to the photosynthesis. At the beginning, there is no PAR, so only respiration occurs.
+If only respiration occurs, you run out of O2. What happens if O2 consumption is lower?
+Instead of 5.297 g/h, I am going to set 2 g/h.
+I reduced it to 1 g/h. Still, the pool of O2 empties periodically.
+If I remove the O2 runoff then the water and CO2 pool empty periodically. Why does this happen?
+I think it is related to a high consumption of CO2 and H2O as compared to photosynthesis.
+Hypothesis: consumption is comparatively higher than actual stock.
+This seems to be partially true.
+I would say it is true. Oscillations are controlled by photosynthesis and PAR, of course. But you will always have oscillations,
+this is going to happen.
+
+I talked to Jenna about our paper idea.
+
+I am correcting the previous results in the lab meeting presentation.
+I realized the initial concentrations are the equilibrium concentrations.
+
 
 
 ## September 27
