@@ -114,4 +114,8 @@ As a test, I reduce lysogen inductions: from $$\mu_i=0.02 h^{-1}$$ to $$\mu_i=2e
 Doing this generates a negative outflow in sensitive bacteria. Why does this happen?
 This happens because I have equilibrium concentrations. I need to change that and get realistic concentrations.
 
+I will need to talk to Jenna to get:
+Initial concentrations for bacteria, phage, and lysogens
+Remaining values of the parameters: $$\mu_p$$, $$\mu_i$$, and c
+
 
