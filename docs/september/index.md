@@ -105,3 +105,9 @@ Their method identifies true and biologically significant network structures eff
 Why can this be important for me?
 I would like to be able to build networks from metagenomic data.
 
+## September 28
+
+I am going to start running some tests from my goals document. Some of the questions were solved before the group meeting, but I will discuss this in more detail here.
+1. Why are lysogens decreasing when they should be increasing?
+They are decreasing because the induction rate is very high and because viruses go extinct. If there are no viruses, there are no infections.
+
