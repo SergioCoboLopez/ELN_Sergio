@@ -45,7 +45,7 @@ I don't notice induction because the growth rate and the lysogenic infections ar
 is very small. I have to correct that.
 
 2. Why do gas stocks oscillate? And why do they do it in such a way that stocks are empty for a while.
-My hypothesis is that this is related to temporal timescales.
+My hypothesis is that this is related to temporal timescales. This hypothesis is partially correct. However, the other thing is that respiration and photosynthesis have both very high rates that drain the stocks.
 
 
 
@@ -57,7 +57,7 @@ in analyzing small reads of DNA called k-mers, where k represents the length of 
 
 -I tried to calculate the equilibrium concentrations of the coinfection model. I had to do a few simplifications to make it more or less feasible in a day. Although I haven't finished, I am going to assume exponential growth (no carrying capacity). This will make my life easier and it is a fair approximation for small concentrations.
 
--I got the equilibrium concentrations and will input them into the GoldSim model.
+-I got the equilibrium concentrations and will input them into the GoldSim model (probably tomorrow)
 
 -I also helped Greg conceptually thinking about a model. He wants to know the flow of sugar needed to have a constant stock of $$10^10 bacteria/ml$$. I hypothesize that he needs to find the equilibrium concentration of a bacterial growth equation where growth rate is controlled by the monod equation.
 $$
@@ -65,3 +65,21 @@ $$
 \frac{dB}{dt}&=&rB - dB
 \end{align*}
 $$
+
+-I will read now this one [paper](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-015-0072-2) and see if it fits the criteria of the journal club. Questions:
+
+What do they do?
+Given metagenomic data, they build networks of bacterial taxa and detect structural patterns.
+
+How do they do it?
+Pairwise similarity and distance measures between taxes.
+
+Why is it important?
+Because it puts metagenomic information into a shape/representation that allows for ecological insight.
+
+What are the results?
+Their method identifies true and biologically significant network structures efficiently.
+
+Why can this be important for me?
+I would like to be able to build networks from metagenomic data.
+
