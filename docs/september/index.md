@@ -139,3 +139,17 @@ Tomorrow I will start testing number 2, because it is easier. Make sure that:
 Then, I will test number 1. I will start checking the concentrations that depend on the main concentration (bacteria).
 
 ## September 29
+
+I am going to sketch a draft of a proposal for the grant workshop.
+My idea is to attack ecology problems from two perspectives: mechanistic modeling and statistical modeling.
+For starters, I think I lack the background on the field. But let's assume this is a good idea.
+
+I think stating that I just want to solve biological problems from two different perspectives can be too vague and broad. Instead,
+I could propose a specific problem and claim that I want to solve it from two different perspectives.
+
+I read a sample of proposal. First section: specific aims. They show what the problem is in paragraph 1.
+They sketch the solution in paragraph 2.
+
+As I am trying to write something, I realize I don't know the details of what I am trying to tell. For example: how would I develop a mechanistic model for a coral reef? How would I develop mechanistic models for ecological/biological systems in a systematic way?
+What kind of data or procedure would I need to develop statistical models in a systematic way?
+How exactly would mechanistic and statistical models complement each other? I only know this "conceptually"...
