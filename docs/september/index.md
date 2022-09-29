@@ -120,4 +120,22 @@ Remaining values of the parameters: $$\mu_p$$, $$\mu_i$$, and c
 
 I've done an update on my goals and some of the parameters in the model
 
+I have also been implementing the equilibrium concentrations of the coinfection model in GoldSim:
+first, I decided I would a single model file for this because:
+1. I don't know how to make goldsim models in a way that allows me to change between a set of inputs and another one;
+because I am assuming exponential growth, I had to change growth rates, lysogeny decision time, and phage production time.
+2. It is just simpler to me.
 
+Unfortunately, the equilibrium concentrations that I put did not work. This means two possible things:
+1. My calculations are wrong.
+2. The model is wrong.
+
+Tomorrow I will start testing number 2, because it is easier. Make sure that:
+-The initial concentrations are correct
+-The inflows and outflows are correct
+-The inflows and outflows match the formal equations (i.e., I did not forget any term)
+-Make sure the equilibrium concentrations match the numbers in the paper
+
+Then, I will test number 1. I will start checking the concentrations that depend on the main concentration (bacteria).
+
+## September 29
