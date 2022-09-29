@@ -153,3 +153,7 @@ They sketch the solution in paragraph 2.
 As I am trying to write something, I realize I don't know the details of what I am trying to tell. For example: how would I develop a mechanistic model for a coral reef? How would I develop mechanistic models for ecological/biological systems in a systematic way?
 What kind of data or procedure would I need to develop statistical models in a systematic way?
 How exactly would mechanistic and statistical models complement each other? I only know this "conceptually"...
+
+I have been updating the docs on the GoldSim model. Lessons:
+1. Never start working without pulling the repository.
+2. I am suspicious of the induction rate, but what can I do...Not much for now.
