@@ -157,3 +157,8 @@ How exactly would mechanistic and statistical models complement each other? I on
 I have been updating the docs on the GoldSim model. Lessons:
 1. Never start working without pulling the repository.
 2. I am suspicious of the induction rate, but what can I do...Not much for now.
+
+## September 30
+Write grants with a narrative: open up a problem, provide a solution, and close. I think this is compelling: keep the reviewers intrigued.
+
+I was reading a paper about mechanistic vs statistical models today: [paper](https://doi.org/10.1098/rsbl.2017.0660). The reason is that I had the following question: do or can statistical and mechanistic models complement each other? Apparently yes. Or I found arguments for that. My general thoughts:
