@@ -158,6 +158,12 @@ I have been updating the docs on the GoldSim model. Lessons:
 1. Never start working without pulling the repository.
 2. I am suspicious of the induction rate, but what can I do...Not much for now.
 
+<<<<<<< HEAD
+## September 30
+Write grants with a narrative: open up a problem, provide a solution, and close. I think this is compelling: keep the reviewers intrigued.
+
+I was reading a paper about mechanistic vs statistical models today: [paper](https://doi.org/10.1098/rsbl.2017.0660). The reason is that I had the following question: do or can statistical and mechanistic models complement each other? Apparently yes. Or I found arguments for that. My general thoughts:
+=======
 I have been working with Greg and Pete for Greg's model. Pete agreed with me and added that the death rate of bacteria has to
 be dependent on the sugar concentration as well as the growth rate is (Monod equation).
 We also figured out that Pete would need a second equation for the chemostat controlling the flow of sugar/substrate.
@@ -198,3 +204,4 @@ yes
 Time to review calculations
 A factor of r, was missing, solved
 I need to correct that factor in the repository
+>>>>>>> d0735a2ab6e134571ea6bcf77e7657008facf99d
