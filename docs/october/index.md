@@ -62,6 +62,16 @@ My plans are to have her help me with:
 -Look at how the coinfection model behaves close to the equilibrium
 -Tell her to explore the montecarlo part of GoldSim. Does this work for our future models?
 
+Jenna will start doing the montecarlo lessons of GoldSim next week. Her goal will be to run the coinfection model for many
+different values of B0, P0, L0, infection rate, or burst sizes. So far, we've seen that the coinfection model is very robust
+and reaches the equilibrium after less than 100 hours. Will this model behave so good for different values?
+Another two things we are concerned about:
+1. Is the induction rate correct?
+2. Lysogens are supposed to grow slower than sensitive bacteria. Should we implement this explicitly?
+
+Now, I am going to put values on github pages.
+Then, I will think about the induction rates.
+
 ## October 3
 
 ## October 4
