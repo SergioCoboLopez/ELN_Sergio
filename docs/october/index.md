@@ -6,8 +6,62 @@ nav_order: 3
 
 # October
 
-Introduce the main topic and question.
+## October 2 to 7 
 
-Expose the current limitations (state-of-the-art).
+Goals of the week:
 
-Add any additional background to support your approach and clarify that impact that it can have.
+PHAGES Goals:
+1. See how the model behaves with ecological parameter values and concentrations
+
+3. Put actual values on coinfection model
+4. Help Greg and Pete with model if needed
+5. Start thinking about protists (growth rates, death rates, preying rates)
+
+Metabolic model vs coinfection model:
+See how coinfection model behaves close to the equilibrium
+
+Transient dynamics paper:
+			
+Transient dynamics paper:
+1. If provided, incorporate feedback for the methods section. 
+2. Prepare Figure 4
+
+Reading:
+1. Journal club: https://doi.org/10.1093/function/zqab019
+2. Finish this: https://doi.org/10.1111/1462-2920.12553                               
+3. Start this one: https://biodatamining.biomedcentral.com/articles/10.1186/s13040-015-0072-2
+
+Others:
+Email Savannah
+
+## October 2
+I am going to read the paper for the journal club. Questions:
+
+1. What do they do?
+They measure energy of the gut microbiome of mice
+
+2. How do they do it?
+They remove the microbiota using surgical procedures. Then they use bomb and direct calorimetry.
+
+3. What are the results?
+   a. Mice gained weight over months because they did not have microbiota intaking energy anymore.
+   b. Heat dissipation changed right after removal of the cectum.
+   c. 8% of total energy expenditure is due to the cectum (1% of mice's body mass)
+
+4. Why is this important?
+Because most studies in metabolic energy are based in aerobic conditions
+
+5. How can be this relevant for my own research?
+Maybe for Metabolic Theory of Ecology?
+
+
+I am going to meet with Jenna in a few minutes.
+My plans are to have her help me with:
+-actual values of parameters and initial concentrations of bacteria, phage, and lysogens
+-What does she think of O2 and sugar consumption?
+-Look at how the coinfection model behaves close to the equilibrium
+-Tell her to explore the montecarlo part of GoldSim. Does this work for our future models?
+
+## October 3
+
+## October 4
