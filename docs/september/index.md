@@ -158,7 +158,50 @@ I have been updating the docs on the GoldSim model. Lessons:
 1. Never start working without pulling the repository.
 2. I am suspicious of the induction rate, but what can I do...Not much for now.
 
+<<<<<<< HEAD
 ## September 30
 Write grants with a narrative: open up a problem, provide a solution, and close. I think this is compelling: keep the reviewers intrigued.
 
 I was reading a paper about mechanistic vs statistical models today: [paper](https://doi.org/10.1098/rsbl.2017.0660). The reason is that I had the following question: do or can statistical and mechanistic models complement each other? Apparently yes. Or I found arguments for that. My general thoughts:
+=======
+I have been working with Greg and Pete for Greg's model. Pete agreed with me and added that the death rate of bacteria has to
+be dependent on the sugar concentration as well as the growth rate is (Monod equation).
+We also figured out that Pete would need a second equation for the chemostat controlling the flow of sugar/substrate.
+
+Now I am going to work on the coinfection model in the equilibrium:
+1. Check the model
+Are the initial concentrations accurate?
+Yes
+inflows and outflows accurate?
+Bacterial inflows: growth x
+Bacterial outflows: infection x
+
+Phage inflows: Burst function x
+Phage outflows: infection, coinfection, decay x
+
+Newly infected bacteria inflows: infection x
+Newly infected bacteria outflows: coinfection, infected to phage producing x
+
+Phage producing inflows: infected to phage producing, induction  x
+Phage producing outflows: lysis x
+
+Lysogen inflows: growth, coinfection x
+Lysogen outflows: induction x
+
+Are the functions what they are supposed to be?
+bacterial and lysogen growth: yes
+Infection: yes
+Coinfection: yes
+phage decay: yes
+burst function: yes
+infected to lytic: yes
+lysis: yes
+induction: yes
+
+Are the concentrations in agreement with the numbers I got?
+yes
+
+Time to review calculations
+A factor of r, was missing, solved
+I need to correct that factor in the repository
+>>>>>>> d0735a2ab6e134571ea6bcf77e7657008facf99d
