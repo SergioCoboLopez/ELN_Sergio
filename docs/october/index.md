@@ -34,7 +34,7 @@ Reading:
 Others:
 Email Savannah
 
-## October 2
+## October 3
 I am going to read the paper for the journal club. Questions:
 
 1. What do they do?
@@ -72,6 +72,11 @@ Another two things we are concerned about:
 Now, I am going to put values on github pages.
 Then, I will think about the induction rates.
 
-## October 3
+Putting the values on the table, I realized that there must be something wrong about the growth rates. I had a value of $$0.17 h^{-1}$$, but
+this is not consistent with the review of lysogeny of 2021. The numbers do not add up. I should change that and see what happens.
+
+The other thing is the induction rate. I still think $$\mu_i=0.02 h^{-1}$$ is too high.
 
 ## October 4
+
+## October 5
