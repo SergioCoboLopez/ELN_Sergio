@@ -117,3 +117,20 @@ Then, I can argue on Monday that there were some parameters wrong and I correcte
 Next thing will be to check the induction rate. I suspect that the induction rate will be a density-dependent parameter.
 
 ## October 5
+I was reading the paper of networks and metagenomes today and had some ideas.
+
+Suppose that I take $m$ samples of a coral metagenome and I found $n$ different taxa. Assume that in a first approximation I take the samples in a timescale sufficiently short so that the system shows stability (no transient dynamics spontaneously) and there are no major evolutionary changes (mutations).
+Now I build a matrix $M$ such that:
+
+$$
+\begin{align*}
+  M = \left( \begin{array}{ccc}
+      M_{11} & \cdots & M_{1m} \\
+      \vdots & \ddots & \vdots \\
+      M_{n1} & \cdots & M_{nm}
+    \end{array} \right)
+\end{align*}
+$$
+
+
+
