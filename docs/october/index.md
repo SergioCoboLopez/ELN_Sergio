@@ -109,4 +109,11 @@ So, we already now something about the dynamics of the pathogens/lysogens: they 
    b. d_{E} - protist grazing rate
    c. d_{L} - pathogens growth rate
 
+Now I am editing the draft of the transient dynamics paper. One thing that I am considering is to put the lotka volterra equation (without normalization) at the beginning of the methods.
+I thought about using the "align" environment in latex to have the whole derivation of the equations in a single line. I think this offers me the most explanatory power without sacrificing space. Now, where am I going to locate the equations?
+
+Tomorrow I want to start filling the tables for the coinfection model. Then, I am going to export these parameters to the metabolic model (nothing stops me from doing so, in reality...) What I should not export is the lysogenic commitment time.
+Then, I can argue on Monday that there were some parameters wrong and I corrected them.
+Next thing will be to check the induction rate. I suspect that the induction rate will be a density-dependent parameter.
+
 ## October 5
