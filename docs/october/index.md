@@ -119,18 +119,13 @@ Next thing will be to check the induction rate. I suspect that the induction rat
 ## October 5
 I was reading the paper of networks and metagenomes today and had some ideas.
 
-Suppose that I take $m$ samples of a coral metagenome and I found $n$ different taxa. Assume that in a first approximation I take the samples in a timescale sufficiently short so that the system shows stability (no transient dynamics spontaneously) and there are no major evolutionary changes (mutations).
-Now I build a matrix $M$ such that:
+I did not do the calculations on the induction rate because I have been thinking on how a proposal/research idea.
+I did finish the tables for the coinfection/metabolic models.
 
-$$
-\begin{align*}
-  M = \left( \begin{array}{ccc}
-      M_{11} & \cdots & M_{1m} \\
-      \vdots & \ddots & \vdots \\
-      M_{n1} & \cdots & M_{nm}
-    \end{array} \right)
-\end{align*}
-$$
+I want to solve the Savannah issue tomorrow, do the induction rate, and work on the draft. Although I have mixed feelings about it, I am going to start with the induction rate.
+Then, I will do some draft editing, and then I might solve the Savannah issue.
+
+I would like to do more draft editing on Friday.
 
 
 
