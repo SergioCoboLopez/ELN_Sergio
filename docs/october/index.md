@@ -127,5 +127,10 @@ Then, I will do some draft editing, and then I might solve the Savannah issue.
 
 I would like to do more draft editing on Friday.
 
+##October 6
 
+Rosner et. al. is not being helpful to me in terms of calculating $$\mu_i$$. They study induction rate as a function of temperature and seem to find negative induction rates (??)
 
+Rockney et. al. talk about lysogeny under UV irradiation or mitomycin C (not sure what that means). But I don't know how to interpret the results...maybe I should ask Greg?
+
+Greg was very helpful and he suggested to go back to Marisa's data. I re-ran the numbers that I had but I also found a possible solution to our problem to decouple induction rates from growth rates.
