@@ -127,10 +127,45 @@ Then, I will do some draft editing, and then I might solve the Savannah issue.
 
 I would like to do more draft editing on Friday.
 
-##October 6
+## October 6
 
 Rosner et. al. is not being helpful to me in terms of calculating $$\mu_i$$. They study induction rate as a function of temperature and seem to find negative induction rates (??)
 
 Rockney et. al. talk about lysogeny under UV irradiation or mitomycin C (not sure what that means). But I don't know how to interpret the results...maybe I should ask Greg?
 
 Greg was very helpful and he suggested to go back to Marisa's data. I re-ran the numbers that I had but I also found a possible solution to our problem to decouple induction rates from growth rates.
+
+## October 7
+
+I told Forest about my work this week, including my idea of a statistical/mechanistic model approach.
+
+Now I am going to dive into Savannah's information.
+
+Savannah has three types of information in her email:
+
+1. A publication that explains why the information that she sends me was generated. The publication talks about a single bacterial strain.
+2. An excel file with background information. There are three idetifiers: bacterial species, project, and substrate.
+3. The files in her dropbox folder.
+
+Ok, so suppose that I start with the E. Coli experiment.
+I have growth curves for all the substrates listed in the excel file.
+
+What is carbon negative control?
+What do I do about nitrogen sources?
+
+## October 10 to 14 
+
+Goals of the week:
+
+PHAGES Goals:
+
+1. Put actual values on coinfection model
+2. Module 3 - first steps
+3. Montecarlo modules of GoldSim for next steps.
+4. Work on documentation in repository
+
+Reading:
+-Paper for journal club 
+-Prepare journal club for next week
+-Writing club
+-what needs to be done for the machine scientist
