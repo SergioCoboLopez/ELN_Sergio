@@ -209,3 +209,17 @@ How is this important for my research?
 I don't think it is
 
 I don't understand anything in this paper.
+
+## October 12
+
+The journal club this morning was productive: I was struggling to understand what the paper was about, but Greg and the discussion with the other people was helpful.
+
+Now, I want to think about what Forest and I discussed yesterday.
+Forest thinks and says there are many parameters in my model. And I think he's right. But how do we solve this? He says eDAR and MTE.
+I am going to put together a presentation for next Monday to organize my thoughts.
+
+The starting point is that we don't want to have too many parameters in models. That generally leads to overfitting and long description lengths. Also, it makes your models describe the reality instead of predicting it (I do not totally agree with this).
+
+Our parameters should come from things that we can measure, with minimal assumptions. Use chemistry and thermodynamics.
+
+I am going to start correcting some things in the tables of the github pages. Then I will make screenshots.
