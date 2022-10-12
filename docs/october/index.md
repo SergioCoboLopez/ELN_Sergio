@@ -169,3 +169,43 @@ Reading:
 -Prepare journal club for next week
 -Writing club
 -what needs to be done for the machine scientist
+
+## October 10
+I presented my progress at the group meeting. Forest did not like how many parameters the model has. I agree with that, but I don't see an easy solution.
+I understand that if we have to pay a parameter for each mechanistic process that we want to add, we can be lost very fast.
+Forest wants to have all parameters coming from eDAR or metabolism. But even if we do that, we will have to pay some parameters.
+Assume we have just photosynthesis and respiration.
+Assume that respiration rate is fast as PAR is.
+Then, assume a conversion from respiration to energy. We have to do it through respiration.ç
+eDAR tells you many different things:
+1. What type of metabolism dominates.
+2. What the probability of lysogeny is
+3. What the induction rate is
+4. The growth rate
+
+But what type of metabolism dominates is conditioned by the metabolic pathway.
+I can see how growth rate, probability of lysogeny or induction rate could depend on eDAR. But what about the burst size, the infection rate, or the phage decay rate?
+How do we do the metabolic part of this? It seems to me that eDAR and MTE do different things.
+And how do we test whether our models work?
+If we want to measure everything from the point of view of energy, we need MTE. And we need to think of metabolism from a very general point of view. Or specify how many metabolic pathways we want to consider.
+ 
+## October 11
+
+I am going to read Greg's paper for the journal club.
+
+What do they do?
+They study the mechanistic process by which the interaction of baicalain and flavonoids decreases the risk of developing T2 diabetes. They do this in vivo.
+
+How do they do it?
+They do studies with mice (in vivo? in vitro?)
+
+Why is it important?
+Because it can help in dietary interventions for diabetes
+
+What are the results?
+The combination of acarbose and baicalain reduces the amount of gut bacteria that eat the gas produced by acarbose
+
+How is this important for my research?
+I don't think it is
+
+I don't understand anything in this paper.
