@@ -223,3 +223,14 @@ The starting point is that we don't want to have too many parameters in models. 
 Our parameters should come from things that we can measure, with minimal assumptions. Use chemistry and thermodynamics.
 
 I am going to start correcting some things in the tables of the github pages. Then I will make screenshots.
+
+## October 13
+
+I am working on the Transient dynamics draft. I am trying to differentiate two things:
+if a system is transient over long timescales, one can assume that it is stable on shorter timescales. However, this is different than assuming stability on the vicinity of the equilibrium. These are not the same.
+I don't think they are the same thing. However, it is true that over short timescales, transient dynamics are more abrupt.
+I need to read more on this subject.
+
+Now, I am changing figures from png to pdf. It works. I am also changing some things from the text (is it worth it to do that?)
+
+I made some changes to the text, but I think I am starting to write in circles.
