@@ -248,3 +248,9 @@ of lack of knowledge, you can further study the system. In the case of 1, that's
 Oftentimes both sources of stochasticity can be convoluted.
 
 Lesson 3
+When you can quantify the degree of ignorance/uncertainty, you plot it in a probability distribution. There are different
+types of probability distribution.
+
+There are continuous probability distributions and discrete ones.
+Probability Distribution Functions are difficult to interpret (not sure why), and so Cumulative Density Functions are often
+used.
