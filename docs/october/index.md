@@ -234,3 +234,17 @@ I need to read more on this subject.
 Now, I am changing figures from png to pdf. It works. I am also changing some things from the text (is it worth it to do that?)
 
 I made some changes to the text, but I think I am starting to write in circles.
+
+I made some advances and would like to pass my text through grammarly
+
+I have been preparing a presentation and goals for Monday. I think I am quite confident of what I want to tell.
+
+Now I have started the stochastic units of Goldsim. I think the first unit is going to be quite basic. I am guessing is going to introduce basic concepts such
+as Monte Carlo simulations.
+Lesson 1 and 2
+They start distinguishing types of stochasticity: 1. inherent randomness, 2. lack of knowledge.
+They argue that 1 is important in the sense that it tells you the limits of what you can know or learn. If you have a problem
+of lack of knowledge, you can further study the system. In the case of 1, that's it.
+Oftentimes both sources of stochasticity can be convoluted.
+
+Lesson 3
