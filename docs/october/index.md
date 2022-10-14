@@ -253,4 +253,8 @@ types of probability distribution.
 
 There are continuous probability distributions and discrete ones.
 Probability Distribution Functions are difficult to interpret (not sure why), and so Cumulative Density Functions are often
-used.
+used. Percentiles are extracted from integrations of CDFs
+It is important to apply lack of knowledge to probability distributions. It it is lack of knowledge, the spread represents
+your ignorance (bayesian statistics). If it is inherently random, you would build your distribution counting occurrences of
+values when you measure. In the first case, your distribution will get narrower as you keep making measurements. In the second
+case, this should not happen.
