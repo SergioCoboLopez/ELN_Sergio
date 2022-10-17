@@ -234,3 +234,18 @@ I need to read more on this subject.
 Now, I am changing figures from png to pdf. It works. I am also changing some things from the text (is it worth it to do that?)
 
 I made some changes to the text, but I think I am starting to write in circles.
+
+## October 14
+
+First writing club session. I am going to read my draft and decide what I want to change.
+
+I think I have a structure (to which I have attached myself) that does not make things very understandable. After discussing normalization byb time, shouldn't I discuss critical concentrations?
+
+I changed my mind again. I think I should summarise what I wan to do first and then give more detail about it.
+
+I don't know how to follow from here.
+
+Ok, I made some progress.
+
+
+## October 17 to 22 
