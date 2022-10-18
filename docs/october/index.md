@@ -249,3 +249,28 @@ Ok, I made some progress.
 
 
 ## October 17 to 22 
+
+Goals of the week:
+
+PHAGES Goals:
+
+1. Finish montecarlo modules of GoldSim for next steps.
+2. Move on with documentation in repository
+3. Start re-doing module 2
+
+Transient dynamics paper:
+1. Put together draft of figure 4
+2. Check code for error calculations.
+3. Some corrections to the text draft
+
+Reading:
+-Finish reading machine scientist and prepare presentation for Wed
+-Read Ishmail's paper for MTE and growth rate
+-Keep reading on networks and dynamical systems
+-Read about phage decay rate (take a look at Da Paepe)
+
+Other stuff
+-Start plotting growth curves if Savannah does not answer
+-Send CV and abstract for talk in January in Spain
+
+## October 17
