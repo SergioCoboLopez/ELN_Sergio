@@ -258,3 +258,10 @@ It is important to apply lack of knowledge to probability distributions. It it i
 your ignorance (bayesian statistics). If it is inherently random, you would build your distribution counting occurrences of
 values when you measure. In the first case, your distribution will get narrower as you keep making measurements. In the second
 case, this should not happen.
+
+
+
+## October 19
+The Bayesian Machine Scientist seemed to be interesting for everybody. How can we apply it to other things? Forest thaught about the sort of similarity matrix that Andres was building for comparing metagenomes. I don't think that is the
+best possible idea because, what mathematical expression would you expect to find? I did not think about it before, but I believe rule number 1 for the machine scientist would be something like: what do you expect the variable or variables
+of your desired equation to be?
