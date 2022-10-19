@@ -265,3 +265,6 @@ case, this should not happen.
 The Bayesian Machine Scientist seemed to be interesting for everybody. How can we apply it to other things? Forest thaught about the sort of similarity matrix that Andres was building for comparing metagenomes. I don't think that is the
 best possible idea because, what mathematical expression would you expect to find? I did not think about it before, but I believe rule number 1 for the machine scientist would be something like: what do you expect the variable or variables
 of your desired equation to be?
+
+Next thing is to reduce the number of parameters on the PHAGES Module number 2. I need to make induction rate and probability of lysogeny dependent of the hill function of eDAR. However, I need to update the hill function and 
+add the exponent first.
