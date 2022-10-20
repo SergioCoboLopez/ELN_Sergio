@@ -268,3 +268,5 @@ of your desired equation to be?
 
 Next thing is to reduce the number of parameters on the PHAGES Module number 2. I need to make induction rate and probability of lysogeny dependent of the hill function of eDAR. However, I need to update the hill function and 
 add the exponent first.
+
+I need to write down some basic assumptions for eDAR
