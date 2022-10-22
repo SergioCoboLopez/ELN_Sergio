@@ -274,3 +274,11 @@ Other stuff
 -Send CV and abstract for talk in January in Spain
 
 ## October 17
+
+
+
+
+## October 20
+Revisit code for transient dynamics
+Question 1: does it do all the figures? It does.
+I need to own the narrative of figure 4. What do I want to tell?
