@@ -4,31 +4,7 @@ title: October
 nav_order: 2
 ---
 
-# Semptember
-
-## October 26 to 30
-
-Goals of the week:
-1. Start and mantain this notebook
-1. Metabolic-Coinfection model: Calculate equilibrium concentrations for the coinfection model
-2. P.H.A.G.E.S. Goals - Interpret and analyze gas oscillations in the stocks of gases
-   		        Why are lysogens decreasing when they should be increasing?
-			Average over oscillations to find a long scale value of eDAR and probability of lysogeny
-			Fix PAR table
-
-Transient dynamics paper:
-1. If provided, incorporate feedback for the methods section.
-2. Prepare Figure 4
-
-Reading:
-1. Journal club: https://link.springer.com/content/pdf/10.1007/s40747-022-00846-y.pdf
-2. https://doi.org/10.1111/1462-2920.12553
-3. https://biodatamining.biomedcentral.com/articles/10.1186/s13040-015-0072-2
-
-Others:
-
-1. Prepare draft for grant workshop
-Email Savannah
+# October
 
 ## October 3
 I am going to read the paper for the journal club. Questions:
@@ -130,3 +106,30 @@ Rosner et. al. is not being helpful to me in terms of calculating $$\mu_i$$. The
 Rockney et. al. talk about lysogeny under UV irradiation or mitomycin C (not sure what that means). But I don't know how to interpret the results...maybe I should ask Greg?
 
 Greg was very helpful and he suggested to go back to Marisa's data. I re-ran the numbers that I had but I also found a possible solution to our problem to decouple induction rates from growth rates.
+
+##October 26
+
+I messed with git and forgot to pull from one computer. I believe it is good that I made the error in this repository to learn from mistakes: in the future I should always pull before doing anything: first pull repository, then change stuff, and then commit and push.
+
+## October 24 to 30
+
+Goals of the week:
+
+Goals
+ -Find reasonable ratios for eDAR
+-Go back to MTE: what exactly needs to be done and how for the model?
+-Finish at least first unit of Monte Carlo
+-Read Phages to Sharks from a Machine Scientist perspective
+-Meet with Colin and help him with master thesis
+-Next round of edits of code
+-Read paper for Journal Club
+-proofread draft for writing club on Friday
+-writing club on Friday
+
+## October 26
+
+I've attended the journal club, discussed Jenna's goals with Forest, also discussed Andres' goals and some things about the Virision meeting.
+
+Then I did some proofreading for the writing club on Friday.
+
+And now, I am going to look at the eDAR numbers that Jenna found.
