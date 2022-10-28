@@ -133,3 +133,18 @@ I've attended the journal club, discussed Jenna's goals with Forest, also discus
 Then I did some proofreading for the writing club on Friday.
 
 And now, I am going to look at the eDAR numbers that Jenna found.
+
+## October 27
+Talk with F. Ideas for a paper.
+
+I think we are mixing metabolism with density dependence.
+Activation energy of anabolic metabolism. He found a review. It is interesting.
+
+I should do min and max eDAR with Jenna's data. Then, use those numbers to parametrize probability of lysogeny, probability of induction and the switch from catabolic to anabolic metabolism. I also should implement some sort of anabolic metabolism.
+
+Writing an email to Savannah. Finish this.
+
+V=Viruses, M=Microbes, edar= [Sugar]/[O2]
+
+V \proportional M*eDAR ---> do computer scientist on O2=O2(T,S)
+
