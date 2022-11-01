@@ -30,8 +30,6 @@ Think about virision
 
 ## October 31
 
-I answered Savannah's email.
-
 Now, I want to test the Machine Scientist on the Benson and Krause's paper.
 How should I do this?
 My goal is to find O2 concentration as a function of temperature and salinity. I have two variables. How many parameters? I don't know. I am going to look at my test on the Lotka-Volterra equations.
@@ -43,3 +41,7 @@ y= Dataset[O2 concentration]
 x= Dataset[temperature] and dataset[salinity]
 I will do this with a single value of Salinity first. If I do that, my variable will be the temperature. Then I should try different numbers of parameters. And I should compare the results with the equation in the paper.
 I prepared a csv for my first experiment.
+
+## November 1
+
+I want to continue with the machine scientist test
