@@ -44,4 +44,18 @@ I prepared a csv for my first experiment.
 
 ## November 1
 
-I want to continue with the machine scientist test
+I want to continue with the machine scientist test. My first tests don't work. I don't know if I made a simple mistake or if the machine scientist simply does not have enough data to find equations. An
+obvious solution would be to add a column to the salinity.
+The machine scientist keeps returning an error and I don't understand why that happens.
+I have three hypotheses of why this is not working:
+Hypothesis 1:
+There is a mistake in the code that I have not seen
+Test:
+Take the same code with a different dataset.
+Compare this code to the most similar code that works.
+
+Hypothesis 2:
+There are too many few data points.
+Test:
+Check the paper to see the minimum number of data points.
+Add a third value of salinity.
