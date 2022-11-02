@@ -59,3 +59,14 @@ There are too many few data points.
 Test:
 Check the paper to see the minimum number of data points.
 Add a third value of salinity.
+
+Meeting:
+Rewrite already written introduction. Go to an introduction-results-method structure.
+Use figures to help you write the paper.
+Write methods also using the figures.
+
+Paper for journal club
+This paper studies the role of O2 flow in corals.
+The cilia of corals helps them manage O2.
+They use a combination of nanoparticles and imaging to look at O2 at the diffusive boundary layer of corals (a region sorruonding the coral).
+They observe that the cilia of corals reallocate surplus of O2 to areas that have less chlorophyll. This minimizes oxidative stress. This is good for coral bleaching.
