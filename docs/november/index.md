@@ -84,3 +84,13 @@ It might be. What about converting mg/l to micromol/dm3?
 
 I am going to move to edit the draft of the transient dynamics paper. I should start talking about the results: go figure by figure? But first, look at other papers with that structure.
 I drafted something, although I don't like it very much.
+
+## November 4
+
+Draft of the paper
+
+Paragraph 1: describe Figure 1 a. Figure 1.a is a graphical representation of the model with the four terms. Following this idea, I think it is better to describe the model rather than the ecology. However, I should put the bacteria and the phage at the center of everything. I will avoid mentions to E coli and T4 because I want to keep my method more general than that.
+I don't like the first iteration, too technical. I still don't like this and I always end in the same place.
+Then I have to specify the type of bacteria and phage I consider.
+
+How should I describe Figure 1 b? 
