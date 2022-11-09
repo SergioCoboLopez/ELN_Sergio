@@ -93,4 +93,20 @@ Paragraph 1: describe Figure 1 a. Figure 1.a is a graphical representation of th
 I don't like the first iteration, too technical. I still don't like this and I always end in the same place.
 Then I have to specify the type of bacteria and phage I consider.
 
-How should I describe Figure 1 b? 
+How should I describe Figure 1 b?
+
+
+## November 8
+Draft of the paper. My goal is to:
+1. Be more agnostic describing Figure 1b. Done.
+2. Include the equations in my results and let help them explain the results.
+
+I have a hard time explaining time aggregated per capita contributions. How do I explain the need for a reference timescale?
+Now I have to make the point that these rates tell me that:
+1. Sometimes they don't contribute to the dynamics.
+2. They help me explain what is going on. How am I going to do this? Is it too much? I need to think about this in more detail.
+
+Paper for Journal Club
+They analyse the interplay of deoxygenation and global warming in coral reefs. They analyze coral reef benthic communities, they do microbial community sequencing and show a deoxygenation event altered the ecosystem.
+There was a 50% coral loss and massive bleaching.
+They observe that the benthic communities and microbial communities recovered on different timescales. This shows that deoxygenation is an important thing.
