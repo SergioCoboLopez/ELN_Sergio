@@ -110,3 +110,8 @@ Paper for Journal Club
 They analyse the interplay of deoxygenation and global warming in coral reefs. They analyze coral reef benthic communities, they do microbial community sequencing and show a deoxygenation event altered the ecosystem.
 There was a 50% coral loss and massive bleaching.
 They observe that the benthic communities and microbial communities recovered on different timescales. This shows that deoxygenation is an important thing.
+
+## November 9
+No journal club today.
+I am going to work on my GoldSim problems today. Last week I produced a model based on energy consumption.
+This produced a very interesting curve, but the bacteria were not consuming O2 or sugar. I have to make them do that. How? I am going to take values from the metabolic model.
