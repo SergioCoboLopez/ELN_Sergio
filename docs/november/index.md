@@ -115,3 +115,6 @@ They observe that the benthic communities and microbial communities recovered on
 No journal club today.
 I am going to work on my GoldSim problems today. Last week I produced a model based on energy consumption.
 This produced a very interesting curve, but the bacteria were not consuming O2 or sugar. I have to make them do that. How? I am going to take values from the metabolic model.
+
+## November 10
+I am going to start looking at the paper. For an hour. My goals for today are linking Figure 1 to Figure 2
