@@ -118,3 +118,6 @@ This produced a very interesting curve, but the bacteria were not consuming O2 o
 I will make the substitution now. Likely, this will destroy the balance of O2+sugar to H20+C02.
 The results do not make sense to me. The growth should mimic the energy consumption and this is not happening.
 I think that GoldSim is reaching the largest numbers permissible.
+
+## November 11
+What do I want to do now? I am going to add a second type of metabolism
