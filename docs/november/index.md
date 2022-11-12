@@ -113,4 +113,18 @@ They observe that the benthic communities and microbial communities recovered on
 
 ## November 9
 No journal club today.
+<<<<<<< HEAD
 I am going to work on my GoldSim problems today. Last week I produced a model based on energy consumption.
+=======
+I am going to work on my GoldSim problems today. Last week I produced a model based on energy consumption.
+This produced a very interesting curve, but the bacteria were not consuming O2 or sugar. I have to make them do that. How? I am going to take values from the metabolic model.
+<<<<<<< HEAD
+
+## November 10
+I am going to start looking at the paper. For an hour. My goals for today are linking Figure 1 to Figure 2
+=======
+I will make the substitution now. Likely, this will destroy the balance of O2+sugar to H20+C02.
+The results do not make sense to me. The growth should mimic the energy consumption and this is not happening.
+I think that GoldSim is reaching the largest numbers permissible.
+>>>>>>> 7c4a5a4f2c38c057d79cc143c52a0be3d1b61687
+>>>>>>> e09976f3f362c3cb4430130b2ca7fbf57f76fcbb
