@@ -115,6 +115,7 @@ They observe that the benthic communities and microbial communities recovered on
 No journal club today.
 I am going to work on my GoldSim problems today. Last week I produced a model based on energy consumption.
 This produced a very interesting curve, but the bacteria were not consuming O2 or sugar. I have to make them do that. How? I am going to take values from the metabolic model.
+<<<<<<< HEAD
 
 ## November 10
 I am going to start looking at the paper. My goals for today are linking Figure 1 to Figure 2
@@ -140,3 +141,17 @@ I am not sure about the second paragraph. In my version of the paper we argue so
 I don't think the second and third paragraph fit in our narrative of what is going on and how we approach transient dynamics.
 
 I finished a firt iteration of the introduction now.
+=======
+
+
+## November 10
+I am going to start looking at the paper. For an hour. My goals for today are linking Figure 1 to Figure 2
+I will make the substitution now. Likely, this will destroy the balance of O2+sugar to H20+C02.
+The results do not make sense to me. The growth should mimic the energy consumption and this is not happening.
+I think that GoldSim is reaching the largest numbers permissible.
+
+## November 15
+I am confused about what to do with the documentation. I do not want to start over, but I feel it is not informative the way it is written.
+
+
+>>>>>>> 3a1ac258ef2fab03f2ada32ef7ffbc1fc5ca591a
