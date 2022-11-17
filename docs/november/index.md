@@ -115,12 +115,28 @@ They observe that the benthic communities and microbial communities recovered on
 No journal club today.
 I am going to work on my GoldSim problems today. Last week I produced a model based on energy consumption.
 This produced a very interesting curve, but the bacteria were not consuming O2 or sugar. I have to make them do that. How? I am going to take values from the metabolic model.
-<<<<<<< HEAD
 
 ## November 10
-I am going to start looking at the paper. For an hour. My goals for today are linking Figure 1 to Figure 2
-=======
-I will make the substitution now. Likely, this will destroy the balance of O2+sugar to H20+C02.
-The results do not make sense to me. The growth should mimic the energy consumption and this is not happening.
-I think that GoldSim is reaching the largest numbers permissible.
->>>>>>> 7c4a5a4f2c38c057d79cc143c52a0be3d1b61687
+I am going to start looking at the paper. My goals for today are linking Figure 1 to Figure 2
+
+## November 14
+Paper for journal club. My understanding is that the goal of the paper is to build an experimental system that simulates the future conditions of the Red Sea under different scenarios.
+Six different temperatures and four ph scenarios. 80 experimental aquaria. Manipulation of light, nutrients. I am not sure about the results from the abstract.
+It appears that they arrive to different conclusions as the hypothesis proposed by Forest (what I get is that temperature+CO2 have the most negative effect in coral mortality).
+
+Consider a function called e-DAR that measures the ratio of e- donors and e- acceptors in any given ecosystem. Let the function be such that e-DAR=[e-donors]/[e-acceptors]+e, where e is a small number that prevents singularities, and [e-donor] and [e-acceptor] represent the concentration of electron donor and electron acceptors. In practice, these concentrations correspond to the concentration of labile DOC and O2. Then, the goldilocks line is the subset of values of e-donors and e-acceptors such that eDAR~1.
+
+Limitations:
+ 1. how to count the concentration of (particularly) [e-donors], and [e-acceptors].
+
+## November 16
+
+Forest wants now to add Dissolved Organic Matter to the model. Every time a bacteria or phage dies, it fills the pool of DOC. The pool of DOC can be used for respiration and fermentation. It is not very different from glucose. In fact, in the last iteration, Forest wanted to connect the pool of glucose and DOC (I don't know if that is a good idea because they are not the same thing).
+He was also interested in pH (he relates it to the concentration of CO2). He was arguing that pH is related to the energy of activation (and hence metabolism). But I do not understand how.
+
+Now I am going to go for the introduction of Matt's paper. First I am going to read it. I think the message of the paper should be that we have a tool for predicting transient dynamics. So, how does the introduction help me conveying that message? That's how I should read, modify or combine the introductions.
+The introduction has four paragraphs. The first paragraph is a perfect description of the problem: I will incorporate it to the text.
+I am not sure about the second paragraph. In my version of the paper we argue something different.
+I don't think the second and third paragraph fit in our narrative of what is going on and how we approach transient dynamics.
+
+I finished a firt iteration of the introduction now.
