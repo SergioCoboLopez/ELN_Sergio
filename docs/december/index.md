@@ -24,7 +24,5 @@ Microbial Metabolism on book
 
 ## November 28
 I am preparing goals and work of the week.
-Solving a problem with github pages and latex syntax
-
-
+Solving a problem with github pages and latex syntax. Problem solved.
 
