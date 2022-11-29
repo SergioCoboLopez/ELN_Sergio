@@ -29,6 +29,8 @@ Forest wants me to prepare a presentation and protocol for next Monday. I alread
 of the presentation and prepared a first draft of the protocol. I will take a look at it by 
 the end of the week.
 I did a couple of lessons of GoldSim courses.
+Tomorrow: take a look at figure for paper, read abstract of paper for Journal Club, talk to Lucas, 
+do a couple of lessons of GoldSim. If there is time, look at draft for conference.
 
 ## November 29
 Talk to Lucas about presentation for Monday
