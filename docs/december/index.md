@@ -36,3 +36,11 @@ do a couple of lessons of GoldSim. If there is time, look at draft for conferenc
 Talk to Lucas about presentation for Monday
 
 
+## November 30
+I talked to Forest, Lucas, and Andres about my model. I got a better idea on how to proceed
+I redid my model
+I realized the goldilocks line is in C6H12/6O2=0.937 because of the stoichiometry. I need to develop
+on that and put it on my goals.
+I need to think about the Hill function tomorrow.
+I also need to work on my draft tomorrow for at least an hour.
+
