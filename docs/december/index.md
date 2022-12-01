@@ -44,3 +44,8 @@ on that and put it on my goals.
 I need to think about the Hill function tomorrow.
 I also need to work on my draft tomorrow for at least an hour.
 
+## December 1
+I sent out the protocol for the presentation next Monday and a few slides on how GoldSim works.
+I am going to start working on the paper now. First, I want to have a decent draft of Figure 4.
+I finished a first draft on Figure 4. There is something odd with the lines that mark the transitions between simplified dynamics.
+This had already happened before, but I do not remember what exactly the problem was. I will check this at other time.
