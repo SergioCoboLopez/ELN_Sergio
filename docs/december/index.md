@@ -49,3 +49,30 @@ I sent out the protocol for the presentation next Monday and a few slides on how
 I am going to start working on the paper now. First, I want to have a decent draft of Figure 4.
 I finished a first draft on Figure 4. There is something odd with the lines that mark the transitions between simplified dynamics.
 This had already happened before, but I do not remember what exactly the problem was. I will check this at other time.
+
+## December 12 to December 17
+
+Goals of the week
+
+-Update documentation of GoldSim. Draft of ESA application
+-GoldSim code: Finish fermentation and test that everything works correctly
+-Viralization paper
+-Transients dynamics paper
+-Code for error
+
+Reading
+
+Journal club
+Go over Transients dynamic paper again - start becoming an expert on it
+Microbial Metabolism on book
+
+
+## December 12
+There are enzyme inducers: some are competitive (they occupy the place of substrates) and some are non-competitive. Non competitive (or allosteric, apparently) attach to a different part of the enzyme. These inhibitors are involved in feedback loops to deactivate the enzymes.
+
+Group meeting:
+In the world of the bacteria, diffussion is the main force for nutrient flow.
+"Win" stands for "winogradsky"
+
+
+There is an error with github pages in the goldsim repository and I don't know how to fix it. I suspect it is related to having a draft paper in the docs folder. However, this is not a problem in the needle finder repository, and that is puzzling me.
