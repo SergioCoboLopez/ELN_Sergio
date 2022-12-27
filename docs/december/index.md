@@ -75,7 +75,6 @@ In the world of the bacteria, diffussion is the main force for nutrient flow.
 "Win" stands for "winogradsky"
 
 
-<<<<<<< HEAD
 There is an error with github pages in the goldsim repository and I don't know how to fix it. I suspect it is related to having a draft paper in the docs folder. However, this is not a problem in the needle finder repository, and that is puzzling me.
 
 ## December 26 to December 30
@@ -92,23 +91,7 @@ Reading
 Origin of species
 Smart brevity
 Hitchhiker's guide
-=======
-There is an error with github pages in the goldsim repository and I don't know how to fix it. I suspect it is related to having a draft paper in the docs folder. 
-However, this is not a problem in the needle finder repository, and that is puzzling me.
 
-## December 13
-I have been trying to repair the model for Lucas and Andres' experiment.
-I have lumped together bacteria, lysogens, and infected bacteria.
-Then, I added stochasticity to the infection rate, the decay rate, growth rate, and induction rate (in that order)
-For most values, I have maximum and minimum values, but I don't know how to estimate the standard deviation (I should look into that tomorrow)
-I did not do anything about the probability of lysogeny (at least I should assess the problem)
+## December 27
 
-Tomorrow, I should:
-1. Set the goal of the experiment with the expected outcomes (put in the goals)
-2. Explain what I did with numbers and references (put it in the goals)
-3. Extract results for each stochastized parameter separately
-4. Put all together
-5. Think about the statistics (sigma)
-6. Assess the probability of lysogeny problem
- 
->>>>>>> 54e18cc4122ce2601a69573bfdea61cc2ec98fff
+I started reading smart brevity. The main idea is that we there are many words being written nowadays and we should adapt to the distractions to break through the noise. However, we should be brief and not shallow.
