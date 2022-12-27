@@ -103,4 +103,11 @@ My model has to refute the null hypothesis of the experiment. That is, they are 
 $$\begin{equation}
 VMR= 1/eDAR
 \end{equation}$$
+They are going to see less viruses per unit of bacteria when there are high levels of glucose per unit of O2. Although we know this is caused by PtW dynamics, we can not test that and one could argue that:
+When there are high levels of glucose per unito of O2:
+1. Viruses are decaying very fast
+2. Viruses are killing less bacteria (low predation rate, low burst size)
+3. Bacteria are growing much faster (this is actually correct)
+My model should assess the problem of the carrying capacity and show that no combination of parameters can explain the difference they are observing with eDAR. The model should link eDAR and growth rate to the probability of lysogeny. It should also incorporate the induction rate.
+I should be very cautious about the Hill function.
 
