@@ -97,3 +97,10 @@ Hitchhiker's guide
 I started reading smart brevity. The main idea is that we there are many words being written nowadays and we should adapt to the distractions to break through the noise. However, we should be brief and not shallow.
 
 This repository is also failing to build in github pages. There is something wrong and I do not know what...
+
+PHACOS Model
+My model has to refute the null hypothesis of the experiment. That is, they are empirically testing piggyback the winner by playing with eDAR. They are observing that VMR is inversely proportional to eDAR. That is:
+$$\begin{equation}
+VMR= 1/eDAR
+\end{equation}$$
+
