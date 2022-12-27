@@ -117,3 +117,5 @@ changing DOC or O2 concentrations at 48 hours.
 2. Build a "dumb" model for the actual results.
 3. Change carrying capacity by a hill function. In principle, I will do a hill function of eDAR. I might have to consider different combinations of Hill functions.
 4. Define minimum and maximum eDAR levels.
+
+I have defined minimum and maximum values. How are they measured? Should I introduce the 6 fold correction?
