@@ -111,3 +111,9 @@ When there are high levels of glucose per unito of O2:
 My model should assess the problem of the carrying capacity and show that no combination of parameters can explain the difference they are observing with eDAR. The model should link eDAR and growth rate to the probability of lysogeny. It should also incorporate the induction rate.
 I should be very cautious about the Hill function.
 
+Things to do about the model:
+1. Change the concentrations at day 0. I should design the experiments specifically. There should be a variable (a trigger or an event)
+changing DOC or O2 concentrations at 48 hours.
+2. Build a "dumb" model for the actual results.
+3. Change carrying capacity by a hill function. In principle, I will do a hill function of eDAR. I might have to consider different combinations of Hill functions.
+4. Define minimum and maximum eDAR levels.
