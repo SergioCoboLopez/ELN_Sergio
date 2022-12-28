@@ -119,3 +119,19 @@ changing DOC or O2 concentrations at 48 hours.
 4. Define minimum and maximum eDAR levels.
 
 I have defined minimum and maximum values. How are they measured? Should I introduce the 6 fold correction?
+
+
+## December 28
+
+I am going to work on the presentation for Jan 12 now.
+I would like to do a historical introduction talking about Galileo, Boltzmann, and Lotka+Volterra. I would relate Galileo to the fact that
+physicists do models (pendulum), then I would relate Boltzmann to complex systems (big gap here), and Lotka and Volterra to Biology. Does
+this make sense? It also makes sense with my carreer: studying/modeling, PhD/complex systems, and postdoc/biology.
+Before diving into it, I maybe should sketch a draft of a presentation.
+
+Things I have to do:
+1. I need to study more on the figures I have chosen.
+2. I need to be able to describe what's complicated/difficult/important about Lotka-Volterra equations. Why else would I be studying these equations if they were not complicated?
+3. After this, I need to be able to start explaining what we are doing with these equations.
+Instead of running in circles, I should more specifically target the solutions.
+I should read the introduction to Matt's paper and some papers of transient dynamics to help me.
