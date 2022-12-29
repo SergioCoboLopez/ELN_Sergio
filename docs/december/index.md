@@ -135,3 +135,7 @@ Things I have to do:
 3. After this, I need to be able to start explaining what we are doing with these equations.
 Instead of running in circles, I should more specifically target the solutions.
 I should read the introduction to Matt's paper and some papers of transient dynamics to help me.
+
+## December 29
+Actually, I do not need a Hill function; I need a sigmoid function where I can set minimum and maximum
+values. Otherwise, I will never find the right function.
