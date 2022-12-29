@@ -139,3 +139,9 @@ I should read the introduction to Matt's paper and some papers of transient dyna
 ## December 29
 Actually, I do not need a Hill function; I need a sigmoid function where I can set minimum and maximum
 values. Otherwise, I will never find the right function.
+I was looking for a sigmoidal function that fulfills several properties:
+1. It has to be 0 if $x=x_{min}$
+2. It has to be 1 (or close) if $x=x_{max}$
+3. It has to be 0.5 if $x=1$, assuming that DOC is not necessarily just glucose.
+I looked at the logistic function and different generalizations of it. However, these seem problematic because f(0) != 0 (there is an exponential in the denominator). f(1) != 1 either, 
+because of the same reason. Then I switched back to the Hill functions and found some satisfying formulations of the Hill function. I will test them in python codes.. 
