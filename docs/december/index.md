@@ -150,3 +150,19 @@ because of the same reason. Then I switched back to the Hill functions and found
 To plot the "dumb model" I need to work on their data and import it into GoldSim. More work than I expected.
 I have to take average values from all experiments, get the VMRs, VLPs, and compute bacterial values.
 I will have to write the data in a different way, I am afraid.
+
+## January 1
+Dumb model is ready and I have something to substitute the carrying capacity with.
+The next things to do should be:
+1. Change conditions at 48 hours with an event or trigger.
+2. Implement new Hill function  (how exactly?)
+3. Prepare plots with modified results.
+4. Make bacteria eat sugar and $$O_2$$
+
+About the Hill function: should I make it between 0 and 1. I don't think so, because that is not what really happens...We know they are going to grow fastest in anabolic. Nothing
+allows me to think that they are going to grow the slowest on catabolic. Should I introduce a new Hill function? I don't think that is a good idea, because that is another 
+assumption that I am making...Could I constraint the growth rate between minimum and maximum values?
+What is the most agnostic way to model this?
+1. Assume that the lowest growth rate occurs for purely catabolic metabolism (probably not true) and the highest growth rate occurs for anabolic metabolism (probably true)
+2. Assume that the lowest growth rate occurs when sugar is lowest (0 growth rate) and higher in anabolic and highest values of sugar. Effectively, this combines relative values
+and absolute values.
