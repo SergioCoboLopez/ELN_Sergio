@@ -145,3 +145,8 @@ I was looking for a sigmoidal function that fulfills several properties:
 3. It has to be 0.5 if $x=1$, assuming that DOC is not necessarily just glucose.
 I looked at the logistic function and different generalizations of it. However, these seem problematic because f(0) != 0 (there is an exponential in the denominator). f(1) != 1 either, 
 because of the same reason. Then I switched back to the Hill functions and found some satisfying formulations of the Hill function. I will test them in python codes.. 
+
+## December 31
+To plot the "dumb model" I need to work on their data and import it into GoldSim. More work than I expected.
+I have to take average values from all experiments, get the VMRs, VLPs, and compute bacterial values.
+I will have to write the data in a different way, I am afraid.
