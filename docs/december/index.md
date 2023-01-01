@@ -166,3 +166,7 @@ What is the most agnostic way to model this?
 1. Assume that the lowest growth rate occurs for purely catabolic metabolism (probably not true) and the highest growth rate occurs for anabolic metabolism (probably true)
 2. Assume that the lowest growth rate occurs when sugar is lowest (0 growth rate) and higher in anabolic and highest values of sugar. Effectively, this combines relative values
 and absolute values.
+
+By definition, a model has to be simple, while consistent with assumptions. What are the assumptions?
+1. No carrying capacity but growth has to be capped
+2. Anabolic is faster than catabolic
