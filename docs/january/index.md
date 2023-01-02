@@ -25,3 +25,10 @@ There are several types of elements in GoldSim that appear to be helpful.
 This is confusing to me: all I need is to change the concentration of $$O_2$$ or glucose at day 2.
 Then, I guess I need some element that can do these two instructions. I found how to add 
 concentration, but not the timed part.
+The event delay is not helpful to me. I might need time series.
+I got it now.
+I have something that can be functional now. I would need to:
+1. Rename this discrete addition.
+2. Link it to $$O_2$$ or glucose.
+3. Test it again.
+4. Repeat until I have all the corresponding experiments implemented.
