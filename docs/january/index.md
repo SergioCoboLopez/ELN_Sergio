@@ -36,3 +36,14 @@ I have something that can be functional now. I would need to:
 The sugar part is done. I am going to implement O2. However, I still don't know if these
 are single interventions or continuous ones (i.e., add a constant supply of O2 during some time)
 It appears now that it is not a single intervention but a rate; it is like having a hose turn on.
+The metabolic part of the model looks very strange and redundant to me now. Is it correct?
+
+There is no way we can cross the Goldilocks line with these concentrations. Here is the solution:
+Forest was saying that I should start at the Goldilocks line (give it or take a factor 6 or 12). For
+practical purposes, all I need to do is to fix one concentration and calculate the other one. Which
+concentration is more reliable? O2 or sucrose?
+
+I need to change single additions by constant flow of O2 and constant concentration of sucrose.
+I need to recalculate eDAR for sucrose and set the concentrations at the Goldilocks line.
+I need to have a glucose dependent Hill Function (you can grow without O2, but you cannot grow
+without sugar)
