@@ -32,3 +32,7 @@ I have something that can be functional now. I would need to:
 2. Link it to $$O_2$$ or glucose.
 3. Test it again.
 4. Repeat until I have all the corresponding experiments implemented.
+
+The sugar part is done. I am going to implement O2. However, I still don't know if these
+are single interventions or continuous ones (i.e., add a constant supply of O2 during some time)
+It appears now that it is not a single intervention but a rate; it is like having a hose turn on.
