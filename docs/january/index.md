@@ -60,3 +60,26 @@ Things I have to do:
 2. At that concentration of sugar, growth is not limited. Set K_DOC to half of that initial concentration.
 3. Change events for constant supply of O2 and constant concentration of sucrose.
 4. Link hill functions to growth rates.
+
+## January 3
+I have to start preparing the presentation for the meeting. And I have no idea how to do it. But
+let's stick to the smart brevity thing.
+Apparently, I should start with one sentence (the title) that perfectly summarizes my model or the results of my model.
+I should be honest to myself: the model does not probably predict the data, but there are probably some results worth
+discussing.
+I should follow up with a sentence: that sentence should be very direct and short.
+Then I explain why the results matter and finally I give the readers the option to go deeper.
+How do I structure this into slides?
+
+First slide: Title with muscular teaser.
+Second slide: Sharp sentences (maybe add main result)
+Third slide: Why it matters (maybe another figure)
+Fourth and fifth slides: go deeper about what does the model do.
+
+I go back to the model.
+I should find the concentration of fructose that produces a Goldilocks line at the beginning. I did the following reasoning yesterday:
+1. My machine only takes glucose and only does respiration with glucose. It does not make sense to implement a type of respiration for every type of sugar.
+Therefore, I should assume that every molecule of DOC is, ultimately, glucose.
+2. The DOC Andres and Lucas used was sucrose: sucrose is a molecule of glucose and a molecule of fructose bound to each other.
+3. Let us assume that sucrose is just two molecules of glucose.
+4. Then, when Lucas/Andres tell me a certain concentration of sucrose, I should treat that concentration as a concentration of pairs of glucose.
