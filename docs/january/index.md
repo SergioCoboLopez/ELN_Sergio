@@ -83,5 +83,10 @@ Therefore, I should assume that every molecule of DOC is, ultimately, glucose.
 2. The DOC Andres and Lucas used was sucrose: sucrose is a molecule of glucose and a molecule of fructose bound to each other.
 3. Let us assume that sucrose is just two molecules of glucose.
 4. Then, when Lucas/Andres tell me a certain concentration of sucrose, I should treat that concentration as a concentration of pairs of glucose.
+<<<<<<< HEAD
 5. eDAR should be have a factor or 6 because I am explicitly assuming that only glucose and respiration are taking place in my system.
 Assignment 1 is done.
+=======
+
+Lucas says that the O2 experiment also works like a thermostat as well. That makes my life easier, actually.
+>>>>>>> 00ed41fb17fba6435809d2e0903a39f00ffb8fd0
