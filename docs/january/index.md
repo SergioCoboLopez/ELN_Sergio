@@ -86,12 +86,9 @@ Therefore, I should assume that every molecule of DOC is, ultimately, glucose.
 <<<<<<< HEAD
 5. eDAR should be have a factor or 6 because I am explicitly assuming that only glucose and respiration are taking place in my system.
 Assignment 1 is done.
-<<<<<<< Updated upstream
-=======
 
 Lucas says that the O2 experiment also works like a thermostat as well. That makes my life easier, actually.
->>>>>>> 00ed41fb17fba6435809d2e0903a39f00ffb8fd0
-=======
+
 
 Assignment number 2 is to define the Hill function for sugar. How should I define this? How am I supposed to be the most agnostic? I don't know, but I am going to assume that
 growth is limited at only very small concentrations of sugar. I should do some experiments on the other laptop. So I am going to jump to Assignment 3 now. For the sucrose,
@@ -101,4 +98,3 @@ For starters, I need two status elements: one to switch on the thermostat and an
 My condition is inverse to that of the example. If sugar drops below the target value, I should add sugar until it goes over the target value.
 I got it. Now I need to activate it over time.
 I solved this but I don't know how to interpret the results now. Is this working properly?
->>>>>>> Stashed changes
