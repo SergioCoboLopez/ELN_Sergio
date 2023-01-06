@@ -120,3 +120,21 @@ High DOC experiment - Same
 Boltzmann did not postulate the existence of atoms. I guess he proved they had to exist.
 The question of statistical physics was that there was no way to explain the physics of a gas using newtonian mechanics. This would have
 been a microscopic analysis of a gas. Instead, statistical physics offers a macroscopic explanation of its mechanics.
+
+I did not find a clear reference in the book I was looking at. But the wiki page has what I need:
+
+"His greatest achievements were the development of statistical mechanics, and the statistical explanation of the second law of thermodynamics. In 1877 he provided the current definition of entropy"
+
+"His greatest achievements were the development of statistical mechanics, and the statistical explanation of the second law of thermodynamics. In 1877 he provided the current definition of entropy"
+
+In other words, "Max Boltzmann developed statistical mechanics. Statistical mechanics describes how macroscopic observations (such as temperature and pressure) are related to microscopic parameters that fluctuate around an average. That, is Max Boltzmann produced the formal machinery to study systems composed of many individual particles interacting with each other"
+
+Pendulums are isochronous: "the period of the pendulum is approximately independent of the amplitude or width of the swing."
+"the period is independent of the mass of the bob, and proportional to the square root of the length of the pendulum."
+
+Alfred Lotka wanted to create the discipline of "physical biology."
+“broad application of physical principles and methods in the contemplation of biological systems”
+Something in common in physical chemistry and physical biology; all processes can be reduced to two types of changes: exchanges of matter and exchanges of energy.
+"when he started his project in the early 20th century, ecology barely existed as a discipline"
+"Ecologists normally thought in terms of entire food chains, which might have five stages, as the means of controlling populations"
+"For him, natural selection could be understood as a physical principle with the same level of generality as the laws of thermodynamics"
