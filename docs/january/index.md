@@ -83,7 +83,6 @@ Therefore, I should assume that every molecule of DOC is, ultimately, glucose.
 2. The DOC Andres and Lucas used was sucrose: sucrose is a molecule of glucose and a molecule of fructose bound to each other.
 3. Let us assume that sucrose is just two molecules of glucose.
 4. Then, when Lucas/Andres tell me a certain concentration of sucrose, I should treat that concentration as a concentration of pairs of glucose.
-<<<<<<< HEAD
 5. eDAR should be have a factor or 6 because I am explicitly assuming that only glucose and respiration are taking place in my system.
 Assignment 1 is done.
 
@@ -98,3 +97,15 @@ For starters, I need two status elements: one to switch on the thermostat and an
 My condition is inverse to that of the example. If sugar drops below the target value, I should add sugar until it goes over the target value.
 I got it. Now I need to activate it over time.
 I solved this but I don't know how to interpret the results now. Is this working properly?
+
+## January 4
+I think this model is ready and all I am going to do now is make up and documentation.
+On the other hand, I will extract results and interpret them. I know this model is not working right, but I refuse to keep adjusting it before doing the presentation.
+Before doing anything, I believe that my message should be this:
+The model is accurate on the bacteria, but not on the phages. I am going to confirm this now.
+Normoxic experiment - True, but less accurate on the bacteria. Same pattern on the phages.
+Hyperoxic experiment - True and bacteria are very accurate. Addition: in my model, viruses drop. In the experiment viruses increase. Either more predation, higher burst size, or less lysogeny
+No DOC experiment -
+Low DOC experiment - Same
+High DOC experiment - Same
+
