@@ -116,3 +116,7 @@ Low DOC experiment - Same
 High DOC experiment - Same
 
 
+## January 6
+Boltzmann did not postulate the existence of atoms. I guess he proved they had to exist.
+The question of statistical physics was that there was no way to explain the physics of a gas using newtonian mechanics. This would have
+been a microscopic analysis of a gas. Instead, statistical physics offers a macroscopic explanation of its mechanics.
