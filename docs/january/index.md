@@ -83,11 +83,26 @@ Therefore, I should assume that every molecule of DOC is, ultimately, glucose.
 2. The DOC Andres and Lucas used was sucrose: sucrose is a molecule of glucose and a molecule of fructose bound to each other.
 3. Let us assume that sucrose is just two molecules of glucose.
 4. Then, when Lucas/Andres tell me a certain concentration of sucrose, I should treat that concentration as a concentration of pairs of glucose.
+<<<<<<< HEAD
+5. eDAR should be have a factor or 6 because I am explicitly assuming that only glucose and respiration are taking place in my system.
+Assignment 1 is done.
 
 Lucas says that the O2 experiment also works like a thermostat as well. That makes my life easier, actually.
 
+<<<<<<< HEAD
 For tomorrow:
 1. Implement the Hill function for glucose
 2. Link the product to growth rate
 3. Do a thermostat for O2
 4. Extract results and interpret them
+=======
+
+Assignment number 2 is to define the Hill function for sugar. How should I define this? How am I supposed to be the most agnostic? I don't know, but I am going to assume that
+growth is limited at only very small concentrations of sugar. I should do some experiments on the other laptop. So I am going to jump to Assignment 3 now. For the sucrose,
+I just have to have a thermostat active from day 2.
+Doing this is more complicated and different than what I expected. 
+For starters, I need two status elements: one to switch on the thermostat and another one to control the thermostat.
+My condition is inverse to that of the example. If sugar drops below the target value, I should add sugar until it goes over the target value.
+I got it. Now I need to activate it over time.
+I solved this but I don't know how to interpret the results now. Is this working properly?
+>>>>>>> 7a278069463c43b14ad561ef438a900f0b872da9
