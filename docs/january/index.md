@@ -85,3 +85,9 @@ Therefore, I should assume that every molecule of DOC is, ultimately, glucose.
 4. Then, when Lucas/Andres tell me a certain concentration of sucrose, I should treat that concentration as a concentration of pairs of glucose.
 
 Lucas says that the O2 experiment also works like a thermostat as well. That makes my life easier, actually.
+
+For tomorrow:
+1. Implement the Hill function for glucose
+2. Link the product to growth rate
+3. Do a thermostat for O2
+4. Extract results and interpret them
