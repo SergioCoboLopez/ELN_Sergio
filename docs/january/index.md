@@ -138,3 +138,35 @@ Something in common in physical chemistry and physical biology; all processes ca
 "when he started his project in the early 20th century, ecology barely existed as a discipline"
 "Ecologists normally thought in terms of entire food chains, which might have five stages, as the means of controlling populations"
 "For him, natural selection could be understood as a physical principle with the same level of generality as the laws of thermodynamics"
+
+## January 8
+
+The historical introduction is mostly done now. How do I introduce my research topic now? Here are some ideas or thoughts:
+1. Introduce and explain the Lotka-Volterra equations.
+2. What is the problem with these equations?
+  2.1. Transient dynamics: we cannot predict changes in dynamics.
+  2.2. Not all the terms are active all the time.
+
+3. Jump to the next step: there are three scenarios based on temporal scales: r dominates, m dominates, m and r are equally dominant.
+4. r and m dominant lead to major transitions, r and m equally dominant lead to quasistability.
+5. Only when temporal scales are balanced, do we see quasistability.
+
+Another way to put it:
+1. Introduce and explain L-V equations
+2. There is a problem with these equations: the result depends very much on the value of the parameters (timescales)
+3. In fact, only when timescales are balanced do we not get extinctions.
+4. This happens because not all terms are active all the time.
+5. We developed a method to identify which terms are active at which times.
+6. This method produces a simplified model.
+7. We contemplated three scenarios: r dominant, m dominant, comparable r and m.
+8. When there is a dominant timescale, we observe that not all terms are active all the time, that there is extinction and that our model
+works fairly well.
+9. We do not find this when m and r are comparable.
+10. Why is this important? Because we can predict and because we can identify cricital concentrations.
+
+eps seems the format that best agrees with libreoffice
+To do next: plot of individual contributions.
+
+More practices, how to introduce tipping points, take-away messages.
+
+Also, consider fixing the code if the slides do not flow
