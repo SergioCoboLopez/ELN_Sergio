@@ -170,3 +170,25 @@ To do next: plot of individual contributions.
 More practices, how to introduce tipping points, take-away messages.
 
 Also, consider fixing the code if the slides do not flow
+
+## January 10
+
+Changes proposed by Toni that need not to dramatically change the structure of the presentation
+
+Take Figure 1 b from Matt's paper
+Block dynamics from hour 10 to hour 25
+Ask the audience: what would you think would happen afterwards?
+Show them that there is a change in the dynamics
+Say that there is a change in the dynamics. And there is another one in hour 20 to 25
+
+I have a hypothesis:
+ I describe mathematically the processes that are taking place in the system
+ My hypothesis is that not all processes are active all the time
+ When processes activate or inactivate there are changes in the dynamics.
+
+From this hypothesis I can:
+ Predict tipping points
+ Prevent tipping points from taking place
+ Predict situations that are sustainable in terms of the dynamics
+
+Now, I am going to show how my hypothesis works in a simple case of E. Coli T4
