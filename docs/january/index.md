@@ -192,3 +192,12 @@ From this hypothesis I can:
  Predict situations that are sustainable in terms of the dynamics
 
 Now, I am going to show how my hypothesis works in a simple case of E. Coli T4
+
+## January 11
+
+Important questions about the talk:
+1. Questions about epsilon. What is it exactly?
+2. How is this scalable to larger models
+
+I think this is the most important question, because I do not have a standardized procedure for a different model (not even a logistic
+model with carrying capacity)
