@@ -193,7 +193,7 @@ From this hypothesis I can:
 
 Now, I am going to show how my hypothesis works in a simple case of E. Coli T4
 
-## January 11
+## January 12
 
 Important questions about the talk:
 1. Questions about epsilon. What is it exactly?
@@ -201,3 +201,5 @@ Important questions about the talk:
 
 I think this is the most important question, because I do not have a standardized procedure for a different model (not even a logistic
 model with carrying capacity)
+
+From my experience I know that things are always more difficult and complicated than appear. I think we should try to apply this approach to the simplest problem available for which there is enough data, and it is possible to obtain data from experiments easily.
