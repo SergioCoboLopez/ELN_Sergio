@@ -229,3 +229,6 @@ Papers Alan Hastings
 
 I have not finished my goals and I would like to do some documentation of the PHACOS model before going on. I will probably need to switch computers or look at my model while documenting it.
 Probably switching computers is smarter.
+
+I will start writing the equations for the model.
+Probably, I will need to document how the experiments work and the metabolic dynamics of this.
