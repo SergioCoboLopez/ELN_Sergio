@@ -203,3 +203,29 @@ I think this is the most important question, because I do not have a standardize
 model with carrying capacity)
 
 From my experience I know that things are always more difficult and complicated than appear. I think we should try to apply this approach to the simplest problem available for which there is enough data, and it is possible to obtain data from experiments easily.
+
+Media - Milk
+Samples of endolysins to bacterial population
+Bacterial growth rate on milk.
+
+Endolysins die because of killing bacteria and because of the media
+(temperature).
+
+## January 2 to 6
+
+Goals of the week
+
+-
+-
+-
+
+Reading
+Origin of species
+Smart brevity
+Papers Alan Hastings
+
+
+##January 16
+
+I have not finished my goals and I would like to do some documentation of the PHACOS model before going on. I will probably need to switch computers or look at my model while documenting it.
+Probably switching computers is smarter.
