@@ -232,3 +232,7 @@ Probably switching computers is smarter.
 
 I will start writing the equations for the model.
 Probably, I will need to document how the experiments work and the metabolic dynamics of this.
+I might need to think about documenting the experiments further. Then, I will be able to run some
+tests.
+Something interesting would be to try to make the model more orthogonal in the sense of the 
+pragmatic programmer.
