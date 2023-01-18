@@ -238,3 +238,46 @@ I might need to think about documenting the experiments further. Then, I will be
 tests.
 Something interesting would be to try to make the model more orthogonal in the sense of the 
 pragmatic programmer.
+
+Model for endolysins. This model should be even simpler than the Lotka-Volterra equations that we use in our project. From what I got, endolysins are proteins that kill bacteria by attacking their
+membranes.
+The equation for the bacteria should have a term for growth (with a carrying capacity or something similar) and a negative term for the endolysins. We assume that there is a certain rate at which endolysins find their target bacteria, and that a number or given concentration of endolysins is needed to kill a single bacteria.
+Endolysins should be decreasing at the rate they kill bacteria and by decaying.
+
+Long transients in ecology: Theory and applications
+
+-"Analysis of population dynamics has traditionally been focused on
+their long-term, asymptotic behavior whilst largely disregarding the effect of transients." My interpretation of this is that models are probably focused on asymptotic dynamics, while ignoring transient
+dynamics (changes in the dynamics).
+-My understanding is that the paper is more focused on providing examples of long transients and discussing the forms they take than in providing tools for finding or predicting transient dynamics.
+-There is noise and unknown feedbacks in ecological systems.
+
+##January 17
+
+I am not completely convinced about the model I built for the endolysins, but I cannot think of anything better either. Now I am going to take a look at the code for the machine scientist.
+My first problem will be to guess how and where the script works. And remove all the codes that don't work.
+
+This code is a mess, but let's go over it:
+1. Import libraries
+2. Specify location of data
+3. Specify x, do a copy of x, and specify y in log form
+4. Print and plot stuff
+5. mcmc resets (?) and XLABS (?)
+6. Define a function (the benson and krause function)
+
+This is not very useful for me, actually. And there is an error in the code. We assume the error is caused by some files missing in the working directory. Let's try to move the script to a new location where the missing file should be living. This did not work and I feel I should start from scratch. I am going to download the whole directory, run the scripts and see what fails. Then I will get back to
+Oriol. This makes sense. Now that I have the equation, how do I plot it?
+This seems to work very well. And it actually seems to plot what I was looking for, i.e. real data vs the equation found by the machine scientist. But I need to be sure this is what is happening. And I need to plot what I am thinking I want to plot: this would be a figure with three things:
+1. The data
+2. The model by Benson and Krause
+3. The model that the machine scientist finds.
+
+How do I access and control #3?
+I think there are many models averaged and a "winning" model.
+
+Here is my hypothesis about what is going on: I think the machine scientist is doing the right thing. Even better than the right thing: I think it finds a best model that explains the data and an ensemble of models that are equally good at explaining the data. I think the code plots the performance of the ensamble of models (prediction) against the actual data. However, I am not entirely sure this is what is happening. And I think I should confirm this. This means I should go deep into the code and try to make sense out of it. This is what I am going to do tomorrow.
+
+
+Long transients in ecology: Theory and applications
+'Regime shift' looks like a synonim for 'transient dynamics'. The tipping point is what causes regime shifts and it is related to bifurcations. A regime shift can be a property of long transients (not a synonim, then). Attractors bring dynamics to asymptotic dynamics.
+
