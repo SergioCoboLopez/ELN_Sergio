@@ -281,3 +281,50 @@ Here is my hypothesis about what is going on: I think the machine scientist is d
 Long transients in ecology: Theory and applications
 'Regime shift' looks like a synonim for 'transient dynamics'. The tipping point is what causes regime shifts and it is related to bifurcations. A regime shift can be a property of long transients (not a synonim, then). Attractors bring dynamics to asymptotic dynamics.
 
+## January 18
+
+Long transients in ecology: Theory and applications: "what is the relation, if any, between long transients and the tipping point phenomena"
+They provide a systematic approach to mathematical modeling of long transients in biological systems.
+How the lifetime of long transients depends on the controlling parameters of the system.
+Stable states are coupled with transitions between states, therefore they are not truly stable in a mathematical sense.
+It seems to me that one of the ideas here is that ecological systems would arrive to an asymptotic dynamics (equilibrium) if there were no perturbations (external or internal) causing regime shifts. I also think that these perturbations generate or produce the transient dynamics.
+I think Hastings claims that we should not think of ecological systems in terms of equilibrium, because that does not happen due to the timescale of dynamics.
+
+I am going to calculate the derivatives of the bacterial concentration of Savannah's data. I could compute the difference between two time points and divide it by the time between two observations, but I am a little worried that this formula might be too simple. That is why I am going to read a bit on the subject. At least I will be aware of the limitations of my method.
+
+I am going to solve this on pandas, because of how many datasets there are.
+Here is what I thing I will have to do:
+1. Read the csv file
+2. For every column, do the difference of two rows and divide over the time (I think I can use diff, for this)
+3. Produce a different dataset with the derivatives and the bacterial concentrations
+
+number 1 is ready. I think number 2 is ready too.
+
+## January 19
+
+I have found a very clear definition of transient dynamics in  [Mozorov et. al.](https://doi.org/10.1016/j.plrev.2019.09.004):
+
+"Consider a system where all parameters (such as population growth rate, mortality rate, etc.) are constant, i.e. do not depend on time. We call the system's dynamics a long transient if one of the following two properties hold:
+
+a) apparently stable system's dynamics (a 'quasi-stable regime' that goes on for a long time) at some point experiences a fast transition to another regime, stable or quasi-stable. This transition occurs on a timescale much shorter than the duration of the preceding dynamical pattern.
+b) the system's dynamics evolve with time 'very slowly' over a timescale much longer than any characteristic time of the current dynamical pattern (e.g. the period of oscillations). This evolution of the dynamic properties eventually brings the system to a stable or to a different quasi-stable regime."
+
+The premise is consistent with our model, because we consider constant parameters (would a carrying capacity be a constant parameter?). What we observe is consistent at least with a). When $$r$$ is the dominant timescale, we have two regimes for the bacteria: both regimes (or at least the first one) could be considered quasi-stable because bacteria grow exponentially over a timescale much longer that their growth rate. Clearly, the change in the transition in the dynamics occurs on a very short timescale. The second dynamic could be considered as quasi-stable, because bacteria decay over a time longer than their growth rate.
+The first shift in the dynamics that we observe (phage start growing) could be consistent with the b), because there is a change of the dynamics that occurs very slowly.
+In this definition, it is very important to consider timescales. The comparison timescale/duration of the dynamics clearly defines what a transient dynamics is.
+
+There are other things worth noticing from this paper: first, it appears that defining transient dynamics is difficult, it appears to be a very broad concept. Mathematically speaking, however, transient dynamics would be all non-asymptotic regimes, that is, the opposite of regimes that persist indefinetely without changing their properties (average population densities, amplitude of oscillations, Lyapunov exponents etc). Asymptotic dynamics are also called stable dynamics (although they might not be the same thing). Quasi-stable dynamics are those dynamics stable over a long time (in comparison to the characteristic timescale of the system).
+
+Note that transient is not the same as a regime shift. Transients occur when you have a regime shift from a stable (or quasi-stable) dynamics to another stable (or quasi-stable) dynamics and that shift occurs over a time much shorter than the characteristic timescale of the system. Or, alternatively, when the regime shift occurs very slowly over a timescale much longer than the characteristic time.
+
+What does "long" mean? The average lifetime of the transient regime is described by a scaling function ot a controlling parameter (I don't have any idea what that controlling parameter can be).
+
+Machine scientist: merge dataframes
+
+I've decided that I am only look for information on the documentation of the library (pandas) or stackoverflow. I will also try to use my own intuition.
+When I want to get the column names of a dataframe I have to type Dataframe_Name.columns.values.tolist(). "columns" refers to the columns of the dataframe, values refers to the names of the columns, and
+"tolist()" puts that into a list.
+
+I don't know how to name these files. Solved.
+
+
