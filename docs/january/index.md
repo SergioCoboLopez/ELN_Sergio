@@ -328,3 +328,15 @@ When I want to get the column names of a dataframe I have to type Dataframe_Name
 I don't know how to name these files. Solved.
 
 
+## January 20
+
+Writing club: I am going to look back at the manuscript and see what needs to be done
+I know I still have to take care of the error. But I can do that in another moment.
+For the moment I am going to skip the introduction section and jump into the results.
+I will try to bring figures in order.
+
+I have to know what I want to tell. What I want to tell is that I have a tool. What does this tool do? It finds changes in the dynamics of systems. It finds tipping points in the dynamics in my new language.
+This tool is important because there is no formalized framework to find changes in the dynamics (transient dynamics).
+We use it in a Lotka-Volterra system applied to bacteria and phage. We do this because there are many changes in the dynamics in ecology. And we do this because bacteriophage are the most abundant predator on Earth.
+
+In the first paragraph I am a little bit too direct in introducing transient dynamics. I could elaborate more. In general, though, I like the idea of this first paragraph.
