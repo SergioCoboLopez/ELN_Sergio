@@ -340,3 +340,52 @@ This tool is important because there is no formalized framework to find changes 
 We use it in a Lotka-Volterra system applied to bacteria and phage. We do this because there are many changes in the dynamics in ecology. And we do this because bacteriophage are the most abundant predator on Earth.
 
 In the first paragraph I am a little bit too direct in introducing transient dynamics. I could elaborate more. In general, though, I like the idea of this first paragraph.
+
+## January 22
+Forest said I should prepare a short lecture about arguments for the classics class.
+I don't know very well what I am supposed to say. I think I should convince them about why is it important to build solid arguments.
+My line of argument is the following:
+1. This is a class about reading.
+2. You are supposed to learn from reading.
+3. However, reading is not enough. We think reading and discussing is much more useful.
+4. There are things you might not understand. Or you understood and others have not. Or you just get a different conclusion from your readings.
+5. That's why we ask you all to prepare three questions every week and to provide your own answers.
+6. Now, when you answer questions, specifically in a scientific background, you need to be able to build arguments.
+7. You need to find the premises that support your conclusion.
+8. For instance, my conclusion is that you will learn better from these books if you discuss about them. I have several premises for this conclusion:
+   8.1. I taught this class two years before. I saw how students would learn something new after the class. This is an argument by example, but it is also an argument of cause (because students were discussing, therefore they learned more thant if they had not)
+   8.2. Forest told me that students learn much more when they. This would be an argument by authority.
+9. There are also arguments by analogy and deductive arguments.
+10. Because two items are the same in one respect, they are the same in another respect. For instance: There might be life on Europa because it has an atmosphere that contains oxygen just like the Earth.
+10. Deductive arguments. The simplest type of deductive argument is called 'modus ponens':
+    10.1. If 'p', then 'q'
+    10.2. 'p'
+    10.3. Therefore q
+    10.4. If today is Monday, we have class
+    10.5. Today is Monday
+    10.6. Therefore we have class
+
+11. In real life, however, building arguments is not so easy, and we might be dealing with fallacies or misleading arguments.
+12. Affirming the consequent is a very common type of fallacy:
+    12.1. We have class today, therefore it must be Monday
+13. Ad hominem: Darwin married his own first cousin; what can you expect from someone like this?
+14. non sequitur:
+    14.1. If today is Monday, we have class
+    14.2. Today is Monday
+    14.3. Therefore it will rain
+15. Begging the question: Use your conclusion as a premise. The Book Is A Bestseller Because It Sold The Most Copies
+
+
+
+
+Types of fallacies:
+1. Ad hominem
+2. Ad ignorantium: A claim is true because is was not proven to be false
+3. Ad misericordium: appeal to pity
+4. Ad populum
+5. affirming the consequent
+6. begging the question or circular argument (longer)
+7.
+8.
+9.
+10.
