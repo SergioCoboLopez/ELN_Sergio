@@ -19,7 +19,7 @@ Origin of species
 Smart brevity
 
 
-## January 2
+### January 2
 The next thing I want to do is to change concentrations of $$O_2$$ and/or glucose at day 0 (day +2)
 There are several types of elements in GoldSim that appear to be helpful.
 This is confusing to me: all I need is to change the concentration of $$O_2$$ or glucose at day 2.
@@ -376,7 +376,7 @@ My line of argument is the following:
     14.3. Therefore it will rain
 16. Begging the question (or circular argument): Use your conclusion as a premise. The Book Is A Bestseller Because It Sold The Most Copies
 
-## January 23 to 27
+### January 23 to 27
 
 Goals of the week
 
@@ -390,7 +390,7 @@ Reading
 Origin of species
 Transient dynamics
 
-## January 23
+### January 23
 
 I have a draft of what I wanted to talk about in the class. I think this is fairly good, but I am not sure about it completely. I should read about it later to remember what I want to talk about.
 Now I am going to work on the endolysins model; I will write a short document about it.
@@ -399,7 +399,7 @@ What would be the smartest thing to do to prepare for the class today? I could p
 
 I should move now to the model for the endolysins. What am I supposed to do? I think this should be a short document showing the model and that's it...
 
-## January 24
+### January 24
 
 The controlling parameter of transient dynamics scales with the duration or lifetime of the transient dynamics. It can be a biological (growth rate), a physical (spatial domain or noise) or a combination of original parameters (eigenvalue).
 Remember that transient dynamics is not a synonim of regime shift. Rather, regime shifts occur within transient dynamics. Transient dynamics is the opposite of asymptotic dynamics (what would occur if there were no perturbations on the system).
