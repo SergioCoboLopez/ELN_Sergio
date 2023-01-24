@@ -369,23 +369,59 @@ My line of argument is the following:
 12. Affirming the consequent is a very common type of fallacy:
     12.1. We have class today, therefore it must be Monday
 13. Ad hominem: Darwin married his own first cousin; what can you expect from someone like this?
-14. non sequitur:
+14. Ad ignorantium: A claim is true because is was not proven to be false. 'Nobody proved that God did not exist, therefore God exists'
+15. non sequitur:
     14.1. If today is Monday, we have class
     14.2. Today is Monday
     14.3. Therefore it will rain
-15. Begging the question: Use your conclusion as a premise. The Book Is A Bestseller Because It Sold The Most Copies
+16. Begging the question (or circular argument): Use your conclusion as a premise. The Book Is A Bestseller Because It Sold The Most Copies
 
+## January 23 to 27
 
+Goals of the week
 
+-Go back to GoldSim model
+-Talk to Andres
+-Phages to Sharks
+-Machine scientist algorithm
+-Endolysins model
 
-Types of fallacies:
-1. Ad hominem
-2. Ad ignorantium: A claim is true because is was not proven to be false
-3. Ad misericordium: appeal to pity
-4. Ad populum
-5. affirming the consequent
-6. begging the question or circular argument (longer)
-7.
-8.
-9.
-10.
+Reading
+Origin of species
+Transient dynamics
+
+## January 23
+
+I have a draft of what I wanted to talk about in the class. I think this is fairly good, but I am not sure about it completely. I should read about it later to remember what I want to talk about.
+Now I am going to work on the endolysins model; I will write a short document about it.
+
+What would be the smartest thing to do to prepare for the class today? I could prepare a short presentation, print my notes, or go over them again. I could also try to memorize the types of arguments and fallacies I have thought about.
+
+I should move now to the model for the endolysins. What am I supposed to do? I think this should be a short document showing the model and that's it...
+
+## January 24
+
+The controlling parameter of transient dynamics scales with the duration or lifetime of the transient dynamics. It can be a biological (growth rate), a physical (spatial domain or noise) or a combination of original parameters (eigenvalue).
+Remember that transient dynamics is not a synonim of regime shift. Rather, regime shifts occur within transient dynamics. Transient dynamics is the opposite of asymptotic dynamics (what would occur if there were no perturbations on the system).
+We have long transients if the parameters are constant and if one of two properties hold:
+1.We have apparently stable dynamics and at some point we observe a regime shift that occurs over a timescale shorter than the characteristic one. The transition goes from stable regime to stable regime.
+2.The dynamics change or transition very slowly (compared to the characteristic time of the system)
+
+What are the questions for the machine scientist? How can I understand it better? I should move along two directions in parallel:
+1. Phages to sharks
+2. Salinity for the Benson & Krause dataset.
+
+I am going to look again at the Phages to sharks paper and  dataset and think what could be done in terms of the machine scientist.
+
+From the paper:
+"we hypothesize that viral predation reduces the bacterial pressure on corals, contributing to healthier reefs" virus, microbe, and coral cover should be the most important variables.
+"Here, we investigated the relationships between viruses, bacteria, benthic cover, fish biomass, and anthropogenic disturbance in a multiscale dataset obtained from 110 Pacific reefs spanning inhabited and uninhabited islands and atolls" the next things to investigate would be benthic cover, fish biomass, and anthropogenic disturbance
+"Statistical learning methods showed that the abundance of algae, viruses, and bacteria, in that order, were the variables best explaining the variance in coral cover." Another option would be to test the null hypothesis of the paper (starting with algae)
+
+First questions: could I test the relation of coral cover with:
+1. algae
+2. virus and microbes
+3. algae, viruses, and bacteria together
+4. all items in 3 and fish biomass and anthropogenic disturbance
+
+Darwin already has a suspicion that close interbreeding leads to infertility.
