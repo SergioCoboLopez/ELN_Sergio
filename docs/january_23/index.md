@@ -436,5 +436,16 @@ PH (PHAGES) - I am going to look at the model and how can I correct it.
 
 This is the current model for the normoxic experiment:
 
-![myimg](../../results/test.png)
-![myimg2](test.png)
+![Original model](initial_model.png)
+
+Clearly, there is something off with the phages; they grow too fast and they decay too fast.
+Bacteria also die quite fast. I will try four things:
+1. Reduce infection rate.
+2. Reduce decay rate.
+3. Reduce burst rate.
+4. Different combinations of the above.
+
+1. I remove stochasticity from the infection rate and reduce it to the minimum value. How does this
+change the results?
+
+![Low infection rate visibly changes the results](low_infection_rate.png)
