@@ -1,6 +1,6 @@
 ---
 layout: default
-title: January
+title: January 2023
 nav_order: 6
 ---
 
