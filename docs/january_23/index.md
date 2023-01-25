@@ -452,7 +452,7 @@ change the results?
 
 2. Remove stochasticity from decay rate and take minimum value.
 
-![Low decay rate visibly does not change much](low_decay_rate.png)
+![Low decay rate does not change much](low_decay_rate.png)
 
 3. Reduce burst size from 11 to 5
 
