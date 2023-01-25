@@ -428,3 +428,8 @@ Darwin already has a suspicion that close interbreeding leads to infertility.
 
 I am thinking of ways to extract more power from the ELN in February. I am going to divide the month in weeks and a week belongs to the month it starts with.
 Every week starts with my goals. Goals are divided in categories and every entry on my ELN will have the code corresponding to the category: for instance, PHAGES will be PH, Machine Scientist will be MS, and so on.
+
+### January 25
+
+R (reading) - I've reading the Origin of the species chapter IX. It seems to me that he is clearly differentiating hybridism from close interbreeding in the matter of fertility.
+PH (PHAGES) - I am going to look at the model and how can I correct it.
