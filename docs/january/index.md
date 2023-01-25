@@ -61,7 +61,7 @@ Things I have to do:
 3. Change events for constant supply of O2 and constant concentration of sucrose.
 4. Link hill functions to growth rates.
 
-## January 3
+### January 3
 I have to start preparing the presentation for the meeting. And I have no idea how to do it. But
 let's stick to the smart brevity thing.
 Apparently, I should start with one sentence (the title) that perfectly summarizes my model or the results of my model.
@@ -104,7 +104,7 @@ My condition is inverse to that of the example. If sugar drops below the target 
 I got it. Now I need to activate it over time.
 I solved this but I don't know how to interpret the results now. Is this working properly?
 
-## January 4
+### January 4
 I think this model is ready and all I am going to do now is make up and documentation.
 On the other hand, I will extract results and interpret them. I know this model is not working right, but I refuse to keep adjusting it before doing the presentation.
 Before doing anything, I believe that my message should be this:
@@ -116,7 +116,7 @@ Low DOC experiment - Same
 High DOC experiment - Same
 
 
-## January 6
+### January 6
 Boltzmann did not postulate the existence of atoms. I guess he proved they had to exist.
 The question of statistical physics was that there was no way to explain the physics of a gas using newtonian mechanics. This would have
 been a microscopic analysis of a gas. Instead, statistical physics offers a macroscopic explanation of its mechanics.
@@ -139,7 +139,7 @@ Something in common in physical chemistry and physical biology; all processes ca
 "Ecologists normally thought in terms of entire food chains, which might have five stages, as the means of controlling populations"
 "For him, natural selection could be understood as a physical principle with the same level of generality as the laws of thermodynamics"
 
-## January 8
+### January 8
 
 The historical introduction is mostly done now. How do I introduce my research topic now? Here are some ideas or thoughts:
 1. Introduce and explain the Lotka-Volterra equations.
@@ -171,7 +171,7 @@ More practices, how to introduce tipping points, take-away messages.
 
 Also, consider fixing the code if the slides do not flow
 
-## January 10
+### January 10
 
 Changes proposed by Toni that need not to dramatically change the structure of the presentation
 
@@ -193,7 +193,7 @@ From this hypothesis I can:
 
 Now, I am going to show how my hypothesis works in a simple case of E. Coli T4
 
-## January 12
+### January 12
 
 Important questions about the talk:
 1. Questions about epsilon. What is it exactly?
@@ -227,7 +227,7 @@ Papers Alan Hastings
 Finish Logic book
 
 
-##January 16
+###January 16
 
 I have not finished my goals and I would like to do some documentation of the PHACOS model before going on. I will probably need to switch computers or look at my model while documenting it.
 Probably switching computers is smarter.
@@ -252,7 +252,7 @@ dynamics (changes in the dynamics).
 -My understanding is that the paper is more focused on providing examples of long transients and discussing the forms they take than in providing tools for finding or predicting transient dynamics.
 -There is noise and unknown feedbacks in ecological systems.
 
-##January 17
+###January 17
 
 I am not completely convinced about the model I built for the endolysins, but I cannot think of anything better either. Now I am going to take a look at the code for the machine scientist.
 My first problem will be to guess how and where the script works. And remove all the codes that don't work.
@@ -281,7 +281,7 @@ Here is my hypothesis about what is going on: I think the machine scientist is d
 Long transients in ecology: Theory and applications
 'Regime shift' looks like a synonim for 'transient dynamics'. The tipping point is what causes regime shifts and it is related to bifurcations. A regime shift can be a property of long transients (not a synonim, then). Attractors bring dynamics to asymptotic dynamics.
 
-## January 18
+### January 18
 
 Long transients in ecology: Theory and applications: "what is the relation, if any, between long transients and the tipping point phenomena"
 They provide a systematic approach to mathematical modeling of long transients in biological systems.
@@ -300,7 +300,7 @@ Here is what I thing I will have to do:
 
 number 1 is ready. I think number 2 is ready too.
 
-## January 19
+### January 19
 
 I have found a very clear definition of transient dynamics in  [Mozorov et. al.](https://doi.org/10.1016/j.plrev.2019.09.004):
 
@@ -328,7 +328,7 @@ When I want to get the column names of a dataframe I have to type Dataframe_Name
 I don't know how to name these files. Solved.
 
 
-## January 20
+### January 20
 
 Writing club: I am going to look back at the manuscript and see what needs to be done
 I know I still have to take care of the error. But I can do that in another moment.
@@ -341,7 +341,7 @@ We use it in a Lotka-Volterra system applied to bacteria and phage. We do this b
 
 In the first paragraph I am a little bit too direct in introducing transient dynamics. I could elaborate more. In general, though, I like the idea of this first paragraph.
 
-## January 22
+### January 22
 Forest said I should prepare a short lecture about arguments for the classics class.
 I don't know very well what I am supposed to say. I think I should convince them about why is it important to build solid arguments.
 My line of argument is the following:
@@ -376,7 +376,7 @@ My line of argument is the following:
     14.3. Therefore it will rain
 16. Begging the question (or circular argument): Use your conclusion as a premise. The Book Is A Bestseller Because It Sold The Most Copies
 
-### January 23 to 27
+## January 23 to 27
 
 Goals of the week
 
@@ -425,3 +425,4 @@ First questions: could I test the relation of coral cover with:
 4. all items in 3 and fish biomass and anthropogenic disturbance
 
 Darwin already has a suspicion that close interbreeding leads to infertility.
+
