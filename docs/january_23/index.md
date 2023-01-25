@@ -433,3 +433,7 @@ Every week starts with my goals. Goals are divided in categories and every entry
 
 R (reading) - I've reading the Origin of the species chapter IX. It seems to me that he is clearly differentiating hybridism from close interbreeding in the matter of fertility.
 PH (PHAGES) - I am going to look at the model and how can I correct it.
+
+This is the current model for the normoxic experiment:
+
+![myimg](../results/test.png)
