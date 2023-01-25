@@ -445,24 +445,31 @@ Bacteria also die quite fast. I will try four things:
 3. Reduce burst rate.
 4. Different combinations of the above.
 
-1. I remove stochasticity from the infection rate and reduce it to the minimum value. How does this
+I remove stochasticity from the infection rate and reduce it to the minimum value. How does this
 change the results?
 
 ![Low infection rate visibly changes the results](low_infection_rate.png)
 
-2. Remove stochasticity from decay rate and take minimum value.
+Remove stochasticity from decay rate and take minimum value.
 
 ![Low decay rate does not change much](low_decay_rate.png)
 
-3. Reduce burst size from 11 to 5
+Reduce burst size from 11 to 5
 
 ![Low burst size reduces the peak of phages at the beginning, but I am not sure it is very helpful
 or realistic](low_burst_size.png)
 
-I have realized there is a mistake in the model: the initial concentrations are not the same in the
-model and the experiments. Where does the mistake arise from?
+(I have realized there is a mistake in the model: the initial concentrations are not the same in the
+model and the experiments. Where does the mistake arise from? I know where from, I have to talk to
+Andres to decide which one is right)
 
 From what I see, there is a significative increase in the phage concentration. This increase in the
-concentration is correlated to an increase (smaller) in bacteria. To me, this only leaves one
-hypothesis consistent with the model: the increase in O2 and or DOC generates more bacteria that
-effectively feeds the phage.
+concentration is correlated to an increase (smaller) in bacteria.
+
+![High DOC and low DOC bacteria grow the most](bacteria_all.png)
+
+![High O2 phage grow the most](phage_all.png)
+
+Bacteria on the high DOC experiment grow the most. Phages on the Hyperoxic experiment grow the 
+most. The bacterial growth is not completely correlated with phage growth, there is something else
+ going on.
