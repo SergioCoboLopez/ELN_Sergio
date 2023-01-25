@@ -11,14 +11,12 @@ permalink: /docs/february
 
 ## Week 1
 
-| Symbol | Meaning | Units| Value |                                             
-| ----------- | ----------- | ----------- | ----------- |                       
-|O| $$O_2$$ concentration | $$\frac{g}{m^3}$$ |  |                              
-|S| $$C_{6}H_{12}O_{6}$$  | $$\frac{g}{m^3}$$ | |                               
-|C| $$CO_2$$ | $$\frac{g}{m^3}$$ |  |                                           
-|W| $$H_2O$$ | $$\frac{g}{m^3}$$ |  |                                           
-|E| $$C_2H_6O$$ | $$\frac{g}{m^3}$$ |  |                                        
-| $$\lambda$$ | PAR Rate |         | [0,1]|
+| Goal | Notes | 
+| ----------- | ----------- |
+|Goal 1| Do task a | 
+|Goal 2| Do task b | 
+|Goal 3| Do task c | 
+|Goal 4| Do task d | 
 
 ## Week 2
 
