@@ -436,4 +436,5 @@ PH (PHAGES) - I am going to look at the model and how can I correct it.
 
 This is the current model for the normoxic experiment:
 
-![myimg](../results/test.png)
+![myimg](../../results/test.png)
+![myimg2](test.png)
