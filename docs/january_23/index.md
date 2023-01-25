@@ -474,3 +474,5 @@ concentration is correlated to an increase (smaller) in bacteria.
 Bacteria on the high DOC experiment grow the most. Phages on the Hyperoxic experiment grow the 
 most. The bacterial growth is not completely correlated with phage growth, there is something else
  going on.
+
+I am going to calculate differences between final and medium concentrations to visualize this better.
