@@ -476,3 +476,12 @@ most. The bacterial growth is not completely correlated with phage growth, there
  going on.
 
 I am going to calculate differences between final and medium concentrations to visualize this better.
+
+**R** - The coming technological singularity: how to survive in the post-human era
+This is a 1993 paper. The premise is that in 30 years (2023), we will have the technology to create super human intelligence and that will mark the beginning of a new era. There are four ways in which this can happen:
+1. Development of computers that are "awake"
+2. The "internet" + users becomes an emergent super intelligent entity
+3. Computer-human entities
+4. Biology becomes very advanced
+
+"the world acts as its own simulator in the case of natural selection. " I like this idea: the world "finds" problems and looks for solutions by means of natural selection.
