@@ -485,3 +485,15 @@ This is a 1993 paper. The premise is that in 30 years (2023), we will have the t
 4. Biology becomes very advanced
 
 "the world acts as its own simulator in the case of natural selection. " I like this idea: the world "finds" problems and looks for solutions by means of natural selection.
+
+**O** - Meeting with Forest
+A device that consists of a Floater and a Sinker (FLOCS).
+BuoyancyF <= BuoyancyS
+
+Floater - Growth rate is proportional to the BuoyancyF
+Sinker  - Growth rate is proportional to the BuoyancyS
+
+Positive and negative buoyancy. We change it to density: g/L
+
+Two pools: floater and sinker.
+A function: floater mass - sinker mass
