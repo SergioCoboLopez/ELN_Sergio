@@ -497,3 +497,20 @@ Positive and negative buoyancy. We change it to density: g/L
 
 Two pools: floater and sinker.
 A function: floater mass - sinker mass
+
+## January 30 to February 03
+
+Goals of the week
+
+
+-Machine scientist for the salinity and presentation
+-Find conditions of quasiequilibrium in GoldSim
+-Talk to Andres
+-Talk to Toni  about endolysins model
+
+Reading
+Origin of species
+Transient dynamics
+Piggyback the winner for the dichotomy paper
+
+### January 30
