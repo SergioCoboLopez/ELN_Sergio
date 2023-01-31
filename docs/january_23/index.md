@@ -514,3 +514,46 @@ Transient dynamics
 Piggyback the winner for the dichotomy paper
 
 ### January 30
+
+**C** - I want to put together the pieces of the notes for today's class. Let's think about it:
+
+Introduction:
+
+Other authors had mentioned all the pieces, but had not put them together (Malthusian growth, Natural selection, variation...) (it is true that Darwin cites many people in the first five chapters)
+Darwin is trying to impuse a timeline to put himself "first".
+
+Brief history of Alfred Russel Wallace:
+
+Chapter 1 - Variation under domestication
+
+Chapter 2 - Variation under nature
+
+Chapter 3 - Struggle for existence
+
+Chapter 4 - Natural Selection; or the survival of the fittest
+
+Chapter 5 - Laws of variation
+
+Obviously, in this chapter Darwin discusses how variations occur. Variations are linked to the conditions of life, but not in the way you would think: the conditions of life cause some variations to be more succesful than others. More than laws of variations, it should be laws on how variations are selected.
+
+I need to find answers for the questions Forest asks: B
+Briefly outline the overall argument used by Darwin in Origin of Species (e.g. roughly chapter by chapter)
+
+Chapter 3 - the struggle for existence
+Chapter 4 - natural selection
+Chapter 5 - laws of variation
+
+I am confused about them.
+
+**R** - THE COMING TECHNOLOGICAL SINGULARITY: HOW TO SURVIVE IN THE POST-HUMAN ERA
+
+**H** - Where do I fit the sentences that Toni sent me. Clearly in the introduction. And I believe in the first paragraph they would best.
+
+### January 31
+
+
+**M** We know that temperature and salinity influence O2 concentration.
+This is related to Goldilocks line
+
+Look for an equation that describes O2 concentration as a function of temperature and salinity.
+
