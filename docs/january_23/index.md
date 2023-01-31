@@ -551,9 +551,27 @@ I am confused about them.
 
 ### January 31
 
+**M** Forest
 
-**M** We know that temperature and salinity influence O2 concentration.
-This is related to Goldilocks line
-
+We know that temperature and salinity influence O2 concentration.
+This is related to Goldilocks line.
 Look for an equation that describes O2 concentration as a function of temperature and salinity.
 
+Make sure I have enough data and that there is not already an equation that does what we are looking for.
+
+**MS** Make sense of the code for the Temperature and Salinity.
+
+What do I need to do exactly? I need to understand the things that I do not understand and are important for my presentation.
+I've decided I will sketch the presentation at the same time I am running the code.
+First:
+-Do a better figure that explains the O2 vs temperature behavior.
+-The first thing I want to do is to reestructure the code
+-Why does every iteration generate different results?
+-Plot model, vs, Benson Krause fit, vs actual data.
+-I am thinking it would be great to find data for different temperatures (out of dataset) to see if Benson & Krause overfit. But I might as well do my literature review.
+
+I don't know what "mcmc_resets" means, but I assume it has something to do with starting the execution.
+I don't know what XLABS means, but it just points to a list with a single string...
+Then, Oriol plots the function described in the text, which I could overlap with the data that I plotted already. He also fits it to a curve.
+
+Then he calls a function called 'ms.machinescientist'
