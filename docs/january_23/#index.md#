@@ -668,5 +668,7 @@ If I get stuck (and I will), do other stuff: for instance, think of the outline 
 ### February 2
 
 **MS** - First figure all makes sense
-Second figure (the fit equation from the paper) also makes sense if you take kelvin degrees and be careful with parentheses.
-Next challenge: plot them together and start exploring machine scientist equations.
+Now, let us look at the fit of the equation:
+-Clearly, that fit should return the logarithm of the concentration in micromol/dm3. That is, the numbers that I am already plotting. However, this is not the case. What is failing here?
+
+I realized the fit is made for kelvin temperatures. Also, there was something odd about the parentheses, so probably python was doing a different operation.
