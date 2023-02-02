@@ -575,3 +575,92 @@ I don't know what XLABS means, but it just points to a list with a single string
 Then, Oriol plots the function described in the text, which I could overlap with the data that I plotted already. He also fits it to a curve.
 
 Then he calls a function called 'ms.machinescientist'
+
+### February 1
+
+**R** The origin of species. It seems to me that Darwin is trying to prove that fertility/sterility is not explicitly related to hybrids. More specifically, you cannot prove that two plants belong to different species by looking at whether they are fertile or not.
+
+**C** For Chapter VI, Darwin focuses on two main difficulties: why we do not see intermediate species and where does the eye come from.
+
+**MS* I wanted to plot the data against the fit in the paper, but it is not trivial because there is a mismatch between the fit and the data. There needs to be a consistency between the type of degrees for it to work. And I also need to be careful with the log. So let's go step by step:
+1. Put the concentration in micromol/dm3 (it is the simpliest)
+2. Take the log of the concentration
+3. Put temperature in celsius
+4. Do the function of the fit for micromol/dm3 and celsius. You are going to get the log of the concentration.
+5. I believe the fit will only work for T>1 C (which already makes a good point for the machine scientist)
+
+'machinescientist is a function of several parameters:
+1. x=xdata
+2. y= ydata
+3. XLABS No idea
+4. n_params= number of parameters (interesting to play around with these)
+5.resests - no idea, but I suspect it has to do with resetting the whole process
+6. steps
+7. Ts - not clear
+8. log scale prediction
+9. ensemble_avg= produce an average of all the models?
+
+'resets' lives within a while loop. I am pretty sure this tells how many times you run the machine scientist.
+
+The model is not going to give me anything I can use in a straightforward way, I believe. I also don't understand where is the randomness coming from, or how to get the average of all models.
+
+I should think what things I would need for my presentation and how to get to the salinity.
+
+I need to be able to:
+1. plot the best model.
+2. control the seed.
+3. find the average model.
+4. Play with the salinity
+5. Play with higher number of steps, resets
+
+How can I access the elements of the model?
+
+What is the best way to understand a code without reading it? My strategy will be to take the elements that I am the most interested and follow the thread.
+
+I am interested in finding and being able to manipulate the best model and the ensemble of models.
+I take the elements:
+1. 'best_model'
+2. 'state_ensemble'
+
+It seems that they are both classes or elements of a class:
+
+<class 'sympy.core.numbers.Float'>
+<class 'mcmc.Tree'>
+
+When I try to print "best_model" I do get a float number
+When I print 'state_ensemble' I get the equation of the model. But, can I manipulate it?
+
+I don't think I can manipulate the equation easily.
+
+state_ensemble.par_values is going to give me the values of the parameters.
+
+I think it is not worth it to try to understand this code in detail with the time that I have until friday to prepare a presentation. I think I should Oriol instead.
+
+How does the boxplot work?
+
+I went to the function that plots the boxplots and there is a dataframe in it, showing predictions and real data. Where do the predictions come from? it should be the first argument when calling the function. That is 'mdl_model.predict(x)'
+
+What have I discovered today about how to handle the machine scientist?
+
+1. There are several elements that I am interested in, but I cannot access them directly.
+2. What appear to be results, are actually classes.
+3. I can access to the values of the parameters, but I cannot directly manipulate or obtain the equation or best model.
+4. I cannot access the ensemble of models. Even if I go the actual functions I cannot do this.
+5. I don't really understand what the ensemble of models is.
+6. If I want to access that ensemble, I know what thread to pull from (find the figure that plots training vs predictions)
+
+
+What can I reasonably do for my presentation on Friday, what should I acknowledge I cannot know, and how should I ask for help?
+
+1. I can present a figure of the data, the fit of the paper, and the function (even if I have to do this manually)
+2. I can add boxplots to that.
+3. I can try four parameters and see what happens.
+4. I can add salinity.
+
+I do not think there is much else I can do and even if I can get these things done. If I have to choose, my priorities for tomorrow would be in the same order:
+
+1. Get the figure with the two models and the data (first thing in the morning tomorrow)
+2. Get the boxplot and put it into the google presentation
+3. Play with different parameters.
+
+If I get stuck (and I will), do other stuff: for instance, think of the outline for the paper and prepare goals.
