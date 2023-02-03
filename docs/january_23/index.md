@@ -670,3 +670,26 @@ If I get stuck (and I will), do other stuff: for instance, think of the outline 
 **MS** - First figure all makes sense
 Second figure (the fit equation from the paper) also makes sense if you take kelvin degrees and be careful with parentheses.
 Next challenge: plot them together and start exploring machine scientist equations.
+
+Still trying to find a proper form of the equation that I can play with. What would I need:
+Maybe a string. Could I grab that string and convert it to an actual function?
+
+Everything is classes...I'll try to do this manually.
+
+I think I can try to solve this...I suspect I can do some stuff with pickle to save the expression.
+
+Now, I think I should focus on two things:
+1. Produce a couple of plots with the fit and what the machine scientist finds.
+2. Find a way to calculate the error and show it.
+3. Salinity.
+
+I am going to take the error code from the hyperion code. I will see if it makes sense to use it. I did not that yet.
+
+I have to set priorities for tomorrow: do I try to go with the error or with the salinity first.
+
+**C**, **M**. Meeting with Forest about the class.
+I have four questions for the quiz, I should find a last one about the hybridisation chapter (seems important to me). I hope to be able to send something to Forest tomorrow morning and get that out of the way.
+
+**MS** - I can check the code for errors tomorrow and see if it makes sense to use it.
+I need to think of a way to incorporate salinity in my code (a second variable and a second column)
+For my presentation tomorrow, think of the limitations that I have.
