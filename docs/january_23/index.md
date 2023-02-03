@@ -693,3 +693,43 @@ I have four questions for the quiz, I should find a last one about the hybridisa
 **MS** - I can check the code for errors tomorrow and see if it makes sense to use it.
 I need to think of a way to incorporate salinity in my code (a second variable and a second column)
 For my presentation tomorrow, think of the limitations that I have.
+
+### February 3
+
+**MS** I am going to take my function for hyperion to compute relative errors. That is the fastest solution I can come with right now.
+First, I need to convert the data into a list or numpy equivalent.
+Then I need to solve the function for the values of the temperature I am interested in.
+
+**W** - I will take a look at the draft I had sent Heather. Why would I repeat work that I had already done?
+I will put Breeann as an author
+Then I will look at the notes I took from the meeting.
+I think I should put more emphasis in the dichotomy than in the measurement itself (according to Brienn, at least)
+This is a decent outline, I believe. However, I notice how difficult it is to write; I think I need to have nothing else to think about while writing.
+
+**MS** I produced figures and values for relative errors.
+Can I introduce a second value for the salinity now?
+
+Let's if this makes sense. Looking at the tutorial:
+
+1. You define XLABS (name of the independent variables)
+2. x=data[XLABS]
+
+Although we did a copy of the variables with shorter names, I don't see any difference between what Roger does and what I did.
+
+Then, things are not the same. But it seems to me that Oriol is calling x and is calling XLABS. I do not see how things are different here.
+
+I get an error that I do not understand well. It is related to a library and not to the number of parameters, as far as I can see. How do I get over this?
+
+**M** - Biomath
+
+Feedback from my presentation:
+-I should think about experimental errors
+-Bootstrapping data and predictions (?)
+-Removing the salinity (as I did) is kind of cheating, because their fit uses salinity.
+
+-Goedels theorem
+-1.2e12 transistors/chip.
+-Running a computer: 20000 kW
+-Running a human: 1300 W
+-10e6 to 10e12 bits/s
+-Machine learning for the Vircorder
