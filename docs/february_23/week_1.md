@@ -9,6 +9,7 @@ nav_order: 1
 | ----------- | ----------- |
 |(PH)| Find conditions of quasiequilibrium, hypothesis for O2 vs phages, and review for ESA|
 |(MS)| How to do salinity and find an equation |
+|VP| Send draft to Heather and Brieenn|
 |Hyperion (H)| Review figures and text (how?) |
 |Reading (R)| Read Origin, Reading the rocks, and Transient dynamics|
 |Others (O)| Find datasets for O2 vs Temperature, and look at the literature |
