@@ -7,7 +7,7 @@ nav_order: 1
 
 | Goal | Notes |
 | ----------- | ----------- |
-|(PH)| |
+|(PH)| Find conditions of quasiequilibrium, hypothesis for O2 vs phages, and review for ESA|
 |(MS)| How to do salinity and find an equation |
 |Hyperion (H)| Review figures and text (how?) |
 |Reading (R)| Read Origin, Reading the rocks, and Transient dynamics|
@@ -19,8 +19,6 @@ CP - I was preparing the class for the classics yesterday
 
 
 ## February 7
-
-
 
 PH - I worked with the task a in GoldSim. The results were a little bit disappointing because of different reasons.
 
