@@ -21,7 +21,9 @@ CP - I was preparing the class for the classics yesterday
 
 ## February 7
 
-PH - I worked with the task a in GoldSim. The results were a little bit disappointing because of different reasons.
+VP -  I am going to re read my draft and will read the paper from Cynthia and Forest.
+
+O - Help Jenna with problem for the Arks
 
 
 ## February 8
