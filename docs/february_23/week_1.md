@@ -24,8 +24,15 @@ CP - I was preparing the class for the classics yesterday
 VP -  I am going to re read my draft and will read the paper from Cynthia and Forest.
 
 O - Help Jenna with problem for the Arks
-
-
+This is being a more difficult problem than I expected. Right now, I am thinking I should think in terms of mass rather than in terms of volume and or concentration.
+I have three elements: ocean, arks, and sample. I need to understand what is happening in the arks and then everything should go better.
+Let $$V_a$$ be the volume of the arks. Let $$V_a$$ be constant, which means that water flows in and out at the same flow rate ($$v_{in}=v_{out}$$)
+$$
+\begin{equation*}
+\frac{d V_a}{dt} = -v_{out} + v_{in} = 0
+\end{equation*}
+$$
+For simplicity, I am going to assume that $$v_{in}=v_{out}= 1 ml/s$$
 ## February 8
 
 
