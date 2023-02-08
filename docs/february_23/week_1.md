@@ -87,7 +87,15 @@ $$
 $$
 
 where $$c_a(t)$$ and $$c_o$$ represent the concentration of DOC in the arks and in the ocean, respectively. Note that $$c_a$$ is a function of time, because the water in the arks is going
-to be diluted over time.
+to be diluted over time. Because the volume of the arks $$V_a$$ is constant, this equation gives the DOC concentration over time.
+
+Regarding the sample, we know that:
+
+$$
+\begin{equation*}
+\frac{d M_s}{dt} = c_a(t) v_{out}
+\end{equation*}
+$$
 
 
 ## February 9
