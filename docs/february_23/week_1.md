@@ -27,13 +27,16 @@ O - Help Jenna with problem for the Arks
 This is being a more difficult problem than I expected. Right now, I am thinking I should think in terms of mass rather than in terms of volume and or concentration.
 I have three elements: ocean, arks, and sample. I need to understand what is happening in the arks and then everything should go better.
 Let $$V_a$$ be the volume of the arks. Let $$V_a$$ be constant, which means that water flows in and out at the same flow rate ($$v_{in}=v_{out}$$)
+
 $$
 \begin{equation*}
 \frac{d V_a}{dt} = -v_{out} + v_{in} = 0
 \end{equation*}
 $$
+
 For simplicity, I am going to assume that $$v_{in}=v_{out}= 1 ml/s$$. I am going to assume also that the initial concentration of DOC in the Arks is $$C_A(t=0)=5g/ml$$ and that the concentration in the ocean is constant and
-$$C_O=3g/ml$$. Now, the change of volume per se does not tell me anything, but it should tell me how the concentration and the mass of DOC changes in the arks.
+$$C_O=3g/ml$$. Now, the change of volume per se does not tell me anything, but it should tell me how the concentration and the mass of DOC changes in the arks. The volume is a proxy for the
+mass of DOC.
 
 ## February 8
 
