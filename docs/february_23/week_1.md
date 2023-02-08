@@ -92,10 +92,31 @@ to be diluted over time. Because the volume of the arks $$V_a$$ is constant, thi
 Regarding the sample, we know that:
 
 $$
-\begin{equation*}
+\begin{align*}
 \frac{d M_s}{dt} = c_a(t) v_{out}
-\end{equation*}
+\frac{d V_s}{dt} = v_{out}
+\end{align*}
 $$
+
+Now, to illustrate the model with an example, let us suppose that:
+
+1. $$V_a=100 ml$$
+2. $$c_a(0)=5 g/ml$$
+3. $$c_o=3 g/ml$$
+4. $$v_{in}=v_{out}=1 ml/s$$
+5. $$V_a$$ =100 ml
+6. $$m_a= c_a(0) V_a = 500 g$$
+
+Assuming that the timestep of the model is 1 second, we would expect our model to give the following results:
+
+| t(s) | $$M_a (g)$$ |  $$c_a (g/ml)$$ | $$M_s (g)$$ | $$c_s (g/ml)$$ |
+| ---- | ----------- | ----------- |----------- | ----------- |
+|0| 500   | 5    | 0 | 0 |
+|1| 498   | 4.98 | 5 | 5 |
+|2| 496.02| 4.96 | 9.98 | 4.99 |
+|3| 494.1 | 4.94 | 14.94 | 4.98 |
+|4| 492.12| 4.92 | 19.88 | 4.97 |
+|5| 490.2 | 4.90 | 24.8 | 4.96 |
 
 
 ## February 9
