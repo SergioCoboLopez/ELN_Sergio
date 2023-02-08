@@ -65,7 +65,7 @@ calculations and then think about how to implement this in GoldSim.
 
 I think this works.
 
-![Original model](Arks_Density.png)
+![Cybernetics](Arks_Density.png)
 
 Suppose that the concentration of DOC in the arks at t=0 is larger than the concentration of DOC in the ocean: $$c_a(t=0)>c_o$$
 
@@ -117,6 +117,10 @@ Assuming that the timestep of the model is 1 second, we would expect our model t
 |3| 494.1 | 4.94 | 14.94 | 4.98 |
 |4| 492.12| 4.92 | 19.88 | 4.97 |
 |5| 490.2 | 4.90 | 24.8 | 4.96 |
+
+This is the model in GoldSim:
+
+![GoldSim model](Arks_Density.png)
 
 
 
