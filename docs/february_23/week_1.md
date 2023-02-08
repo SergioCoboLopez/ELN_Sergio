@@ -104,7 +104,7 @@ Now, to illustrate the model with an example, let us suppose that:
 2. $$c_a(0)=5 g/ml$$
 3. $$c_o=3 g/ml$$
 4. $$v_{in}=v_{out}=1 ml/s$$
-5. $$V_a$$ =100 ml
+5. $$V_a =100 ml $$
 6. $$m_a= c_a(0) V_a = 500 g$$
 
 Assuming that the timestep of the model is 1 second, we would expect our model to give the following results:
