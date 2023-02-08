@@ -37,6 +37,10 @@ $$C_O=3g/ml$$. Now, the change of volume per se does not tell me anything, but i
 
 ## February 8
 
+VP - I read the abstract of the paper of Cynthia and Forest. Now I am going to read my draft and decide what could be better or different:
+1. Abstract - I think I should start telling what exactly I am doing. Then, I can justify why I am doing that. I have a first version ready.
+The next goal will be to look at the introduction.
+
 
 ## February 9
 
