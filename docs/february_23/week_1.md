@@ -60,16 +60,14 @@ $$
 1. Abstract - I think I should start telling what exactly I am doing. Then, I can justify why I am doing that. I have a first version ready.
 The next goal will be to look at the introduction.
 
-**O** - Concentrations of DOC in the arks. I though about it yesterday, and I figured out I have to think in terms of mass of DOC, rather than volume or concentration. I need to do some
-calculations and then think about how to implement this in GoldSim.
+**O** - Concentrations of DOC in the arks. I though about it yesterday, and I figured out I have to think in terms of mass of DOC, rather than volume or concentration. 
 
-I think this works.
+Statement of the problem:
 
 ![Cybernetics](Cybernetics.png)
 
-Suppose that the concentration of DOC in the arks at t=0 is larger than the concentration of DOC in the ocean: $$c_a(t=0)>c_o$$
-
-The volume of water in the arks does not change, but there is an outflow to the sample S and a corresponding inflow from the ocean O:
+Suppose that the concentration of DOC in the arks at t=0 is larger than the concentration of DOC in the ocean: $$c_a(t=0)>c_o$$. The volume of water in the arks does not change, 
+but there is an outflow from Arks (A) to the Sample (S) and an inflow from the ocean (O) to A:
 
 $$
 \begin{equation*}
@@ -77,8 +75,8 @@ $$
 \end{equation*}
 $$
 
-This equation does not tell us anything per se. However, the inflows and outflows carry different concentrations (and masses) of DOC. Let us look at rate of the mass of DOC in the
- arks ($$M_a$$):
+This equation is not informative in itself. However, the water inflows and outflows carry different concentrations (and masses) of DOC. 
+Let us look at rate of the mass of DOC in the arks ($$M_a$$):
 
 $$
 \begin{equation*}
@@ -86,8 +84,8 @@ $$
 \end{equation*}
 $$
 
-where $$c_a(t)$$ and $$c_o$$ represent the concentration of DOC in the arks and in the ocean, respectively. Note that $$c_a$$ is a function of time, because the water in the arks is going
-to be diluted over time. Because the volume of the arks $$V_a$$ is constant, this equation gives the DOC concentration over time.
+where $$c_a(t)$$ and $$c_o$$ represent the concentration of DOC in the arks and in the ocean, respectively. Note that $$c_a$$ is a function of time, because the water in the arks is 
+being diluted over time. Because the volume of the arks $$V_a$$ is constant, getting the concentration of DOC is straightforward ($$c_a(t) = M_a(t)/V_a$$).
 
 Regarding the sample, we know that:
 
@@ -125,10 +123,14 @@ This is the model in GoldSim:
 DOC density in the arks over time:
 ![Concentration of DOC in arks](Arks_DOC_Density.png)
 
+Table format:
+![Concentration of DOC in arks](Concentration_Arks_Table.png)
+The numbers are consistent with the table above.
+
 DOC Density in the sample over time:
 
-![Concentration of DOC in sample](Sample_DOC_Density.png)
-
+![Concentration of DOC in sample](Concentration_Sample_Table.png)
+The numbers are consistent with the table above.
 
 
 
