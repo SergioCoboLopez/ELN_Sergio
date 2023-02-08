@@ -32,7 +32,9 @@ $$
 \frac{d V_a}{dt} = -v_{out} + v_{in} = 0
 \end{equation*}
 $$
-For simplicity, I am going to assume that $$v_{in}=v_{out}= 1 ml/s$$
+For simplicity, I am going to assume that $$v_{in}=v_{out}= 1 ml/s$$. I am going to assume also that the initial concentration of DOC in the Arks is $$C_A(t=0)=5g/ml$$ and that the concentration in the ocean is constant and
+$$C_O=3g/ml$$. Now, the change of volume per se does not tell me anything, but it should tell me how the concentration and the mass of DOC changes in the arks.
+
 ## February 8
 
 
