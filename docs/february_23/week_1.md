@@ -67,7 +67,9 @@ I think this works.
 
 ![Original model](Arks_Density.png)
 
-We know that the volume in arks changes according to the equation:
+Suppose that the concentration of DOC in the arks at t=0 is larger than the concentration of DOC in the ocean: $$c_a(t=0)>c_o$$
+
+The volume of water in the arks does not change, but there is an outflow to the sample S and a corresponding inflow from the ocean O:
 
 $$
 \begin{equation*}
@@ -75,14 +77,17 @@ $$
 \end{equation*}
 $$
 
-Of course the volume does not change, but the outflow and inflow rates (to the sample and from the ocean, respectively) are a proxy for how the concentration of DOC changes in the Arks. Let
-us look at rate of the mass of DOC in the arks ($$M_a$$):
+This equation does not tell us anything per se. However, the inflows and outflows carry different concentrations (and masses) of DOC. Let us look at rate of the mass of DOC in the
+ arks ($$M_a$$):
 
 $$
 \begin{equation*}
 \frac{d M_a}{dt} = -c_a(t) v_{out} + c_o v_{in}
 \end{equation*}
 $$
+
+where $$c_a(t)$$ and $$c_o$$ represent the concentration of DOC in the arks and in the ocean, respectively. Note that $$c_a$$ is a function of time, because the water in the arks is going
+to be diluted over time.
 
 
 ## February 9
