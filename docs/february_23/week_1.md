@@ -16,14 +16,14 @@ nav_order: 1
 
 ## February 6
 
-CP - I was preparing the class for the classics yesterday
+**CP** - I was preparing the class for the classics yesterday
 
 
 ## February 7
 
 VP -  I am going to re read my draft and will read the paper from Cynthia and Forest.
 
-O - Help Jenna with problem for the Arks
+**O** - Help Jenna with problem for the Arks
 This is being a more difficult problem than I expected. Right now, I am thinking I should think in terms of mass rather than in terms of volume and or concentration.
 I have three elements: ocean, arks, and sample. I need to understand what is happening in the arks and then everything should go better.
 Let $$V_a$$ be the volume of the arks. Let $$V_a$$ be constant, which means that water flows in and out at the same flow rate ($$v_{in}=v_{out}$$)
@@ -34,15 +34,36 @@ $$
 \end{equation*}
 $$
 
-For simplicity, I am going to assume that $$v_{in}=v_{out}= 1 ml/s$$. I am going to assume also that the initial concentration of DOC in the Arks is $$C_A(t=0)=5g/ml$$ and that the concentration in the ocean is constant and
-$$C_O=3g/ml$$. Now, the change of volume per se does not tell me anything, but it should tell me how the concentration and the mass of DOC changes in the arks. The volume is a proxy for the
-mass of DOC.
+For simplicity, I am going to assume that $$v_{in}=v_{out}= 1 ml/s$$. I am going to assume also that the initial concentration of DOC in the Arks is $$\rho_A(t=0)=5g/ml$$ and that the concentration in the ocean is constant and
+$$\rho_O=3g/ml$$. Now, the change of volume per se does not tell me anything, but it should tell me how the concentration and the mass of DOC changes in the arks. The volume is a proxy for the
+mass of DOC. As a first approximation:
+
+$$
+\begin{equation*}
+\frac{d M_a}{dt} = -\rho_a(t) v_{out} + \rho_o v_{in}
+\end{equation*}
+$$
+
+The concentration of DOC in the arks \rho_a is a function of time because as ocean water enter the system, it dilutes the concentration. How do I calculate this function? It is just the
+mass at time t divided by the volume (constant):
+
+$$
+\begin{equation*}
+\frac{d M_a}{dt}= - \frac{M_a(t)}{V_a} v_{out}   + \rho_o {v_in} 
+\end{equation*}
+$$
+
+
+
 
 ## February 8
 
-VP - I read the abstract of the paper of Cynthia and Forest. Now I am going to read my draft and decide what could be better or different:
+**VP** - I read the abstract of the paper of Cynthia and Forest. Now I am going to read my draft and decide what could be better or different:
 1. Abstract - I think I should start telling what exactly I am doing. Then, I can justify why I am doing that. I have a first version ready.
 The next goal will be to look at the introduction.
+
+**O** - Concentrations of DOC in the arks. I though about it yesterday, and I figured out I have to think in terms of mass of DOC, rather than volume or concentration. I need to do some
+calculations and then think about how to implement this in GoldSim
 
 
 ## February 9
