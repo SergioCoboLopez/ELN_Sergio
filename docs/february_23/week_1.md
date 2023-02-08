@@ -54,8 +54,6 @@ $$
 $$
 
 
-
-
 ## February 8
 
 **VP** - I read the abstract of the paper of Cynthia and Forest. Now I am going to read my draft and decide what could be better or different:
@@ -63,7 +61,9 @@ $$
 The next goal will be to look at the introduction.
 
 **O** - Concentrations of DOC in the arks. I though about it yesterday, and I figured out I have to think in terms of mass of DOC, rather than volume or concentration. I need to do some
-calculations and then think about how to implement this in GoldSim
+calculations and then think about how to implement this in GoldSim.
+
+I think this works.
 
 
 ## February 9
