@@ -67,6 +67,23 @@ I think this works.
 
 ![Original model](Arks_Density.png)
 
+We know that the volume in arks changes according to the equation:
+
+$$
+\begin{equation*}
+\frac{d V_a}{dt} = -v_{out} + v_{in} = 0
+\end{equation*}
+$$
+
+Of course the volume does not change, but the outflow and inflow rates (to the sample and from the ocean, respectively) are a proxy for how the concentration of DOC changes in the Arks. Let
+us look at rate of the mass of DOC in the arks ($$M_a$$):
+
+$$
+\begin{equation*}
+\frac{d M_a}{dt} = -c_a(t) v_{out} + c_o v_{in}
+\end{equation*}
+$$
+
 
 ## February 9
 
