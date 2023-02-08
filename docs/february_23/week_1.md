@@ -65,6 +65,8 @@ calculations and then think about how to implement this in GoldSim.
 
 I think this works.
 
+![Original model](Arks_Density.png)
+
 
 ## February 9
 
