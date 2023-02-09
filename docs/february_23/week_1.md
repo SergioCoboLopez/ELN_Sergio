@@ -124,12 +124,13 @@ DOC density in the arks over time:
 ![Concentration of DOC in arks](Arks_DOC_Density.png)
 
 Table format:
-![Concentration of DOC in arks](Concentration_Arks_Table.png)
+![Concentration of DOC in arks](Concentration_Arks_table.png)
+
 The numbers are consistent with the table above.
 
 DOC Density in the sample over time:
 
-![Concentration of DOC in sample](Concentration_Sample_Table.png)
+![Concentration of DOC in sample](Concentration_Sample_table.png)
 The numbers are consistent with the table above.
 
 ## February 9
