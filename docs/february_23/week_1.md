@@ -132,10 +132,11 @@ DOC Density in the sample over time:
 ![Concentration of DOC in sample](Concentration_Sample_Table.png)
 The numbers are consistent with the table above.
 
-
-
-
 ## February 9
+
+**CP** - I read an analysis of chapter XI of the Origin of species. It looks to me that it starts getting redundant. What is Darwin trying to do here? Is he maybe acknowledging things that he does not
+know (he says that he does not know how extinction works)? Is he combining what he was explaining about the fossil record with the first chapters about natural selection and the struggle of existence?
+Or is he simply trying to show how he thinks extinction occurs based on fossil evidence?
 
 
 ## February 10
