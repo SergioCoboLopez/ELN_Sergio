@@ -131,6 +131,7 @@ The numbers are consistent with the table above.
 DOC Density in the sample over time:
 
 ![Concentration of DOC in sample](Concentration_Sample_table.png)
+
 The numbers are consistent with the table above.
 
 ## February 9
