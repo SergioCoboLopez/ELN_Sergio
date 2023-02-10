@@ -299,9 +299,9 @@ GoldSim in ecology
 Hyperion (paper + hypothetical follow up)
 	
 -A list of your projects, their status, and rank them on importance.
-	Hyperion
-	Machine Scientist for ecology
-	GoldSim in Ecology
+Hyperion
+Machine Scientist for ecology
+GoldSim in Ecology
 
 ## Results of the week
 
