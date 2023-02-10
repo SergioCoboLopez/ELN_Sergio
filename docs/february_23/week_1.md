@@ -197,7 +197,30 @@ $$
 \end{equation*}
 $$
 
-If we reformulate the parameters as $$a=\frac{v}{V_I}$$ and $$b=D_E V_I$$
+If we reformulate the parameters as $$a=\frac{v}{V_I}$$ and $$b=D_E V_I$$, we get:
+
+$$
+\begin{equation*}
+\frac{d M_I}{dt} =  a(b -M_I)
+\end{equation*}
+$$
+
+We can solve this differential equation and get:
+
+$$
+\begin{equation*}
+M_I(t) =  b + (M_I(0) - b) e^{-at}
+\end{equation*}
+$$
+
+or in its original form:
+
+$$
+\begin{equation*}
+M_I(t) = D_E V_I  + (M_I(0) - D_E V_I) e^{-vt/V_I}
+\end{equation*}
+$$
+
 ## February 10
 
 
