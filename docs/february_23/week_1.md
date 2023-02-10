@@ -274,6 +274,7 @@ Now, about the introduction.
 
 ## February 10
 
+**W** - Viralization paper. I want to change the second paragraph. But I don't know what I want to say.
 
 ## Results of the week
 
