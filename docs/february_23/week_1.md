@@ -221,7 +221,46 @@ M_I(t) = D_E V_I  + (M_I(0) - D_E V_I) e^{-vt/V_I}
 \end{equation*}
 $$
 
-I think I would put this equation in GoldSim and see if this makes sense.
+Because, $$V_I$$ is constant, the calculation of the density is straightforward:
+
+$$
+\begin{equation*}
+D_I(t) = D_E   + (D_I(0) - D_E) e^{-vt/V_I}
+\end{equation*}
+$$
+
+Regarding the sample, we have the following equations for volume and mass:
+
+$$
+\begin{equation*}
+\frac{d V_S}{dt} =  v
+\end{equation*}
+$$
+
+
+$$
+\begin{equation*}
+\frac{d M_S}{dt} =  \frac{M_I v}{V_I}
+\end{equation*}
+$$
+
+The volume increases linearly as $$V_S=v t$$, while the mass increases also linearly as:
+
+$$
+\begin{equation*}
+M_S =  \frac{M_I v}{V_I}t
+\end{equation*}
+$$
+
+Finally, the density will be:
+
+$$
+\begin{equation*}
+D_S =  \frac{M_I}{V_I}=
+\end{equation*}
+$$
+
+I think I should put this equation in GoldSim and see if this makes sense.
 
 ## February 10
 
