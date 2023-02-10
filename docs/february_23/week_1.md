@@ -311,6 +311,14 @@ $$
 \end{equation*}
 $$
 
+If we solve this differential equation, we get:
+
+$$
+\begin{equation*}
+M_S(t) = M_S(t=0) + \frac{v}{V_I} D_E V_I - (M_I(0) - D_E V_I) e^{-vt/V_I}
+\end{equation*}
+$$
+
 
 
 **O** Biomath. Technology singularity
