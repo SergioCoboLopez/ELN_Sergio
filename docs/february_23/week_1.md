@@ -278,6 +278,26 @@ Now, about the introduction.
 
 **W** - Viralization paper. I want to change the second paragraph. But I don't know what I want to say. What I would like to say is that there have been previous attempts to find objective classifications, but that is not true. There have been models based on dichotomies.
 
+**O** - F wants to meet about the postdoc goals in two weeks. Some ideas:
+1) 5-year goals
+	-2023-2024: Finish Margarita Salas fellowship
+	-2024-2025: apply for postdoctoral grants and projects in Tarragona and Asturias.
+	-2025-2028: If the first two goals are succesful, establish own line of research: mechanistic vs statistical learning in theoretical ecology. Evolution of hyperion for assessing experiments vs models. 
+2) Papers you are planning to publish before the end of 2023. Put together the Figures (even if they are theoretical).
+	Hyperion
+	Underwater concentration
+	Virision papers
+	PHACOS
+	Synthesis of GoldSim project
+3) Research that you are planning to complete by the end of 2023.
+	Machine Scientist for ecology (trip to Tarragona in September?)
+	GoldSim in ecology
+	Hyperion (paper + hypothetical follow up)
+	
+4) A list of your projects, their status, and rank them on importance.
+	Hyperion
+	Machine Scientist for ecology
+	GoldSim in Ecology
 ## Results of the week
 
 **O** - I built a model for the problem of the density in the experimental device and the sample. Also, I solved the differential equation for it.
