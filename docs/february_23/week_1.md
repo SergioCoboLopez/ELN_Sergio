@@ -126,29 +126,158 @@ DOC density in the arks over time:
 Note how the density decays exponentially from $$5 mg/l$$ to $$3 mg/l$$ (DOC density in the ocean)
 
 Table format:
-![Concentration of DOC in arks](Concentration_Arks_Table.png)
+![Concentration of DOC in arks](Concentration_Arks_table.png)
+
 The numbers are consistent with the table above.
 
 DOC Density in the sample over time:
 
-![Concentration of DOC in sample](Concentration_Sample_Table.png)
+![Concentration of DOC in sample](Sample_Density.png)
+
+Table format:
+![Concentration of DOC in sample](Concentration_Sample_table.png)
+
 The numbers are consistent with the table above.
 
-
-
-
 ## February 9
+
+**CP** - I read an analysis of chapter XI of the Origin of species. It looks to me that it starts getting redundant. What is Darwin trying to do here? Is he maybe acknowledging things that he does not
+know (he says that he does not know how extinction works)? Is he combining what he was explaining about the fossil record with the first chapters about natural selection and the struggle of existence?
+Or is he simply trying to show how he thinks extinction occurs based on fossil evidence?
+
+**W** - Hyperion. My plan for today is to:
+1. Think what is this paper about again
+2. Read the whole thing and make notes on what needs to be done
+3. Set priorities on what to work on between today and tomorrow
+4. Start working on figures
+
+1. What is this paper is about:
+- Hypothesis: given a dynamical system, if we describe that system mathematically, we will observe that not all the terms are active all the time.
+- Terms activate and inactivate over time.
+- These activations/inactivations generate regime shifts via tipping points.
+- We present a tool to analyze dynamical systems such that we can:
+  1. Predict tipping points (and regime shifts)
+  2. Prevent tipping points.
+  3. Identify conditions of quasi-stability.
+  
+- We apply our tool to a phage-bacterial system
+
+How do I phrase this in a paper format?
+
+In this work, we present a mathematical tool to predict tipping points that generate regime shifts in transient dynamical systems. Transient dynamics are characterized by transitions between two quasi-stable dynamics.  Our method stems from the hypothesis that in any given dynamical system, not all the terms are active all the time. And that the activation and inactivation of terms is the cause of shifts in the dynamics. As a proof of concept we apply our method to a predator-prey model of bacteria and bacteriophage, the most abundant biological agents on earth. Our method identifies the activation and inactivation of terms in the dynamics, that correspond to tipping points leading to the extinction of bacteria or phage and identifies the conditions of quasi-stability. We show that the condition for quasi-stable dynamics is that the characteristic timescales of bacteria and bacteriophage are comparable. 
+
+**O** - Seminar
+-Aiptasia (dinoflagellate). Model organism. Convenient size, soft and hardy, large clonal populations.
+Symbiosis can break down upon thermal stress
+
+**O** - Concentrations of DOC in the arks.
+
+$$E$$ - Environment (Ocean)
+$$I$$ - Interest (Arks)
+$$S$$ - Sample
+
+Volume rate of $$I$$:
+
+$$
+\begin{align*}
+\frac{d V_I}{dt} &=& 0 \\
+\frac{d V_I}{dt} &=& -v_{out} +v_{in} \\
+v_{in} &=& v_{out}=v
+\end{align*}
+$$
+
+Mass rate of $$I$$:
+
+$$
+\begin{equation*}
+\frac{d M_I}{dt} = -D_I(t) v_{out} + D_E v_{in} 
+\end{equation*}
+$$
+
+Because $$v_{out}=v_{in}=v$$ and because $$D_I=\frac{M_I}{V_I}$$
+
+$$
+\begin{equation*}
+\frac{d M_I}{dt} = (D_E - \frac{M_I}{V_I}) v = \frac{v}{V_I}(D_E V_I -M_I)
+\end{equation*}
+$$
+
+If we rewrite the parameters as $$a=\frac{v}{V_I}$$ and $$b=D_E V_I$$, we get:
+
+$$
+\begin{equation*}
+\frac{d M_I}{dt} =  a(b -M_I)
+\end{equation*}
+$$
+
+We can solve this differential equation and get:
+
+$$
+\begin{equation*}
+M_I(t) =  b + (M_I(0) - b) e^{-at}
+\end{equation*}
+$$
+
+or in its original form:
+
+$$
+\begin{equation*}
+M_I(t) = D_E V_I  + (M_I(0) - D_E V_I) e^{-vt/V_I}
+\end{equation*}
+$$
+
+Because, $$V_I$$ is constant, the calculation of the density is straightforward:
+
+$$
+\begin{equation*}
+D_I(t) = D_E   + (D_I(0) - D_E) e^{-vt/V_I}
+\end{equation*}
+$$
+
+Regarding the sample, we have the following equations for volume and mass:
+
+$$
+\begin{equation*}
+\frac{d V_S}{dt} =  v
+\end{equation*}
+$$
+
+
+$$
+\begin{equation*}
+\frac{d M_S}{dt} =  \frac{M_I v}{V_I}
+\end{equation*}
+$$
+
+The volume increases linearly as $$V_S=v t$$, while the mass increases also linearly as:
+
+$$
+\begin{equation*}
+M_S =  \frac{M_I v}{V_I}t
+\end{equation*}
+$$
+
+Finally, the density will be:
+
+$$
+\begin{equation*}
+D_S =  \frac{M_I}{V_I} = D_I
+\end{equation*}
+$$
+
+I think I should put this equation in GoldSim and see if this makes sense. I am not convinced about the latest equation.
+
+**W** - Hyperion
+
+I changed the abstract. My goal was to make it much straighter, but I do not know if I made it more confusing by trying to put everything together instead of a single idea. I have to go back to it.
+
+Now, about the introduction.
 
 
 ## February 10
 
+**W** - Viralization paper. I want to change the second paragraph. But I don't know what I want to say.
 
 ## Results of the week
 
-PH - I was able to solve task a, as I show in the figure.
-
-MS - I solved task b and got these figures that I am showing.
-
-H - I could not finish task c, but I did subtasks c1, c2, and c3. I will do c4 next week.
-
-O - the class was very interesting this week, I could solve my problems with SDSU HR, and sent the submission for conference c
+**O** - I built a model for the problem of the density in the experimental device and the sample. Also, I solved the differential equation for it.
