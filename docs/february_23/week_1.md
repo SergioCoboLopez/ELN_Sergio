@@ -274,7 +274,7 @@ Now, about the introduction.
 
 ## February 10
 
-**W** - Viralization paper. I want to change the second paragraph. But I don't know what I want to say.
+**W** - Viralization paper. I want to change the second paragraph. But I don't know what I want to say. What I would like to say is that there have been previous attempts to find objective classifications, but that is not true. There have been models based on dichotomies.
 
 ## Results of the week
 
