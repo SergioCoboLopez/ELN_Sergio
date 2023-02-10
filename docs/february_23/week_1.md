@@ -197,7 +197,7 @@ $$
 \end{equation*}
 $$
 
-If we reformulate the parameters as $$a=\frac{v}{V_I}$$ and $$b=D_E V_I$$, we get:
+If we rewrite the parameters as $$a=\frac{v}{V_I}$$ and $$b=D_E V_I$$, we get:
 
 $$
 \begin{equation*}
@@ -220,6 +220,8 @@ $$
 M_I(t) = D_E V_I  + (M_I(0) - D_E V_I) e^{-vt/V_I}
 \end{equation*}
 $$
+
+I think I would put this equation in GoldSim and see if this makes sense.
 
 ## February 10
 
