@@ -130,6 +130,9 @@ The numbers are consistent with the table above.
 
 DOC Density in the sample over time:
 
+![Concentration of DOC in sample](Sample_Density.png)
+
+Table format:
 ![Concentration of DOC in sample](Concentration_Sample_table.png)
 
 The numbers are consistent with the table above.
@@ -256,7 +259,7 @@ Finally, the density will be:
 
 $$
 \begin{equation*}
-D_S =  \frac{M_I}{V_I}=
+D_S =  \frac{M_I}{V_I} = D_I
 \end{equation*}
 $$
 
