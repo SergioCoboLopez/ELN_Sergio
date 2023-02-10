@@ -123,6 +123,8 @@ This is the model in GoldSim:
 DOC density in the arks over time:
 ![Concentration of DOC in arks](Arks_DOC_Density.png)
 
+Note how the density decays exponentially from $$5 mg/l$$ to $$3 mg/l$$ (DOC density in the ocean)
+
 Table format:
 ![Concentration of DOC in arks](Concentration_Arks_table.png)
 
