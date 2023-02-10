@@ -170,7 +170,7 @@ In this work, we present a mathematical tool to predict tipping points that gene
 -Aiptasia (dinoflagellate). Model organism. Convenient size, soft and hardy, large clonal populations.
 Symbiosis can break down upon thermal stress
 
-**O** - Concentrations of DOC in the arks.
+**O** - Concentrations of DOC in the arks
 
 $$E$$ - Environment (Ocean)
 $$I$$ - Interest (Arks)
@@ -302,6 +302,11 @@ Hyperion (paper + hypothetical follow up)
 Hyperion
 Machine Scientist for ecology
 GoldSim in Ecology
+
+**O** Concentrations of DOC in the arks.
+
+
+**O** Biomath. Technology singularity
 
 ## Results of the week
 
