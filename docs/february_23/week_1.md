@@ -263,17 +263,18 @@ D_S =  \frac{M_I}{V_I} = D_I
 \end{equation*}
 $$
 
-I think I should put this equation in GoldSim and see if this makes sense.
+I think I should put this equation in GoldSim and see if this makes sense. I am not convinced about the latest equation.
+
+**W** - Hyperion
+
+I changed the abstract. My goal was to make it much straighter, but I do not know if I made it more confusing by trying to put everything together instead of a single idea. I have to go back to it.
+
+Now, about the introduction.
+
 
 ## February 10
 
 
 ## Results of the week
 
-PH - I was able to solve task a, as I show in the figure.
-
-MS - I solved task b and got these figures that I am showing.
-
-H - I could not finish task c, but I did subtasks c1, c2, and c3. I will do c4 next week.
-
-O - the class was very interesting this week, I could solve my problems with SDSU HR, and sent the submission for conference c
+**O** - I built a model for the problem of the density in the experimental device and the sample. Also, I solved the differential equation for it.
