@@ -189,7 +189,7 @@ $$
 \end{equation*}
 $$
 
-Because $$v_{out}=v_{in}=v$$ and because $$D_I=\frac{M_I}{V_I}
+Because $$v_{out}=v_{in}=v$$ and because $$D_I=\frac{M_I}{V_I}$$
 
 $$
 \begin{equation*}
