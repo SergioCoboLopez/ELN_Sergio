@@ -305,8 +305,19 @@ GoldSim in Ecology
 
 **O** Concentrations of DOC in the arks.
 
+$$
+\begin{equation*}
+\frac{d M_S}{dt} =  \frac{M_I v}{V_I} = \frac{v}{V_I} \big[D_E V_I  + (M_I(0) - D_E V_I) e^{-vt/V_I} \big]
+\end{equation*}
+$$
+
+
 
 **O** Biomath. Technology singularity
+Arguments against:
+number of transitors lower than expected
+Goedels theorem
+Calculation of energy
 
 ## Results of the week
 
