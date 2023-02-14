@@ -55,3 +55,16 @@ Figure out who is in the class for the list of emails.
 Send Hazy History to students.
 Grade them.
 
+**H** - Figures. What do I need for the figures?
+Figure 4 - I have to plot two results in the same figure.
+Then, do $$\epsilon=0.5$$ and $$\epsilon=1$$.
+Then I have to be able to plot only part of the figure.
+
+Figure 5 - Make a code with carrying capacity.
+
+Figure 4 - I probably changed the figure size.
+The most elegant way to solve this is probably to pack everything in a single function. That way, I could call the same function twice or once depending on what I want to do.
+
+The expected outcomes from my function would be:
+1.
+
