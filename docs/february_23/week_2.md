@@ -35,3 +35,23 @@ So essentially if migration is impossible, you will see species perfectly adapte
 What is the hardest part of teaching? Preparing classes and impostor syndrom. It takes more than I had expected.
 
 Best part? I learn a lot and it's very rewarding.
+
+1. Socratic method: make questions to the students
+2. Feedback from the students: talk to them to improve the class (next week). (Be positive) Questions:
+   -What were your expectations for this class?
+   -Are those expectations being met so far?
+   -What do you like about the class?
+   -And what would you fix?
+   -What would you like to see in these introductions?
+
+If they complain about canvas, we don't do it this way
+Grades:
+Give them back their homework plus a note with their grade out of the total possible.
+Be critical and make sure you keep control of the class.
+
+Email William again with the dates of the Omnivore's Dilemma. Send him information on the book, tell him to have the students read the book and then meet before the class.
+
+Figure out who is in the class for the list of emails.
+Send Hazy History to students.
+Grade them.
+
