@@ -66,5 +66,12 @@ Figure 4 - I probably changed the figure size.
 The most elegant way to solve this is probably to pack everything in a single function. That way, I could call the same function twice or once depending on what I want to do.
 
 The expected outcomes from my function would be:
-1.
+1.Simplified dynamics
+2.t_simple
+3.Critical times
+
+Inputs:
+-For sure t0, tf, and step.
+
+I can recall having some problems with vectors so I am going to be cautious about them.
 
