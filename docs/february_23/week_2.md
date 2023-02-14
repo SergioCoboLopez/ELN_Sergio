@@ -30,3 +30,8 @@ So essentially if migration is impossible, you will see species perfectly adapte
 
 ## February 14
 
+**M** Classes with Forest.
+
+What is the hardest part of teaching? Preparing classes and impostor syndrom. It takes more than I had expected.
+
+Best part? I learn a lot and it's very rewarding.
