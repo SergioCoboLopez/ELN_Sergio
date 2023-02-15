@@ -118,5 +118,21 @@ In the mean time, I should go for Figure 5 as well.
 
 Regarding 2. Here is a table of the dynamics:
 
+|# of Dynamic|Crit Time \epsilon=0.5| Crit Time \epsilon=1| Dynamic \epsilon=0.5| Dynamic \epsilon=1     |
+| ----------- | ----------- | ----------- | ----------- |
+|0 | 0.00  | 0.00 |GPBD|GPBD|
+|1 | 15.30 | 10.26 |GPD |GPD|
+|2 | 29.93 | 19.42 |GD  |GD|
+|3 | 31.89 | 25.25 |GBD |GBD |
+|4 | 46.53 | 34.41 |GPBD|GPBD |
+|5 | 66.87 | 44.67 |GPD |GPD |
+|6 | 81.50 | 53.83 |GD  |GD |
+|7 | 83.47 | 59.66 |GBD |GBD |
+|8 | 98.10 | 68.82 |GPBD|GPBD |
+|9 | 118.44| 79.08 |GPD |GPD |
+|10| 133.07| 88.24 |GD  |GD |
+
+
+
 
 

@@ -14,7 +14,8 @@ The Electronic Lab Notebook has a section for each month. Each month is further 
 1.This Electronic Lab Notebook is structured in months and weeks.
 2.Every week starts with a table of my goals for the week.
 3.There is an entry for every day
-4.Every day has different sub-entries for the things I am doing over the day. Sub-entries have a code of one or two letters to indicate the project or type of activity I am doing. Here is a table for common codes that do not depend on projects
+4.Every day has different sub-entries for the things I am doing over the day. Sub-entries have a code of one or two letters to indicate the project or type of activity I am doing. Here is a table for common codes that do not depend on specific projects
+
 
 | Activity | Code |
 | ----------- | ----------- |
@@ -64,13 +65,23 @@ In my case the order is 9, but you will have to check the previous month in your
 
 In the general case, you will have to change the 'parent' section. Now, we will copy and paste this file three times and change the corresponding values (title and nav_order). To make it faster we will use a very short script:
 
-   for i in {2..4}
-   do
-   cp week_1.md week_$i.md
-   done
+    for i in {2..4}
+    do
+    cp week_1.md week_$i.md
+    done
 
 Now, enter in each file and change the corresponding values.
 
+Input this in your markdown file to create a table for your goals:
+
+      |   Goal      |   Notes     |
+      | ----------- | ----------- |
+      |AA| Do Task 1a, 2a, and 3a |
+      |BB| Do Task 1b, 2b, and 3b |
+      |CC| Do Task 1c, 2c, and 3c |
+      |R|  Read paper r, and book r'| 
+      |W| Review Introduction of paper p| 
+      |M| Meet m to discuss project m'| 
      
 
 
