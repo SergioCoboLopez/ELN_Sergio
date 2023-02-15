@@ -101,3 +101,16 @@ Commit and remove "old" code
 
 Although this does not entirely solve my problem, I can probably fit a piece of code inside a 'for' loop and solve for two different values of epsilon. I can also reduce the time for the plot. I can do a copy of the code with the name of the figure I want to plot.
 
+## February 15
+
+**H** I don't think I can change the code the way I wanted, but I can probably produce a plot with the two curves for different values of epsilon. I will write a code specifically for that. I am going to call the code 'Figure 4d'
+
+This works now. I would like to plot the figure for smaller times, but I just need to change the x axis...
+
+This is done now, which is good. Now, I should check the dynamics and how they change, if everything makes sense and so on. My goal will be to:
+1. Compare what I see with the regular code.
+2. Track the dynamics of either epsilon
+3. Compare them.
+4. Mount the figure (maybe right after lunch?)
+
+In the mean time, I should go for Figure 5 as well.
