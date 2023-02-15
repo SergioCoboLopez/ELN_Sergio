@@ -73,5 +73,31 @@ The expected outcomes from my function would be:
 Inputs:
 -For sure t0, tf, and step.
 
-I can recall having some problems with vectors so I am going to be cautious about them.
+I can recall having some problems with vectors so I am going to be cautious about them. I am getting closer, but I am afraid I will have problems with lists.
+
+I got an error on the code. This is because one solution talks to the other somehow. I think it is the Hash of the dynamics (the code that tells which dynamics are active,inactive as combination of 1s and 0s)
+
+Initial dynamics:
+
+	{'Growth': 1, 'Burst': 1, 'Decay': 1, 'Predation': 1}
+	1111	
+	<function Lotka_Volterra_GPBD at 0x7f6d98f95268>
+
+All terms are active at the beginning.
+The initial dynamics were changing before and after the function. Be careful with dictionaries.
+
+The code works, but the solutions are different. What is going on? I should plot all the dynamics (hash and dictionaries). It does not find any event.
+
+I should compare the dynamics because there can be so many things wrong. I found one variable wrongly named.
+
+My goal is to produce two plots for different values of epsilon in the same code. Can I do this with the current code structure? I don't think so.
+Running some final tests to make sure that the original piece of code and the function produce the same result.
+
+I take the original result for bacteria and the new result for bacteria and make the difference. It should be zero. I print it to a file and it works.
+Do the same for phages. It works too.
+
+Comment old pieces of code.
+Commit and remove "old" code
+
+Although this does not entirely solve my problem, I can probably fit a piece of code inside a 'for' loop and solve for two different values of epsilon. I can also reduce the time for the plot. I can do a copy of the code with the name of the figure I want to plot.
 
