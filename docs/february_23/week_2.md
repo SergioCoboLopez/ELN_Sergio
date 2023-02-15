@@ -108,9 +108,15 @@ Although this does not entirely solve my problem, I can probably fit a piece of 
 This works now. I would like to plot the figure for smaller times, but I just need to change the x axis...
 
 This is done now, which is good. Now, I should check the dynamics and how they change, if everything makes sense and so on. My goal will be to:
-1. Compare what I see with the regular code.
-2. Track the dynamics of either epsilon
+1. Compare what I see with the regular code. - this works
+2. Track the dynamics of either epsilon. - I am thinking how could I output the dynamics and times they started at to a file. Since the outputs are spread across different functions, I am not sure how to do this. I wonder how could I keep a writing file open to write and close it whenever I want to.
 3. Compare them.
 4. Mount the figure (maybe right after lunch?)
 
 In the mean time, I should go for Figure 5 as well.
+
+
+Regarding 2. Here is a table of the dynamics:
+
+
+
