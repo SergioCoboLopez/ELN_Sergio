@@ -118,7 +118,7 @@ In the mean time, I should go for Figure 5 as well.
 
 Regarding 2. Here is a table of the dynamics:
 
-|# of Dynamic|Crit Time \epsilon=0.5| Crit Time \epsilon=1| Dynamic \epsilon=0.5| Dynamic \epsilon=1     |
+|# of Dynamic|Crit Time $$\epsilon=0.5$$| Crit Time $$\epsilon=1$$| Dynamic $$\epsilon=0.5$$| Dynamic $$\epsilon=1$$     |
 | ----------- | ----------- | ----------- | ----------- |
 |0 | 0.00  | 0.00 |GPBD|GPBD|
 |1 | 15.30 | 10.26 |GPD |GPD|
@@ -131,6 +131,8 @@ Regarding 2. Here is a table of the dynamics:
 |8 | 98.10 | 68.82 |GPBD|GPBD |
 |9 | 118.44| 79.08 |GPD |GPD |
 |10| 133.07| 88.24 |GD  |GD |
+
+The dynamics are identical, but activations and deactivations change in time. The smaller $$\epsilon$$ the earlier do tipping points arrive. That makes sense.
 
 
 
