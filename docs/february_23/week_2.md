@@ -143,10 +143,19 @@ Events are tricky in python (again, keep that in mind)
 The logarithmic xscale is going to be tricky. Linewidth will also be.
 Produce minimally presentable versions for tomorrow. Find sweetspot of step. If 1000 works well with step size=0.01, 1e6, should require a stepsize=10.
 
+## February 16
+
+**M** Lucia. Questions she had and remarks:
+$$K=1e9$$
+$$f=0$$ - there is no flow of endolysins
+She already has data of how fast the bacterial concentration goes down.
+
+**H** Prepare some plots for today.
 
 
 **M** Toni. Some questions that I have:
 -In Matt's kick figure. For the case far from the equilibrium: is there a kick?
+-You need to be careful with the logistic model. Some combinations of parameter values may yield negative concentrations of phage.
 
 
 
