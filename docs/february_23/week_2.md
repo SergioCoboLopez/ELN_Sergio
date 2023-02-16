@@ -149,8 +149,14 @@ Produce minimally presentable versions for tomorrow. Find sweetspot of step. If 
 $$K=1e9$$
 $$f=0$$ - there is no flow of endolysins
 She already has data of how fast the bacterial concentration goes down.
+It is difficult to measure 'infection rate'
+It is possible to measure how bacteria die.
+It is possible to measure the decay rate of endolosyns.
+Everything looks good so far.
+
 
 **H** Prepare some plots for today.
+Plots ready although some things could be improved. Maybe it is better to focus on the text after lunch?
 
 
 **M** Toni. Some questions that I have:
