@@ -132,7 +132,21 @@ Regarding 2. Here is a table of the dynamics:
 |9 | 118.44| 79.08 |GPD |GPD |
 |10| 133.07| 88.24 |GD  |GD |
 
-The dynamics are identical, but activations and deactivations change in time. The smaller $$\epsilon$$ the earlier do tipping points arrive. That makes sense.
+The dynamics are identical, but activations and deactivations change in time. The smaller $$\epsilon$$ the earlier do tipping points arrive. Code wise, everything makes sense, but I am puzzled by these results. What is the role of $$\epsilon$$ actually in this case? I think it depends. But in this case, and considering that you start from the full dynamics, higher values of $$\epsilon$$ correspond to higher values of concentrations (either phage or bacteria) below which you need to drop to get regime shift. That makes it faster for $$\epsilon=1$$ to shift regimes. The smaller $$\epsilon$$ the more you are going to have to drop. If you are in a quasistable regime, it is very difficult that you drop that far down: you are going to have oscillations caused by competing mechanisms that are not going to let concentration drop very much.
+
+I should correct this code and edit it. Particularly, I would like to put all the results (dynamics, times, and critical times) in a single dictionary.
+
+Now I am going to go for the kick code. My first goal would be to add carrying capacity to the model. I should also calculate the equilibrium concentrations with carrying capacity.
+I will have to do something 'ugly' for this particular experiment, where I will define the carrying capacity externally.
+Events are tricky in python (again, keep that in mind)
+
+The logarithmic xscale is going to be tricky. Linewidth will also be.
+Produce minimally presentable versions for tomorrow. Find sweetspot of step. If 1000 works well with step size=0.01, 1e6, should require a stepsize=10.
+
+
+
+**M** Toni. Some questions that I have:
+-In Matt's kick figure. For the case far from the equilibrium: is there a kick?
 
 
 
