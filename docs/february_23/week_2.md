@@ -164,6 +164,6 @@ Plots ready although some things could be improved. Maybe it is better to focus 
 -You need to be careful with the logistic model. Some combinations of parameter values may yield negative concentrations of phage.
 
 
-
+**W** Hyperion. Rewriting the abstract. Should I motivate the problem better? Anyone who reads the abstract wants to know why what I am doing is important. I should go for the results next.
 
 
