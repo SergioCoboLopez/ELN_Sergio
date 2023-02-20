@@ -18,3 +18,4 @@ nav_order: 3
 
 **CP** Think of metamorphic rocks and measurement chapter
 What to say about the measurements chapter? Not sure.
+Print quiz and script
