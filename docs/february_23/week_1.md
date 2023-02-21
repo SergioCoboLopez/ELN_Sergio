@@ -319,6 +319,7 @@ M_S(t) = M_S(t=0) + \frac{v}{V_I} D_E V_I t - (M_I(0) - D_E V_I) e^{-vt/V_I}
 \end{equation*}
 $$
 
+I figured out $$M_S(t=0) = M_I(0) - D_E V_I$$. I still don't know the physical meaning but that's ok, I will figure it out.
 
 
 **O** Biomath. Technology singularity
