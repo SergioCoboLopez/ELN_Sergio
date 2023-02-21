@@ -38,6 +38,7 @@ Summary: metamorphic rocks are those that have changed chemically or physically 
 
 ## February 21
 
+**MS** Salinity
 I am going to take a look at the MS now. I need to figure out why my code does not work with two variables and/or know what questions should I ask about it.
 I don't see anything weird about my code: I just add an extra variable.
 Hypotheses why the code might not work:
@@ -46,3 +47,7 @@ Hypotheses why the code might not work:
 Is the salinity=0 a problem? At least I am getting a different error. I think it is related to the simpy library. I updated the library and it does not work. I am suspeting data types might be a problem. I will check types.
 
 I found it and it was a stupid mistake: Apparently 'S' for Salinity was a forbidden name.
+
+What questions do I have? That depends on the results I want to get
+
+Think about datasets for salinity. Also models.
