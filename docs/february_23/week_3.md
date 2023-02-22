@@ -55,3 +55,17 @@ Think about datasets for salinity. Also models.
 **O** Finding datasets for salinity
 
 Finding these datasets is not trivial. Precisely because there are too many and they seem to be very big. If I enter the website of https://argo.ucsd.edu/data/ I see a section called 'Argo data files' and another section called 'Data from GDACs'. That's probably what I am looking for and I should read about them in order to be able to obtain data. Remember: my goals is to obtain O2 as a function of temperature and salinity with as many temperatures and salinities as possible.
+
+
+## February 22
+
+
+**MS** - Run the Machine Scientist with three parameters and 5000 steps. 
+
+**CP** - We know that the Earth+Moon is the result of a collision between early Earth and another planet of the size of Mars.
+There is a lot of interaction between the Earth's crust and the mantle. And water controls these transactions.
+Water is very important for the generation of the continental crust (continents?) and many other geological processes, not only life.
+Ocean subduction occurs with slabs of rocks with water. Is subduction related to volcanic activity?
+
+**H** - I would like to do the phase diagram figure. This implies that I should keep working in the code to make it smoother. More specifically, make the solver of the dynamics just an equation.
+I decided I am going to move forward with fixing the code. My goal has been to implement the automatized solution for r dominant scale. This means that the code will be jumping from one dynamic to the other automatically: the code will find an event (tipping point), will check wich term has been activated or deactivated, will look at the corresponding dynamic and run it until the next tipping point or until it finds the final time point. It looks like it has worked (the mechanism's already built) but I want to run a final test: produce both solutions, save the solutions to a text file and confirm there are no differences in those files)
