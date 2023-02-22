@@ -51,3 +51,7 @@ I found it and it was a stupid mistake: Apparently 'S' for Salinity was a forbid
 What questions do I have? That depends on the results I want to get
 
 Think about datasets for salinity. Also models.
+
+**O** Finding datasets for salinity
+
+Finding these datasets is not trivial. Precisely because there are too many and they seem to be very big. If I enter the website of https://argo.ucsd.edu/data/ I see a section called 'Argo data files' and another section called 'Data from GDACs'. That's probably what I am looking for and I should read about them in order to be able to obtain data. Remember: my goals is to obtain O2 as a function of temperature and salinity with as many temperatures and salinities as possible.
