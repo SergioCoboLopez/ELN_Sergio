@@ -75,3 +75,7 @@ Now I am correcting the method for m as a dominant timescale. I think I did it b
 2. xticks for m dominant.
 
 This works, I need to fix errors on plots and on the dataframe thing
+
+## February 23
+
+I am trying to put together figures for the paper we talked about two weeks ago. I need to think of the minimal effort to get this done. I have the figures, I will need to get a draft?
