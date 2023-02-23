@@ -69,3 +69,9 @@ Ocean subduction occurs with slabs of rocks with water. Is subduction related to
 
 **H** - I would like to do the phase diagram figure. This implies that I should keep working in the code to make it smoother. More specifically, make the solver of the dynamics just an equation.
 I decided I am going to move forward with fixing the code. My goal has been to implement the automatized solution for r dominant scale. This means that the code will be jumping from one dynamic to the other automatically: the code will find an event (tipping point), will check wich term has been activated or deactivated, will look at the corresponding dynamic and run it until the next tipping point or until it finds the final time point. It looks like it has worked (the mechanism's already built) but I want to run a final test: produce both solutions, save the solutions to a text file and confirm there are no differences in those files). It worked!
+
+Now I am correcting the method for m as a dominant timescale. I think I did it but I found two errors:
+1. I changed something in the dataframe for the active bioprocesses (the index). There is a function that depends on the first element of the index being zero. I have to remove that part of the dataframe.
+2. xticks for m dominant.
+
+This works, I need to fix errors on plots and on the dataframe thing
