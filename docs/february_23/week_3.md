@@ -79,3 +79,13 @@ This works, I need to fix errors on plots and on the dataframe thing
 ## February 23
 
 I am trying to put together figures for the paper we talked about two weeks ago. I need to think of the minimal effort to get this done. I have the figures, I will need to get a draft?
+
+I have equations and figures. I am going to work in minimally functioning captions.
+
+I should correct the equations and the flow they follow.
+
+## February 24
+
+**M** Goals with F.
+What to do in 2023. What are the priorities?
+
