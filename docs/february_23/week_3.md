@@ -89,3 +89,8 @@ I should correct the equations and the flow they follow.
 **M** Goals with F.
 What to do in 2023. What are the priorities?
 
+**PH** Suppose that I want to find conditions of quasi-equilibrium. Analytically, it seems a little bit 
+difficult. Unless I make some assumptions.
+I can assume eDAR is constant, and therefore the probability of infection is (although this should not be happening)
+I can also assume Hill Functions are also constant.
+
