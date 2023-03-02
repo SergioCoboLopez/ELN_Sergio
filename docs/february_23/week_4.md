@@ -50,4 +50,27 @@ system. Or if there are many different mechanisms coupled that can be reduced to
 read the first three or four chapters several times, I will start with chapters 6 and 7 and find and understand what a ESS is. 
 The questions in the test are very natural for a script of what I should say in the class.
 
-**PH** - GoldSIm
+**PH** - GoldSIm. Stability of the PHACOS system
+An Hyperion analysis tells us that timescales should be balanced for stability or quasistability. What are the important timescales here?
+We know for sure, $r$ and $m$ are. But we should add some others: $\mu_p$ should probably be considered. What about the probability of lysogeny associated? What about induction rate and
+even infection rate? I should try this approach. But I am going to build a non-stochastic version of the model.
+
+It could be that the measurements missed a peak in the viral concentration. However, that does still not explain the increase that comes with the change in O2. The mechanism that makes 
+them increase should be acting much faster than it does now. This mechanism should be having a more dramatic effect on the induction of lysogens to correct the viral decay.
+Hypothesis 1: we don't observe a burst in the dynamics.
+Hypothesis 2: the system is in the equilibrium.
+
+Hypothesis 1: This requires that the infection rate will be even higher (or lower decay rate) and that the lysogenic switch will be very fast and stronger than it is now so that it 
+introduces enough induction so that phage grow steadily but 
+bacteria do not die massively.
+
+Hypothesis 2: this requires quasi-equilibrium and also a significant change in the induction (lysogenic switch)
+
+
+Something important is to explain the dynamics of the first 48 hours. These dynamics can only be explained in terms of the VMR or the populations. In identical environmental conditions, VMR
+should explain the differences we observe.
+
+What hypothesis should I test first? And which simplications to make?
+
+I think I should get rid of the metabolic module, because it does not allow me to play around flexibly.
+Before anything, I should explore the scenario before the experimental intervention. They should rely only on pure bacterial dynamics.
