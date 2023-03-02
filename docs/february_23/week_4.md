@@ -64,6 +64,8 @@ Hypothesis 1: This requires that the infection rate will be even higher (or lowe
 introduces enough induction so that phage grow steadily but 
 bacteria do not die massively.
 
+**O** Jenna's model for master thesis
+
 Hypothesis 2: this requires quasi-equilibrium and also a significant change in the induction (lysogenic switch)
 
 
