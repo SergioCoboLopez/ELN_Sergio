@@ -86,3 +86,7 @@ I am thinking that this paper does not have a clear hypothesis or question in it
 sample (volume, mass, density) relates to the original properties of the system.
 For instance, what volume do I need to extract from $I$ to know $D_I$? Or what should be the flow rate? Given a flow rate and a set time, you would get a certain volume, mass, and density. This is going to be different from the original $D_I$, but you could backtrack/infer from your results. How do you do it?
 I think it is a matter of turning around the question and solving the problem of the initial conditions. If you have the sample mass, the time, flow rate and volume of interest, you should be able to extract the initial density.
+
+My units are wrong, I think. This still does not work
+
+So, given a time, a flow rate, volume of interest, and density of the environment, I can know the density of the interest system.
