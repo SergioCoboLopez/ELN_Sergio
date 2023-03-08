@@ -26,3 +26,22 @@ I should worry now about aesthetics. First, think of how to show a single cycle 
 Third, fix axes and ticks.
 
 I am looking at repeated values of the initial concentration of bacteria and phage to find the value at which a single cycle occurs. But this strategy is probably flawed. I should look at when the initial values is crossed. For the critical concentration lines, I should look at the minimum, maximum values of bacteria and phage, probably.
+This is not working yet. And I might be complicating myself too much over a relatively simple thing.
+I wonder what difference there is between 'string.T' and 'string'.
+
+If I want to plot vertical and horizontal lines with limits, I should consider that minimum and maximum values seem to be relative to the total screen.
+
+The function that I implemented to find repeated values in a vector, does not work. It is based on the sign of a vector - threshold.
+
+I am not completely satisfied with the phase diagram. I need to modify the linestyles and make them coherent with each other.
+
+I understand now what happens. The initial concentration of bacteria is the maximum value.
+
+I've solved this (minor) problem now. My solution is not very elegant, but it works. Now I am not convinced about the esthetics, but I am not going to solve that today. I will work in terms of an array of line styles. The "full" phase diagram will be gray, and the other phase diagrams will be different styles of black. The lines are going to be slightly longer than the points they cross, and symmetric in that.
+
+I don't think I am being very productive now. I should be fixing also sizes of ticks and axes. This is done now.
+
+I should go next for the lines that mark critical concentrations.
+I don't think this makes sense any more. I should edit the limits of the figures.
+
+Tomorrow I should add a legend, edit the figure and make the labels in the next figure (former Figure4d consistent.)
