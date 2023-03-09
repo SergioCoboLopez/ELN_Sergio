@@ -44,4 +44,22 @@ I don't think I am being very productive now. I should be fixing also sizes of t
 I should go next for the lines that mark critical concentrations.
 I don't think this makes sense any more. I should edit the limits of the figures.
 
-Tomorrow I should add a legend, edit the figure and make the labels in the next figure (former Figure4d consistent.)
+Tomorrow I should add a legend, edit the figure and make the labels in the next figure (former Figure4d) consistent.
+
+#March 8
+
+**M** Meeting with Jenna
+Model for Jenna's master thesis
+
+Hypothesis: High O2 leads to high VMR (more lytic activity)
+A model with two parts: phage-bacterial dynamics and metabolism.
+Low O2: temperate phages, anaerobic metabolism, faster growth rate, more biomass, lower VMR, more lysogens.
+High O2: virulent phages, catabolic metabolism, slower growth rate, less biomass, higher VMR, less lysogens.
+
+**H** Phase diagram
+Conceptually, the phase diagram figure is done. However, I don't like very much how it looks like.
+
+Tomorrow:
+1-Keep thinking about the phase diagram
+2-Kick figure
+3-Narrative of Jenna's model
