@@ -128,3 +128,7 @@ y-axis: amplitude/Pc or amplitude/Bc
 Toni says that if you push P out of the equilibrium enough, you will make it such that the predation becomes inactive.
 
 Fixed and concentration-dependent processes.
+
+Now, you would be fixing a time (of observation). And then, from that time, you will determine the terms that are active and are not.
+
+Imagine that you fix t=15 hours. Calculate critical concentrations based on that time t=15 hours. Make a per capita approach. Then, instead of dividing by r or m, multiply by $\tau$, your new temporal scale. (tau will be equal to 15 hours). Multiply on both sides of the equation by $\tau$. Calculate the critical concentrations based on that value of $\tau$. 
