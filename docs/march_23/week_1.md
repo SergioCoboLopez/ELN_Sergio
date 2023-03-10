@@ -63,3 +63,68 @@ Tomorrow:
 1-Keep thinking about the phase diagram
 2-Kick figure
 3-Narrative of Jenna's model
+
+## March 9
+
+
+**H** Figures
+
+The last figure in the list was a intended to be a 'subplot' of the kick figure.
+I think the y axis would be the amplitude of oscillation. The x axis would be the perturbation (the strength of the k)
+I could calculate the amplitude of the oscillation by taking the maxima and minima of the concentrations. However, I will probably have to do this in a more subtle way that just looking at maxima and minima. I think I should find cycles of oscillations. Within those cycles, I should identify maximum and minimum. The half of that is the amplitude. Probably I should take the whole thing. I think the idea of the figure is: you will get exponentially higher amplitudes for r and m dominant and linearly higher amplitudes for m~r. You are going to have to plot different figures for different kicks. I don't think your code will work for this.
+I've changed my mind and decided it is fair to take the maximum and the minimum. I've done this on a single instance of the code and it seems to work. Next step.
+I need to introduce multiple perturbations and extract the amplitudes.
+I am having a hard time defining the kicks. I think -1 to 1 would be a good start.
+
+These maxima and minima look crazy. I need to plot them to be completely sure about them. Makes sense.
+
+
+Should I try colors instead of linestyles?
+
+**M** Meeting with Toni. Ideas for papers:
+1. Timescales of measurement.
+2. How to introduce timescales in PHAGES. Apply Hyperion to PHAGES?
+   -Make a list of all processes in the system.
+   -I want to measure those processes
+   -Timescales of measurements? Or of entities? Or measurements from entities point of view.
+   -Read phages?
+
+Given an agent A and a process P, and a timescale $\tau$ (or spacescale $\lambda$), you measure the per capita contribution. Think of phages to sharks.
+
+A mechanistic model of phage-to-shark.
+
+Processes and time/space-scales
+
+Figure 4
+
+b - remove vertical lines.
+    Keep version with lines for the supplementary
+
+Phase diagram
+  Plot relation between critical concentrations from $\epsilon$:
+  $Pc=cBc$. $Pc=\epsilon r/d$ , $Bc=\epsilon r/cd$
+
+  Exact solution in black. Other solutions in gray and keep dashing lines.
+  Add three quadrants in inkscape(one per value of $\epsilon$)
+  Plot critical line and plot quadrant (minimum epsilon that crosses the critical points)
+  Repeat phase diagrams for $r$ and $m$ dominant (supplementary). You will probably have to do logscale.
+Narrative: for large values of $\epsilon$ we only pay the phase of the oscillation.
+Change active to observable? If you wait enough you see more active terms. That doesn't mean that other terms with shorter timescales become insignificant. Maybe makes sense to change from active to observable.
+
+There are two types of terms: constant (growth and decay) and time-dependent (predation and burst, because they depend on phage, and bacteria, respectively)
+
+$$
+\begin{equation}
+\frac{1}{A_k}\frac{dA_k}{dt}=\sum_i P_i (A_k (Parameters))
+\end{equation}
+$$
+
+What happens if you have space? Think about space.
+A product of time and space (uncertainty principle in the macroscopic world)
+
+-Figure d of the kick:
+y-axis: amplitude/Pc or amplitude/Bc
+
+Toni says that if you push P out of the equilibrium enough, you will make it such that the predation becomes inactive.
+
+Fixed and concentration-dependent processes.
