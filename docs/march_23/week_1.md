@@ -131,4 +131,14 @@ Fixed and concentration-dependent processes.
 
 Now, you would be fixing a time (of observation). And then, from that time, you will determine the terms that are active and are not.
 
-Imagine that you fix t=15 hours. Calculate critical concentrations based on that time t=15 hours. Make a per capita approach. Then, instead of dividing by r or m, multiply by $\tau$, your new temporal scale. (tau will be equal to 15 hours). Multiply on both sides of the equation by $\tau$. Calculate the critical concentrations based on that value of $\tau$. 
+Imagine that you fix t=15 hours. Calculate critical concentrations based on that time t=15 hours. Make a per capita approach. Then, instead of dividing by r or m, multiply by $\tau$, your new temporal scale. (tau will be equal to 15 hours). Multiply on both sides of the equation by $\tau$. Calculate the critical concentrations based on that value of $\tau$.
+
+## March 10
+
+**CP** I found a potentially good question for Monday's quiz
+
+**H** Prepare graphs for goals and corrected the code.
+
+**MS** Prepare plots for goals. I should be able to plot the original models vs the fit by benson krause. At the same time, I should be able to plot the ensemble of models. I just have to do whatever Oriol told me to.
+I don't remember how to recover the parameters now. Got it.
+Now, I am not sure about how to get the ensemble of the models. I don't think I can find it trivially, honestly.
