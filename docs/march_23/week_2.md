@@ -5,8 +5,6 @@ parent: March 2023
 nav_order: 2
 ---
 
-<<<<<<< HEAD
-
 
 | Goal | Notes |
 | ----------- | ----------- |
@@ -41,7 +39,11 @@ Dissipation is not very different from friction, actually. If energy is transfor
 **PH** I went back to the metabolic model. The metabolic model had originally two parts: the phage bacterial dynamics and the metabolic part. Both parts of the model are connected through $$eDAR$$. To make things simpler, I am going to play with eDAR artificially so that I can really test my model and do the Hyperion part of it.
 
 Now, suppose that eDAR oscillates over time. And the corresponding Hill Function oscillates between 0 and 1. The period of oscillation would determine the timescale at which things happen.
-=======
+
+## March 15
+
+**PH** PHACOS Model
+
 After the normoxic event, I would expect an aerobic metabolism kicking in.
 The system's thermostat is not working properly. And I don't know why. But that explains a lot of
 things.
@@ -54,4 +56,19 @@ That thermostat is inactive by default. And it never switches on.
 
 The thermostat works. However, the O2 consumption is too low to activate it. If I reduce the bandwidth
 so as to activate the thermostat nothing changes that much.
->>>>>>> 14e955e93e3fd5bb16ab8ebfdbc74716d647a50c
+
+## March 16
+
+**PH** PHACOS model
+
+It seems that the data was and is correct. The model has to be wrong then.
+
+**H** Fix code.
+
+I should get rid of the epsilon terms and let the timescale be the observation time. How should I do that? I think I should determine 'time_f' as the same as epsilon.
+I need to fix the code. Partially fixed.
+
+Tomorrow:
+think of the putative model of eDAR for the model with Jenna and maybe PHACOS.
+Write the hyperion equations for the metabolic model.
+Fix code.
