@@ -16,3 +16,6 @@ nav_order: 3
 
 **H** Redo code and calculations
 I started fixing the repository to write the new equations with different timescales.
+
+Make sure simplified dynamics are right.
+Start plotting figures adequately.
