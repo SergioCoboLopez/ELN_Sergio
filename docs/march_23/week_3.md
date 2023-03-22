@@ -27,3 +27,7 @@ x and yticks are a problem for unknown reasons to me.
 I will have to change the functions that find changes in the dynamics.
 
 Simplified dynamics look correct. The critical concentrations match the result in the code. Even the critical time for the first change in the dynamics does.
+
+## March 22
+
+I want to play now with the latex version of the model. Then I should tackle the problem of the Hill Function.
