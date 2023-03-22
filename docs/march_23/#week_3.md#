@@ -19,11 +19,11 @@ I started fixing the repository to write the new equations with different timesc
 
 Make sure simplified dynamics are right. - done for r dominant
 Start plotting figures adequately.
-Find how the active bioprocesses should look like now. - mostly done
+Find how the active bioprocesses should look like now. - mostly done. I ran some tests for 'r' dominant and it works.
 
 Go for m dominant
 x and yticks are a problem for unknown reasons to me.
 
-I will have to change the functions that find changes in the dynamics
+I will have to change the functions that find changes in the dynamics.
 
 Simplified dynamics look correct. The critical concentrations match the result in the code. Even the critical time for the first change in the dynamics does.
