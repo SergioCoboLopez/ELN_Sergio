@@ -59,3 +59,22 @@ Things to do tomorrow:
 1. Produce consistent figures for meeting.
 2. Get two different versions of the figure for m~r
 3. Finish metabolic model
+
+
+## March 23
+
+**H** - corrected figures
+I finished goals 1 and 2.
+
+**MS** - I am going to make the MS work for Jenna's dataset.
+I expect to get VMR as a function of rank. In a first approximation, I do not expect any other variable to be decisive.
+How many parameters?
+I am going to try 1,2, and 3 parameters.
+
+So far this is not working, I don't know very well why. Is it the dataset or is it the code?
+
+Now it is working. I am having a hard time manipulating the expressions that come out of the machine scientist automatically.
+But I should focus on getting things done now.
+This is moving on correctly
+
+**PH** - Write equations fast
