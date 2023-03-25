@@ -78,3 +78,31 @@ But I should focus on getting things done now.
 This is moving on correctly
 
 **PH** - Write equations fast
+
+## March 24
+
+**H** Hyperion of the metabolic model
+
+I did the basic calculations of Hyperion for the metabolic model. I feel this closes the two lines that I've working on.
+Something that I have seen is that Hyperion requires here a different approach than critical concentrations, because there are non-linear terms.
+Another thing is whether my mechanism for lysogeny is more or less accurate and if it is something that I can really adapt to any other mechanism for a lytic/lysogenic switch.
+
+What results can I possible get from this model?
+
+I fixed a bit the figures and code. The heatmap plot is going to be a mess, particularly for m dominant timescale. I had a method for lighting up the heatmap that now does not work anymore.
+I found a solution based on an old method that consists on putting the time vector as the index of the dataframe. I did this right before plotting to prevent any other mistakes (I remember there being mistakes)
+
+Now, the whole point here will be to make all the xticks for all the timescales consistent. For that I will need to:
+1. Set ticks for mr_Disequ and mr_Equ with the 'if instances'
+2. Apply the heatmap enlighter also to these two timescales
+3. Make xticks in the heatmap consistent with those.
+
+My ultimate goal would be to build a consistent library and put all simplified function in the metamodel library.
+Then, I would make the method suitable for other models.
+
+I have been able to move a function to the library. But taking all the functions to the library will be more work than expected and I need to be more focused. However, I imagine I will have to move each function at a time, probably in ordered of nestedness.
+Functions in the library should be ordered according to when do they appear in the code.
+When I do that process, I should select an output to compare every time I move a function. I can just take the simplified dynamics, write it to a file, and do a 'diff'
+
+
+I will have to do (at some point in the future) a documentation of how the work works: particularly how does it switch one dynamic to the next.
