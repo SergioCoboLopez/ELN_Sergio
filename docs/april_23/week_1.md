@@ -32,3 +32,8 @@ Keep doing this, means to fix the container with the parameters:
 2. Think if there is another way to arrange elements (probability of lysogeny)
 3. Make a container for eDAR that you can import right away (it could be a function that you define or 
 the metabolic model?)
+
+##April 4
+
+How am I going to fix the container of the parameter values. I want to have a stochastic model and a non
+stochastic model together. I should be able to easily change from one to the other. This looks good.
