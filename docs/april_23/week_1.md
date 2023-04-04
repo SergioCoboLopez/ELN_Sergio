@@ -37,3 +37,15 @@ the metabolic model?)
 
 How am I going to fix the container of the parameter values. I want to have a stochastic model and a non
 stochastic model together. I should be able to easily change from one to the other. This looks good.
+
+How to import now the metabolic part of the model? How to separate it from the rest of the world? How to make it flexible enough to allow for interventions/experiments?
+
+How to do a metabolic machine that works independently of the rest of the world? I think that would be very important. I keep changing things in my models and making corrections and that makes my models automatically outdated.
+I should have at least three independent modules and work on them separately.
+One model for phage-bacterial dynamics
+Another model for eDAR purposes
+A final model for metabolism
+
+These three modules should operate as independently as possible. If I put them together, goldsim should not complain about it. Or should complain minimally. 
+
+Next goal: Build a metabolic module that is as independent of the rest of the world as possible.
