@@ -31,3 +31,7 @@ Simplified dynamics look correct. The critical concentrations match the result i
 ## March 22
 
 I want to play now with the latex version of the model. Then I should tackle the problem of the Hill Function.
+
+New lytic/lysogenic switch. Based on VMR.
+
+Find inflection point of Jenna's fit; first or second derivative of her curve.
