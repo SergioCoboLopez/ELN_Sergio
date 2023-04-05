@@ -35,6 +35,7 @@ the metabolic model?)
 
 ##April 4
 
+**PH** - Repair GoldSim models
 How am I going to fix the container of the parameter values. I want to have a stochastic model and a non
 stochastic model together. I should be able to easily change from one to the other. This looks good.
 
@@ -49,3 +50,24 @@ A final model for metabolism
 These three modules should operate as independently as possible. If I put them together, goldsim should not complain about it. Or should complain minimally. 
 
 Next goal: Build a metabolic module that is as independent of the rest of the world as possible.
+
+**H** - Fix code and put functions in libraries.
+
+If I moved the function 'Concatenated_simplified_dynamics' I would have to move everything that this function calls. Next step: list all the functions that depend on 'Concatenated_simplified_dynamics' and bring to the library the most nested one.
+
+Dependent functions on 'Concatenated_simplified_dynamics':
+
+1. Solve_Simplified_Model
+2. Monitor_Dynamics
+
+
+First function moved to library
+
+Second and third functions moved. Something looks weird, though. I figured out what the problem is.
+
+Only equations left to update.
+
+Tomorrow: keep building modular versions of GoldSim model.
+Edit paper with Breeann and Heather.
+
+## April 5
