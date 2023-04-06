@@ -120,3 +120,4 @@ Ok, I have started editing this document. I should give this 30 minutes tomorrow
 Then, I am going to put an hour into making GoldSim more modular.
 And then I am going to work on the code (moving what I have to the library and prepare for the next model)
 I should also think about Jenna's model: for instance extract linear part of the model by hand. Also find tools to extract the linear part of the model from the figure.
+Also, take a look at the class.
