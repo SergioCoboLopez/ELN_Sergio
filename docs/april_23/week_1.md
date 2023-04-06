@@ -71,3 +71,52 @@ Tomorrow: keep building modular versions of GoldSim model.
 Edit paper with Breeann and Heather.
 
 ## April 5
+
+**M** - Meeting with Jenna and Forest
+
+VMR Arms Over time: the smaller the VMR the smaller the hole. Smaller holes are less O2 or more DOC via algae.
+More O2, more VMR
+Why is VMR=10 is important? Because thi is the average you would see in marine systems.
+
+1. Take the data of the aquarium and the arks
+2. Find the inflection points of the curve.
+3. Take the linear phase. How to get the linear phase?
+     a. By eye
+     b. Machine scientist and second derivative
+     c. A method that finds the linear phase of any curve
+     
+
+Forest claims the linear phase is the Goldilocks line.
+
+Think as VMR regulating eDAR and not otherwise. This is because we do not know how to measure DOC.
+
+**H** - Fixing code
+I am trying to put all functions in the library. This does not work, because the function Solve_Simplified_Model does not know what the parameters are.
+I need to tell the function about the parameters. What would be the best way to do this? What is the most practical way to do it? My first thought would be to make the parameters just another argument of either Solve_Simplified_Model, 'Concatenated_simplified_dynamics' or both. However, is this the best way to do things? What should this code do? Or how modular do I want it to be?
+
+The inputs of my method should be the values of the parameters, initial concentrations, and experimental time. Nothing else.
+Being that the case, I would make a dictionary named parameters. Every key is the 'name' of the parameter, every value is its corresponding value. This dictionary is an argument of the function 'Concatenated_simplified_dynamics'. It is also a function of the Solve_Simplified_Model function. I think this should work.
+
+**W** - Subaquatic sampling paper.
+
+I will start accepting all changes proposed by them.
+I don't know where to start. But what about starting with the abstract?
+The question would be: given a sample that has a larger concentration of VLPs than the environment, what is the volume that we would need to sample to get the same concentration?
+I think the problem is:
+-I know my environment of I has a concentration C that is higher than that of the environment E.
+-However, I cannot sample I without diluting it with E.
+-So, how much volume should I extract to my sample from the environment of interest to have the same concentration. Or, given the volume and density of the sample, and given the volume of I, can I get the concentration of I?
+
+I've realized that all my plan collapsed quite fast because I needed to think about what my paper was about. I don't think that's bad, it is something I have to deal with. At the same time, I notice that I really do not want to be doing this, but that's because it is hard and requires me thinking. And I do not want to do that.
+
+So, now I know that my paper shows a method to calculate the density of interest given:
+the volume and density of the sample
+the volume of interest
+the sampling rate
+the sampling time
+The density in the environment.
+
+Ok, I have started editing this document. I should give this 30 minutes tomorrow (at least)
+Then, I am going to put an hour into making GoldSim more modular.
+And then I am going to work on the code (moving what I have to the library and prepare for the next model)
+I should also think about Jenna's model: for instance extract linear part of the model by hand. Also find tools to extract the linear part of the model from the figure.
