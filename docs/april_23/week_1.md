@@ -7,8 +7,7 @@ nav_order: 1
 
 ##April 4
 
-**PH** I want to actually decouple the metabolic model (in its many instances) into three modules that
-can effectively operate separately or with minimum overlap.
+**PH** I want to actually decouple the metabolic model (in its many instances) into three modules that can effectively operate separately or with minimum overlap.
 I thought I could do this by copying the contents of one container into a single model and seeing where and
 how the model fails.
 
@@ -91,6 +90,7 @@ Forest claims the linear phase is the Goldilocks line.
 Think as VMR regulating eDAR and not otherwise. This is because we do not know how to measure DOC.
 
 **H** - Fixing code
+
 I am trying to put all functions in the library. This does not work, because the function Solve_Simplified_Model does not know what the parameters are.
 I need to tell the function about the parameters. What would be the best way to do this? What is the most practical way to do it? My first thought would be to make the parameters just another argument of either Solve_Simplified_Model, 'Concatenated_simplified_dynamics' or both. However, is this the best way to do things? What should this code do? Or how modular do I want it to be?
 

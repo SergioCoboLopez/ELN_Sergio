@@ -75,3 +75,4 @@ Time to test the logistic version.
 Ok, this works well too. This is mostly ready.
 Now I want to make the kicks in absolute value, so that I can define them from the csv file.
 How do I define the kick both in relative and absolute terms? So I can kick the concentration by a certain rate. But what if I want to define an absolute value?
+
