@@ -23,6 +23,7 @@ The Electronic Lab Notebook has a section for each month. Each month is further 
 |Meeting| M - Follow this by who you are meeting|
 |Writing| W - Follow this by paper or draft |
 |Class Preparing| CP |
+|Coding| Code |
 
 ## Instructions to use the ELN (linux)
 

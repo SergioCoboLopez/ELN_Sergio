@@ -62,8 +62,8 @@ The equation for the density of the sample has an explicit dependence on the den
 **W** Transient. Put figures and captions in draft of the paper.
 
 Tomorrow:
-Meeting Jenna and Forest.
-Outline of the ESA conference.
+Meeting Jenna and Forest. - done
+Outline of the ESA conference. - done (somehow)
 Read draft and take notes of what needs to be changed.
 Do a grammarly read.
 Go back to figure of criticals and decide what needs to be done - 20 minutes
@@ -75,3 +75,49 @@ Thinki how you could add noise to equations.
 Outline of ESA meeting
 Finish table
 
+## May 3
+
+*P* ESA Workshop. What can I possibly tell in the workshop and how could I organize it?
+
+Because I have 90 minutes, I should structure the workshop in three blocks, I think:
+1. Introduction
+1.1. What is GoldSim and why is important
+1.2. Types of variables and main features.
+1.3. Build a Lotka-Volterra model step by step: exponential growth, predation, and decay.
+
+2. An actual model of ecology
+2.1. Ok, Lotka Volterra models are good, but can we go further with this?
+2.2. Introduce lysogeny
+2.3. Introduce a link between lysogeny and metabolism. Hill functions.
+2.4. Show results
+
+3. How does this relate to what we are doing in terms of research
+
+3.1 We do not know very well what the switch of lysogeny is
+3.2. We cannot tell lysogens, infected, and sensitive bacteria from data. We use models for that.
+
+
+*M* Forest and Jenna
+
+GoldSim model: Maybe add a term to kill bacteria.
+
+Add a term for lysogen immunity.
+Table with parameters for initial conditions.
+Ask for an oracle in GoldSim. Given a result, find the parameters that recover that model.
+Don't have two different y axes.
+
+1. Remove double y axes.
+2. Write down the model equations and a table with all the parameters.
+3. Write the oracle email.
+4. Write a function and calculate the difference between data points and model.
+5. Keep doing the oscillating eDAR.
+
+
+How can I apply our approach to this model? In this case, I have lots of processes going on.
+I am thinking I might be experiencing a psychological barrier with GoldSim.
+
+
+
+Tomorrow: I would print the paper, read it, and make a list of what needs to be changed or corrected. The main focus should be on making sure the first two or three pages look as good as possible.
+
+I would also write down my outline of the presentation for the ESA and work a bit on the goals.
