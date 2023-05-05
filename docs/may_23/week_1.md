@@ -71,7 +71,7 @@ Register for conference - what it takes.
 
 Day after tomorrow:
 Start doing new figure.
-Thinki how you could add noise to equations.
+Think how you could add noise to equations.
 Outline of ESA meeting
 Finish table
 
@@ -121,3 +121,12 @@ I am thinking I might be experiencing a psychological barrier with GoldSim.
 Tomorrow: I would print the paper, read it, and make a list of what needs to be changed or corrected. The main focus should be on making sure the first two or three pages look as good as possible.
 
 I would also write down my outline of the presentation for the ESA and work a bit on the goals.
+
+Ask Greg how to measure carrying capacity.
+
+Cada molecula vector representation
+
+Tomorrow: at the very least, print paper and take it to Toni.
+Make a list of the things you want to prioritize.
+Think about abstract.
+Maybe upload code with corrections.
