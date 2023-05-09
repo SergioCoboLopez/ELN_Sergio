@@ -130,3 +130,11 @@ Tomorrow: at the very least, print paper and take it to Toni.
 Make a list of the things you want to prioritize.
 Think about abstract.
 Maybe upload code with corrections.
+
+## May 5
+
+**M** Meeting Transients:
+Things I want to prioritize
+1. End putting references
+2. Tipping points vs critical concentrations.
+3. Equations.
