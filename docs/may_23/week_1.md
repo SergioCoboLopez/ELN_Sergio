@@ -56,7 +56,7 @@ It seems to be that these jumps are not necessarily indicative of alternative st
 1. compare results of code to goldsim.
 2. Make a file of csv entries (and outputs?)
 
-The interisting insight of the paper would be to get the density of the interest out of the sample.
+The interesting insight of the paper would be to get the density of the interest out of the sample.
 The equation for the density of the sample has an explicit dependence on the density of interest at time t=0. But it depends on the time and sample rate. I could show the value of D_I for different values of v and t
 
 **W** Transient. Put figures and captions in draft of the paper.

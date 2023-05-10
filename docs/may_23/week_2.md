@@ -26,7 +26,31 @@ Keep reading transient dynamics to look for specific references
 Figure 4 has been redone. Refs corrected.
 Reference style corrected.
 Things to do:
--Error formula: try something before messaging T
+-Error formula: try something before messaging Toni
 -Fix supplementary materials File 1
 -Fill up table with equilibria
 -Fix supplementary materials figures.
+
+
+## May 9
+
+I am going to go for the next figure for the subaquatic sampling paper today. How am I going to do this figure? So what I want to plot is Ds vs Di(t=0). I want to do this because the goal would be to get the density of interest given the density of the sample. However, there are different parameters there: time and sampling flow rate, particularly.
+I can put the density of the environment $D_I$ as a function of $D_S$ as:
+
+$$D_I=D_E - \frac{vt(D_S - D_I)}{V_I(\exp{\frac{-vt}{V_I}} - 1)$$
+
+How do I code this now? I want to set specific time values and flow rates. I should do this with the same structure I was using.
+
+I think once I have my function I can do whatever I want with it.
+I have plotted Di as a function of Ds for a fixed interval time and different flow rates, but I am not satisfied with the results. Different flow rates produce different sample densities. Should I fix the sample density and play around with time points instead? But how would I do that exactly? I need to keep thinking about it.
+
+Tomorrow:
+ Prepare a template for the conference with Jenna.
+ Take a look at the eDAR function
+ What is missing in the modular model?
+ What are the parameters?
+ What does Jenna need to be done?
+
+After the meeting, think about the figure for the subsampling paper.
+
+Do the error analysis: do the derivation on your own, copy-paste formula on paper (even if it is wrong). Once you finish, translate that to latex.
