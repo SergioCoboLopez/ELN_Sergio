@@ -54,3 +54,13 @@ Tomorrow:
 After the meeting, think about the figure for the subsampling paper.
 
 Do the error analysis: do the derivation on your own, copy-paste formula on paper (even if it is wrong). Once you finish, translate that to latex.
+
+I don't know whic formula I should put for the error: a general one or one tailored to the specific problem.
+
+Tomorrow:
+-Make sure error formula in the main text makes sense.
+-Print and review text.
+-Revise supplementary derivation of error estimate.
+-Finish derivation of the PerCapFinit
+-Upload new version
+-Supplementary figures
