@@ -24,6 +24,7 @@ The Electronic Lab Notebook has a section for each month. Each month is further 
 |Writing| W - Follow this by paper or draft |
 |Class Preparing| CP |
 |Coding| Code |
+|Others| O - Followed by a short description |
 
 ## Instructions to use the ELN (linux)
 
