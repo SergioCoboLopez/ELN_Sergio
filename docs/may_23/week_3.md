@@ -63,3 +63,24 @@ In addition to that we explored the optimization feature. That should tell us th
 **code** fixing the code for the hyperion/percaptfinit project.
 
 I made corrections to percapfinit main code. I decoupled it from internal data input and instead it works calling a csv file for inputs. Next: remove input data from function file. Make equations independent from code and part of the library
+
+Tomorrow:
+print paper
+Fix error and formalism discussion
+Fix table S1 and upload it
+Abstract for conference
+
+## May 19
+
+**W** Transient dynamics
+I fixed the discussion of the formalism and the error in the supplementary materials. There are some steps of the derivation that I do not understand well, but I can talk that with Toni.
+
+I also created a table with the parameters and results from the simulation and uploaded it to the google drive folder.
+
+**R** Control and optimization of air traffic networks
+So far interesting to get an overall view of the field
+
+**R** Marten Scheffer's crititical transitions
+I finished chapter 2. I did not find the last part of the chapter particularly insightful.
+
+**code** I fixed a few things on the percapfinit code. A set of minor errors and small things with figures.
