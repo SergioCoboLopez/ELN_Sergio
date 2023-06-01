@@ -62,3 +62,102 @@ Reviewers:
 1. Applied math researcher: Strogatz, Alan Perelson
 2. Theoretical biologists (Eco/Evo): Hastings, Weitz (?), Bruce Levin, Koonin (collaborators of him that do models)
 3. Theoretical Biophysicist: Scheffer, Ricard Sole, Turchin, Jordi Bascompte, Rob Phillips.
+
+## May 23
+
+I am going to assess the things I should do about the paper and the abstracts for the conferences. I will start taking notes on the draft from yesterday.
+Then I should read the papers Toni sent me.
+And I should reserve some time for the abstracts.
+
+Text:
+Introduction, 1st paragraph -  remove sentence - done
+At the end of the first paragraph I have confusing notes and I don't know exactly what I am supposed to correct. I think several things:
+1. Toni suggested one of the sentences should go to the third paragraph.
+2. He said it would be better to highlight simply that it is very difficult to study transient dynamics because of a number of reasons.
+3. He also suggested this could be an opportunity to introduce keywords (tipping points, for instance) and references (probably new ones).
+4. He mentioned that the first sentence of the second paragraph could go at the end of the first paragraph. - done
+
+Introduction 2nd paragraph
+References to complement Strogatz (fast-slow dynamics)
+
+Introduction, 3rd paragraph
+1. Remove some first person
+2. Try first sentence from the first paragraph.
+3. A few typos or changes in sentences.
+4. Remove Turchin reference - done
+
+
+Change active or activated instead of 'relevant'
+
+
+
+Results
+Add titles for subsections
+1st section
+    Discuss the figure in the first place
+    Change equations in deduction
+    Change discussion about processes being active or not
+    Discuss errors and orders (I don't know how)
+    Clarify that you are staying on first order
+    
+change X%
+
+
+I am going to look at the first reference now. What should I specifically look for here?
+1. Keywords
+2. Other approaches?
+3. References
+
+Idea: Take the first part of the sentence to the third paragraph and leave the rest as it is for now.
+
+First paper to read:
+1st paragraph: Regime shifts happen when a tipping point is passed. It is important to predict them because they have serious consequences.
+2nd paragraph: There are statistical methods to identify regime shifts (his thesis). Autocorrelations in time series.
+3rd paragraph: He did a field experiment manipulating lake ecosystems to see if they could identify tipping points.
+4th paragraph: Description of the system (competitive trophic triangle)
+5th paragraph: Description of the experiment (control and experimental lake, addition of predators)
+6th paragraph: They detected warning signals of tipping point (novelty)
+7th paragraph: The novelty was the use of heteroskadasticity
+
+They did find a tool to predict regime shifts. And that is important and should be credited. Do I want to know what heteroskadasticity means in some detail? Maybe but not know.
+
+From what I read today, I get the conclusion that there is at least one tool to predict transient dynamics or regime shifts at least. This tool is based on statistical analysis of time series, particularly something called Heteroscedasticity. How would our method solve that? The method would assess (a priori) all the processes present in the system and it could determine whether processes are active or not and in which order they are. Identifying the critical concentration, it could predict the tipping point. Also, it would not rely on statistical analyses.
+
+
+Tomorrow:
+
+-Fix Figure 1
+
+-1st section
+    Discuss the figure in the first place
+    Change equations in deduction
+    Change discussion about processes being active or not
+    Discuss errors and orders (I don't know how)
+    Clarify that you are staying on first order
+    
+-change X%
+
+Other things about the introduction:
+      Refine what you introduced today:
+      	     Toni said it would be better to highlight simply that it is very difficult to study transient dynamics because of a number of reasons.
+	     He also suggested this could be an opportunity to introduce keywords (tipping points, for instance) and references (probably new ones).
+
+Read other papers
+
+## May 24
+
+**M** Meeting with Jenna
+
+**M** Meeting with Toni Valles
+Put review in references
+Look at the code
+Look at papers that cite the paper we discussed today.
+
+## May 25
+I am going to start doing some of the literature review that Toni was telling me. My goal should be to take a look at the second paper in the list and see if there are any alternative methods they show and how I could assess them within our own method.
+
+**R** Alternative methods for transient dynamics https://doi.org/10.1093/icesjms/fsaa056
+
+In the abstract they define regime shifts not very specifically: (periods of rapid change punctuating longer periods of lower variability)
+They apply their work to fisheries.
+They use regression models (statistics) applied to three quantities: among-species mean rate of change, mean per-capita rate of change, and standard deviation of percapita rate of change
