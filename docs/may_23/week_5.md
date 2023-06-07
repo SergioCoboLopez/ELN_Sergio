@@ -37,3 +37,7 @@ Three ideas:
 1. Define transient dynamics
 2. Specify what is difficult to predict.
 3. Add a final sentence to 2nd paragraph to add all the things I have been reviewing.
+
+## June 1
+I will submit a milestone version before starting removing chunks of text. Maybe I should consider upon a deep read what to remove to get to a minimal version.
+Also consider removing first person formulations.

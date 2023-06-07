@@ -1,0 +1,59 @@
+---
+layout: default
+title: Week 1
+parent: June 2023
+nav_order: 1
+---
+
+| Goal | Notes |                                                     
+| ----------- | ----------- |                                        
+|(W)|Transient dynamics figure; subsampling draft|
+|(PH)|GoldSim Model; Meeting with Jenna|
+|(R)|Critical transitions; airport review|
+|(Code)|Implement adding noise to subsampling equations|
+|(O)|Get hotels booked for trip; meet with Toni Valles; Send draft to advisors|
+
+
+## June 6
+
+**R** Control and Optimization of Air traffic networks
+Network model of airport delays.
+They use something called Markov Jump Linear System Models (MJLSM). (what does linear mean here? I think it means delay evolve linearly) To me, Markov means a stochastic process in which the state at n+1 only depends on the state of the system at n.
+Nodes are airports, links are delays. Links are weighted (by the delay time) and directed.
+
+**code**
+I want to add stochasticity to the problem of the subaquatic sampling. I have a code that works for a specific problem and I do not understand that code.
+I could try to input my model inside that code and see if that works or I could try to translate the code into my "own language". I think I could get faster results using the first alternative. The first alternative may or may not work. In that case I would go with the second alternative.
+Which steps should I take to do things with the first alternative?
+I should first introduce the model that I am implementing (subaquatic equation). That alone could induce errors.
+I should be able to incorporate the analytical solution (or the non-stochastic equation) in the figure.
+
+Looking at the code, I have a better feel of the steps I should take.
+1. Write both models
+2. Do a first version of the subaquatic model.
+
+This is growing positively instead of negatively. I do not understand what is going on.
+
+Ok, something's wrong conceptually then.
+This works now. I had an error with the initial conditions.
+
+Something that I am seeing is that I really have to turn the noise up to see something. This can mean two things: either this system is very noise-robust or I am not applying the noise correctly. The way I have done it so far is that I apply the noise to the whole system. Which is fair. There could be noise in how we measured the mass of interest, the density of the environment, the sampling speed...
+
+I have implemented two noise strategies: add noise to the whole process and add noise to to the sampling rate. Probably the main source of noise in this case would be the sampling method, but this is good enough.
+
+Tomorrow:
+fix the code to make clear which noise is which (have two functions)
+comment the code
+Change mass by density
+put the code in the repository
+Can you add noise to the sample volume? Maybe it is too complicated, but you can decide what you would do about it.
+
+## June 6
+Mostly everything from yesterday done and put into the draft.
+What would I do about the sample volume? In case I needed, I would try to numerically solve the equation for the sample volume, that simply connects with the equation for the interest system. But I don't think this is worth it at this time.
+
+Tomorrow:
+Take a look at the code for Toni's project.
+Start with concept figure (take notes on what needs to be done)
+Send email to Roger and Marta
+Send email about changing grant
