@@ -57,3 +57,72 @@ Take a look at the code for Toni's project.
 Start with concept figure (take notes on what needs to be done)
 Send email to Roger and Marta
 Send email about changing grant
+
+## June 7
+
+**R** Critical Transitions
+
+Systems go from a statit equilibrium to oscillations (think of Lotka-Volterra) through Hopf bifurcations. This is what happens if you increase the carrying capacity. The change from a stable equilibrium to a cyclic one is given by a Hopf bifurcation. This particular case is called the "paradox of enrichment".
+
+**code** The airplane project
+
+I have a code that sends two planes from point a to point b in the same trajectory. The code allows me to select and control the size of the grid.
+The code is composed of two classes: grid and vehicle.
+
+Here is what I would like to do:
+1. I would like to control or know all the possible trajectories between any two points a and b.
+2. I would like to add time.
+3. I would like to fleet a certain number of planes every number of hours.
+
+1.
+a. How does the current function for finding trajectories work?
+b. How would I write a script to find all possible trajectories?
+
+A function called '_find_path' does the path finding.
+There is another function belonging to the grid called 'self.visits' that seems to display where the vehicle is at any given time.
+I do not think this algorithm is what I am looking for as it seems to be inherently biased. However, I do not think there is anything better to solve this problem than exploring all possible trajectories and selecting the shorter ones.
+
+I might have found a solution: dijkstra's algorithm.
+
+I moved on quite a lot with the algorithm, but it does not the things I want it to do. I need to look at it tomorrow again.
+
+Tomorrow:
+
+Keep looking at the code for Toni's project.
+Start with concept figure (take notes on what needs to be done)
+Send email about changing grant.
+
+
+## June 8
+
+If I had to make a poster:
+   1. Change title
+   2. Change abstract
+   3. Put Figure 1a of the paper in the methods
+   4. Then put Figure 1b (or a modified version of it with the percapfinit formalism) where the current figure is now.
+
+If I had to prepare a short talk:
+
+   1. Probably recycle the biomath talk.
+   2. Put the emphasis on the fact that you have a method to predict transient dynamics.
+   3. Present the general formalism with your example.
+   4. Maybe mention the error?
+   5. Do a smooth transition from the general formalism to the lotka-volterra proof of concept.
+   6. What do you tell about the lotka-volterra system?
+   7. What about resilience?
+   8. How do you close the talk?
+
+
+**code** My "trick" to find alternative paths that are equally short does not seem to be working. It fails on one of the test networks.
+
+From what I am seeing 'assert' is an interesting command. It allows you to test for a specific condition that must be met. In this case, it is telling me (or so I think) that the algorithm does not finde the shorterst path anymore.
+Do I want to invest the time in understanding why this code does not work? Or rather how to find alternative shortest paths? Because it is not exactly the same thing.
+
+My understanding is that this code starts finding the paths with a dictionary that goes like this: node: [neighbor1, neighbor2,...neighborn] It also shows the distance. I would not argue against that.
+Initiall, the dictionary states that no node has been visited yet.
+This function nodes the start and finish nodes.
+All nodes have an infinite distance except the start node, which has a distance 0
+Then there is a dictionary that will tell who is the closest node to each node. I think this is where problems start.
+Then the codes enters a while loop as long as nodes have been not visited (that is, they have been unexplored in regards to their distance to anyone else). Yes, this looks correct.
+
+What should I check for next?
