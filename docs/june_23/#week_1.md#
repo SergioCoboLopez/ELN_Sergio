@@ -140,3 +140,13 @@ That has to be the node that is closest to every node.
 So a list and two dictionaries.
 
 Then it comes the loop.
+The first thing of the loop is to select the current node. That is the node with the lowest distance from the destination.
+Remove that node from the list of unvisited nodes.
+Go to the adjacency list. This is actually a dictionary, where nodes are keys and neighbors and distances are values. Every node has a list/dict like this. That is the world from their point of view.
+
+I might change my perspective about this.
+
+**W** Transient dynamics
+
+Conceptual figure for the paper.
+In principle, my idea would be to draw a synthetic phase diagram. From scratch. I could always superimpose it to the original figure.
