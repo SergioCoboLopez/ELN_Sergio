@@ -29,7 +29,30 @@ I am having some doubts about the storyline of the presentation and I think I am
 I think my message for this presentation should be the method rathen the results. I should envision it as: General method-Lotka-Volterra model-method applied to Lotka-Volterra-Results. Why do this?
 
 ## June 14
+**M** Group meeting was succesful and interesting
+Forest was surprised no one had done this before. Maybe another round of literature research could help?
+
+The GoldSim model does not work. Maybe induction rate is the key?
+
+I solved major issues with the presentation and did some practices. Looking good.
+
 
 ## June 15
+**m** Meeting with Forest about GoldSim
+It seems that the current modeling approach is not working toward our desired goal. What would be alternative approaches for mechanistic models in the future?
+Biology still does not have a system of units. It rather has metrics.
+Is genetic information a universal quantity that could be used as a unit of biological information?
+How to solve the problem of scales in Biology?
+
+**W**
+I read corrections of text by Toni and I incorporated to the oriinal source file. I need to read again and correct if needed.
+I fixed Figure 1 for the subsampling paper.
+I fixed the phase diagram cartoon of the percapfinit paper
+
+Later today:
+**W**
+Do some rehearsal of presentation and decide what needs to be fixed
+Re read Toni's corrections
+
 
 ## June 16
