@@ -87,3 +87,7 @@ To do today:
  Switch formalism by figure 1a
  Remove parameter values
  Change Fig diagrams.
+
+## June 22
+Biweekly meetings. Save one hour for meeting one hour for work.
+Google drive folder for paper.
