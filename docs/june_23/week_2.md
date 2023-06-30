@@ -45,9 +45,9 @@ Is genetic information a universal quantity that could be used as a unit of biol
 How to solve the problem of scales in Biology?
 
 **W**
-I read corrections of text by Toni and I incorporated to the oriinal source file. I need to read again and correct if needed.
+I read corrections of text by Toni and I incorporated to the original source file. I need to read again and correct if needed.
 I fixed Figure 1 for the subsampling paper.
-I fixed the phase diagram cartoon of the percapfinit paper
+I fixed the phase diagram cartoon of the percapfinit paper.
 
 Later today:
 **W**
