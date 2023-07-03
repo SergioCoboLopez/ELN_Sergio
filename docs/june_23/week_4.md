@@ -93,3 +93,25 @@ B-tippping: Bifurcation induced
 N-tipping: noise induced
 
 R-tipping: rate induced
+
+## June 30
+What is the best way to make an interactive workshop for GoldSim? As interactive as it gets.
+I do not think I can expect participants to have downloaded GoldSim in the academic version.
+However, I can show them how to interact with the GoldSim player version. They would be able to
+download/clone the repository and interact with the models.
+
+How do I structure my presentation from here?
+I think the main ideas are still the same:
+Do 3 models: a simple example, Lotka-Volterra in steps, and Lysis-Lysogeny model.
+
+Do an introduction and conclusion.
+
+The particular details will change depending on whether they have a simple license or not.
+
+What do I do about the first model? Do I explain it step by step? Maybe it is a good idea?
+
+I will do the Lotka-Volterra model in several steps:
+-Exponential growth
+-Logistic growth
+-Add stochasticity
+-Add predation and decay
