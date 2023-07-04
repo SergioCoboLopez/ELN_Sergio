@@ -1,0 +1,77 @@
+---
+layout: default
+title: Week 3
+parent: June 2023
+nav_order: 2
+---
+
+| Goal | Notes |                                                     
+| ----------- | ----------- |                                        
+|(W)| 2nd presentation. Corrections |
+|(PH)|GoldSim repository; Meeting with Jenna; Workshop ESA|
+|(R)| |
+|(Code)|Repeat figures for subsampling paper|
+|(O)| |
+
+
+## June 26
+
+**PH**
+It turned out to be true that the induction rate was too low.
+
+**W** Transient dynamics
+I am looking at old and new versions of the results section.
+
+**P** I will need a code to build adjacent matrix and also tell me the in and out degree of nodes of every node. The adjacent matrix needs to be dynamic. There is a random generator number selecting the next destination of a plane
+
+I don't know how to structure this. But I should go ahead with whatever I have and then correct things. I think I could build the adjacency matrix with dictionries?
+
+I think it would be better to build the adjacency matrix from the nodes. Associate a dictionary to every node. Keys are other nodes. values are links.
+These change over time.
+However, all nodes talk to each other.
+Probably, the best way to do this would be using classes.
+The class would have the properties of degree out and degree in. And where do the links go and where do they come from.
+
+I notice that is difficult to write a code for something you don't know very well how you are going to do. Which structure to use? Do you want to do it fast or well? And even if you want to do it fast, you don't know how to do it.
+The way I am writing this is very redundant. Maybe a dictionary of the adjacency matrix?
+
+**O** Computational complexity
+Does there exist a fluid flow that can simulate any computer algorithm? (Computational power of fluids?? I think the other way around)
+Computational universality of fluid mechanics.
+
+The halting problem: it is undecidable. We don't know if it will finish running or continue to run forever.
+The same thing for fluid dyanmics.
+
+Computational complexitiy in hydrodynamics: different from chaos theory complexity.
+
+How does a turing machine work. Move across the space of sequences.
+
+A vector field simulating a turing machine.
+
+Stationary euler equations: simulate an inviscid and incompressible fluid flow in equilibrium.
+
+To do later:
+   1. Fix docs of the repository
+   2. Update draft transients
+   3. Finish goals
+   4. Rehearse presentation and take notes of what needs to be done.
+
+##June 27
+
+**O** Accommodations
+
+I am going to email Rafa and Gina about accommodations in Portland.
+
+
+**code**
+Apparently the character '_' in python is just like an index when you run over a loop.
+I should lear not to put dimensions just with commas, but with parentheses. Otherways, I will be calling another argument of the same function.
+I should test whether the Adjacency matris is well built or not.
+And the next step would be to change the links.
+How do I do that?
+I have to take the incoming links. Send them to another node.
+So I should run over all nodes, and assign new destinations to links. This is going to define outgoing links. And outgoing links will define new incoming links. This should be it.
+There is something off about the adjacency matrix.
+
+**O** Conference
+Noise advances tipping points. Why? On average, I guess you pass over the hump before.
