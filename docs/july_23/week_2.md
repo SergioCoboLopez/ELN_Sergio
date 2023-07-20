@@ -2,7 +2,7 @@
 layout: default
 title: Week 2
 parent: July 2023
-nav_order: 1
+nav_order: 2
 ---
 
 | Goal | Notes |                                                     
@@ -14,13 +14,13 @@ nav_order: 1
 |(O)|Jaeyun and contact GoldSim people again|
 
 
-## July 07
+## July 10
 
 **W** Transient dynamics paper.
 I don't know what to do right now. What should I do to have something ready to go?
 I changed references to equations and made some edits. I counted the words and I got ~4700
 
-## July 08
+## July 11
 **R** Literature review.
 Climate systems are divided into two components: weather (fast) and climate (slow). Examples of climate are the ocean or land vegetation.
 
@@ -77,8 +77,26 @@ Feedback to Jaeyun:
 2. I looked at the theory of logistic regressions, and everything makes sense to me. The text is consistent with what I've read and learned. From what I see, logistic regression is very common in medical research. My understanding is that it is a common approach to estimate the probability of an event (healthy or unhealthy patients, in this case) as a function of a set of variables (presence or absence of bacterial taxa, in this case.) It makes sense to me that you want to look at how the presence/absence of specific bacterial taxa is related to the health status of patients.
 3. I made some edits to the paper that would make the reading easier.
 
-## July 09
+## July 12
+**PH** GoldSim repository for ESA Annual Meeting
+I moved on significantly on player files for the GoldSim repository.
 
-## July 10
+## July 13
+**W** Jae's paper
 
-## July 11
+I am assuming there are n=3200 taxonamic features (bacterial taxa?)
+.
+And that there are 8069 samples (patients)
+
+If xi represents the presence or absence of a taxa, x should have 3200 dimensions.
+
+x should have 8069 dimensions, each representing a patient.
+
+xi=xi1, xi2, ..., xin
+y=y1, y2, ..., yi, ..., ym
+
+
+## July 14
+
+**M** Meeting with Jenna
+

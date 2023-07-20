@@ -1,0 +1,62 @@
+---
+layout: default
+title: Week 3
+parent: July 2023
+nav_order: 3
+---
+
+| Goal | Notes |                                                     
+| ----------- | ----------- |                                        
+|(W)|Transient dynamics figure and text|
+|(PH)|presentation and repo for conference|
+|(R)||
+|(Code)|redo repository for transient dynamics and airports|
+|(O)|Jaeyun and contact GoldSim people again|
+
+
+## July 17
+
+**R** Proofread Jaeyun's paper
+
+Par 4 introduction
+He explains the advantages of GMWII over GMWI
+
+GMWI gets many true positives but not many true negatives (bias)
+
+**M** Meeting with Toni
+
+Toni wants to do stuff with colab. It seems as a universal way to have your code in the cloud.
+
+**M** Meeting with Jenna. Rank.
+
+Jenna ranks her communities in decreasing order of VMR. That is the rank.
+When she plots that, she sees a non-linear trend.
+
+
+## July 18
+**R** I finished reviewing Jaeyun's paper
+
+**code** I have corrected the code but I don't see a way to get into a dynamics where nobody is active
+
+## July 19
+
+**code** Airplanes
+I have an adjacency matrix at t=0. How do I make a second iteration?
+I think the most intelligent thing would be to manage the incoming links.
+
+Incoming links are cornerstone.
+Say that node i incomes a link (2 planes) from node j.
+Take the 2 links and randomly distribute them as outgoing links.
+
+Nodes will have a degree. The degree is given by the total number of incoming links.
+Then, nodes distribute their degree among the rest of the links as outgoing links.
+How do I distribute the nodes at random?
+I have an in degree and 4 possible destinations
+Randomly select a number between 0 and 3 (0 and N-1) in-degree times.
+Add that number to the corresponding outgoing dictionary
+
+This looks better. Make sure that the changes in the adjacency matrix are consistent.
+
+## July 20
+
+
