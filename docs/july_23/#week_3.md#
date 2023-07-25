@@ -76,4 +76,5 @@ From there, I go to an exponential growth rate model. I transform it. I do this 
 The next question is whether I should or should not install the new version of GoldSim...I am really hesitant to do that.
 
 **M** Toni Valles
-nodes that come from another node cannot turn back
+nodes that come from another node cannot turn back.
+planes can only travel from neighboring nodes
