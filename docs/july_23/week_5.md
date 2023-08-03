@@ -73,6 +73,11 @@ Fixed figure.
 
 ## August 03
 
+**PH** I am trying to fix the lysogeny model to put it in the repository.
+What I am doing instead is to set a new model that I am going to call "the metabolic machine".
+
+I don't know where to start doing this, so I will just start with the github pages.
+
 ## August 04
 
 
