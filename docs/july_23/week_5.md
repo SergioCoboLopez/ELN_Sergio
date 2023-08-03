@@ -36,7 +36,40 @@ This makes more sense: predation weight grows at the beginning, because phages g
 
 ## August 01
 
+I would like to start in a world where there is just burst. For that, I need to set different initial conditions.
+Ok, so I fixed things a bit to make the system go through three dynamics, but this looks horrible. What is happening? I bet all mechanisms are active. Not all, but no mechanism becomes totally inactive, and that messes the dynamics.
+
+Reducing the concentration of phages does not help very much. The accuracy is really bad and I do not even cross the line to any other dynamic regime. Bacteria are still dying, which makes me think that predation is actually active. And there is not enough time to let things happen. You could think that I could use a faster transition from active to inactive, but I already have it. I do not have a mechanism that helps me getting there.
+
+Ok, so I made a longer simulation time but I am at the same spot: As the concentration of phages starts growing (burst), the predation becomes more active. The more phages you have, the more predation you have. I think this happens because these processes are relatively slow and the slope of the weights is low. That creates some noise that is increasing the error a lot: how can you get rid of this problem? I think you need to make phages grow faster. You could do this by playing aroung with the infection rate and/or the burst size. But first you need to play fair with tau.
+
+I have a combination of parameters that allows me to show a decent figure. However, it has been difficult to get to it. This tells me that this scenario reflects the potential flaws of the system. But I think they could be solved by going an order of magnitude below.
+
+I am working on the phase diagram figure now. I am being paralyzed about what to do or not. How to start working on something that I will have to change multiple times?
+
+Ok, clearly this does not look well. I have two choices here:
+1. I could change the axes
+2. I could change the simulation parameters
+3. I would need a set of dynamics that moves through all four dynamics when both r and m are active.
+
+I could just copy paste the settings of the corresponding figure.
+
+What do next? I would get the minimum and maximum values in the axes for the growth and decay active and then plot the single dynamics afterwards. I will need to this consistently to make the figure reproducible.
+
+Then I should make ticks consistent. And I would add diagramatic figures to everything.
+
+I put the two figures together.
+
 ## August 02
+
+Make the code 'pretty' to obtain coordinates and fix y and x limits
+Consider other limits for the first figure
+
+Fixed figure.
+
+**TD** I added numbers to the figure
+
+**R** Read and added comments to Jenna's thesis
 
 ## August 03
 
