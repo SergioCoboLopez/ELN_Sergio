@@ -86,4 +86,8 @@ Maybe install goldsim in someone else's laptop.
 
 ## August 04
 
+**R** The pragmatic programmer
+I got back briefly to the book. They say they will discuss the 'Don't repeat yourself' phylosophy
+and the orthogonality: don't split knowledge across different platforms. They also discuss how to
+better estimate how long a project is going to take.
 
