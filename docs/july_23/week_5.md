@@ -78,6 +78,12 @@ What I am doing instead is to set a new model that I am going to call "the metab
 
 I don't know where to start doing this, so I will just start with the github pages.
 
+I made some progress on the documentation of the model for the metabolic machine.
+
+I think I should fix the presentation tomorrow, add small figures for the website, and
+check qr codes.
+Maybe install goldsim in someone else's laptop.
+
 ## August 04
 
 
