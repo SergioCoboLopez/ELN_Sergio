@@ -73,6 +73,21 @@ Fixed figure.
 
 ## August 03
 
+**PH** I am trying to fix the lysogeny model to put it in the repository.
+What I am doing instead is to set a new model that I am going to call "the metabolic machine".
+
+I don't know where to start doing this, so I will just start with the github pages.
+
+I made some progress on the documentation of the model for the metabolic machine.
+
+I think I should fix the presentation tomorrow, add small figures for the website, and
+check qr codes.
+Maybe install goldsim in someone else's laptop.
+
 ## August 04
 
+**R** The pragmatic programmer
+I got back briefly to the book. They say they will discuss the 'Don't repeat yourself' phylosophy
+and the orthogonality: don't split knowledge across different platforms. They also discuss how to
+better estimate how long a project is going to take.
 
