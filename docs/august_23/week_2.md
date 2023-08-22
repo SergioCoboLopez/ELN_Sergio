@@ -63,3 +63,66 @@ The introduction made sense and so the first parts of the results.
 ## August 17
 
 **M** Lab meeting
+
+
+**M** Toni
+
+Model for Jenna
+
+Toni suggests using the colab for the lysogeny model.
+You can use a .json file for the equations.
+
+Jenna's decay rate is an order of magnitude higher than the growth rate.
+
+Before the experiment you should have quasistability. The parameters should make the model quasistable. That should be the optimization.
+
+Add a 'virtual' equation with the three types of bacteria.
+
+You should expect quasistability when all mechanisms are active or none is active.
+
+Toni suggests it would be quasistable because nothing is moving. That would be a trivial case.
+
+Another probability is that everyone is active. But this is more complicated.
+
+Another possibility is that we have a subset of mechanistic terms that are active and generate quasistable regimes. He says one condition for that to happen is that positive and negative terms are balanced. For bacterial growth before the experiment starts, should be working.
+
+Correct a rate for I (infected bacteria) and probability of lisogeny/lytic elements.
+
+Figure
+1. Alternatives to figure: add a orange-colored lines to the legend and call it 'attractors'. That way you can clear out part of the figure.
+
+2. Add little balls rolling around?
+
+**M** Meeting with Forest and Jenna
+
+Paper 1:  Chapter 1 and 2 of thesis
+
+Hypothesis: VMR with eDAR. VMR is a switch.
+
+Figure 1 - Aquarium figure. x axis, time. y axis, vmr, vlp, biomass.
+
+Figure 2 - hole size (?)
+
+Figure 3 - Ranking of VMRs (four panels)
+
+Apparently this is mostly done
+
+Paper 2: Chaper 3 (modeling) into another paper.
+
+Add percapfinit to her model.
+
+Tomorrow:
+ Fix figure of the individual diagrams
+ Save current version of paper in the google drive
+ Add figure to draft (just do that)
+ Add caption.
+ Change all figure references
+ Find where in the text you could reference the figure.
+
+
+## August 18
+
+**R** Strogatz. I now intuitively understand the stability analysis. Perturbing the system and doing the derivative close to the equilibrium gives you an intuition of what happens close to the equilibrium. It also makes sense to calculate the derivative in the fixed point. If you take the function of interest (growth rate of bacteria) and analyse its behavior it makes sense to do the following:
+1. Take the function close to the equilibrium point.
+2. Do a taylor expansion to first order.
+3. You get the derivative of the function at the fixed point. If it's positive, you are in an instability, if it's negative you have stable fixed points. If it's zero, you don't have enough information to assess stability.
