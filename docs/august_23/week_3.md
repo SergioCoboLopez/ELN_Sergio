@@ -96,4 +96,72 @@ Tomorrow:
  Meeting with Jenna.
  Airplane stuff
  Email back Lipson
- 
+
+## August 22
+
+**M** Meeting with Jenna
+We agreed on how to proceed with the modeling paper
+
+**W** and **code** I uploaded Jenna's models to the repository and started documenting it. I focused on explaining the model and how it works.
+
+
+## August 23
+
+**R** Transcritical bifurcations
+
+Transcritical bifurcations are those you cannot get rid of. The logistic growth equation is an example of these. $$x=0$$ is a fixed point. And that fixed point will exist independently of the
+value of r. In fact, it also exist for the exponential growth. Of course, if $$r<0$$ that fixed point would become stable, but there is no bifurcation as in the saddle-node case. In the transcritical
+bifurcation, the fixed points exchange stabilities as r goes from negative to positive values.
+
+**W** Cover letter
+
+I think this is moving on. The second paragraph is very redundant and the third one is not finished yet, but we are getting there.
+
+**W** 90 sec presentation
+
+I have 90 seconds to explain this paper. I want to explain the methods. For that, I think the figure would be extremeley helpful.
+
+- So if you have to sample a subaquatic system, for instance a coral reef.
+- You will have to deal with dilution.
+- Like in this figure: the scientist has the hypothesis that the concentration of Virus Like Particles, is higher here than here.
+- To test that hypothesis they sample the VLP density in the system of interest.
+- However, as water is being removed from here, water from the environment enters the system.
+- So that is affecting your sample.
+
+- We developed a mathematical model based on differential equations to calculate the density of the system of interest as a function of the density of the sample.
+- Our method accounts for the dilution.
+- Because this system is prone to stochasticities, we added noise to our method.
+
+- Although we tested this on VLPs the method can be generalized to any other compound or geobiochemical compound.
+
+## August 24
+
+**R** Strogatz
+
+He provides an example of a simple linear system (two dimensional) that yields different types of stability points.
+Then, he explains stability.
+Fixed points are globally stable if all trajectories lead to them. When you have logistic growth, the carrying capacity is globally stable (except for the transcritical fixed point x=0)
+
+Points can also be lyapunov stable if they are stable for all times.
+
+**O** I finished a first version of the publons video
+
+**code** I added the dynamical model to the pages. I need to check what is wrong with the hill function figure and also need to set the probability of lysogeny.
+
+**W** Cover letter for paper
+This is getting to the point where I need to think deeply about some parts of it.
+
+My explanation of assuming stability in the vicinity of equilibrium is not complete. Toni says that on top of doing that there is an extensive exploration of the parameter space.
+
+**W** Paper
+I sketched a caption for Figure 2. I am not going to be satisfied, most likely, but I will leave that for tomorrow.
+
+Tomorrow:
+   -finish goals for next week
+   -draft an email to Oiol
+   -Do another round of the cover letter: fix the second paragraph.
+   -Continue re-reading the paper and take notes about the results section for the cover letter.
+   -Fix figure 2 caption.
+
+
+## August 25
