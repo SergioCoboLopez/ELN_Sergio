@@ -165,3 +165,17 @@ Tomorrow:
 
 
 ## August 25
+
+**O** I wrote my goals for next week. I noticed that it is very good for me to identify the most actionable goals first, and work on them. This also makes me think that actionable goals are in general much better for me
+
+**W** Mail for Oriol
+
+**W** Round of cover letter
+
+I want to stress the fact that many approaches are based on the approximation of the equilibrium, but I really don't understand how that works. So, my understanding is that these approaches will start by identifying the equilibrium and the conditions of stability: fixed points and stability analysis. How is that addressing transient dynamics at all? It is not, I think.
+What Toni says in the paper is that people use the slow-fast process approach that assumes asymptotical behavior implicitly.
+Alternatively, you could write your model and integrate it numerically wherever you are interested. The model can of course produce transient dynamics, but that does not mean you predict them. The closest you can do is to sample the parameter space and find the parameter values that will yield transient dynamics. That is the brute force approach to the problem.
+
+**W** Draft
+
+I had to fix a lot of references that were not there yet. I need to finish this and finish figures as well.
