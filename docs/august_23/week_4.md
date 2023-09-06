@@ -96,3 +96,26 @@ I have fixed some errors with the website and I tried adding a favicon that show
 I don't know very well how to deal with this. I know it should be orbiting around modeling and GoldSim.
 
 I think I could start telling that I am a physicist. And how are physicists useful to ecology?
+
+## September 1
+
+**W** I prepared the presentation for the biomath and I think it went very well, even better than the first time.
+
+Forest and Peter pointed out that it is not very clear what the main message of the paper is. I need to think about it.
+
+
+**R** The lambda switch
+
+I asked chatgpt why the lambda book is important and it came with 6 main reasons.
+
+The first reason is gene regulation. How and why some genes are turned on and off in response to environmental signals or conditions. This is something that was not well understood.
+
+The second idea is that of genetic switches: the mechanisms that turn genes on and off, I suppose.
+
+Bacteriophage lambda
+
+Protein-DNA interactions. How proteins interact with dna to regulate genes. It helped elucidate the role of certain proteins in genetic regulation.
+
+Also experimental techniques, apparently.
+
+Then I asked chatgpt why the lambda phage is so important. The first reason is that it is a model organism

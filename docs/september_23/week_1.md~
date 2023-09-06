@@ -1,0 +1,23 @@
+---
+layout: default
+title: Week 1
+parent: September 2023
+nav_order: 1
+---
+
+| Goal | Notes |
+| ----------- | ----------- |                                                                       
+|(W)|Transient dynamics: rewrite cover letter and discussion|
+|(PH)|Percapfinit for lysogeny model; talk to jason|
+|(R)|Strogatz, time bombs, and lambda switch|
+|(Code)|airports code|
+|(O)|Think of seminar in ecology, talk to Kate about writing club|
+
+
+## September 4
+
+**code** Airplanes.
+I think I need two distinct adjacency matrices. One for outgoing links, one for incoming links. They are different processes.
+I think not. I think the adjacency matrix is perfectly consistent this way. Columns represent where nodes travel to. Rows represent how links receive nodes.
+
+I fixed the second iteration. Tomorrow I should check that it works.
