@@ -78,3 +78,64 @@ How does everything I read translate into what I am interested in? I think I am 
 When the energy landscape changes so that there are saddle-node bifurcations, that means that parameters change (think of the budworm model). That is one thing.
 
 The other thing is: in the world of Scheffer, you would be looking at fixed points and stability. When does a critical transition (bifurcation) happen?
+
+## September 6
+
+**R** Marten Scheffer
+
+I think there is one fundamental difference between what we do and what Scheffer describes. Scheffer describes the scenario in which the energy landscape changes because the conditions change. And the conditions are the values of the parameters for us. Scheffer looks at the stability as conditions change.
+
+We assume a certain static energy landscape and let the our system run through it. We observe that critical transitions occur, but the energy landscape does not change.
+
+To put it another way, Scheffer looks at the system as the conditions change, and looks at critical transitions from that perspective. We look at the system in a single instance and look at the critical transitions. I do not know how to reconcile both in my mind. Maybe I am assuming that Scheffer always starts asking himself what happens when you perturb the equilibrium.
+
+Scheffer understand stability analysis as perturbations from attractors.
+
+In our description of the system, the system is always going towards an attractor, but the system itself changes the energy landscape: it activates new mechanisms that in turn shift the system to another attractor.
+
+We look at active and inactive mechanisms, Scheffer looks at resilience. We are all trying to predict tipping points and critical transitions. More specifically, we look for the tipping points that predict critical transitions.
+Scheffer thinks resilience decreases as the basin of attraction becomes more hollow. As the system gets closer to another stable state, it will have less resilience: it will tolerate ever smaller perturbations from the equilibrium.
+
+How do we make our narratives consistent? Scheffer says that resilience is a predictor of critical transitions (or tipping points) as conditions change.
+We claim that critical concentrations (per capita over time) are predictive of critical transitions. And that conditions change as new mechanisms become active or inactive.
+
+I think the simplified model has lost lots of weight in this version.
+
+I need to tie in the simplified model with the rest of the findings. It is just that you can produce a simplified model with only the active mechanisms.
+
+Now I don't know what to think about the resilience. Clearly, perturbing the equilibrium shifts the system to another state.
+
+**R** Seasonal time bombs
+
+**What do they do?**: They investigate (the dynamics) double-stranded DNA virusis during the spring-summer transition in the Western Antarctic Peninsula
+
+**How do they do it?**: They use cultivation-independent quantitative ecological and metagenomic assays combined with bioinformatics.
+
+**What are the results?**: 1. temperate viruses dominate the region. They switch from lysogeny to lytic as bacterial production increases. 2. Southern Ocean viral communities (assemblages?) are genetically differente from other regions. That is due to the temperate domination.
+
+**Why is it important?**: nobody has studied how viral influences on microbial processes and ecosystem functions are important in the region with the global warming. Because the seasonal changes are very dramatic in the region, that affects bacterial production and that selects for temperate viruses (they can switch strategies, unlike virulent ones). Phage induction may explain temporal delays betweeen different regions. Or lower ratios. "Together these results suggest that temperate virus–host interactions are critical to predicting changes in microbial dynamics brought on by warming in polar marine systems."
+
+Figure 1 shows that there is a critical seasonal change. It goes from low bacterial abundance, low bacterial production, low viruses, low/high lytic/lysogenic behavior to the opposite from spring to summer. Heat increase, results in higher bacterial and viral concentrations. And it goes from lysogenic to lytic behavior. Chlorophyll producation increases too.
+
+#September 7
+
+**R** Draft paper
+
+I will read the discussion and make notes about it.
+
+Paragraph 1 - 'more insight than results'
+
+It is not clear why there 16 regimes
+
+Grammarly run
+
+I don't think the last part of the paragraph is clear. That is where the insight lives.
+
+Paragraph 2 - 'caveats and limitations'
+
+Only talks about the error of the simplified model.
+Not very clear.
+
+Paragraph 3- 'General description from other authors language'
+
+Incomplete and not clear what I want to say.
