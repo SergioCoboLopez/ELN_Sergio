@@ -139,3 +139,14 @@ Not very clear.
 Paragraph 3- 'General description from other authors language'
 
 Incomplete and not clear what I want to say.
+
+**W** Draft paper
+
+I think the first two paragraphs of the discussion are solid now. The third paragraph is not ready yet, but I have the pieces now.
+I think I should read the third paragraph tomorrow without making any changes until I finish. Then think about it again and do something coherent.
+
+Then I should read the introduction of the seasonal time bombs and the first two pages of the genetic switch chapter 1.
+
+If I have some time, read the cover letter and make a list of things I don't like.
+
+Redo goals in the meantime.
