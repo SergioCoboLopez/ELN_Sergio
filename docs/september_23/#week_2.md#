@@ -122,4 +122,5 @@ Eq 1: transform non-zeros to prevent zero-inflation
 A p-value network of vector correlations: 1 if p-value<0.05, 0 otherwise.
 
 
-
+## September 15
+ARI helps to measure how correlated community and taxonomy are
