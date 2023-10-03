@@ -1,0 +1,7 @@
+--- 
+layout: default
+title: October 2023
+nav_order: 15
+has_children: true
+permalink: /docs/name_of_month_year
+---
