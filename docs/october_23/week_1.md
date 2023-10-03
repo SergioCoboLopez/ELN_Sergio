@@ -61,4 +61,8 @@ This is getting to a point where I should write down carefully what I am doing. 
 
 
 I realized that none of my code for the L-V is actually reusable. It is recyclable, in the sense that I can copy-paste lines of code and tweak them, but I cannot really use the same functions because they are not general enough. I did my best at the time, but can I know think of the things I would do differently while coding?
-                                                                                          
+
+
+$$\begin{equation}
+\frac{dT}{dt}=-e_{SA} \sigma T^4 + \frac{\mu I_0 b_2}{4}a_2 T^2 +  \frac{I_0 \mu}{4} - \frac{\mu I_0}{4}a_2
+\end{equation}$$
