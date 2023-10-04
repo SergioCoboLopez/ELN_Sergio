@@ -75,18 +75,20 @@ Ecology laws/postulates.
 
 ## October 3
 
+## October 4
+
 **code** Ashwin model
 
 $$\begin{equation}
-\frac{dT}{dt}= \underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 c}(1 - a_2)}_{-d_{\mu}}
+\frac{dT}{dt}= \underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 c}(1 - a_2)}_{-d_{\mu}} \bigg]
 \end{equation}$$
 
 
 With time dependent parameters:
 
-$$\begin{equation}
-\frac{dT}{dt}&=&\underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 c}(1 - a_2)}_{-d_{\mu}} \\
-\frac{d \lambda}{dt}&=&\rho \lambda (1 - \lambda)
-\end{equation}$$
+$$\begin{eqnarray}
+\frac{dT}{dt} &=& \underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 c}(1 - a_2)}_{-d_{\mu}} \\
+\frac{d \lambda}{dt} &=& \rho \lambda (1 - \lambda)
+\end{eqnarray}$$
 
 
