@@ -66,3 +66,17 @@ I realized that none of my code for the L-V is actually reusable. It is recyclab
 $$\begin{equation}
 \frac{dT}{dt}=-e_{SA} \sigma T^4 + \frac{\mu I_0 b_2}{4}a_2 T^2 +  \frac{I_0 \mu}{4} - \frac{\mu I_0}{4}a_2
 \end{equation}$$
+
+
+## October 2
+
+**M** Meeting with Jason
+Ecology laws/postulates.
+
+## October 3
+
+**code** Ashwin model
+
+$$\begin{equation}
+\frac{dT}{dt}= \frac{e_{SA} \sigma}{c} \bigg[ -T^4 + \frac{\mu I_0 b_2}{4 e_{SA} \sigma} T^2 + \frac{\mu I_0}{4 c}(1 - a_2)
+\end{equation}$$
