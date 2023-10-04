@@ -78,5 +78,5 @@ Ecology laws/postulates.
 **code** Ashwin model
 
 $$\begin{equation}
-\frac{dT}{dt}= \frac{e_{SA} \sigma}{c} \bigg[ -T^4 + \frac{\mu I_0 b_2}{4 e_{SA} \sigma} T^2 + \frac{\mu I_0}{4 c}(1 - a_2)
+\frac{dT}{dt}= \underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 c}(1 - a_2)}_{-d_{\mu}}
 \end{equation}$$
