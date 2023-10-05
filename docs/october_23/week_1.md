@@ -117,9 +117,10 @@ $$\begin{equation}
 \end{equation}$$
 
 Doing:
-$$\begin{eqnarray}
+
+$$\begin{align}
 a=\frac{e_{SA} \sigma}{c} & b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\mu}=\frac{\mu I_0}{4 c}(1 - a_2) \,
-\end{eqnarray}
+\end{align}
 
 we get:
 
@@ -165,7 +166,7 @@ w_{r}=\tau a T^4 && w_{al}=\tau a b_{\mu} T^{2} && w_{a}=d_{\mu}
 These magnitudes represent the increment in temperature due to the respective processes over the relevant timescale. For the values of the parameters and $$T_0=290 K$$ given in the paper these give:
 
 $$\begin{align}
-w_{r}=0.000249 && w_{al}=0.000485 && w_{a}=0.000237
+w_{r}=2.49e-4 K && w_{al}=4.85e-4 K && w_{a}=2.37e-4 K
 \end{align}$$
 
 We now look at the critical temperatures at which the reflectivity and albedo loss contribute 1 K to the system over a relevant timescale $$\tau$$:
