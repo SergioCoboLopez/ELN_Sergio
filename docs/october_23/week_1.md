@@ -164,6 +164,8 @@ w_{r}=\tau a T^4 && w_{al}=\tau a b_{\mu} T^{2} && w_{a}=d_{\mu}
 
 These magnitudes represent the increment in temperature over the relevant timescale. The corresponding processes will be still active if $$w_{m}=1$$, because that represent an increase in 1 K. Therefore, the critical temperatures for each process are given by: 
 
-$$\begin{eqnarray}
-T^{c}_{r}=\frac{1}{(\tau a)^{1/4}} && T^{c}_{al}=\frac{1}{(\tau b_{mu})^{1/2} }
-\end{eqnarray}$$
+$$\begin{align}
+T^{c}_{r}=\frac{1}{(\tau a)^{1/4}} && T^{c}_{al}=\frac{1}{(\tau b_{\mu})^{1/2} }
+\end{align}$$
+
+For the values given in the paper, this gives:
