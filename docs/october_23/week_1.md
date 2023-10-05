@@ -122,17 +122,18 @@ a=\frac{e_{SA} \sigma}{c} & b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\m
 we get:
 
 $$\begin{equation}
-\frac{dT}{dt}= a \bigg[ \underbrace{-T^4}_{reflectivity} + \underbrace{b_{\mu}}_{T^2}_{albedo loss} + \underbrace{-d_{\mu} }_{albedo} \bigg]
+\frac{dT}{dt}= a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu}}_{T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg]
 \end{equation}$$
 
 This system has two equilibrium states, given by the solution of $$\frac{dT}{dt}=0$$:
 
 $$\begin{equation}
-\underbrace{T^4}_{t^2} - b_{mu} \underbrace{T^2}_{t} - d_{mu}=0
+\underbrace{T^4}_{t^2} - b_{\mu} \underbrace{T^2}_{t} - d_{\mu}=0
 \end{equation}$$
 
 This gives:
-T^{\pm}=\bigg(\frac{b_{\mu} \pm \sqrt{b^2_{mu} - 4}}{2}\bigg)^{1/2}
+T^{\pm}=\bigg(\frac{b_{\mu} \pm \sqrt{b^2_{\mu} - 4}}{2}\bigg)^{1/2}
 \end{equation}$$
 
 There is a saddle-node bifurcation for this system where T$^+$ and T$^-$ at $\mu \sim 0.249$
+
