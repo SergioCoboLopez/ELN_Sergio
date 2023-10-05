@@ -117,4 +117,76 @@ I was reading the sections about the experimental advances historically
 **W** Journal club
 I put what I got from the review into the journal club presentation. I focused on the timeline and make some notes on it.
 
-##September 27
+## September 27
+
+**R** Lambda switch
+
+It turns out cll is a protein encoding gene. cll was first isolated in 1982 and the protein seems to be a previous step from the switch.
+
+**M** Meeting with Toni
+
+We should address three topics today:
+
+1. **Narrative**: how are we going to go from transient dynamics to tipping points? What exactly do we want to say? I feel we want to redefine tipping points, but I am still not sure about it.
+
+2. **Resilience**: I am still not sure what did we do there. I think we are testing the hypothesis that when you push a system out of the equilibrium and that system is close to a tipping point it will not go back to the equilibrium and instead will go to a different equilibrium. If that is the case, it make sense that the system with both terms active and a small perturbation oscillates around thequilibrium. I still get that upong a strong perturbation, the oscillations become stronger, because some mechanisms are inactivated.
+
+Now, what about growth on, decay off? If we know the mechanisms are active/inactive, why do we simulate the equilibrium of the whole model?
+The equilibrium that we get in the first step is not consistent with decay off. We never have the burst term active.
+
+**M** Meeting with Toni
+Toni says that time lags are complicated for numerical reasons. Furthermore, the timelag would interfere with the relevant timescale $$\tau$$. We would have to deal with $$- \tau$$ issues. Using time lags is not explicitly modeling the mechanisms. Do we need to mention this in the discussion? If so, how do we do it?
+
+A single strong message is better than three average messages.
+
+At most, we will have 2^$$n$$ dynamics.
+You can calculate the attractors of the 2$$^n$$ dynamics.
+On the way to an attractor, you will have other mechanisms active.
+
+We use an example on two dimensions and few terms (4 mechanisms). It looks not very interesting, but we will see that things are much more rich than expected.
+
+We do our numbers and apply Lotka-Volterra to E. Coli and T4.
+
+**Resilience**: Maybe mention it on the discussion and the supplementary materials.
+Instead, do the second case of the climate model.
+
+Reproduce figure 7 of the paper with the percapfinit.
+
+Toni does see a fundamental difference between B- and R-tipping points.
+
+Two versions:
+1. Start with fixed parameters. Everything is active.
+2. Add the parameter rate explicitly.
+
+Our point of view is who's active and who's not.
+They play with the idea of stable equilibria.
+Closest mechanism to become active
+
+Things to do
+1. Run model with one equation, eq 4.1. You should get the figure 7.a
+2. Do percapfinit analysis and identify closest mechanism to inactivation. With a timescale of 100 years. Threshold should be 1 degree (or something like that) over 100 years.
+3. Plot weights over time.
+4. Speculate that if that mechanism changed (or the temperature did) whatever would happen.
+
+Important idea: their formalism could have 100 terms and they would have a problem to compute equilibria.
+
+## September 28
+
+**code** I started implementing Ashwin's model in the equilibrium configuration. Next step is to build a model where parameters are a function of time (i.e., another state variable)
+
+**R** Papers for meeting with Jason
+
+1. Ocean acidification and warming will lower coral reef resilience.
+How CO2 and overfishing affect coral reefs.
+CO2 and fishing pressure on herbivores affect ecoloical resilience of a simplified benthic reef community.
+Resilience: capacity to maintain and recover to coral-dominated states.
+Growth andmortaility responses for branching corals and fleshy macroalgae
+Results demonstrated that severe acidification and warming alone can lower reef resilience
+(via impairment of coral growth and increased coral mortality) even under high grazing intensity and low nutrients)
+
+The abstract looks like it does what we need, because they discuss (or that's what it seems) two stability states and how CO2 affects them. So far, I just saw two differential equations, though.
+
+2. A carbon cycling model shows strong control of seasonality and importance of sponges on the functioning of a northern Red Sea coral reef
+
+'This study quantified seasonal reef community C fluxes with incubations'
+Linear Inverse Model -> (??) I don't think they are using a mechanistic model here.
