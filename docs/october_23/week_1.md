@@ -102,6 +102,13 @@ $$\begin{equation}
 c\frac{dT}{dt}= R_{\downarrow} - R_{\uparrow}
 \end{equation}$$
 
+Developing the terms:
 $$\begin{equation}
 \frac{dT}{dt}= \underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 c}(1 - a_2)}_{-d_{\mu}} \bigg]
+\end{equation}$$
+
+This system has two equilibrium states, given by the solution of $\frac{dT}{dt}=0$:
+
+$$\begin{equation}
+T^{\pm}=\bigg(\frac{b_{\mu} \pm \sqrt(\b^2_{mu} - 4)}{2}\bigg)^{1/2}
 \end{equation}$$
