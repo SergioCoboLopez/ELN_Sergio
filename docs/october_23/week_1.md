@@ -137,3 +137,8 @@ T^{\pm}=\bigg(\frac{b_{\mu} \pm \sqrt{b^2_{\mu} - 4}}{2}\bigg)^{1/2}
 
 There is a saddle-node bifurcation for this system where T$^+$ and T$^-$ at $\mu \sim 0.249$
 
+We implement the model in with the parameters and initial temperature $$T_0=290 K$$ given in the paper:
+
+![Ashwin_1](..\..\Ashwin_1.png)
+![Ashwin_1](Ashwin_1.png)  
+
