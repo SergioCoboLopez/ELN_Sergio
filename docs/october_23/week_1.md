@@ -120,8 +120,9 @@ a=\frac{e_{SA} \sigma}{c} & b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\m
 \end{eqnarray}
 
 we get:
+
 $$\begin{equation}
-\frac{dT}{dt}= a \bigg[ \underbrace{-T^4}_{\text{reflectivity}} + \underbrace{b_{\mu}}_{T^2}_{\text{albedo loss}} + \underbrace{-d_{\mu} }_{\text{albedo}} \bigg]
+\frac{dT}{dt}= a \bigg[ \underbrace{-T^4}_{reflectivity} + \underbrace{b_{\mu}}_{T^2}_{albedo loss} + \underbrace{-d_{\mu} }_{albedo} \bigg]
 \end{equation}$$
 
 This system has two equilibrium states, given by the solution of $$\frac{dT}{dt}=0$$:
