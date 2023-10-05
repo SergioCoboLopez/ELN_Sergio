@@ -96,6 +96,8 @@ $$\begin{eqnarray}
 
 **code** Ashwin model
 
+### Model
+
 The weather model provided in [Ashwin et al, 2012](https://www.jstor.org/stable/41348437) is:
 
 $$\begin{equation}
@@ -125,6 +127,8 @@ $$\begin{equation}
 \frac{dT}{dt}= a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg]
 \end{equation}$$
 
+### Equilibrium analysis
+
 This system has two equilibrium states, given by the solution of $$\frac{dT}{dt}=0$$:
 
 $$\begin{equation}
@@ -144,3 +148,16 @@ We implement the model in with the parameters and initial temperature $$T_0=290 
 
 The system behaves as if it were in the equilibrium. This means that the system is probably very robust against perturbation.
 
+### PerCapFiniT analysis
+
+In this case, we are looking at a critical threshold of 1 K over a timescale $$\tau=100$$ years. This means the per capita part of the analysis does not really apply: we are looking at an absolute change in temperature and not relative (think of the 1.5 C climate goal. Also, think of how this would change if you think in terms of Fahrenheit). So if we set a relevant timescale we get:
+
+$$\begin{equation}
+\tau \frac{dT}{dt}= \tau a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg]
+\end{equation}$$
+
+This gives the following pseudo-weights:
+
+$$\begin{array}
+w_{r}=\tau a T^4 & w_{al}=\tau a b_{\mu} T^{2} & w_{al}=d_{\mu}
+\end{array}$$
