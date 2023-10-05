@@ -99,17 +99,36 @@ $$\begin{eqnarray}
 The weather model provided in [Ashwin et al, 2012](https://www.jstor.org/stable/41348437) is:
 
 $$\begin{equation}
-c\frac{dT}{dt}= R_{\downarrow} - R_{\uparrow}
+c\frac{dT}{dt}= R_{\downarrow} - R_{\uparrow} \,
 \end{equation}$$
 
-Developing the terms:
+with $$R_{\downarrow}=\frac{\mu I_0}{4}(1- \alpha_p(T)$$ and $$R_{\downarrow}=e_{SA} \sigma T^4$$ representing the incoming and outcoming radiation, respectively. $$\alpha_p(T)$$  represents the planet's albedo given by:
+
+$$\begin{equation}
+\alpha_p(T)=a_2 - b_2 T^2
+\end{equation}$$
+
+This gives a system that consists of three mechanisms, where we put together the two mechanisms that are temperature independent:
+
 $$\begin{equation}
 \frac{dT}{dt}= \underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 c}(1 - a_2)}_{-d_{\mu}} \bigg]
 \end{equation}$$
 
-This system has two equilibrium states, given by the solution of $\frac{dT}{dt}=0$:
+Doing:
+$$\begin{eqnarray}
+a=\frac{e_{SA} \sigma}{c} & b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\mu}=\frac{\mu I_0}{4 c}(1 - a_2) \,
+\end{eqnarray}
+
+we get:
+\frac{dT}{dt}= a \bigg[ -T^4 + \underbrace{b_{\mu}}_{ } T^2 + \underbrace{-d_{\mu} }_{} \bigg]
+
+This system has two equilibrium states, given by the solution of $$\frac{dT}{dt}=0$$:
 
 $$\begin{equation}
+\underbrace{T^4}_{t^2} - b_{mu} \underbrace{T^2}_{t} - d_{mu}=0
+$$\begin{equation}
+
+This gives:
 T^{\pm}=\bigg(\frac{b_{\mu} \pm \sqrt{b^2_{mu} - 4}}{2}\bigg)^{1/2}
 \end{equation}$$
 
