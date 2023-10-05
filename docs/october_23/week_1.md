@@ -162,10 +162,16 @@ $$\begin{align}
 w_{r}=\tau a T^4 && w_{al}=\tau a b_{\mu} T^{2} && w_{a}=d_{\mu}
 \end{align}$$
 
-These magnitudes represent the increment in temperature over the relevant timescale. The corresponding processes will be still active if $$w_{m}=1$$, because that represent an increase in 1 K. Therefore, the critical temperatures for each process are given by: 
+These magnitudes represent the increment in temperature due to the respective processes over the relevant timescale. For the values of the parameters and $$T_0=290 K$$ given in the paper these give:
 
 $$\begin{align}
-T^{c}_{r}=\frac{1}{(\tau a)^{1/4}} && T^{c}_{al}=\frac{1}{(\tau b_{\mu})^{1/2} }
+w_{r}=0.000249 && w_{al}=0.000485 && w_{a}=0.000237
+\end{align}$$
+
+We now look at the critical temperatures at which the reflectivity and albedo loss contribute 1 K to the system over a relevant timescale $$\tau$$:
+
+$$\begin{align}
+T^{c}_{r}=\frac{1}{(\tau a)^{1/4}}=2309.4 K && T^{c}_{al}=\frac{1}{(\tau b_{\mu})^{1/2} } = 13163.2 K
 \end{align}$$
 
 For the values given in the paper, this gives:
