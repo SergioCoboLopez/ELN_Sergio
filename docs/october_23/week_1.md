@@ -140,5 +140,7 @@ There is a saddle-node bifurcation for this system where T$^+$ and T$^-$ at $\mu
 We implement the model in with the parameters and initial temperature $$T_0=290 K$$ given in the paper:
 
 ![Ashwin_1](..\..\Ashwin_1.png)
-![Ashwin_1](Ashwin_1.png)  
+![Ashwin_1](Ashwin_1.png)
+
+The system behaves as if it were in the equilibrium. This means that the system is probably very robust against perturbation.
 
