@@ -122,7 +122,7 @@ a=\frac{e_{SA} \sigma}{c} & b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\m
 we get:
 
 $$\begin{equation}
-\frac{dT}{dt}= a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu}}_{T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg]
+\frac{dT}{dt}= a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg]
 \end{equation}$$
 
 This system has two equilibrium states, given by the solution of $$\frac{dT}{dt}=0$$:
@@ -132,6 +132,7 @@ $$\begin{equation}
 \end{equation}$$
 
 This gives:
+$$\begin{equation}
 T^{\pm}=\bigg(\frac{b_{\mu} \pm \sqrt{b^2_{\mu} - 4}}{2}\bigg)^{1/2}
 \end{equation}$$
 
@@ -139,7 +140,6 @@ There is a saddle-node bifurcation for this system where T$^+$ and T$^-$ at $\mu
 
 We implement the model in with the parameters and initial temperature $$T_0=290 K$$ given in the paper:
 
-![Ashwin_1](..\..\Ashwin_1.png)
 ![Ashwin_1](Ashwin_1.png)
 
 The system behaves as if it were in the equilibrium. This means that the system is probably very robust against perturbation.
