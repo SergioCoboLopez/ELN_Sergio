@@ -150,14 +150,20 @@ The system behaves as if it were in the equilibrium. This means that the system 
 
 ### PerCapFiniT analysis
 
-In this case, we are looking at a critical threshold of 1 K over a timescale $$\tau=100$$ years. This means the per capita part of the analysis does not really apply: we are looking at an absolute change in temperature and not relative (think of the 1.5 C climate goal. Also, think of how this would change if you think in terms of Fahrenheit). So if we set a relevant timescale we get:
+In this case, we are looking at a critical threshold of an increment of 1 K relative to the initial temperature over a timescale $$\tau=100$$ years. This means the per capita part of the analysis does not apply here: we are looking at an absolute change rather relative (think of the 1.5 C climate goal. Also, think of how this would change if you think in terms of Fahrenheit). So if we set a relevant timescale we get:
 
 $$\begin{equation}
 \tau \frac{dT}{dt}= \tau a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg]
 \end{equation}$$
 
-This gives the following pseudo-weights:
+This gives the following weights:
 
-$$\begin{array}
-w_{r}=\tau a T^4 & w_{al}=\tau a b_{\mu} T^{2} & w_{al}=d_{\mu}
-\end{array}$$
+$$\begin{eqnarray}
+w_{r}=\tau a T^4 & w_{al}=\tau a b_{\mu} T^{2} & w_{a}=d_{\mu}
+\end{eqnarray}$$
+
+These magnitudes represent the increment in temperature over the relevant timescale. The corresponding processes will be still active if $$w_{m}=1$$, because that represent an increase in 1 K. Therefore, the critical temperatures for each process are given by: 
+
+$$\begin{eqnarray}
+T^{c}_{r}=\frac{1}{(\tau a)^{1/4}} & T^{c}_{al}=\frac{1}{(\tau b_{mu})^{1/2} }
+\end{eqnarray}$$
