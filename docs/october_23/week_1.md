@@ -199,7 +199,7 @@ $$\begin{equation}
 The solution to this differential equation gives:
 
 $$\begin{equation}
-\lambda(t)=\frac{e^{\rho t}}{1 + e^{\rho t}}
+\lambda(t)=\frac{\frac{\lambda_0}{1-\lambda_0}e^{\rho t}}{1 + \frac{\lambda_0}{1-\lambda_0} e^{\rho t}}
 \end{equation}$$
 
 ![Ashwin_1](Ashwin_lambda_rho_018.png)
