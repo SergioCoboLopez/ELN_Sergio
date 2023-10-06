@@ -212,6 +212,9 @@ $$\begin{equation}
 b_{2}=(1-\lambda)b^{init}_2 + \lambda b^{final}_2 \,
 \end{equation}$$
 
+For the values in the paper, $$b_2$$ is:
+![Ashwin_1](Ashwin_b_2.png)
+
 with $$b^{init}_{2}=1.690 \cdot 10^{-5}$$ K$$^{-2}$$ and $$b^{final}_2=1.835 \cdot 10^{-5}$$ K$$^{-2}$$.
 $$a_2$$ changes so that $$A=b^{2}_{\mu} - 4 d_{\mu}$$ remains constant. I do not understand what this means yet.
 
@@ -235,3 +238,4 @@ $$\begin{align}
 \frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA} (1-\lambda)b^{init}_2 + \lambda b^{final}_2 T^{2}}_{\text{albedo loss}} + \underbrace{\frac{\mu I_0}{4 c}(a_2 -1)}_{albedo} \bigg] \\
 \frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
 \end{align}$$
+
