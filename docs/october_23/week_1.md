@@ -147,7 +147,8 @@ We implement the model in with the parameters and initial temperature $$T_0=290 
 
 ![Ashwin_1](Ashwin_Temp_T0.png)
 
-The system behaves as if it were in the equilibrium. This means that the system is probably very robust against perturbation.
+The system behaves as if it were in the equilibrium. We test a higher than $$T_0>T^{+}$$:
+
 
 ### PerCapFiniT analysis
 
