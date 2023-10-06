@@ -242,3 +242,7 @@ $$\begin{align}
 \frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
 \end{align}$$
 
+## October 6
+
+**O** Zoom meeting logistics
+I've realized I have two meetings: my personal zoom room, and a recurring biomath session. I need to be careful with that in the future.
