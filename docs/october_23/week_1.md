@@ -190,6 +190,8 @@ As expected, the weights are practically constant and any changes happen beyound
 
 ### R-Tipping point analysis
 
+Now the parameters change according to a dimensionless parameter $$\lambda$$. $$lambda$$ changes dynamically as:
+
 $$\begin{equation}
 \frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
 \end{equation}$$
@@ -210,4 +212,6 @@ $$\begin{equation}
 b_=(1-\lambda)b^{init}_2 + \lambda b^{final}_2 \,
 \end{equation}$$
 
-with $$b^{init}_2=1.690 \cdot 10^{-5}$$ K$$^{-2}$$ and $$b^{final}_2=1.835 \cdot 10^{-5}$$ K$$^{-2}$$.
+with $$b^{init}_{2}=1.690 \cdot 10^{-5}$$ K$$^{-2}$$ and $$b^{final}_2=1.835 \cdot 10^{-5}$$ K$$^{-2}$$.
+$$a_2$$ changes so that $$A=b^{2}_{\mu} - 4 d_{\mu}$$ remains constant. I do not understand what this means yet.
+However, we can rewrite the system as:
