@@ -215,6 +215,8 @@ b_{2}=(1-\lambda)b^{init}_2 + \lambda b^{final}_2 \,
 For the values in the paper, $$b_2$$ is:
 ![Ashwin_1](Ashwin_b_2.png)
 
+This is clearly not consistent with the paper; for $$b_2(t=0)=b^{init}_2$$, $$\lambda(t=0)=0$$, which is clearly not the case. Given its mathematical expression, that would render $$\lambda$$ constant.
+
 with $$b^{init}_{2}=1.690 \cdot 10^{-5}$$ K$$^{-2}$$ and $$b^{final}_2=1.835 \cdot 10^{-5}$$ K$$^{-2}$$.
 $$a_2$$ changes so that $$A=b^{2}_{\mu} - 4 d_{\mu}$$ remains constant. I do not understand what this means yet.
 
