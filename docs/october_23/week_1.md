@@ -209,7 +209,7 @@ $$\lambda$$ decays very fast in time for $$\rho=0.18$$.
 $$b_2$$ changes over time through lambda as:
 
 $$\begin{equation}
-b_=(1-\lambda)b^{init}_2 + \lambda b^{final}_2 \,
+b_{2}=(1-\lambda)b^{init}_2 + \lambda b^{final}_2 \,
 \end{equation}$$
 
 with $$b^{init}_{2}=1.690 \cdot 10^{-5}$$ K$$^{-2}$$ and $$b^{final}_2=1.835 \cdot 10^{-5}$$ K$$^{-2}$$.
