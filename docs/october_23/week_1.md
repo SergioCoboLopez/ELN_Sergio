@@ -217,7 +217,7 @@ $$a_2$$ changes so that $$A=b^{2}_{\mu} - 4 d_{\mu}$$ remains constant. I do not
 
 However, we can rewrite the system as:
 
-\begin{eqnarray}
+$$\begin{eqnarray}
 \frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg] \\
 \frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
 \end{eqnarray}$$
