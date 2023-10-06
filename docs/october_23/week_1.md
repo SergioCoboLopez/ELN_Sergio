@@ -217,21 +217,21 @@ $$a_2$$ changes so that $$A=b^{2}_{\mu} - 4 d_{\mu}$$ remains constant. I do not
 
 However, we can rewrite the system as:
 
-$$\begin{array}
+$$\begin{align}
 \frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg] \\
 \frac{d\lambda}{dt} &=& \rho \lambda(1-\lambda)
-\end{array}$$
+\end{align}$$
 
 Decomposing some parameters:
 
-$$\begin{array}
+$$\begin{align}
 \frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA} b_2 T^{2}}_{albedo loss} + \underbrace{\frac{\mu I_0}{4 c}(a_2 -1)}_{albedo} \bigg] \\
 \frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
-\end{array}$$
+\end{align}$$
 
 For $$b_2$$, we get:
 
-$$\begin{array}
+$$\begin{align}
 \frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA} (1-\lambda)b^{init}_2 + \lambda b^{final}_2 T^{2}}_{\text{albedo loss}} + \underbrace{\frac{\mu I_0}{4 c}(a_2 -1)}_{albedo} \bigg] \\
 \frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
-\end{array}$$
+\end{align}$$
