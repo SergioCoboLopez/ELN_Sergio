@@ -147,8 +147,13 @@ We implement the model in with the parameters and initial temperature $$T_0=290 
 
 ![Ashwin_1](Ashwin_Temp_T0.png)
 
-The system behaves as if it were in the equilibrium. We test a higher than $$T_0>T^{+}$$:
+The system behaves as if it were in the equilibrium. We test  $$T_0=420 K >T^{+}$$:
 
+![Ashwin_1](Ashwin_Temp_420.png)
+
+We try a higher order of magnitude and we notice some changes at $$T_0=5000 K >>T^{+}$$:
+
+![Ashwin_1](Ashwin_Temp_420.png)
 
 ### PerCapFiniT analysis
 
