@@ -145,7 +145,7 @@ There is a saddle-node bifurcation for this system where T$$^+$$ and T$$^-$$ at 
 
 We implement the model in with the parameters and initial temperature $$T_0=290 K$$ given in the paper:
 
-![Ashwin_1](Ashwin_1.png)
+![Ashwin_1](Ashwin_Temp_T0.png)
 
 The system behaves as if it were in the equilibrium. This means that the system is probably very robust against perturbation.
 
@@ -197,3 +197,11 @@ $$\begin{equation}
 ![Ashwin_1](Ashwin_lambda_rho_018.png)
 
 $$\lambda$$ decays very fast in time for $$\rho=0.18$$.
+
+$$b_2$$ changes over time through lambda as:
+
+$$\begin{equation}
+b_=(1-\lambda)b^{init}_2 + \lambda b^{final}_2 \,
+\end{equation}$$
+
+with $$b^{init}_2=1.690e-5$$ K$$^{-2}$$ and $$b^{final}_2=1.835e-5$$ K$$^{-2}$$.
