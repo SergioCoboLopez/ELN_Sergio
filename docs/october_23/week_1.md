@@ -210,4 +210,4 @@ $$\begin{equation}
 b_=(1-\lambda)b^{init}_2 + \lambda b^{final}_2 \,
 \end{equation}$$
 
-with $$b^{init}_2=1.690e-5$$ K$$^{-2}$$ and $$b^{final}_2=1.835e-5$$ K$$^{-2}$$.
+with $$b^{init}_2=1.690 \cdot 10^{-5}$$ K$$^{-2}$$ and $$b^{final}_2=1.835 \cdot 10^{-5}$$ K$$^{-2}$$.
