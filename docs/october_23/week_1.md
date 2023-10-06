@@ -222,6 +222,9 @@ $$\begin{eqnarray}
 \frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
 \end{eqnarray}$$
 
+Decomposing some parameters:
 
-
-\frac{\mu I_0 b_2}{4 e_{SA}
+$$\begin{eqnarray}
+\frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA} b_2 T^{2}}_{albedo loss} + \underbrace{\frac{\mu I_0}{4 c}(a_2 -1)}_{albedo} \bigg] \\
+\frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
+\end{eqnarray}$$
