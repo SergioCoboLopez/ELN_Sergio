@@ -181,3 +181,15 @@ The weight analysis for this system for the conditions explained above gave:
 
 As expected, the weights are practically constant and any changes happen beyound the 6th decimal position.
 
+
+### R-Tipping point analysis
+
+$$\begin{equation}
+\frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
+\end{equation}$$
+
+The solution to this differential equation gives:
+
+$$\begin{equation}
+\lambda(t)=\frac{e^{\rho t}}{1 + e^{\rho t}}
+\end{equation}$$
