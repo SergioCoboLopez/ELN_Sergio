@@ -175,5 +175,9 @@ $$\begin{align}
 T^{c}_{r}=\frac{1}{(\tau a)^{1/4}}=2309.4 K && T^{c}_{al}=\frac{1}{(\tau b_{\mu})^{1/2} } = 13163.2 K
 \end{align}$$
 
-For the values given in the paper, this gives:
+The weight analysis for this system for the conditions explained above gave:
+
+![Ashwin_1](Ashwin_weights_1.png)
+
+As expected, the weights are practically constant and any changes happen beyound the 6th decimal position.
 
