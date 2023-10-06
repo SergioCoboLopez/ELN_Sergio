@@ -193,3 +193,7 @@ The solution to this differential equation gives:
 $$\begin{equation}
 \lambda(t)=\frac{e^{\rho t}}{1 + e^{\rho t}}
 \end{equation}$$
+
+![Ashwin_1](Ashwin_lambda_rho_018.png)
+
+$$\lambda$$ decays very fast in time for $$\rho=0.18$$.
