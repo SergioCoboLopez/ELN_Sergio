@@ -213,7 +213,7 @@ b_{2}=(1-\lambda)b^{init}_2 + \lambda b^{final}_2 \,
 \end{equation}$$
 
 For the values in the paper, $$b_2$$ is:
-![Ashwin_1](Ashwin_b2.png)
+![Ashwin_1](ashwin_b2.png)
 
 This is clearly not consistent with the paper; for $$b_2(t=0)=b^{init}_2$$, $$\lambda(t=0)=0$$, which is clearly not the case. Given its mathematical expression, that would render $$\lambda$$ constant.
 
