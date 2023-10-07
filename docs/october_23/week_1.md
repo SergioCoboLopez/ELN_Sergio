@@ -104,7 +104,7 @@ $$\begin{equation}
 c\frac{dT}{dt}= R_{\downarrow} - R_{\uparrow} \,
 \end{equation}$$
 
-with $$R_{\downarrow}=\frac{\mu I_0}{4}(1- \alpha_p(T)$$ and $$R_{\uparrow}=e_{SA} \sigma T^4$$ representing the incoming and outcoming radiation, respectively. $$\alpha_p(T)$$  represents the planet's albedo given by:
+with $$R_{\downarrow}=\frac{\mu I_0}{4}(1- \alpha_p(T))$$ and $$R_{\uparrow}=e_{SA} \sigma T^4$$ representing the incoming and outcoming radiation, respectively. $$\alpha_p(T)$$  represents the planet's albedo given by:
 
 $$\begin{equation}
 \alpha_p(T)=a_2 - b_2 T^2
