@@ -236,7 +236,7 @@ Decomposing some parameters:
 
 First attempt:
 $$\begin{align}
-\frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0 b_{2}}{4 e_{SA}}  b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg] \\
+\frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA}}  b_{2} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg] \\
 \frac{d\lambda}{dt} &=& \rho \lambda(1-\lambda)
 \end{align}$$
 
@@ -264,3 +264,5 @@ $$\begin{align}
 I've realized I have two meetings: my personal zoom room, and a recurring biomath session. I need to be careful with that in the future.
 
 **code** Possible fast solutions for the problem. Kick the system parameters from initial value to final value.
+
+I am going to do a model that I am going to call 'kick'. I am just going to change the name of the parameters.
