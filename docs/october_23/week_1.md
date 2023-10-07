@@ -235,8 +235,8 @@ $$\begin{align}
 Decomposing some parameters:
 
 $$\begin{align}
-\frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA} b_2 T^{2}_{albedo loss} + \underbrace{\frac{\mu I_0}{4 c}(a_2 -1)}_{albedo} \bigg] \\
-\frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
+\frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA}} b_2 T^{2}_{albedo loss} + \underbrace{\frac{\mu I_0}{4 c} (a_2 -1)}_{albedo} \bigg] \\
+\frac{d\lambda}{dt}=\rho \lambda( 1-\lambda )
 \end{align}$$
 
 For $$b_2$$, we get:
@@ -245,6 +245,8 @@ $$\begin{align}
 \frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA} (1-\lambda)b^{init}_2 + \lambda b^{final}_2 T^{2}}_{\text{albedo loss}} + \underbrace{\frac{\mu I_0}{4 c}(a_2 -1)}_{albedo} \bigg] \\
 \frac{d\lambda}{dt}=\rho \lambda(1-\lambda)
 \end{align}$$
+
+
 
 ## October 6
 
