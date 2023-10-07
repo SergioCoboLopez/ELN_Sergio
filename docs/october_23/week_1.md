@@ -247,6 +247,10 @@ $$\begin{align}
 \end{align}$$
 
 
+### Possible solutions for the problem
+
+1. Kick the parameters a$$_2$$ and b$$_2$$ out of their initial values to the final values and see what happens:
+
 
 ## October 6
 
