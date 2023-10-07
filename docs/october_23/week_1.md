@@ -234,6 +234,12 @@ $$\begin{align}
 
 Decomposing some parameters:
 
+First attempt:
+$$\begin{align}
+\frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0 b_{2}}{4 e_{SA}}  b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg] \\
+\frac{d\lambda}{dt} &=& \rho \lambda(1-\lambda)
+\end{align}$$
+
 $$\begin{align}
 \frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA}} b_{2} T^{2}_{albedo loss} + \underbrace{\frac{\mu I_0}{4 c} (a_{2} -1)}_{albedo} \bigg] \\
 \frac{d\lambda}{dt}=\rho \lambda( 1-\lambda )
