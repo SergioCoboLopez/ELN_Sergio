@@ -235,7 +235,7 @@ $$\begin{align}
 Decomposing some parameters:
 
 $$\begin{align}
-\frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA}} b_2 T^{2}_{albedo loss} + \underbrace{\frac{\mu I_0}{4 c} (a_2 -1)}_{albedo} \bigg] \\
+\frac{dT}{dt} &=& a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{\frac{\mu I_0}{4 e_{SA}} b_{2} T^{2}_{albedo loss} + \underbrace{\frac{\mu I_0}{4 c} (a_{2} -1)}_{albedo} \bigg] \\
 \frac{d\lambda}{dt}=\rho \lambda( 1-\lambda )
 \end{align}$$
 
@@ -252,3 +252,5 @@ $$\begin{align}
 
 **O** Zoom meeting logistics
 I've realized I have two meetings: my personal zoom room, and a recurring biomath session. I need to be careful with that in the future.
+
+**code** Possible fast solutions for the problem. Kick the system parameters from initial value to final value.
