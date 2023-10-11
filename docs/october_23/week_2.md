@@ -154,8 +154,26 @@ $$\begin{equation}
 T^{\pm}=\bigg(\frac{b_{\mu} \pm \sqrt{b^2_{\mu} - 4}}{2}\bigg)^{1/2}
 \end{equation}$$
 
-There is a saddle-node bifurcation for this system where T$$^+$$ and T$$^-$$ at $$\mu \sim 0.249$$.
+In this system $$T^{+}=291.56$$ an $$T^{-}=281.34$$.
+
+There is a saddle-node bifurcation where T$$^+$$ and T$$^-$$ at $$\mu \sim 0.249$$.
+
+### PerCapFiniT analysis
+
+In this case, we are looking at a critical threshold of an increment of 1 K relative to the initial
+temperature over a timescale $$\tau=100$$ years. This means the per capita part of the analysisdoes
+not apply here: we are looking at an absolute change rather relative (think of the 1.5 C climate goal. Also, think of how this would change if you think in terms of Fahrenheit). So if we set a relevant timescale we get:
+
+$$\begin{equation}
+\tau \frac{dT}{dt}= \tau a \bigg[ \underbrace{-T^{4}}_{reflectivity} +\underbrace{b_{\mu} T^{2}}_{\text{albedo loss}} + \underbrace{-d_{\mu}}_{albedo} \bigg]
+\end{equation}$$
+
+### Change in parameters
+
+We implement a simplified version of this model where the values of the parameters instantaneously change from $$a_0 = 1.6927$$ and $$b_0 = 1.69e-5$$ K$$^{-2}$$ to $$a_f= 1.8168$$  and $$b_f= 1.835e-5$$ K$$^{-2}$$.
+
 
 We implement the model in with the parameters and initial temperature $$T_0=290 K$$ given in the paper:
 
 ![Figure 1](Ashwin_corrected_1.png)
+
