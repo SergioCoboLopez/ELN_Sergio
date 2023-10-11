@@ -135,7 +135,7 @@ a=\frac{e_{SA} \sigma}{c} && b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\
 we get:
 
 $$\begin{equation}
-\frac{dT}{dt}= a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg]
+\frac{dT}{dt}= a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{\text{albedo loss}} + \underbrace{-d_{\mu}}_{albedo} \bigg]
 \end{equation}$$
 
 The value of $$a$$ provided in [Ashwin et al, 2012](https://www.jstor.org/stable/41348437) is wrong and its original value is $$a=1.132 \cdot 10^{-8}$$ K$$^4$$.
