@@ -161,8 +161,8 @@ There is a saddle-node bifurcation where T$$^+$$ and T$$^-$$ at $$\mu \sim 0.249
 ### PerCapFiniT analysis
 
 In this case, we are looking at a critical threshold of an increment of 1 K relative to the initial
-temperature over a timescale $$\tau=100$$ years. This means the per capita part of the analysisdoes
-not apply here: we are looking at an absolute change rather relative (think of the 1.5 C climate goal. Also, think of how this would change if you think in terms of Fahrenheit). So if we set a relevant timescale we get:
+temperature over a timescale $$\tau=100$$ years. This means the per capita part of the analysis
+does not apply here: we are looking at an absolute rather than a relative change. So if we set a relevant timescale we get:
 
 $$\begin{equation}
 \tau \frac{dT}{dt}= \tau a \bigg[ \underbrace{-T^{4}}_{reflectivity} +\underbrace{b_{\mu} T^{2}}_{\text{albedo loss}} + \underbrace{-d_{\mu}}_{albedo} \bigg]
