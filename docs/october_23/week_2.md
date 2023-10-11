@@ -129,7 +129,7 @@ $$\begin{equation}
 Considering
 
 $$\begin{align}
-a=\frac{e_{SA} \sigma}{c} & b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\mu}=\frac{\mu I_0}{4e_{SA} \sigma}(1 - a_2) \, ,
+a=\frac{e_{SA} \sigma}{c} && b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\mu}=\frac{\mu I_0}{4e_{SA} \sigma}(1 - a_2) \, ,
 \end{align}$$
 
 we get:
@@ -137,3 +137,23 @@ we get:
 $$\begin{equation}
 \frac{dT}{dt}= a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg]
 \end{equation}$$
+
+The value of $$a$$ provided in [Ashwin et al, 2012](https://www.jstor.org/stable/41348437) is wrong and its original value is $$a=1.132 \cdot 10^{-8}$$ K$$^4$$.
+
+### Equilibrium analysis
+
+This system has two equilibrium states, given by the solution of $$\frac{dT}{dt}=0$$:
+
+$$\begin{equation}
+\underbrace{T^4}_{t^2} - b_{\mu} \underbrace{T^2}_{t} - d_{\mu}=0
+\end{equation}$$
+
+This gives:
+
+$$\begin{equation}
+T^{\pm}=\bigg(\frac{b_{\mu} \pm \sqrt{b^2_{\mu} - 4}}{2}\bigg)^{1/2}
+\end{equation}$$
+
+There is a saddle-node bifurcation for this system where T$$^+$$ and T$$^-$$ at $$\mu \sim 0.249$$.
+
+We implement the model in with the parameters and initial temperature $$T_0=290 K$$ given in the paper:
