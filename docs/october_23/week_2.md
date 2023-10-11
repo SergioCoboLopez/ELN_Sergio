@@ -102,3 +102,26 @@ Go tomorrow for the real data analysis 1
 
 
 ## October 11
+
+**code** Ashwin model
+
+The weather model provided in [Ashwin et al, 2012](https://www.jstor.org/stable/41348437) is:       
+                                                                                                    
+$$\begin{equation}                                                                                  
+c\frac{dT}{dt}= R_{\downarrow} - R_{\uparrow} \,                                                    
+\end{equation}$$                                                                                    
+                                                                                                    
+with $$R_{\downarrow}=\frac{\mu I_0}{4}(1- \alpha_p(T))$$ and $$R_{\uparrow}=e_{SA} \sigma T^4$$
+representing the incoming and outcoming radiation, respectively. $$\alpha_p(T)$$  represents the
+planet's albedo given by:       
+
+$$\begin{equation}
+\alpha_p(T)=a_2 - b_2 T^2
+\end{equation}$$
+
+This gives a system that consists of three mechanisms, where we put together the two mechanisms thatare temperature independent:
+
+$$\begin{equation}
+\frac{dT}{dt}= \underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 e_{SA} \sigma}(1 - a_2)}_{-d_{\mu}}
+bigg]                                                                                              
+\end{equation}$$
