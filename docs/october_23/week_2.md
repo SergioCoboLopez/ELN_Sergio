@@ -168,10 +168,27 @@ $$\begin{equation}
 \tau \frac{dT}{dt}= \tau a \bigg[ \underbrace{-T^{4}}_{reflectivity} +\underbrace{b_{\mu} T^{2}}_{\text{albedo loss}} + \underbrace{-d_{\mu}}_{albedo} \bigg]
 \end{equation}$$
 
+This gives the weights:
+
+$$\begin{align}
+w_{r}=\tau a T^4 && w_{al}=\tau a b_{\mu} T^{2} && w_{a}=d_{\mu}
+\end{align}$$
+
+These magnitudes represent the increment in temperature due to the respective processes over the relevant timescale. For the values of the parameters and $$T_0=290 K$$ given in the paper these give:
+
+$$\begin{align}
+w_{r}=8006.42 && w_{al}=15628.4 && w_{a}=7616.88
+\end{align}$$
+
+The critical temperatures at which reflectivity and albedo loss contribute 1 K to the system over $$\tau=100$$ years are:
+
+$$\begin{align}
+T^{c}_{r}=30.66 K && T^{c}_{a}= 2.32 K
+\end{align}$$
+
 ### Change in parameters
 
 We implement a simplified version of this model where the values of the parameters instantaneously change from $$a_0 = 1.6927$$ and $$b_0 = 1.69e-5$$ K$$^{-2}$$ to $$a_f= 1.8168$$  and $$b_f= 1.835e-5$$ K$$^{-2}$$.
-
 
 We implement the model in with the parameters and initial temperature $$T_0=290 K$$ given in the paper:
 
