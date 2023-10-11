@@ -154,7 +154,7 @@ $$\begin{equation}
 T^{\pm}=\bigg(\frac{b_{\mu} \pm \sqrt{b^2_{\mu} - 4}}{2}\bigg)^{1/2}
 \end{equation}$$
 
-In this system $$T^{+}=291.56$$ an $$T^{-}=281.34$$.
+In this system $$T^{+}=291.56$$ and  $$T^{-}=281.34$$.
 
 There is a saddle-node bifurcation where T$$^+$$ and T$$^-$$ at $$\mu \sim 0.249$$.
 
