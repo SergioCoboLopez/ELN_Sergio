@@ -123,11 +123,17 @@ This gives a system that consists of three mechanisms, where we put together the
 
 $$\begin{equation}
 \frac{dT}{dt}= \underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 e_{SA} \sigma}(1 - a_2)}_{-d_{\mu}}
-\bigg] \, ,
+\bigg] \, .
 \end{equation}$$
 
-with
+Considering
 
 $$\begin{align}
-a=\frac{e_{SA} \sigma}{c} & b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\mu}=\frac{\mu I_0}{4e_{SA} \sigma}(1 - a_2) \,
+a=\frac{e_{SA} \sigma}{c} & b_{\mu}=\frac{\mu I_0 b_2}{4 e_{SA} \sigma} & -d_{\mu}=\frac{\mu I_0}{4e_{SA} \sigma}(1 - a_2) \, ,
 \end{align}$$
+
+we get:
+
+$$\begin{equation}
+\frac{dT}{dt}= a \bigg[ \underbrace{-T^{4}}_{reflectivity} + \underbrace{b_{\mu} T^{2}}_{albedo loss} + \underbrace{-d_{\mu}}_{albedo} \bigg]
+\end{equation}$$
