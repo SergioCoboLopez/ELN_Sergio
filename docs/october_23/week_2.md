@@ -198,3 +198,13 @@ We implement the model in with the parameters and initial temperature $$T_0=290 
 
 ![Figure 3](Ashwin_corrected_1.png)
 
+
+### Temperature Kick
+
+We let the model run for 100 years and then kick it below the critical temperature of the reflectivity $$T^{c}_{r}=30.66$$ K. In our case, $$T_0=0.75 T^{c}_{r}$$. The reflectivity mechanism is rendered inactive. Dynamics for this scenario:
+
+![Figure 4](Ashwin_temp_kick.png)
+
+The weight analysis:
+
+![Figure 5](Ashwin_weights_temp.png)
