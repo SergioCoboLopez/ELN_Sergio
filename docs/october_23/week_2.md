@@ -186,11 +186,15 @@ $$\begin{align}
 T^{c}_{r}=30.66 K && T^{c}_{a}= 2.32 K
 \end{align}$$
 
+The weights over the first 100 years:
+
+![Figure 2](Ashwin_weights_corrected_1.png)
+
 ### Change in parameters
 
 We implement a simplified version of this model where the values of the parameters instantaneously change from $$a_0 = 1.6927$$ and $$b_0 = 1.69e-5$$ K$$^{-2}$$ to $$a_f= 1.8168$$  and $$b_f= 1.835e-5$$ K$$^{-2}$$.
 
 We implement the model in with the parameters and initial temperature $$T_0=290 K$$ given in the paper:
 
-![Figure 1](Ashwin_corrected_1.png)
+![Figure 3](Ashwin_corrected_1.png)
 
