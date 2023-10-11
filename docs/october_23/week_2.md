@@ -119,11 +119,11 @@ $$\begin{equation}
 \alpha_p(T)=a_2 - b_2 T^2
 \end{equation}$$
 
-This gives a system that consists of three mechanisms, where we put together the two mechanisms thatare temperature independent:
+This gives a system that consists of three mechanisms, where we put together the two mechanisms that are temperature independent:
 
 $$\begin{equation}
 \frac{dT}{dt}= \underbrace{\frac{e_{SA} \sigma}{c}}_{a} \bigg[ -T^4 + \underbrace{\frac{\mu I_0 b_2}{4 e_{SA} \sigma}}_{b_{\mu}} T^2 + \underbrace{\frac{\mu I_0}{4 e_{SA} \sigma}(1 - a_2)}_{-d_{\mu}}
-bigg] \, ,
+\bigg] \, ,
 \end{equation}$$
 
 with
