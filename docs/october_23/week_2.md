@@ -208,3 +208,10 @@ We let the model run for 100 years and then kick it below the critical temperatu
 The weight analysis:
 
 ![Figure 5](Ashwin_weights_temp.png)
+
+
+## October 12
+
+**R** Paper review
+
+Finished
