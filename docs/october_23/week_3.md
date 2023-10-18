@@ -69,10 +69,13 @@ $$\begin{eqnarray}
 \frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g \underbrace{(1 - k(T - T_{opt})^2)}_{\beta(T_{b})} - \alpha_b \gamma \, ,
 \end{eqnarray}$$
 
-Effectively, this is a logistic growth function:
+Effectively, this is a logistic growth function and the equations need to be split in (at least) three mechanisms:
 
 $$\begin{eqnarray}
 \frac{d \alpha_w}{dt} &=& \underbrace{\alpha_w \alpha_g}_{\text{growth}} - \underbrace{\alpha_w \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_w \gamma}_{\text{decay}} \\
-\frac{d \alpha_b}{dt} &=& \underbrace{\alpha_b \alpha_g}_{\text{growth}} - \underbrace{\alpha_b \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_b \gamma}_{\text{decay}} \\
-\frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g - \alpha_b \alpha_g k(T - T_{opt})^2 - \alpha_b \gamma \, ,
+\frac{d \alpha_b}{dt} &=& \underbrace{\alpha_b \alpha_g}_{\text{growth}} - \underbrace{\alpha_b \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_b \gamma}_{\text{decay}}
 \end{eqnarray}$$
+
+I do not think it is a good idea to decouple the term $$(T - T_{opt})^2$$ because it already has a very straightforward meaning and, in principle, this part of the model assumes constant temperature.
+
+Now, if I do not consider temperature, which insights could I extract from this model alone? I could look at how the three mechanisms in each equation could be active or inactive depending on the values of parameters ($$\alpha_g$$, $$k$$, $$\Delta T = T - T_{opt}$$, and \gamma). That would be pretty straightforward. 
