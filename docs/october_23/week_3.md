@@ -36,3 +36,20 @@ Finish the derivation of equations.
 
 
 ## October 17
+
+**W**
+I introduced several corrections suggested by Heather. Some of them require more thinking, but I will take care of that later.
+
+I derived the equations for the per-capita rationale
+
+
+## October 18
+
+**R** Daysyworld model
+
+The mathematical formulation of the daysyworld model consists of two ODE's:
+
+$$\begin{eqnarray}
+\frac{d \alpha_w}{dt} &=& A - B \\
+\frac{d \alpha_b}{dt} &=& A - B
+\end{eqnarray}$$
