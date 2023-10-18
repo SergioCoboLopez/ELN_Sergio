@@ -50,6 +50,6 @@ I derived the equations for the per-capita rationale
 The mathematical formulation of the daysyworld model consists of two ODE's:
 
 $$\begin{eqnarray}
-\frac{d \alpha_w}{dt} &=& A - B \\
-\frac{d \alpha_b}{dt} &=& A - B
+\frac{d \alpha_w}{dt} &=& \alpha_w \alpha_g \beta(T_{w}) - \alpha_w \gamma \\
+\frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g \beta(T_{w}) - \alpha_b \gamma
 \end{eqnarray}$$
