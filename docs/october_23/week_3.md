@@ -62,9 +62,9 @@ $$\beta(T)=$$  $$ \begin{cases}
       0 & 100\leq x 
    \end{cases}$$
 
-$$\beta(T)= \begin{cases} 
-      \frac{100-x}{100} & 0\leq x\leq 100 \\
-      0 & 100\leq x 
+$$\beta(T)= \begin{cases}
+      1 - k(T - T_{opt})^2 & |T - T_{opt}| < k^{-1/2} \\
+      0 & 100\text{otherwise} 
    \end{cases}$$
 
 
