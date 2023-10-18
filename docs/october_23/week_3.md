@@ -51,5 +51,8 @@ The mathematical formulation of the daysyworld model consists of two ODE's:
 
 $$\begin{eqnarray}
 \frac{d \alpha_w}{dt} &=& \alpha_w \alpha_g \beta(T_{w}) - \alpha_w \gamma \\
-\frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g \beta(T_{w}) - \alpha_b \gamma
+\frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g \beta(T_{w}) - \alpha_b \gamma \, ,
 \end{eqnarray}$$
+
+with $$\alpha_w$$ and $$\alpha_b$$ being the fractional coverage of white and black daysies, respectively. $$\alpha_g = p -\alpha_w - \alpha_b$$ describes the available bare ground for daysies' expansion with p representing the proportion of fertile ground.
+$$\gamma$$ is the death rate of daysies and $$\beta(T)$$ is the growth rate.
