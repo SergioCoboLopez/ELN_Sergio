@@ -55,4 +55,18 @@ $$\begin{eqnarray}
 \end{eqnarray}$$
 
 with $$\alpha_w$$ and $$\alpha_b$$ being the fractional coverage of white and black daysies, respectively. $$\alpha_g = p -\alpha_w - \alpha_b$$ describes the available bare ground for daysies' expansion with p representing the proportion of fertile ground.
-$$\gamma$$ is the death rate of daysies and $$\beta(T)$$ is the growth rate.
+$$\gamma$$ is the death rate of daysies and $$\beta(T)$$ is the growth rate, which is a function of the temperature:
+
+\[ $$\begin{cases} 
+      0 & x\leq 0 \\
+      \frac{100-x}{100} & 0\leq x\leq 100 \\
+      0 & 100\leq x 
+   \end{cases}$$
+\]
+
+$$\[ \begin{cases} 
+      0 & x\leq 0 \\
+      \frac{100-x}{100} & 0\leq x\leq 100 \\
+      0 & 100\leq x 
+   \end{cases}
+\]$$
