@@ -70,3 +70,31 @@ $$\[ \begin{cases}
       0 & 100\leq x 
    \end{cases}
 \]$$
+
+
+\[   \left\{
+\begin{array}{ll}
+      0 & x\leq a \\
+      \frac{x-a}{b-a} & a\leq x\leq b \\
+      \frac{c-x}{c-b} & b\leq x\leq c \\
+      1 & c\leq x \\
+\end{array} 
+\right. \]
+
+$$\[   \left\{
+\begin{array}{ll}
+      0 & x\leq a \\
+      \frac{x-a}{b-a} & a\leq x\leq b \\
+      \frac{c-x}{c-b} & b\leq x\leq c \\
+      1 & c\leq x \\
+\end{array} 
+\right. \]$$
+
+\[   \left\{
+$$\begin{array}{ll}
+      0 & x\leq a \\
+      \frac{x-a}{b-a} & a\leq x\leq b \\
+      \frac{c-x}{c-b} & b\leq x\leq c \\
+      1 & c\leq x \\
+\end{array}$$ 
+\right. \]
