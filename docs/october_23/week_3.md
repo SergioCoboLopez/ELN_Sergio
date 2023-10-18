@@ -72,6 +72,6 @@ $$\begin{eqnarray}
 Effectively, this is a logistic growth function:
 
 $$\begin{eqnarray}
-\frac{d \alpha_w}{dt} &=& \alpha_w \alpha_g - \alpha_w \alpha_g k (T - T_{opt})^2 - \alpha_w \gamma \\
-\frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g \underbrace{(1 - k(T - T_{opt})^2)}_{\beta(T_{b})} - \alpha_b \gamma \, ,
+\frac{d \alpha_w}{dt} &=& \alpha_w \alpha_g - \alpha_w \alpha_g k(T - T_{opt})^2 - \alpha_w \gamma \\
+\frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g - \alpha_b \alpha_g k(T - T_{opt})^2 - \alpha_b \gamma \, ,
 \end{eqnarray}$$
