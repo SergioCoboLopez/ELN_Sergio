@@ -62,18 +62,18 @@ $$\beta(T)= \begin{cases}
       0 & \text{otherwise.} 
    \end{cases}$$
 
-Here, T$$_{opt}=295.5$$ K is the optimal tempreture and $$k$ is chosen so that the growth is confined between 278.15 and 313.15 K. The expression of the growth rate implies that, for percapfinit purposes, the daysyworld model needs to be rewritten as:
+Here, T$$_{opt}=295.5$$ K is the optimal tempreture and $$k$$ is chosen so that the growth is confined between 278.15 and 313.15 K. The expression of the growth rate implies that, for percapfinit purposes, the daysyworld model needs to be rewritten as:
 
 $$\begin{eqnarray}
 \frac{d \alpha_w}{dt} &=& \alpha_w \alpha_g \underbrace{(1 - k(T - T_{opt})^2)}_{\beta(T_{w})} - \alpha_w \gamma \\
-\frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g \underbrace{(1 - k(T - T_{opt})^2)}_{\beta(T_{b})} - \alpha_b \gamma \, ,
+\frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g \underbrace{(1 - k(T - T_{opt})^2)}_{\beta(T_{b})} - \alpha_b \gamma \nonumber \, ,
 \end{eqnarray}$$
 
 Effectively, this is a logistic growth function and the equations need to be split in (at least) three mechanisms:
 
 $$\begin{eqnarray}
 \frac{d \alpha_w}{dt} &=& \underbrace{\alpha_w \alpha_g}_{\text{growth}} - \underbrace{\alpha_w \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_w \gamma}_{\text{decay}} \\
-\frac{d \alpha_b}{dt} &=& \underbrace{\alpha_b \alpha_g}_{\text{growth}} - \underbrace{\alpha_b \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_b \gamma}_{\text{decay}}
+\frac{d \alpha_b}{dt} &=& \underbrace{\alpha_b \alpha_g}_{\text{growth}} - \underbrace{\alpha_b \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_b \gamma}_{\text{decay}} \nonumber
 \end{eqnarray}$$
 
 I do not think it is a good idea to decouple the term $$(T - T_{opt})^2$$ because it already has a very straightforward meaning and, in principle, this part of the model assumes constant temperature.
