@@ -82,7 +82,7 @@ where $$\beta_{max}= 1$$ day$$^{-1}$$. I do not think it is a good idea to decou
 
 $$\begin{eqnarray}
 \frac{d \alpha_w}{dt} &=& \underbrace{\beta_{max} p \alpha_w}_{\text{growth}} - \underbrace{\beta_{max} \alpha_b \alpha_w}_{\text{competition b-w}} - \underbrace{\beta_{max} \alpha_w^2}_{\text{carrying capacity}} - \underbrace{p k(T - T_{opt})^2 \alpha_w}_{\text{temperature correction}} + \underbrace{\alpha_b  k(T - T_{opt})^2 \alpha_w}_{\text{temperature correction competition}} + + \underbrace{\alpha_b k(T - T_{opt})^2 \alpha_w^2}_{\text{temperature correction carrying}} - \underbrace{\gamma \alpha_w}_{\text{decay}} \\
-\frac{d \alpha_b}{dt} &=& \underbrace{\beta_{max} \alpha_b \alpha_g}_{\text{growth}} - \underbrace{\alpha_b \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_b \gamma}_{\text{decay}} \nonumber \, ,
+\frac{d \alpha_b}{dt} &=& \underbrace{\beta_{max} p \alpha_b}_{\text{growth}} - \underbrace{\beta_{max} \alpha_b \alpha_w}_{\text{competition b-w}} - \underbrace{\beta_{max} \alpha_b^2}_{\text{carrying capacity}} - \underbrace{p k(T - T_{opt})^2 \alpha_b}_{\text{temperature correction}} + \underbrace{\alpha_b  k(T - T_{opt})^2 \alpha_b}_{\text{temperature correction competition}} + + \underbrace{\alpha_b k(T - T_{opt})^2 \alpha_b^2}_{\text{temperature correction carrying}} - \underbrace{\gamma \alpha_b}_{\text{decay}} \nonumber \, ,
 \end{eqnarray}$$
 
 
