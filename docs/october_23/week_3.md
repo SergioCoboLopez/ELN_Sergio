@@ -69,17 +69,31 @@ $$\begin{eqnarray}
 \frac{d \alpha_b}{dt} &=& \alpha_b \alpha_g \underbrace{(1 - k(T - T_{opt})^2)}_{\beta(T_{b})} - \alpha_b \gamma \nonumber \, ,
 \end{eqnarray}$$
 
-Effectively, this is a logistic growth function and the equations need to be split in (at least) three mechanisms:
+Effectively, this is a logistic growth function and the equations need to be split in (at least) seven mechanisms:
+
+First, we decouple the growth rate between the maximum growth rate and the temperature correction
 
 $$\begin{eqnarray}
-\frac{d \alpha_w}{dt} &=& \underbrace{\alpha_w \alpha_g}_{\text{growth}} - \underbrace{\alpha_w \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_w \gamma}_{\text{decay}} \\
-\frac{d \alpha_b}{dt} &=& \underbrace{\alpha_b \alpha_g}_{\text{growth}} - \underbrace{\alpha_b \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_b \gamma}_{\text{decay}} \nonumber
+\frac{d \alpha_w}{dt} &=& \underbrace{\beta_{max} \alpha_w \alpha_g}_{\text{growth}} - \underbrace{\alpha_w \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_w \gamma}_{\text{decay}} \\
+\frac{d \alpha_b}{dt} &=& \underbrace{\beta_{max} \alpha_b \alpha_g}_{\text{growth}} - \underbrace{\alpha_b \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_b \gamma}_{\text{decay}} \nonumber \, ,
 \end{eqnarray}$$
 
-I do not think it is a good idea to decouple the term $$(T - T_{opt})^2$$ because it already has a very straightforward meaning and, in principle, this part of the model assumes constant temperature.
+where $$\beta_{max}= 1$$ day$$^{-1}$$. I do not think it is a good idea to decouple the term $$(T - T_{opt})^2$$ because it already has a very straightforward meaning and, in principle, this part of the model assumes constant temperature. Next, we need to decouple $$\alpha_g= p - \alpha_w - \alpha_b$$:
+
+$$\begin{eqnarray}
+\frac{d \alpha_w}{dt} &=& \underbrace{\beta_{max} p \alpha_w}_{\text{growth}} - \underbrace{\beta_{max} \alpha_b \alpha_w}_{\text{competition b-w}} - \underbrace{\beta_{max} \alpha_w^2}_{\text{carrying capacity}} - \underbrace{p \alpha_w k(T - T_{opt})^2}_{\text{temperature correction}} + \underbrace{\alpha_b \alpha_w k(T - T_{opt})^2}_{\text{temperature correction competition}} + + \underbrace{\alpha_b \alpha_w^2 k(T - T_{opt})^2}_{\text{temperature correction carrying}} - \underbrace{\alpha_w \gamma}_{\text{decay}} \\
+\frac{d \alpha_b}{dt} &=& \underbrace{\beta_{max} \alpha_b \alpha_g}_{\text{growth}} - \underbrace{\alpha_b \alpha_g k(T - T_{opt})^2}_{\text{temperature correction}} - \underbrace{\alpha_b \gamma}_{\text{decay}} \nonumber \, ,
+\end{eqnarray}$$
+
+
 
 Now, if I do not consider temperature, which insights could I extract from this model alone? I could look at how the three mechanisms in each equation could be active or inactive depending on the values of parameters ($$\alpha_g$$, $$k$$, $$\Delta T = T - T_{opt}$$, and $$\gamma$$). That would be pretty straightforward.
 
 I think the next step would be to start building a code for this model and make sure it works. Then I can think of the temperature. At this point, I think it would be a good idea to use Toni's colab tool. I should adapt it for a model with two state variables and 6 mechanisms.
 
 **code** Copy-paste Toni's colab and try to make it work. I copy pasted the more abstract part. Can I reproduce the daysyworld model now? It will be an interesting exercise to do. Start with that tomorrow.
+
+##October 19
+
+Reading from a json file is not working. It is probably more complicated than I had thought.
+The next step should be to implement the daysyworld model by hand.
