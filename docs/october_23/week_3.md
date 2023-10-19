@@ -81,3 +81,5 @@ I do not think it is a good idea to decouple the term $$(T - T_{opt})^2$$ becaus
 Now, if I do not consider temperature, which insights could I extract from this model alone? I could look at how the three mechanisms in each equation could be active or inactive depending on the values of parameters ($$\alpha_g$$, $$k$$, $$\Delta T = T - T_{opt}$$, and $$\gamma$$). That would be pretty straightforward.
 
 I think the next step would be to start building a code for this model and make sure it works. Then I can think of the temperature. At this point, I think it would be a good idea to use Toni's colab tool. I should adapt it for a model with two state variables and 6 mechanisms.
+
+**code** Copy-paste Toni's colab and try to make it work. I copy pasted the more abstract part. Can I reproduce the daysyworld model now? It will be an interesting exercise to do. Start with that tomorrow.
