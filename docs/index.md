@@ -65,6 +65,14 @@ In my case the order is 9, but you will have to check the previous month in your
     nav_order: 1
     ---
 
+    | Goal | Notes |                                                                                
+    | ----------- | ----------- |
+    |(W)| |
+    |(PH)| |
+    |(R)| |
+    |(Code)| |
+    |(O)| |
+
 In the general case, you will have to change the 'parent' section. Now, we will copy and paste this file three times and change the corresponding values (title and nav_order). To make it faster we will use a very short script:
 
     for i in {2..4}
@@ -73,17 +81,6 @@ In the general case, you will have to change the 'parent' section. Now, we will 
     done
 
 Now, enter in each file and change the corresponding values.
-
-Input this in your markdown file to create a table for your goals:
-
-      |   Goal      |   Notes     |
-      | ----------- | ----------- |
-      |AA| Do Task 1a, 2a, and 3a |
-      |BB| Do Task 1b, 2b, and 3b |
-      |CC| Do Task 1c, 2c, and 3c |
-      |R|  Read paper r, and book r'| 
-      |W| Review Introduction of paper p| 
-      |M| Meet m to discuss project m'| 
      
 
 
