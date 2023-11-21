@@ -102,9 +102,11 @@ $$\begin{equation}
 \end{equation}$$
 
 $$\begin{equation}
-\epsilon_{machine} \le \left| w_{ij} \right| < 1
+\delta_{machine} \le \left| w_{ij} \right| < 1 \, ,
 \label{eq:orders_6}
 \end{equation}$$
+
+$$\delta_{machine}$$ being the minimum float the machine can identify.
 
 
 $$\begin{equation}
