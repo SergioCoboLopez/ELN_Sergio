@@ -59,7 +59,7 @@ The implication of Eq. \ref{eq:orders_3} is that a process that is active in ord
 If we apply Eq. \ref{eq:orders_3} to Eq. \ref{eq:triangle}:
 
 $$\begin{equation}
-\frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0}  \sum_{j_n \in \mathcal{O}_n} \left| w_{i,j_n} \right| dt <
+\frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0}  \sum_{j_n \in \mathcal{O}_n} \left| w_{i,j_n} \right| dt < \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0} \frac{M^{\mathcal{O}_n}_i}{n-1}
 \end{equation}$$
 
 
