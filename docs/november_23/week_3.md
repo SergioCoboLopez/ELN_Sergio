@@ -62,7 +62,7 @@ $$\begin{equation}
 \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0}  \sum_{j_n \in \mathcal{O}_n} \left| w_{i,j_n} \right| dt < \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0} \frac{M^{\mathcal{O}_n}_i}{n-1} dt =  \sum^{\infty}_{n=2} \frac{M^{\mathcal{O}_n}_i}{n-1} \, ,
 \label{eq:orders_4}
 \end{equation}$$
-where $$M^{\mathcal{O}_n}_i$$ is the number of processes that are active in order $$n$$. Strictly speaking, $$M^{\mathcal{O}_n}_i$$ can be a function of time: processes can switch on and off during the the observation timescale $$\Delta t^{obs}$$. However, that function would not have an analytical expression, in general. For practical purposes,
+where $$M^{\mathcal{O}_n}_i$$ is the number of processes that are active in order $$n$$. Strictly speaking, $$M^{\mathcal{O}_n}_i$$ can be a function of time: processes can switch on and off during the the observation timescale $$\Delta t^{obs}$$. However, that function would not have an analytical expression, in general. We consider two alternative possibilities to circumvent this scenario: one is to assume that, if a process is inactive during part of the observational time $$\Delta t^{obs}$$, it is not counted as an active process. This simply raises the upper bound of the error. The other one is simply to count the active processes over time and divide the errors in time segments.
 
 Therefore, from Eqs. \ref{eq:triangle} and \ref{eq:orders_4}  we have:
 
