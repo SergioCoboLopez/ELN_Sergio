@@ -21,9 +21,11 @@ The left side of Eq. \ref{eq:upper_error} is the processes that are active in or
 
 $$\begin{equation}
 \epsilon^{\mathcal{O}_1}_{i} = \frac{1}{\Delta t^{obs}} \int^{\Delta t^{obs}}_{0} \left| \sum_{j_2 \in \mathcal{O}_2} w_{i,j_2} + \dots + \sum_{j_n \in \mathcal{O}_n}  w_{i,j_n} + \dots \right| dt =
-\frac{1}{\Delta t^{obs}} \int^{\Delta t^{obs}}_{0} \left| \sum^{\infty}_{n=2} \sum_{j_n \in \mathcal{O}_n} w_{i,j_n} \right| dt
+\frac{1}{\Delta t^{obs}} \int^{\Delta t^{obs}}_{0} \left| \sum^{\infty}_{n=2} \sum_{j_n \in \mathcal{O}_n} w_{i,j_n} \right| dt \, .
   \label{eq:sum_weights}
 \end{equation}$$
+
+Here, $$w_{i,j_n}$$ is the weight of a process $$j$$ that is active in order $$n$$, but inactive in order $$n-1$$ and lower.
 
 By the triangular inequality, we know:
 
