@@ -108,6 +108,6 @@ $$\begin{equation}
 
 
 $$\begin{equation}
-  \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{t=0} \sum_{j_ns \in \mathcal{O}_ns} \left| w_{i,j_ns}  \right| < \frac{M^{\mathcal{O}_ns}_i
+  \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{t=0} \sum_{j_ns \in \mathcal{O}_ns} \left| w_{i,j_ns}  \right| < M^{\mathcal{O}_ns}_i
   \label{eq:error_bacteria_2}
 \end{equation}$$
