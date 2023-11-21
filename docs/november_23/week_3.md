@@ -27,3 +27,9 @@ $$\begin{equation}
 
 For bacteria and phage we get two different errors (two different agents):
 
+
+$$\begin{equation}
+  \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{0} \left| \frac{\Delta t^{obs}}{\Delta B^{obs}_i} \frac{d B}{dt} - \frac{\Delta t^{obs}}{\Delta B^{obs}_i} \frac{d B^{\mathcal{O}_1}}{dt}  \right|   
+  \label{eq:error_bacteria}
+\end{equation}$$
+
