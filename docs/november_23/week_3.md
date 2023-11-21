@@ -62,7 +62,12 @@ $$\begin{equation}
 \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0}  \sum_{j_n \in \mathcal{O}_n} \left| w_{i,j_n} \right| dt < \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0} \frac{M^{\mathcal{O}_n}_i}{n-1} dt =  \sum^{\infty}_{n=2} \frac{M^{\mathcal{O}_n}_i}{n-1}
 \end{equation}$$
 
+Therefore, we have:
 
+$$\begin{equation}
+\epsilon^{\mathcal{O}_1}_{i} \le \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0}  \sum_{j_n \in \mathcal{O}_n} \left| w_{i,j_n} \right| dt < \sum^{\infty}_{n=2} \frac{M^{\mathcal{O}_n}_i}{n-1}
+  \label{eq:triangle}
+\end{equation}$$
 
 
 
