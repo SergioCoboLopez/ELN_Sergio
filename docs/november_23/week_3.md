@@ -37,7 +37,7 @@ $$\begin{equation}
 The weight of a process that is inactive in order $$n-1$$ is such that:
 
 $$\begin{equation}
-\mathcal{O}_n \le \left| w_{ij}| < \mathcal{O}_{n-1}
+\mathcal{O}_n \le \left| w_{ij} \right| < \mathcal{O}_{n-1}
 \label{eq:orders_1}
 \end{equation}$$
 
