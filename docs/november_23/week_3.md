@@ -59,10 +59,12 @@ The implication of Eq. \ref{eq:orders_3} is that a process that is active in ord
 If we apply Eq. \ref{eq:orders_3} to Eq. \ref{eq:triangle}:
 
 $$\begin{equation}
-\frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0}  \sum_{j_n \in \mathcal{O}_n} \left| w_{i,j_n} \right| dt < \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0} \frac{M^{\mathcal{O}_n}_i}{n-1} dt =  \sum^{\infty}_{n=2} \frac{M^{\mathcal{O}_n}_i}{n-1}
+\frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0}  \sum_{j_n \in \mathcal{O}_n} \left| w_{i,j_n} \right| dt < \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0} \frac{M^{\mathcal{O}_n}_i}{n-1} dt =  \sum^{\infty}_{n=2} \frac{M^{\mathcal{O}_n}_i}{n-1} \, ,
+\label{eq:orders_4}
 \end{equation}$$
+where $$M^{\mathcal{O}_n}_i$$ is the number of processes that are active in order $$n$$. Strictly speaking, $$M^{\mathcal{O}_n}_i$$ can be a function of time: processes can switch on and off during the the observation timescale $$\Delta t^{obs}$$. However, that function would not have an analytical expression, in general. For practical purposes,
 
-Therefore, we have:
+Therefore, from Eqs. \ref{eq:triangle} and \ref{eq:orders_4}  we have:
 
 $$\begin{equation}
 \epsilon^{\mathcal{O}_1}_{i} \le \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0}  \sum_{j_n \in \mathcal{O}_n} \left| w_{i,j_n} \right| dt < \sum^{\infty}_{n=2} \frac{M^{\mathcal{O}_n}_i}{n-1}
