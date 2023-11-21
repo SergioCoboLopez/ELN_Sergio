@@ -30,6 +30,13 @@ $$\begin{equation}
   \label{eq:sum_weights}
 \end{equation}$$
 
+By the triangular inequality, we know:
+
+$$\begin{equation}
+\epsilon^{\mathcal{O}_1}_{i} = \frac{1}{\Delta t^{obs}} \int^{\Delta t^{obs}}_{0} \left| \sum_{j_2 \in \mathcal{O}_2} (\Delta t^{obs} w_{i,j_2} + \dots + \sum_{j_n \in \mathcal{O}_n}(\Delta t^{obs} w_{i,j_n} w_{i,j_n} + \dots \right| dt \le
+  \label{eq:sum_weights_triangle}
+\end{equation}$$
+
 
 
 Discretizing for a numerical solution, the error is:
@@ -45,5 +52,11 @@ For bacteria and phage we get two different errors (two different agents):
 $$\begin{equation}
   \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{0} \left| \frac{\Delta t^{obs}}{\Delta B^{obs}_i} \frac{d B}{dt} - \frac{\Delta t^{obs}}{\Delta B^{obs}_i} \frac{d B^{\mathcal{O}_1}}{dt}  \right|   
   \label{eq:error_bacteria}
+\end{equation}$$
+
+
+$$\begin{equation}
+  \epsilon^{\mathcal{O}_1}_{P} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{0} \left| \frac{\Delta t^{obs}}{\Delta P^{obs}_i} \frac{d P}{dt} - \frac{\Delta t^{obs}}{\Delta P^{obs}_i} \frac{d P^{\mathcal{O}_1}}{dt}  \right|   
+  \label{eq:error_phage}
 \end{equation}$$
 
