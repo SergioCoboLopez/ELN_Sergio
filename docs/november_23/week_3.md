@@ -97,7 +97,7 @@ $$\begin{equation}
 For practical purposes, we consider only the smallest order that a machine can recognize $$n=n_s$$:
 
 $$\begin{equation}
-\mathcal{O}_ns \le \left| w_{ij} \right| < \mathcal{O}_{1}
+\mathcal{O}_{ns} \le \left| w_{ij} \right| < \mathcal{O}_{1}
 \label{eq:orders_5}
 \end{equation}$$
 
