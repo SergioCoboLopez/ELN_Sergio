@@ -94,7 +94,16 @@ $$\begin{equation}
   \label{eq:error_phage}
 \end{equation}$$
 
-For practical purposes, we consider only the smallest order that a machine can recognize $$n=n_s$$:
+From Equations \ref{eq:error_bacteria} and \ref{eq:error_phage} the errors can be calculated as follows:
+
+1. For each time-step, take the difference between the full and simplified models.
+2. Take the absolute value of that difference.
+3. Repeat the process for each timestep
+4. Sum the absolute values.
+5. Normalize dividing by $$\Delta t^{obs}$$
+
+
+If one wants to be more rigorous, it is possible to consider the smallest order of magnitude possible as the minimum float your machine can identify. Let us call this $$n=n_s$$. Then: 
 
 $$\begin{equation}
 \mathcal{O}_{ns} \le \left| w_{ij} \right| < \mathcal{O}_{1}
