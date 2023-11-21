@@ -97,6 +97,6 @@ $$\begin{equation}
 For practical purposes, we consider only order $$n=1$$ and $$n=2$$. In that case:
 
 $$\begin{equation}
-  \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{0} \sum_{j_2 \in \mathcal{O}_2} \left| w_{i,j_2}  \right|   
+  \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{t=0} \sum_{j_2 \in \mathcal{O}_2} \left| w_{i,j_2}  \right|   
   \label{eq:error_bacteria_2}
 \end{equation}$$
