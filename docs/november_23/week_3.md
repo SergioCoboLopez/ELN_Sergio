@@ -97,6 +97,17 @@ $$\begin{equation}
 For practical purposes, we consider only the smallest order that a machine can recognize $$n=n_s$$:
 
 $$\begin{equation}
+\mathcal{O}_ns \le \left| w_{ij} \right| < \mathcal{O}_{1}
+\label{eq:orders_5}
+\end{equation}$$
+
+$$\begin{equation}
+\epsilon_{machine} \le \left| w_{ij} \right| < 1
+\label{eq:orders_6}
+\end{equation}$$
+
+
+$$\begin{equation}
   \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{t=0} \sum_{j_ns \in \mathcal{O}_ns} \left| w_{i,j_ns}  \right| < \frac{M^{\mathcal{O}_ns}_i
   \label{eq:error_bacteria_2}
 \end{equation}$$
