@@ -50,7 +50,7 @@ $$\begin{equation}
 
 
 $$\begin{equation}
-\frac{1}{n} \le \left| w_{ij}| < \frac{1}{n-1}
+\frac{1}{n} \le \left| w_{ij} \right| < \frac{1}{n-1}
 \label{eq:orders_2}
 \end{equation}$$
 
