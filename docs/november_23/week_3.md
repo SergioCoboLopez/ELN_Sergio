@@ -94,9 +94,9 @@ $$\begin{equation}
   \label{eq:error_phage}
 \end{equation}$$
 
-For practical purposes, we consider only order $$n=1$$ and $$n=2$$. In that case:
+For practical purposes, we consider only the smallest order that a machine can recognize $$n=n_s$$:
 
 $$\begin{equation}
-  \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{t=0} \sum_{j_2 \in \mathcal{O}_2} \left| w_{i,j_2}  \right| < \frac{M^{\mathcal{O}_n}_i}{n-1}
+  \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{t=0} \sum_{j_ns \in \mathcal{O}_ns} \left| w_{i,j_ns}  \right| < \frac{M^{\mathcal{O}_ns}_i
   \label{eq:error_bacteria_2}
 \end{equation}$$
