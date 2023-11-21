@@ -20,6 +20,12 @@ $$\begin{equation}
 The left side of Eq. \ref{eq:upper_error} is the processes that are active in order $$n>1$$:
 
 $$\begin{equation}
+\epsilon^{\mathcal{O}_1}_{i} = \frac{1}{\Delta t^{obs}} \int^{\Delta t^{obs}}_{0}
+\end{equation}$$
+
+
+
+$$\begin{equation}
 \epsilon^{\mathcal{O}_1}_{i} = \frac{1}{\Delta t^{obs}} \int^{\Delta t^{obs}}_{0} \left| \sum_{j_2 \in \mathcal{O}_2(\Delta t^{obs} w_{i,j_2} + \dots + \sum_{j_n \in \mathcal{O}_n(\Delta t^{obs} w_{i,j_n} w_{i,j_n} + \dots \right| dt
   \label{eq:sum_weights}
 \end{equation}$$
