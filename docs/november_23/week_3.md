@@ -17,6 +17,17 @@ $$\begin{equation}
   \label{eq:upper_error}
 \end{equation}$$
 
+The left side of Eq. \ref{eq:upper_error} is the processes that are active in order $$n>1$$:
+
+$$\begin{equation}
+\epsilon^{\mathcal{O}_1}_{i} = \frac{1}{\Delta t^{obs}} \int^{\Delta t^{obs}}_{0} \left| \sum_{j_2 \in \mathcal{O}_2(\Delta t^{obs} }
+
+
+\frac{\Delta t^{obs}}{\Delta A^{obs}_i} \frac{d A_i}{dt} - \frac{\Delta t^{obs}}{\Delta A^{obs}_i} \frac{d A_i^{\mathcal{O}_1}}{dt}  \right|
+  \label{eq:sum_weights}
+\end{equation}$$
+
+
 
 Discretizing for a numerical solution, the error is:
 
