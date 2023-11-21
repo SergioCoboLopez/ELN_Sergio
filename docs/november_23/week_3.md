@@ -60,6 +60,7 @@ If we apply Eq. \ref{\label{eq:orders_3}} to Eq. \ref{\label{eq:triangle}}:
 
 $$\begin{equation}
 \frac{1}{\Delta t^{obs}}  \sum^{\infty}_{n=2} \int^{\Delta t^{obs}}_{0}  \sum_{j_n \in \mathcal{O}_n} \left| w_{i,j_n} \right| dt <
+\end{equation}$$
 
 
 
