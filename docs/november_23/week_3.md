@@ -22,6 +22,8 @@ Discretizing for a numerical solution, the error is:
 
 $$\begin{equation}
   \epsilon^{\mathcal{O}_1}_{i} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{0} \left| \frac{\Delta t^{obs}}{\Delta A^{obs}_i} \frac{d A_i}{dt} - \frac{\Delta t^{obs}}{\Delta A^{obs}_i} \frac{d A_i^{\mathcal{O}_1}}{dt}  \right|   
-  \label{eq:upper_error}
+  \label{eq:upper_error_discretized}
 \end{equation}$$
+
+For bacteria and phage we get two different errors (two different agents):
 
