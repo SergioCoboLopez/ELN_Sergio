@@ -80,7 +80,7 @@ $$\begin{equation}
   \label{eq:upper_error_discretized}
 \end{equation}$$
 
-where K
+where $$K=\Delta t^{obs}$$.
 For bacteria and phage we get two different errors (two different agents):
 
 
