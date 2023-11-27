@@ -45,8 +45,26 @@ How to compute the $$\epsilon^1_B$$ and $$\epsilon^1_P$$:
 ### Estimated error
 
 $$\begin{equation*}
-\epsilon^1_i \le w_c \sum^{I}_{k=1}
+\epsilon^1_i \le w_c \sum^{I}_{k=1} \, ,
 \end{equation*}$$
+
+where $$w_c$$ is the critical value in order one $$\mathcal{O}_1$$.
+
+
+In our case, the estimated errors for bacteria and phage are:
+
+$$\begin{equation*}
+\epsilon^1_B \le w_c \sum^{I}_{k=1}
+\end{equation*}$$
+
+$$\begin{equation*}
+\epsilon^1_P \le w_c \sum^{I}_{k=1}
+\end{equation*}$$
+
+
+How to compute this errors:
+
+1. For every regime $$k$$ consider the inactive processes and the order in which they are active at the beginning of the simulation.
 
 
 
