@@ -9,6 +9,7 @@ nav_order: 3
 ## November 20
 
 **code** Recalculate error:
+This calculations have some theoretical errors that I discovered today while talking to Toni. This errors will be addressed in the future.
 
 Suppose that the error equation is:
 
@@ -123,3 +124,6 @@ $$\begin{equation}
   \epsilon^{\mathcal{O}_1}_{B} = \frac{1}{\Delta t^{obs}} \sum^{\Delta t^{obs}}_{t=0} \sum_{j_ns \in \mathcal{O}_ns} \left| w_{i,j_ns}  \right| < M^{\mathcal{O}_{ns}}_i
   \label{eq:error_bacteria_2}
 \end{equation}$$
+
+
+The error is not working great at this moment. I am going to try to take the weights.
