@@ -53,26 +53,31 @@ $$\begin{equation*}
 Here, $$k$$ indicates a regime in a dynamics and $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}$$ and $$f_k=\frac{\Delta t_k}{\Delta t^{obs}}$$. Here, $$\Delta A^{obs}_{ik}$$ indicates the maximum value of $$A_i$$ during the regime $$k$$, $$\Delta A^{obs}_{i} = A_i (t_f)$$, and $$\Delta t_k$$ is the duration of regime $$k$$.
 
 
-In our case, the estimated errors for bacteria and phage are:
+In our case, the estimated errors for bacteria and phage (with $$w_c=1$$ are):
 
 $$\begin{equation*}
-\epsilon^1_B \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_B}{n-1}
+\epsilon^1_B \le  \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_B}{n-1}
 \end{equation*}$$
 
 $$\begin{equation*}
-\epsilon^1_P \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_P}{n-1}
+\epsilon^1_P \le  \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_P}{n-1}
 \end{equation*}$$
+
+
 
 
 How to compute this errors:
 
-1. Determine the maximum regime you are interested in.
+1. Determine the maximum order you are interested in.
 
-1. For every regime $$k$$ of a dynamic take:
+2. For every regime $$k$$ of a dynamic take:
    * $$\Delta B^{obs}_{k}$$ and $$\Delta P^{obs}_{k}$$: max value of $$B$$ and $$P$$ in $$k$$
    * $$\Delta B^{obs} = B (t_f)$$ and $$\Delta P^{obs} = P (t_f)$$
    * $$\Delta t_{k}$$
 
+3. Determine the number of processes inactive in order 1 and active in higher orders for bacteria and phage.
+
+4. Repeat for all $k$ ($$I=4$$ in most cases)
 
 
 
