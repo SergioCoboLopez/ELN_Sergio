@@ -56,20 +56,24 @@ Here, $$k$$ indicates a regime in a dynamics and $$a_k=\frac{\Delta A^{obs}_{ik}
 In our case, the estimated errors for bacteria and phage are:
 
 $$\begin{equation*}
-\epsilon^1_B \le w_c \sum^{I}_{k=1}
+\epsilon^1_B \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1}
 \end{equation*}$$
 
 $$\begin{equation*}
-\epsilon^1_P \le w_c \sum^{I}_{k=1}
+\epsilon^1_P \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1}
 \end{equation*}$$
 
 
 How to compute this errors:
 
+1. Determine the maximum regime you are interested in.
+
 1. For every regime $$k$$ of a dynamic take:
    * $$\Delta B^{obs}_{k}$$ and $$\Delta P^{obs}_{k}$$: max value of $$B$$ and $$P$$ in $$k$$
    * $$\Delta B^{obs} = B (t_f)$$ and $$\Delta P^{obs} = P (t_f)$$
    * $$\Delta t_{k}$$
+
+
 
 
 
