@@ -75,7 +75,7 @@ How to compute these errors:
    * $$\Delta B^{obs} = B (t_f)$$ and $$\Delta P^{obs} = P (t_f)$$
    * $$\Delta t_{k}$$
 
-3. Determine the number of processes inactive in order 1 and active in higher orders for bacteria and phage. Assume that a process does not change its order within regime $$k$$.
+3. For every process inactive in order 1, determine in which order they are active. Assume that dynamic processes do not change their order within regime $$k$$.
 
 4. Repeat for all $$k$$ ($$I=4$$ in most cases)
 
