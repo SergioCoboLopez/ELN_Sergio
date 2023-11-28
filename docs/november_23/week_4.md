@@ -50,12 +50,7 @@ $$\begin{equation*}
 \epsilon^1_i \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1} \, .
 \end{equation*}$$
 
-Here, $$k$$ indicates a regime in a dynamics and $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}$$ and $$f_k=\frac{\Delta t_k}{\Delta t^{obs}}$$. Here, $$\Delta A^{obs}_{ik}$$ indicates the maximum value of $$A_i$$ over the regime $$k$$, $$\Delta A^{obs}_{ik} = A_i (t_f)$$, and $$\Delta t_k$$ is the duration of regime $$k$$ .
-
-
-, where $$\Delta A^{obs}_{ik}$$ is the maximum value of $$A_i$$ in the time interval k
-
-$$w_c$$ is the critical value in order one ($$\mathcal{O}_1$$), and $$M^{\mathcal{O}_n}_i$$ is the number of processes active in order $$n$$
+Here, $$k$$ indicates a regime in a dynamics and $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}$$ and $$f_k=\frac{\Delta t_k}{\Delta t^{obs}}$$. Here, $$\Delta A^{obs}_{ik}$$ indicates the maximum value of $$A_i$$ during the regime $$k$$, $$\Delta A^{obs}_{ik} = A_i (t_f)$$, and $$\Delta t_k$$ is the duration of regime $$k$$.
 
 
 In our case, the estimated errors for bacteria and phage are:
@@ -70,6 +65,10 @@ $$\begin{equation*}
 
 
 How to compute this errors:
+
+1. For every regime $$k$$ of a dynamic take:
+   * $$\Delta B^{obs}_{k}$$ and $$\Delta P^{obs}_{k}$$: max value of $$B$$ and $$P$$ in $$k$$
+   * $$\Delta B^{obs}_{ik} = B (t_f)$$ and $$\Delta P^{obs}_{ik} = P (t_f)$$ 	
 
 1. For every regime $$k$$ consider the inactive processes and the order in which they are active at the beginning of the simulation.
 
