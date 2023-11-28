@@ -42,15 +42,15 @@ How to compute the $$\epsilon^1_B$$ and $$\epsilon^1_P$$:
 3. Repeat for each scenario considered: growth-on_decay_off, growth-off_decay-on, growth-on_decay-on without tipping points ($$\epsilon_B=\epsilon_P=0$$ by definition), growth-on_decay-on with tipping points, growth-off_decay-off (first three regimes), and growth-off_decay-off (trivial regime with no process active)
 
 
-### Estimated error
+### Estimated error (upper bound)
 
-The estimated error or upper bound is:
+The estimated error is:
 
 $$\begin{equation*}
 \epsilon^1_i \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1} \, .
 \end{equation*}$$
 
-Here, $$k$$ indicates a regime in a dynamics and $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}$$ and $$f_k=\frac{\Delta t_k}{\Delta t^{obs}}$$. Here, $$\Delta A^{obs}_{ik}$$ indicates the maximum value of $$A_i$$ during the regime $$k$$, $$\Delta A^{obs}_{i} = A_i (t_f)$$, and $$\Delta t_k$$ is the duration of regime $$k$$. $$w_c$$ indicates the critical value of the weights, and $$M^{\mathcal{O}_n}_i$$ is the number of processes impacting agent $$A_i$$ in order $$n$$.
+Here, $$k$$ indicates a regime in a dynamics and $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}$$ and $$f_k=\frac{\Delta t_k}{\Delta t^{obs}}$$. Here, $$\Delta A^{obs}_{ik}$$ indicates the maximum value of $$A_i$$ during the regime $$k$$, $$\Delta A^{obs}_{i}(t_f) = A_i (t_f)$$, and $$\Delta t_k$$ is the duration of regime $$k$$. $$w_c$$ indicates the critical value of the weights, and $$M^{\mathcal{O}_n}_i$$ is the number of processes impacting agent $$A_i$$ in order $$n$$.
 
 
 In our case, the estimated errors for bacteria and phage (with $$w_c=1$$ are):
