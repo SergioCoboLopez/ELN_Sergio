@@ -47,10 +47,11 @@ How to compute the $$\epsilon^1_B$$ and $$\epsilon^1_P$$:
 The estimated error or upper bound is:
 
 $$\begin{equation*}
-\epsilon^1_i \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1} \, ,
+\epsilon^1_i \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1} \, .
 \end{equation*}$$
 
-where $$w_c$$ is the critical value in order one $$\mathcal{O}_1$$.
+Here, $$k$$ indicates a regime during the dynamics studied, $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}
+$$w_c$$ is the critical value in order one ($$\mathcal{O}_1$$), $$M^{\mathcal{O}_n}_i$$ is the number of processes active in order $$n$$
 
 
 In our case, the estimated errors for bacteria and phage are:
