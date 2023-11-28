@@ -73,7 +73,7 @@ How to compute these errors:
 2. For every regime $$k$$ of a dynamic take:
    * $$\Delta B^{obs}_{k}$$ and $$\Delta P^{obs}_{k}$$: max value of $$B$$ and $$P$$ in $$k$$
    * $$\Delta B^{obs} = B (t_f)$$ and $$\Delta P^{obs} = P (t_f)$$
-   * $$\Delta t_{k}$$
+   * $$\Delta t_{k}$$: duration of regime $$k$$
 
 3. For every process inactive in order 1, determine in which order they are active. Assume that dynamic processes do not change their order within regime $$k$$.
 
