@@ -66,7 +66,7 @@ $$\begin{equation*}
 
 
 
-How to compute this errors:
+How to compute these errors:
 
 1. Determine the maximum order you are interested in.
 
