@@ -50,8 +50,12 @@ $$\begin{equation*}
 \epsilon^1_i \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1} \, .
 \end{equation*}$$
 
-Here, $$k$$ indicates a regime during the dynamics studied, $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}
-$$w_c$$ is the critical value in order one ($$\mathcal{O}_1$$), $$M^{\mathcal{O}_n}_i$$ is the number of processes active in order $$n$$
+Here, $$k$$ indicates a regime during the dynamics studied and $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}$$ and $$f_k=\frac{\Delta t_k}{\Delta t^{obs}}$$. $$\Delta A^{obs}_{ik}$$ indicates the maximum value of $$A_i$$ over the regime $$k$$, $$\Delta A^{obs}_{ik} = A_i (t_f)$$, and $$\Delta t_k$$ is the duration of regime $$k$$ .
+
+
+, where $$\Delta A^{obs}_{ik}$$ is the maximum value of $$A_i$$ in the time interval k
+
+$$w_c$$ is the critical value in order one ($$\mathcal{O}_1$$), and $$M^{\mathcal{O}_n}_i$$ is the number of processes active in order $$n$$
 
 
 In our case, the estimated errors for bacteria and phage are:
