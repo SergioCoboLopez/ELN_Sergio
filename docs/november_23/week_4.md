@@ -56,11 +56,11 @@ Here, $$k$$ indicates a regime in a dynamics and $$a_k=\frac{\Delta A^{obs}_{ik}
 In our case, the estimated errors for bacteria and phage are:
 
 $$\begin{equation*}
-\epsilon^1_B \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1}
+\epsilon^1_B \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_B}{n-1}
 \end{equation*}$$
 
 $$\begin{equation*}
-\epsilon^1_P \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1}
+\epsilon^1_P \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_P}{n-1}
 \end{equation*}$$
 
 
