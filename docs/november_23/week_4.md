@@ -50,7 +50,7 @@ $$\begin{equation*}
 \epsilon^1_i \le w_c \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_i}{n-1} \, .
 \end{equation*}$$
 
-Here, $$k$$ indicates a regime in a dynamics and $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}$$ and $$f_k=\frac{\Delta t_k}{\Delta t^{obs}}$$. Here, $$\Delta A^{obs}_{ik}$$ indicates the maximum value of $$A_i$$ during the regime $$k$$, $$\Delta A^{obs}_{i} = A_i (t_f)$$, and $$\Delta t_k$$ is the duration of regime $$k$$. $$w_c$$ indicates the critical value of the weights, and $$M^{\mathcal{O}_n}_i$$ is the number of processes impacting agent $$A_i$ in order $$n$$.
+Here, $$k$$ indicates a regime in a dynamics and $$a_k=\frac{\Delta A^{obs}_{ik}}{\Delta A^{obs}_{i} (t_f)}$$ and $$f_k=\frac{\Delta t_k}{\Delta t^{obs}}$$. Here, $$\Delta A^{obs}_{ik}$$ indicates the maximum value of $$A_i$$ during the regime $$k$$, $$\Delta A^{obs}_{i} = A_i (t_f)$$, and $$\Delta t_k$$ is the duration of regime $$k$$. $$w_c$$ indicates the critical value of the weights, and $$M^{\mathcal{O}_n}_i$$ is the number of processes impacting agent $$A_i$$ in order $$n$$.
 
 
 In our case, the estimated errors for bacteria and phage (with $$w_c=1$$ are):
@@ -77,7 +77,7 @@ How to compute this errors:
 
 3. Determine the number of processes inactive in order 1 and active in higher orders for bacteria and phage.
 
-4. Repeat for all $k$ ($$I=4$$ in most cases)
+4. Repeat for all $$k$$ ($$I=4$$ in most cases)
 
 
 
