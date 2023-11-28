@@ -68,9 +68,10 @@ How to compute this errors:
 
 1. For every regime $$k$$ of a dynamic take:
    * $$\Delta B^{obs}_{k}$$ and $$\Delta P^{obs}_{k}$$: max value of $$B$$ and $$P$$ in $$k$$
-   * $$\Delta B^{obs}_{ik} = B (t_f)$$ and $$\Delta P^{obs}_{ik} = P (t_f)$$ 	
+   * $$\Delta B^{obs}_{ik} = B (t_f)$$ and $$\Delta P^{obs}_{ik} = P (t_f)$$
+   * $$\Delta t_{k}$$
 
-1. For every regime $$k$$ consider the inactive processes and the order in which they are active at the beginning of the simulation.
+
 
 
 
