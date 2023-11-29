@@ -90,6 +90,18 @@ In any regime I should get final and initial time.
 Also final values.
 In principle, I should integrate the function within the code.
 
+The actual error should be relatively easy to compute.
+
+Now I should get the weights of inactive processes.
+
+I need to add another argument to the concatenated error function.
+This argument should be a dictionary of dictionaries:
+
+Regime 1: {max: x, final: y, initial_time: z, final_time: z1}, Regime 2: ...
+With this structure I can then extract the weights of the processes and determine in which order they are active.
+I have the dictionary structurally ready. Complete it with the information missing.
+Extract weights from dataframe.
+
 
 
 
