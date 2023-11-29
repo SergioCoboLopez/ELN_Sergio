@@ -63,9 +63,6 @@ $$\begin{equation*}
 \epsilon^1_P \le  \sum^{I}_{k=1} a_k \cdot f_k \sum_{ \{n \}_k} \frac{M^{\mathcal{O}_n}_P}{n-1}
 \end{equation*}$$
 
-
-
-
 How to compute these errors:
 
 1. Determine the maximum order you are interested in.
@@ -79,6 +76,19 @@ How to compute these errors:
 
 4. Repeat for all $$k$$ ($$I=4$$ in most cases)
 
+
+## November 28
+
+**code**
+How to calculate the estimated error.
+I think I should start considering the growth-on, decay-off scenario. I have four regimes here.
+I will start with the only growth regime.
+
+$$\Delta B^{obs}_{k}$$ and $$\Delta P^{obs}_{k}$$ are going to be the final value of the bacteria (the largest one) and the initial value of the phage (their concentration is constant).
+In any regime, I should obtain maximum values of bacteria and phage.
+In any regime I should get final and initial time.
+Also final values.
+In principle, I should integrate the function within the code.
 
 
 
