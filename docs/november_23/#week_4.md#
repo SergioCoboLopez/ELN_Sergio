@@ -108,6 +108,8 @@ Extract weights from dataframe.
 **Thoughts** Come up with a system of tracking versions of figures such that you don't have to go back to previous versions.
 Also come up with a system of tracking discussions or ideas so that you can remember why did you decide to do things a specific way. Then you can go back faster.
 
+**code** I found a way to change values in a dataframe based on two conditions
+
 
 
 
