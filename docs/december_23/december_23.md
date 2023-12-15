@@ -1,0 +1,7 @@
+---
+layout: default
+title: December 2023
+nav_order: 17
+has_childre: true
+permalink: /docs/december_23
+---
