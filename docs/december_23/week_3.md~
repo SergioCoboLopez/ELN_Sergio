@@ -1,0 +1,33 @@
+---
+layout: default
+title: Week 3
+parent: December 2023
+nav_order: 1
+---
+
+| Goal | Notes |                           
+| ----------- | ----------- |
+|(W)|Paper for biorxiv |
+|(PH)|Meeting with Jenna |
+|(R)| |
+|(Code)|Fix code for subsampling publon |
+|(O)| Recap tasks |
+
+## December 20
+
+How does this table look like?
+I think rows are scenarios and columns are parameters: r, d, c, m, maybe \tau too. and tf
+
+There is a use of \tau and \Delta t^{obs} that I don't really understand. I suppose \tau is more general than \Delta t^{obs}.
+
+I think the most reasonable course of action after lunch would be to revert two commits back to be able to run codes and check parameters.
+This would be to determine critical times and parameters.
+Fix table with initial values
+
+**code**
+What could I have done to prevent this situation?
+
+1. Periodically check if pushes are being effective (read for errors). This is the most obvious one.
+2. Prevent big files from being part of the repository.
+3. Do not produce big files unless required.
+

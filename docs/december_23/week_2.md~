@@ -1,0 +1,35 @@
+---
+layout: default
+title: Week 2
+parent: December 2023
+nav_order: 1
+---
+
+| Goal | Notes |                           
+| ----------- | ----------- |
+|(W)| |
+|(PH)| |
+|(R)| |
+|(Code)| |
+|(O)| Recap tasks |
+
+
+## December 15
+
+**O** I am thinking of migrating the ELN to gitlab to have restricted access to my website to whoever works with me. It seems that Gitbook could work for this. I don't think so: it seems it cannot handle equations.
+I should have a better understanding of how just-the-docs works, maybe?
+Essentially, migrate my website to somewhere else where I could control accessibility.
+Alternatively, I could try to do a website using markdown from scratch.
+
+**O** Tasks
+
+The first thing is to compute the error. For that, I need to see where the code is. And it would be helpful to fix whatever is not working with my repo.
+
+Then, I should change the notation both in the main text and, particularly, in the supplementary materials.
+I should also fix whatever is not working in the .tex file. Seems pretty bad. So:
+
+1. Fix error in repo
+2. See what the code is doing
+3. Go over notes
+4. Fix .tex file.
+5. Check state of the manuscript in terms of equations.
