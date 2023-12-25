@@ -54,3 +54,7 @@ This is what I need to be aware of:
 "The subset of active processes generates an attractor that drives the trajectory of the dynamic regime and can lead to crossing tipping points, thus, activating or inactivating processes that would define a different attractor and dynamic regime. This implies that for a system to be perceived as stable (or quasi-stable) for a given observational timescale, the same must remain in the same dynamic regime, that is, the processes that are active throughout the observation remain the same, and the variables must remain within an empirically tolerable range, which could include oscillations."
 
 This makes sense
+
+
+I've plugged in the equation of the error. What now?
+I need to make sense out of this. Minimal sense, at least.
