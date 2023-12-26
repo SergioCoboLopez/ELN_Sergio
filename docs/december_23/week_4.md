@@ -24,3 +24,14 @@ The right solution would be to:
 
 Apparently, there are ways to do this. Maybe I can split main and supplementary text. Ok, this works.
 I have to check if the figures are well referenced.
+
+## December 26
+
+**W** and **code** I figured out how to reference figures across the supplementary materials and main text.
+
+The first step is to use the packages 'xr' and 'cleveref'. 'xr' is the package that allows you to reference external documents. It seems that 'cleveref' allows you to hyperreference figures across documents, but I do not really need that.
+So I can reference figures from the supplementary materials as \ref*{figure} (the asterisk removes the hyperlink)
+Finally, I had to ensure figures from the supplementary materials appear with an 'S' before them.
+To accomplish this I go to the supplementary materials document and do this:
+\renewcommand{\thefigure}{S\arabic{figure}}
+I assume this tells latex "put an 'S' before labeling any figure"
