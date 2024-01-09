@@ -71,3 +71,4 @@ This is the Tensorial Mixed Membership Stochastic Block Model (T-MBM).
 Another possibility is to assume that it is links or pairs of nodes that belong to groups.
 In this model, there are J groups of links or pairs of nodes.
 The probability that a link $$e_{ij}$$ in group $$\alpha$$ is of type $$r$$ in a layer $$l$$ in group $$\gamma$$ is $$p_{\alpha, \gamma} (r)$$.
+$$\zeta_{e,\alpha}$$ represents  the probability that link $$e$$ belongs to group $$\alpha$$.
