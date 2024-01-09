@@ -2,7 +2,7 @@
 layout: default
 title: Week 2
 parent: January 2024
-nav_order: 2
+nav_order: 1
 ---
 
 | Goal | Notes |
