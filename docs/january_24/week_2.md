@@ -1,4 +1,4 @@
- ---
+---
 layout: default
 title: Week 2
 parent: January 2024
