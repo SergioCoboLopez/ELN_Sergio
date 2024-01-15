@@ -113,3 +113,82 @@ I think the PNAS paper might some sort of foundational paper.
 There are control parameters (Ashwin?) for which there exist critical values.
 
 
+## January 11
+
+**PH** There is a mistake (at least one) in my GoldSim models. I don't know if eDAR has O$_2$ in the numerator or in the denominator.
+If it is called electron donor to acceptor ration, and if O$_2$ is an electron acceptor, the mathematical expression should be:
+
+$$\begin{equation}
+eDAR=6\frac{C_6 H_{12} O_6}{O_2}
+\end{equation}$$
+
+This implies that Heather was right.
+But it has wrong implications for the logic of eDAR in the logic of Hill functions. In these conditions, low values of eDAR are consistent with catabolic conditions, because there is more
+oxygen than glucose. Likewise, high values of eDAR are consistent with catabolic conditions. This is a conceptual error.
+
+Now, it is very likely that I implemented the wrong thing on the GoldSim models:
+
+$$\begin{equation}
+eDAR=6\frac{O_2}{C_6 H_{12}}
+\end{equation}$$
+
+This is not a bad thing per se, it is just a definition. If this is a small number, then we do have fermentation, and if it is a high number we do have cellular respiration.
+Now, are the numbers for the minimum and maximum consistent? It is probably not a bad assumption to assume that the minimum you can have is 10 units of glucose per one unit of oxygen.
+And that you will have 50 $$\%$$ more oxygen than sugar. If that were the case, you just have another definition.
+
+## January 12
+
+**R** Tipping elements in the Earth’s climate system
+
+Tipping element: "subsystems of the Earth system that are at least subcontinental in scale and can be switched—under certain circumstances—into a qualitatively different state by small perturbations."
+Tipping point: "critical point—in forcing and a feature of the system—at which the future state of the system is qualitatively altered."
+
+They seem to be providing a tailored definition of tipping point. Their definition is broader than previous definitions for several reasons:
+
+1. They want to include non-climatic variables, which I can understand.
+2. There could be cases where the transition is not faster than the anthropogenic force causing it. From the transient dynamics world, we would expect transitions to occur fast (or at least transient dynamics), but you can propose your own definition.
+3. There might be no abruptness, but a slight change in control may have a qualitative impact in the future. This appears to be like the second point.
+4. It could be a reversible change.
+
+A subcontinental region is a tipping element if the parameters (state variables?) controlling the system can be transparently combined into a single control $$\rho$$. I don't know how this could translate from our FOMAD formalism.
+"There exist a critical control value $$\rho_{crit}$$ from which any significant variation $$\delta \rho > 0$$ leads to a qualitative change F in a crucial system feature F, after some observation time
+$$T>0$$ measured with respect to a reference feature at the critical value"
+
+
+
+$$T_P$$ - Political time horizon. It has a maximum of $$~100$$ years.
+$$t_{crit}$$
+$$T_E$$ - Ethical time horizon. A maximum of $$~1000$$ years.
+
+There are three types of tipping elements depending on temporal timescales:
+
+1. Rapid: $$T<T_P$$
+2. Gradual: $$T~T_P$$
+3. Asymptotic: $$T~T_E$$
+
+Indentify tipping elements, tipping mechanism, F, parameters, $$\tau$$.
+Common state variables are tree or vegetation fraction (m$$^2$$, for instance?), volume (ice), or area. Common control parameters are $$\Delta T$$. I would imagine ice sheet to be a function of temperature. 
+
+Their methods are not very different from Scheffer's. In particular, they use a model of the Atlantic Meridional Ocean Circulation (AMOC). They run the model over 50000 years with a CO$$_2$$ concentration that is 4 times bigger than the actual one. Their model predicts a rapid tipping point at around 40000 years.
+
+**R** Mechanisms and Impacts of Earth System Tipping Elements
+
+The concept of tipping element seems important and consistent in the literature.
+They claim they review:
+Mechanisms of tipping elements
+Predictions
+Impacts
+Knowledge gaps
+
+For 10 tipping elements.
+
+They evaluate the status of these tipping elements. Some tipping elements are at higher risks than others and some might not even show tipping behavior, displaying linear responses to perturbations.
+
+
+**W** Supplementary materials of the error
+
+I've moved on the transcription derivation of the error. I had left the derivation on the reformulation of the error in the first equation in terms of the integrals. I covered the first triangle inequality, did the derivation of the integrals into the weights, and added the intervals as time-steps where no weight changes enough to move the order in which a process is active.
+
+Now I got into a different section. The logic is difficult to follow but I am getting closer.
+
+After finishing, the next step would be to apply these to the particular state variables that we have. 
