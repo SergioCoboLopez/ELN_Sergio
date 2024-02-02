@@ -58,3 +58,33 @@ Approximations involving 10s of elementary functions and 10 parameters can appro
 ## January 31
 
 I don't know how to summarize the trayectoria y línea de investigación
+
+## February 1
+
+**code** Trying to understand Roger's code
+
+What does DATAID do? It calls a dataset, I think.
+Then he represents a function that I don't know where it comes and what does it do.
+
+Check MDL model
+
+declare two variables
+
+call the dataset
+
+c is data (independent variables). y must be the dependent variable.
+
+t refers to the predicted function.
+
+It is not clear in the code how the ANN functions are being generated.
+
+I copied the code and things make slightly more sense now.
+
+He just takes the time column in the dataset he just imported.
+When he takes values that are larger than one, he's removing a few points.
+He plots whatever H is against the time.
+
+He plots a very weird function.
+
+minrow takes a minimum from a bunch of identical minima.
+
