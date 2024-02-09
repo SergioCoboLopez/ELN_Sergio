@@ -99,3 +99,9 @@ You will also need to discuss models for tipping elements.
 Ok, so what is the next thing I should be doing?
 Do I want to do this for every dataset?
 Do I want to do this for every prior?
+
+Here, he is doing something similar to what happens when you want to index list elements by their position in the list rather than by their content.
+
+I don't know what is this I've just commented. It was how the function found by the MS evolved over time (the mdl)
+
+**O** So here's what happens. He looks for mathematical expressions of the differential equation. Were he to compare these expressions with the numerical derivatives of the observed value, he would have all sorts of problems with the noise.
