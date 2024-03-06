@@ -115,3 +115,69 @@ BMS runs take a much longer time than I had expected.
 
 
 **O** I don't think what I am doing makes sense from a practical point of view.
+
+
+## February 13
+
+**code**
+The code for the first trace file is still working. And this is weird. Is there something wrong?
+What I am seeing is that csv file is much heavier than the corresponding file for two dimensional systems (~16 to ~1 mb)
+
+What could be going on?
+One possibility is that the BMS is having a hard time finding a sufficiently low MDL. It might be the nature of that system. This could be consistent with the very high mdl that we're seeing.
+Our system is right now at -39.15 after almost 34000 steps.
+So arriving at 50000 steps can happen, apparently.
+
+I think I could try a sample_single instance, but would not necessarily make my life easier. How do the files look?
+
+
+1.1. -        4288  -758.875934510267
+1.1.single -  49999 -1650.49164662031
+
+1.2. -        2925   -615.841806200319
+1.2.single -  9398   -1230.7773345588
+
+2.1. -       
+2.1.single - 49999   -1548.1312547594
+
+2.2. -
+2.2.single -
+
+Actually, all of them seem to be single rather than not single. And the single ones I have explored are the ones arriving at 50000 steps.
+
+I will try to code the "single" version of the sample code.
+
+**W** BP
+
+For the impact section I wrote this placeholders
+1. Having my own research line
+2. Leading innovative projects
+3. Scientific publications
+4. Mentoring - not sure how to write it
+5. International collaborations - not sure how to write it
+6. Bringing science closer to society - not sure how to write it
+
+**code**
+
+Is the relative error what I think it is?
+
+abs(v - vapprox/v) v is theoretical value. vapprox is the predicted value by the model
+
+we have abs(bt - bm/bt), with 'bt' representing the theoretical value, and bm the model value.
+
+Several options to represent the error:
+1. A curve with the relative error of bacteria, phage, and mean error of both.
+2. The integrated relative error of bacteria and phage (with error)
+3. The average integrated relative erro of phage and bacteria. I have two errors there.
+
+There is a small hop in the relative error. That hope comes from how I calculated the simplified model.
+Every time I change the dynamic regime I solve the equation for the new regime with the initial conditions being the last timestep in the previous regime and the final value of the previous regime. So there is a tiny bit of overlap that you are not going to see.
+The first value on the actual new dynamic regime is the solution of a new equation, hence the hop.
+This is formally correct.
+
+## February 16
+
+**code** You get an extra point per each dynamic regime. Is there a quick fix for this?
+This is weird. Sometimes the simplified solution is shorter thant the "normal" one.
+
+There is a small error with the simplified models. I thought simplified dynamics would have more points simply because of the way the code is built. But this is not always true, and happens the other way around for the decay.

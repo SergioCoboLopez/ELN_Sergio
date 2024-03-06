@@ -1,0 +1,62 @@
+--
+layout: default
+title: Week 3
+parent: February 2024
+nav_order: 3
+---
+
+
+| Goal | Notes |
+| ----------- | ----------- |
+|(W)|BP - Innovation, goals|
+|(PH)| |
+|(R)|Tipping elements paper |
+|(Code)|ANN. Produce 1d result, Start Implementing Relative error and log-ratio |
+|(O)|Finish BP paperwork |
+
+
+## February 20
+
+
+## February 21
+
+**code** ANN and machine scientist
+
+How many traces do I need? Would it be enough with repeating a round of traces twice?
+It looks like I have 20 datasets.
+You have 20 repetitions of the same run. You have 20 datasets. Run over the 20 datasets twice and start doing stuff.
+
+Ok, I have the processes running and wrote a script to sequentially run processes. Is there a way to run them in parallel? Probably yes. But I do not know if I want to invest my time and effort on that right now
+
+**code** Relative error and logratio
+I don't think I have such a thing as an upper bound of the error.
+However, theoretically, the error would be bounded by the inactive processes.
+Theoretically, again, you could take the absolute error (difference between full and simplified model) and integrate. That should give you the error as a function of time. However, this has been proven before. But theoretically, that would be the upper bound of the error. 
+
+
+**W** BP
+
+**code**
+
+Is the relative error what I think it is?
+
+abs(v - vapprox/v) v is theoretical value. vapprox is the predicted value by the model
+
+we have abs(bt - bm/bt), with 'bt' representing the theoretical value, and bm the model value.
+
+Several options to represent the error:
+1. A curve with the relative error of bacteria, phage, and mean error of both.
+2. The integrated relative error of bacteria and phage (with error)
+3. The average integrated relative erro of phage and bacteria. I have two errors there.
+
+There is a small hop in the relative error. That hope comes from how I calculated the simplified model.
+Every time I change the dynamic regime I solve the equation for the new regime with the initial conditions being the last timestep in the previous regime and the final value of the previous regime. So there is a tiny bit of overlap that you are not going to see.
+The first value on the actual new dynamic regime is the solution of a new equation, hence the hop.
+This is formally correct.
+
+## February 16
+
+**code** You get an extra point per each dynamic regime. Is there a quick fix for this?
+This is weird. Sometimes the simplified solution is shorter thant the "normal" one.
+
+There is a small error with the simplified models. I thought simplified dynamics would have more points simply because of the way the code is built. But this is not always true, and happens the other way around for the decay.
