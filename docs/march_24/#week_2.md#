@@ -1,0 +1,100 @@
+---
+layout: default
+title: Week 1
+parent: March 2024
+nav_order: 1
+---
+
+| Goal | Notes |                                                                                
+| ----------- | ----------- |
+|(W)| |
+|(PH)|Log-ratio |
+|(R)|AMOC Paper |
+|ANN|Rerun the codes after having enough data from a DATAid |
+|(O)| |
+
+## March 11
+
+**ANN**
+
+So we are at about 2 or 3 processes per day, which is not a lot. This process will finish in 4 to 5 days, I think. We need to be doing other stuff in the meantime.
+
+I want to test how a single file performs against the ensemble of 5 or 6 BMS runs.
+Ok, so things are different, yes. However, why does the MDL increase?
+Also, there is a chance data have been stepped over. I should erase everything after 49999 runs. That would make it.
+Run 2 does not step over. However, it's shorter. Why? I think, the MDL does not change after a few iterations.
+
+Ok, so this works. Still weird how the MDL increases sometimes. But ok.
+
+I would now test this PySr thing for a short while. If it does not work, I would try the noise thing.
+
+So probably the next thing to do is to study the noise.
+
+I don't understand how this is structured and I am afraid of messing things up.
+So the noisy data is located in Data and not MSTraces. That makes sense, because we are adding noise to the original data. In fact, the script for adding noise is in the data folder. We would like to use the traces to recover the original data?
+
+Would you take the noisy data and try to reproduce it with the original traces?
+
+Or would you take the noisy data and produce the traces for that noisy data?
+
+This is what I have in mind:
+
+     1. Take the original ANN generated data
+     2. Add noise
+     3. Apply the BMS to the noisy data
+     4. Compare the "noisy" BMS equations against the original BMS equations. Are they similar?
+     5. Apply the BMS "noisy" equations to the original data
+     6. Alternatively, I would try to explain the noisy data with the original BMS equations
+
+State of the problem:
+
+1. BMS traces take more time to run than I had expected
+2. I confused dataid with runid
+3. PySR does not work, I think (check running notebook)
+4. What to do about the noise? Ideas:
+   1. Generate traces for the noisy data. Compare noisy traces against original traces. Are they similar? If so, the BMS uncovers the original equations. Also, it can tell noise from signal. Do noisy traces explain original data?
+   2. Try to explain noisy data with original traces.
+   
+
+
+
+**R** AMOC
+
+What is F$$_{ovS}$$ It appears to be an important indicator of AMOC's stability.
+The meridional freshwater transport is decomposed in two different components, one of which is the overturning component F$$_{ov}$$ I think $$S$$ refers to freshwater transport.
+
+
+## March 15
+
+**PH** What is going here?
+
+Growth
+Regime I: only growth is active
+The error of bacteria will be due to the absence of predation. 
+The error of phage is due to the absence of burst and decay. This error should be increasing because burst is becoming more and more active.
+
+Regime II: growth and burst are active
+
+Your main error in the bacteria is still on the absence of the predation. However, predation will start weighing more, thus increasing the error. Or so we expect.
+Predation becomes more important between hours 6 and 8. However, we see the opposite for the bacteria. The error decreases and then increases. What is happening here?
+Because you are not accounting for bacteria dying, you are not accounting either, for a decrease in phage production rate. That decrease in phage production rate should in turn decrease the predation increase rate.
+
+I think there is some sort of 2nd order error. I'm ignoring predation in regime II as well as decay. Decay does not count much, that's why the error in the phage remains constant and does not go to zero initially.
+Now, if you look at the weights, predation does not start growing hard until hour 6. And until later than hour 6 nothing really happens to the error.
+But then you see this decrease in the error of bacteria, which is very counterintuitive. What is going here?
+
+Well, because burst is active and predation is not, your phages grow for free. Burst is higher than it should.
+If you had predation active, your bacteria would grow slower (slightly slower) than they do.
+If your predation would be active, you would have slightly less bacteria for the phage to prey upon. And then your burst would go down a little bit, which would give the bacteria a small break. That break would allow the bacteria to grow a bit faster. That is the small dip in the error.
+The small increase in the phage error is the same thing: you are not accounting for a small decrease in the burst, because phages are growing for free.
+
+There should be a small source of error in the phage due to the decay.
+
+Regime III
+Predation is active. I expect the bacterial error to start decreasing.
+I also expect the phage error to start decreasing.
+
+The phage error starts decreasing, because bacteria start dying. This in turn affects the burst which becomes more accurate.
+The bacterial error grows at a smaller rate. Why?Maybe because there is a cumulative error.
+The phage error gets to a minimum and starts increasing again.
+My explanation for these crossed errors is that they happen right at the change of bacterial net growth to extinction. That error on the bacteria will impact the error on phages.
