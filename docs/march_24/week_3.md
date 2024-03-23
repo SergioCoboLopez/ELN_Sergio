@@ -116,3 +116,9 @@ There is going to be a problem about the error, which is growth-on, decay-on. It
 Now it is time to start generating some preliminary datasets.
 
 I would try 0.1, 0.5, 1, 1.5, 2. This would be just a tentative dataset to see how the data looks, nothing more elaborate. 
+
+## March 23
+
+**ANN** I cannot ssh into the lab computer. Am I doing the wrong thing or is the system simply not working? I can try different strategies and if none of them work wait until M to email A.
+
+**O** I need to think about the third paragraph: I can just mention that I want to have another evaluation. Or I can add that I did not understand what the criteria where. And if I do that, where do I put that information?
