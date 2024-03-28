@@ -1,7 +1,7 @@
 --- 
 layout: default
 title: <Month> <Year>
-nav_order: 20
+nav_order: n
 has_children: true
-permalink: /docs/march_24
+permalink: /docs/name_of_month_year
 ---

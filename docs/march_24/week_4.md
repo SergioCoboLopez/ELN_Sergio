@@ -54,3 +54,72 @@ You show max and end errors.
 But I think mean errors are fair too. You can put them in a separate panel, if you want. And show the std.
 You will need to code a little bit that too, but that should not be a big issue tomorrow.
 Check the mean, std, and plotting of those results.
+
+## March 27
+
+**thoughts** I am running on autopilot again. And that is no good.
+I need to find the specific differences and similarities between what Gurtner is doing and what we want to do.
+So the problem they are trying to solve is strategic allocations of trajectories. I guess what is the best way to manage trajectories of different air traveling companies.
+In a way they tackle the same problem, because a flight is rejected if the sector reaches its maximum capacity. But it is not exactly the same: the controllers cannot solve congestion problems real time.
+Do I want to go this way? I cannot be very explicit in that case, because my space is limited.
+What can you say about this paper
+
+**ANN**
+Dataid 0, run 15 seems to be stuck at 1869. I am going to give it around 45 minutes.
+Dataid 0, run 16 looks suspicious.
+Both 15 and 16 are running and the csv files are changing.
+
+Dataid 1
+runid 15 missing
+runid 16 missing
+Running 15 and 16 right now.
+
+runid 1 suspicious
+runid 19 suspicious
+
+Dataid 2
+
+9 to 19 missing. Running 8 to 12 right now.
+
+It is getting difficult to track the processes right now. The nohup.out output is not helping me.
+And the text files are not updating well either.
+It would seem that when I use the "ps" command, processes with an R letter, are running.
+
+**phages**
+I was not representing the std adequately. It was not expressed as a percentage. I was confused about it at first, but there is nothing I should do besides multiplying by 100. I don't see anything substantially different about it. The percentage is just another representation.
+So at this moment I have everything I need to produce a panel with the log ratio of the max error, the end error, and the mean error with the std.
+
+There are a few things that I would like to test first.
+The first one is whether the critical threshold is what it needs to be.
+And whether it has units. How do I test this?
+
+It is relatively easy to understand the critical thresholds: it is just the weight that the processes need to have to be active. You can derive critical concentrations from there. Do they have units? They don't. Perhaps you could argue they have dumb units (cells or phages). But only the dynamic terms including bacteria or phage.
+
+All I would need to do now is to build two panels
+One panel has the logratio end and max errors in four scenarios
+The other panel has the mean and std with the same four scenarios. I build that and send it.
+
+**R** Phosporus
+There are three types of lakes
+
+1. Oligotrophic: not so many nutrients, not so much life, and clear waters. Tahoe is an example of that.
+2. Eutrophic: The opposite. Warm and murky (turbid)
+3. Mesotrophic.
+
+Deep work
+Neurological arguments for depth and happiness. You focus on stuff that makes you happy and that makes you happy on the long run.
+
+## March 28
+
+**ANN** Seems that dataid=0 is ready. What about dataid=1 and =2.
+Dataid =1 seems mostly ready. Dataid=2 is still running. The current process should stop at runid 12.
+I can run two sets from 13 to 16 and 17 to 19.
+Process from 13 to 16. Running.
+
+Process from 17 to 19. Running
+
+**PH** There might be an error in the panels. I will need to check it.
+My hypothesis is that hypothethical error is due to the "percentaged" std.
+To test this hypothesis, I need to go back to the percapfinit code. Then, I should calculate the percentage error at the very beginning (before saving it to a dataframe). Then, I do the standard deviation over the "percentaged" errors.
+Then I save that information in a dataframe and repeat the results in the figures I produced today.
+This should be among my first tasks next week.
