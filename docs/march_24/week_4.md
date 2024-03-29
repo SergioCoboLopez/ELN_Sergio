@@ -123,3 +123,14 @@ My hypothesis is that hypothethical error is due to the "percentaged" std.
 To test this hypothesis, I need to go back to the percapfinit code. Then, I should calculate the percentage error at the very beginning (before saving it to a dataframe). Then, I do the standard deviation over the "percentaged" errors.
 Then I save that information in a dataframe and repeat the results in the figures I produced today.
 This should be among my first tasks next week.
+
+## March 29
+
+**ANN**
+The batch of processes 13 to 16 froze and I restarted it. I need a more intuitive system to monitor cancel and restart processes. Initially, I thought the nohup command would be helpful. And to a certain extent, it was. Otherwise, processes were interrupted any time I closed the window. But this system does not allow me to see where a process is stuck.
+One thing I could do is to:
+1. cat all txt log files that I produced to see in which runid each one is.
+2. Check the state of each corresponding file with the stat command.
+
+**PH**
+Started doing things differently with percentages.
