@@ -87,21 +87,6 @@ I see a few things wrong with dataid=0.
 I am going to read the answers to my comments and see if they make sense or convince me. That ensures I will not be contradicting myself. The, I should go over the changed text to double check.
 
 
-Comment 11 and 12 - Clarification about notations
-Satisfactory
-
-Comment 13 - Notation equations
-Relatively satisfactory
-
-Comment 14 - Concept clarification
-Satisfactory
-
-Comment 15 - Notation
-Satisfactory
-
-Comment 16 - Table for conceptual figure
-Satisfactory
-
 Comment 17 - K=7 and elbow points
 Not very convincing. I think they are confirming that the choice of K is arbitrary. It is what looks better to them.
 
