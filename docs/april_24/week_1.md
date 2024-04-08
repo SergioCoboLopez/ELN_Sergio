@@ -86,32 +86,6 @@ I see a few things wrong with dataid=0.
 **R** Revised manuscript
 I am going to read the answers to my comments and see if they make sense or convince me. That ensures I will not be contradicting myself. The, I should go over the changed text to double check.
 
-
-Comment 17 - K=7 and elbow points
-Not very convincing. I think they are confirming that the choice of K is arbitrary. It is what looks better to them.
-
-Comment 18 - text
-Convincing
-
-Comment 19 - text
-Convincing
-
-Comment 20 - My mistake
-
-Comment 21 - Figure cosmetics
-Convincing
-
-Comment 22 - Figure 5 (now Figure 3)
-
-Comment 23 - Shannon diversity
-I did not understand
-
-I don't know what to do about this paper. They did a good amount of work, but some things really do not seem convincing. Particularly the validation part.
-I am thinking of re-reading it to see if it makes more sense
-
-I think ARI measures how well the community detecting algorithm captures the structure.
-Then, I can think of Heather's information. And somewhere, I should put Toni's email and start crafting a response. I need to be strategic about it and anticipate the fusion that he might experiment. That's part of the depth.
-
 **ANN** I also need to know what to do about this project. Or what to propose. I will shift my interest for this hour towards looking at the python notebook.
 
 Let's look at the pysr thing.
