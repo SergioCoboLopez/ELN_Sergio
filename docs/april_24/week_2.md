@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Week 2
-parent: April 2024
+parent: April 2023
 nav_order: 2
 ---
 
@@ -19,6 +19,8 @@ nav_order: 2
 **ANN** I want to prepare a short report on what I have been doing about the ANN project.
 
 ## April 10
+
+
 
 **ANN** Project summary.
 
