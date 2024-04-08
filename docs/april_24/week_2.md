@@ -40,10 +40,10 @@ Below, I show tables for the data generated with the trend, MDL at the beginning
 
 ### Information about runs of traces
 
-| Dataid | Runid | Trend  | MDL                     | Steps |
+|Dataid|Runid| Trend  | MDL                     | Steps |
 | ---- | --- | ------ |-------------------------|------ |
-|   0    |  0    |  Up    |20.294781 57.268934 | 49999 |
-|   0    |  1    |  Down  |20.294781 9.069446  | 47474 |
+|   0  |  0    |  Up    |20.294781 57.268934 | 49999 |
+|   0  |  1    |  Down  |20.294781 9.069446  | 47474 |
 |   0    |  2    |  Up    |25.660849 77.879671 | 49999 |
 |   0    |  3    |  Down  |20.294781 -28.965687| 49999 |
 |   0    |  4    |  Down  |20.294781 -67.018353| 3720  |
