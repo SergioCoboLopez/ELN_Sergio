@@ -38,10 +38,10 @@ I used the prior file 'final_prior_param_sq.named_equations.nv1.np10.2017-10-18 
 I noticed two technical issues while generating the traces: first, the BMS gets stuck in many instances. This would be an interesting problem to tackle. Second, the MDL increases instead of decreasing.
 Below, I show tables for the data generated with the trend, MDL at the beginning and end of the process, and number of steps.
 
-### Information about runs
+### Information about runs of traces
 
-| Dataid | Runid | Trend  | MDL                | Steps |
-| ------ | ----- | ------ |--------------------|------ |
+| Dataid | Runid | Trend  | MDL                     | Steps |
+| ---- | --- | ------ |-------------------------|------ |
 |   0    |  0    |  Up    |20.294781 57.268934 | 49999 |
 |   0    |  1    |  Down  |20.294781 9.069446  | 47474 |
 |   0    |  2    |  Up    |25.660849 77.879671 | 49999 |
@@ -53,7 +53,7 @@ Below, I show tables for the data generated with the trend, MDL at the beginning
 |   0    |  8    |  Up    |20.294781 31.069555 | 49999 |	  
 |   0    |  9    |  Up    |20.294781 152.280483| 49999 |
 |   0    | 10    |  Up    |20.294781 32.910901 | 49999 |
-|   0    | 11    |        |      |          |	       |    
+|   0    | 11    |  Up    |20.294781 161.748298| 49999 |
 |   0    | 12    |  Down  |20.294781 -29.377455| 49999 |
 |   0    | 13    |  Up    |23.992715 148.358166| 49999 |
 |   0    | 14    |  Up    |25.027049 33.581254 | 49999 |
@@ -63,8 +63,8 @@ Below, I show tables for the data generated with the trend, MDL at the beginning
 |   0    | 18    |  Up    |20.294781 115.226628| 49999 |
 |   0    | 19    |  Up    |20.294781 193.571991| 49999 |
 
-| Dataid | Runid | Trend  | MDL                | Steps |
-| ------ | ----- | ------ |--------------------|------ |
+| Dataid | Runid | Trend  | MDL                     | Steps |
+| ---- | --- | ------ |-------------------------|------ |
 |   1    |  0    |  Up    |28.931262 261.07662 | 49999 |
 |   1    |  1    |  Down  |28.931262 -0.833894 | 6324  |
 |   1    |  2    |  Up    |28.931262 151.835267| 49999 |
@@ -77,22 +77,45 @@ Below, I show tables for the data generated with the trend, MDL at the beginning
 |   1    |  9    |  Up    |28.931262 362.259561| 49999 |
 |   1    | 10    |  Up    |28.931262 149.727488| 49999 |
 |   1    | 11    |  Up    |33.443178 59.31554  | 49999 |	       |    
-|   1    | 12    |    || 49999 |
-|   1    | 13    |  Up    |23.992715 148.358166| 49999 |
-|   1    | 14    |  Up    |25.027049 33.581254 | 49999 |
-|   1    | 15    |  Up    |20.294781 86.598311 | 49999 |
-|   1    | 16    |  Up    |20.294781 146.491785| 49999 |
-|   1    | 17    |  Down  |20.294781 13.824629 | 49999 |
-|   1    | 18    |  Up    |20.294781 115.226628| 49999 |
-|   1    | 19    |  Up    |20.294781 193.571991| 49999 |
+|   1    | 12    |  Up    |28.931262 50.640794 | 49999 |
+|   1    | 13    |  Up    |32.629197 41.680697 | 49999 |
+|   1    | 14    |  Up    |28.931262 67.780763 | 49999 |
+|   1    | 15    |  Up    |28.931262 258.645669| 49999 |
+|   1    | 16    |  Up    |28.931262 60.205036 | 49999 |
+|   1    | 17    |  Up    |28.931262 210.232905| 49999 |
+|   1    | 18    |  Down  |28.931262 11.53312  | 49999 |
+|   1    | 19    |  Up    |28.931262 130.453526| 49999 |
 
+
+| Dataid | Runid | Trend  | MDL                     | Steps |
+| ---- | --- | ------ |-------------------------|------ |
+|   2    |  0    |  Up    |  | 49999 |
+|   2    |  2    |  Down  |  | 6324  |
+|   2    |  2    |  Up    |  | 49999 |
+|   2    |  3    |  Up    |28.931262 163.623833| 49999 |
+|   2    |  4    |  Up    |37.995265 82.429045 | 49999 |
+|   2    |  5    |  Up    |28.931262 98.223109 | 49999 |
+|   2    |  6    |  Up    |28.931262 194.105650| 49999 |
+|   2    |  7    |  Up    |36.575994 235.663349| 49999 |
+|   2    |  8    |  Down  |28.931262 22.224269 | 49999 |	  
+|   2    |  9    |  Up    |28.931262 362.259561| 49999 |
+|   2    | 10    |  Up    |28.931262 149.727488| 49999 |
+|   2    | 11    |  Up    |33.443178 59.31554  | 49999 |	       |    
+|   2    | 12    |  Up    |28.931262 50.640794 | 49999 |
+|   2    | 13    |  Up    |32.629197 41.680697 | 49999 |
+|   2    | 14    |  Up    |28.931262 67.780763 | 49999 |
+|   2    | 15    |  Up    |28.931262 258.645669| 49999 |
+|   2    | 16    |  Up    |28.931262 60.205036 | 49999 |
+|   2    | 17    |  Up    |28.931262 210.232905| 49999 |
+|   2    | 18    |  Down  |28.931262 11.53312  | 49999 |
+|   2    | 19    |  Up    |28.931262 130.453526| 49999 |
 
 
 
 **R** Revised manuscript
 I am going to read the answers to my comments and see if they make sense or convince me. That ensures I will not be contradicting myself. The, I should go over the changed text to double check.
 
-Comment 1 - Validation
+Comment 1 OA- Validation
 Not convincing. Either of us is not understanding something very fundamental. I don't see a contraction between clustering.
 "Thus, the authors make use of only the abundance data"
 "Our model makes use of the microbiome co-occurrence network that is constructed from the microbiome abundance data."
