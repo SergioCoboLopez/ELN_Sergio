@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Week 2
-parent: April 2023
+parent: April 2024
 nav_order: 2
 ---
 
@@ -19,8 +19,6 @@ nav_order: 2
 **ANN** I want to prepare a short report on what I have been doing about the ANN project.
 
 ## April 10
-
-
 
 **ANN** Project summary.
 
@@ -40,6 +38,7 @@ I used the prior file 'final_prior_param_sq.named_equations.nv1.np10.2017-10-18 
 I noticed two technical issues while generating the traces: first, the BMS gets stuck in many instances. This would be an interesting problem to tackle. Second, the MDL increases instead of decreasing.
 Below, I show tables for the data generated with the trend, MDL at the beginning and end of the process, and number of steps.
 
+### Information about runs
 
 | Dataid | Runid | Trend  | MDL                | Steps |
 | ------ | ----- | ------ |--------------------|------ |
