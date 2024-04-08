@@ -86,38 +86,6 @@ I see a few things wrong with dataid=0.
 **R** Revised manuscript
 I am going to read the answers to my comments and see if they make sense or convince me. That ensures I will not be contradicting myself. The, I should go over the changed text to double check.
 
-Comment 1 - Validation
-Not convincing. Either of us is not understanding something very fundamental. I don't see a contraction between clustering.
-"Thus, the authors make use of only the abundance data"
-"Our model makes use of the microbiome co-occurrence network that is constructed from the microbiome abundance data."
-I don't think this makes any sense. I imagine label as group number or group category. But precision, recall, and accuracy are perfectly possible. You could measure the precision of your method at classifyin microes in their corresponding group.
-
-Comment 2 -  I don't understand
-
-Comment 3 - Big binary heatmap
-Seems acceptable
-
-Comment 4 - "Conceptual" figure
-Harmless but not very insightful
-
-Comment 5 - Fundamental questions about the paper
-Convincing
-Seems that ARI and label switchin is the central thing about their method. That makes me hopeful that they are at least trying to validate the method.
-
-Comment 6 - novelty of the paper
-Satisfactory
-
-Comment 7 - Moving parts of the manuscript to the supplementary
-Not satisfactory
-
-Comment 8 - SBM and community detection
-Relatively satisfactory
-
-Comment 9 - References and citations
-Satisfactory
-
-Comment 10 - References and citations
-Satisfactory
 
 Comment 11 and 12 - Clarification about notations
 Satisfactory
@@ -210,10 +178,10 @@ I am going to delete the models that worked and start again.
 |   3    |  4    |  Finished  |20.294781 -67.018353| 3720  |
 |   3    |  5    |  Finished |20.294781 65.488852 | 49999 |  
 |   3    |  6    |  Finished |23.974728 211.3611  | 49999 |	  
-|   3    |  7    |  Running  |20.294781 192.837103| 49999 |	  
-|   3    |  8    |  Running  |20.294781 31.069555 | 49999 |	  
-|   3    |  9    |  not yet  |20.294781 152.280483| 49999 |
-|   3    | 10    |  not yet  |20.294781 32.910901 | 49999 |
+|   3    |  7    |  Finished  |20.294781 192.837103| 49999 |	  
+|   3    |  8    |  Finished  |20.294781 31.069555 | 49999 |	  
+|   3    |  9    |  Finished  |20.294781 152.280483| 49999 |
+|   3    | 10    |  Finished  |20.294781 32.910901 | 49999 |
 |   3    | 11    |  not yet  |      |          |	       |    
 |   3    | 12    |  not yet  || 49999 |
 |   3    | 13    |  not yet  || 49999 |

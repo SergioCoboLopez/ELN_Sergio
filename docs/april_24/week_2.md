@@ -9,7 +9,7 @@ nav_order: 2
 | ----------- | ----------- |
 |(W)| |
 |(PH)|Send email to T and F; check calculations; introduce whatever corrections seem reasonable |
-|(R)|Papers Marc and Oscar |
+|(R)|Papers Marc and Oscar; Review |
 |(ANN)|Check processes and see if everything is done until dataid=3 |
 |(O)|Meeting with Toni |
 
@@ -17,6 +17,26 @@ nav_order: 2
 ## April 8
 
 **ANN** I want to prepare a short report on what I have been doing about the ANN project.
+
+If the BMS does not get stuck many times, I might have DATAID=3 ready for Wednesday. I have three processes going on right now. 11 to 14, 15 to 17, and 18 to 19 . Even if something gets stuck, there is margin to re-run processes tomorrow. However, I still need to to the proper analysis.
+
+Tomorrow:
+
+Block 1 -  Check processes and re-run whatever is stuck.
+           Re-run the notebook for DATAID=0 and see the results. Is it worth it to embed the figures into your notebook? Even if it helps yourself make sense of the results?
+	   Do a DATAID=1 run
+
+Block 2 - Think about results of meeting with Toni
+	  Paper review
+      	  Finish tables in your report
+
+Block 3 - T and F's email. Answer the questions
+      	  Re-do calculations.
+
+**R** Review
+
+In a co-occurrence network, I would expect that two strains are connected if they are equally abundant.
+      	
 
 ## April 10
 
