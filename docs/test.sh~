@@ -1,0 +1,4 @@
+# Test to create new months from scratch
+
+month="$1$"
+mkdir ${month}_24

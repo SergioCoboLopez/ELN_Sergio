@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Week 1
+title: Week 3
 parent: March 2024
-nav_order: 1
+nav_order: 3
 ---
 
 | Goal | Notes |                                                                                
