@@ -158,8 +158,15 @@ The oscillations of the error are probably due to the model switching from under
 
 $$MAE=0.121$$ Two orders of magnitude higher than BMS.
 
+$$Dataid=1$$
+$$MAE=0.019$$
+4 parameters
+2 linear terms (one constant)
+
+![test](sample_1.png)
 
 
+$$Dataid=2$$
 
 
 
