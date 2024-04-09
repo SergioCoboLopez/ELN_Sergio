@@ -144,7 +144,22 @@ Below, I show tables for the data generated with the trend, MDL at the beginning
 
 ### Results
 
+$$Dataid=0$$
+
 ![test](sample_id0.png)
+
+$$MAE=0.001$$
+5 parameters
+2 linear terms
+
+The oscillations of the error are probably due to the model switching from underperforming to overperforming. Oscillations increase in amplitude between $$x_1=[0,3]$$. Is this because the model does not predict accurately the drop of the sigmoidal function?
+
+![test](pysr_0.png)
+
+$$MAE=0.121$$ Two orders of magnitude higher than BMS.
+
+
+
 
 
 
