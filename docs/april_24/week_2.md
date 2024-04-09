@@ -22,12 +22,12 @@ If the BMS does not get stuck many times, I might have DATAID=3 ready for Wednes
 
 Tomorrow:
 
-Block 1 -  Check processes and re-run whatever is stuck.
-           Re-run the notebook for DATAID=0 and see the results. Is it worth it to embed the figures into your notebook? Even if it helps yourself make sense of the results?
+Block 1 - Re-run the notebook for DATAID=0 and see the results. Is it worth it to embed the figures into your notebook? Even if it helps yourself make sense of the results?
 	   Do a DATAID=1 run
 
-Block 2 - Think about results of meeting with Toni
-	  Paper review
+
+Block 2 - 
+	  Paper review. Start where you left it.
       	  Finish tables in your report
 
 Block 3 - T and F's email. Answer the questions
@@ -37,6 +37,17 @@ Block 3 - T and F's email. Answer the questions
 
 In a co-occurrence network, I would expect that two strains are connected if they are equally abundant.
       	
+## April 9
+
+**O** 
+I will need to reformulate the final paragraph.
+The grant asks to explicitly assess the following ideas:
+adaptability: (to what?)
+applicability: to me this means applying the method to the real world with the challenges faced by air controlers. We have this theoretically covered)
+viability: Is this idea feasible. Yes.
+Innovation: This is justified with the second paragraph
+Operational impact: I think this could be the usual "impact" of a grant.
+
 
 ## April 10
 
@@ -131,5 +142,10 @@ Below, I show tables for the data generated with the trend, MDL at the beginning
 |   2    | 19    |  Up    |28.931262 130.453526| 49999 |
 
 
+### Results
+
+$$DATAID=0$$
+
+![Ashwin_1](sample_id0.png)
 
 

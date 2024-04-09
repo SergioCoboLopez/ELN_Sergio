@@ -125,10 +125,8 @@ $$\begin{equation}
   \label{eq:error_bacteria_2}
 \end{equation}$$
 
-<<<<<<< HEAD
-
 The error is not working great at this moment. I am going to try to take the weights.
-=======
+
 ## November 22
 
 **R** Paper for fermentation rates
@@ -140,14 +138,8 @@ difcult for organisms to use glucose and galactose simultaneously". This is inte
 "we first constructed the galRS mutant, E. coli strain GR2 which was not able to produce the galactose operon repressors encoded from the galRS
 genes" This is how they got the bacteria
 
-"We expected that the resulting strain would consume galactose at a higher rate than the parent strain
-in the co-fermentation of glucose and galactose" This is the opposite of what I had expected.
+"We expected that the resulting strain would consume galactose at a higher rate than the parent strain  the co-fermentation of glucose and galactose" This is the opposite of what I had expected.
 
 "In the co-fermentation of glucose and galactose, E. coli strain GR2 had completely consumed the glucose
-at 12 h of culture, yielding a specifc glucose consumption rate of 1.3629 g/gDCW/h " This is the opposite of what I had thought from the previous caption.
+at 12 h of culture, yielding a specific glucose consumption rate of 1.3629 g/gDCW/h " This is the opposite of what I had thought from the previous caption.
 
-Parent Strain W3110
-1.3629 g/gDCW h, with gDCW meaning gram of dry cell weight.
-
-
->>>>>>> 1de93a90016bb4dd073708f93a6fd2dbac442dca
