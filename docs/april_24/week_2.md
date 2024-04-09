@@ -144,8 +144,5 @@ Below, I show tables for the data generated with the trend, MDL at the beginning
 
 ### Results
 
-$$DATAID=0$$
-
-![Ashwin_1](sample_id0.png)
 
 
