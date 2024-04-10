@@ -143,11 +143,11 @@ I am going to delete the models that worked and start again.
 |   3    | 10    |  Finished  |20.294781 32.910901 | 49999 |
 |   3    | 11    |  Finished  |      |          |	       |    
 |   3    | 12    |  Finished  || 49999 |
-|   3    | 13    |  not yet  || 49999 |
-|   3    | 14    |  not yet  | | 49999 |
-|   3    | 15    |  Canceled  | | 49999 |
-|   3    | 16    |  not yet  || 49999 |
-|   3    | 17    |  not yet  | | 49999 |
+|   3    | 13    |  Finished  || 49999 |
+|   3    | 14    |  Running  | | 49999 |
+|   3    | 15    |  Finished  | | 49999 |
+|   3    | 16    |  Finished  || 49999 |
+|   3    | 17    |  Running  | | 49999 |
 |   3    | 18    |  Finished  || 49999 |
 |   3    | 19    |  Finished  || 49999 |
 

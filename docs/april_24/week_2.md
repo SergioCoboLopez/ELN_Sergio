@@ -50,6 +50,18 @@ Operational impact: I think this could be the usual "impact" of a grant.
 
 Too many things at once.
 
+Block 1 - 
+      	  PySr for dataid=1,2, and maybe 3
+	  Finish tables of runs
+	  Think
+
+Block 2 - Think about meeting
+      	  Paper review
+
+Block 3 - Email and calculations
+
+Block 4 - Think about meeting
+
 ## April 10
 
 **ANN** Project summary.
@@ -120,14 +132,15 @@ Below, I show tables for the data generated with the trend, MDL at the beginning
 
 |Dataid|Runid| Trend  | MDL                     | Steps |
 | ---- | --- | ------ |-------------------------|------ |
-|   2  |  0  |  Up    |  | 49999 |
-|   2  |  2  |  Down  |  | 6324  |
-|   2  |  2  |  Up    |  | 49999 |
-|   2  |  3  |  Up    |28.931262 163.623833| 49999 |
-|   2  |  4  |  Up    |37.995265 82.429045 | 49999 |
-|   2  |  5  |  Up    |28.931262 98.223109 | 49999 |
-|   2  |  6  |  Up    |28.931262 194.105650| 49999 |
-|   2  |  7  |  Up    |36.575994 235.663349| 49999 |
+|   2  |  0  |  Up    | 27.76239   79.998659  | 49999 |
+|   2  |  1  |  Up    | 27.76239   97.016372  | 49999  |
+|   2  |  2  |  Down  | 27.762390 -49.434129  | 49999 |
+|   2  |  3  |  Up    | 27.76239  171.725695  | 49999 |
+|   2  |  4  |  Down  | 27.76239   -7.080423  | 49999 |
+|   2  |  5  |  Up    | 27.76239    56.501876 | 49999 |
+|   2  |  6  |  Up    | 27.762390     7.893359| 49999 |
+|   2  |  7  |  Up    | 27.76239    166.319251| 49999 |
+
 |   2  |  8  |  Down  |28.931262 22.224269 | 49999 |	  
 |   2  |  9  |  Up    |28.931262 362.259561| 49999 |
 |   2  | 10  |  Up    |28.931262 149.727488| 49999 |
@@ -169,6 +182,8 @@ $$MAE=0.019$$
 
 4 parameters
 2 linear terms (one constant)
+
+![test1pysr](pysr_1.png)
 
 $$Dataid=2$$
 
