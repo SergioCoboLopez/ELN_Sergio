@@ -144,7 +144,7 @@ I am going to delete the models that worked and start again.
 |   3    | 11    |  Finished  |      |          |	       |    
 |   3    | 12    |  Finished  || 49999 |
 |   3    | 13    |  Finished  || 49999 |
-|   3    | 14    |  Running  | | 49999 |
+|   3    | 14    |  Finished  | | 49999 |
 |   3    | 15    |  Finished  | | 49999 |
 |   3    | 16    |  Finished  || 49999 |
 |   3    | 17    |  Running  | | 49999 |

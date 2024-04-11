@@ -76,6 +76,7 @@ The code takes data with the following settings:
 $$ILS = 2$$ - Initial Layer Size
 $$NL=5$$ - Number of layers
 $$LS=10  - Layer Size
+Data generated for $$x=[-5,5]$$. 40 points.
 
 I used the prior file 'final_prior_param_sq.named_equations.nv1.np10.2017-10-18 18:07:35.089658.dat'. My understanding is that this file sets the prior to 10 parameters?
 
@@ -157,41 +158,154 @@ Below, I show tables for the data generated with the trend, MDL at the beginning
 
 ### Results
 
-$$Dataid=0$$
+#### $$Dataid=0$$
 
 ![test0](sample_id0.png)
 
 $$MAE=0.001$$
 
 
-5 parameters
-2 linear terms
+Model: 5 parameters, 2 linear terms
 
 The oscillations of the error are probably due to the model switching from underperforming to overperforming. Oscillations increase in amplitude between $$x_1=[0,3]$$. Is this because the model does not predict accurately the drop of the sigmoidal function?
 
+Pysr results
 ![test0pysr](pysr_0.png)
 
 $$MAE=0.121$$ Two orders of magnitude higher than BMS.
 
-$$Dataid=1$$
+Taking maximum description length:
+
+![test0](sample_0_maxH.png)
+
+#### $$Dataid=1$$
 
 ![test1](sample_1.png)
 
 $$MAE=0.019$$
 
 
-4 parameters
-2 linear terms (one constant)
+
+Model: 4 parameters, 2 linear terms (one constant)
 
 ![test1pysr](pysr_1.png)
 
-$$Dataid=2$$
+Taking maximum description length: $$MAE=0.0168$$
+
+#### $$Dataid=2$$
 
 ![test2](sample_2.png)
 
 $$MAE=0.0004$$
-7 parameters
-1 term
+$$MDL=-106.744276607185$$
+Model: 7 parameters, 1 term
+
+**ANN** What does the pyreen thing do? At least it builds neural networks.
+You can also train neural networks (to predict/explain data?)
+
+The goal is to generate 10 neural networks with identical architecture but different weight adjustments. In one dimension. And with relu as a function.
+Then you train those neural networks with another neural network? And see if you recover the original data. But how do you validate the predictions?
+
+In his code, this is what happens:
+1. Read a dataset of ~150000 points and 7 independent variables.
+2. Train with 50000 points, test on 100000 points.
+3. Initialize a neural network
+4. Train that neural network with your train set
+5. Then you plot the predictions against the train and test set.
+
+Questions:
+How does an ANN work? Where are the weights and the tanh function?
+What does it mean to train an ANN?
+
+It is probably a good idea to read the documentation.
 
 
 
+
+![test1pysr](pysr_2.png)
+
+$$MAE=0.139, 0.131$$
+
+**ANN**
+Rashomon set. I think this is having a set of expressions or models explaining the same dataset in the training set, but not out of sample.
+Questions: do ANNs predict better or worse than the BMS?
+	   How many mathematical equations can explain the same dataset?
+	   How do you define similar models? Is it the mathematical expression or the predictions inside the training set and/or the training set?
+	   How do you define a metric to measure model similarity? The MDL does not do the trick. Is it the same problem that a sort of shannon entropy could solve?
+	   Is there a tipping point where the number of models that explain the same data explodes?
+	   How is noise related to this problem?
+	   
+**O** I think I need some rules to prevent physical and mental barriers to perform adequately. One of those rules is that this notebook should be easily identifiable: maybe I could color the window or locate the window at a specific desktop.
+I am thinking of assigning sections of the ELN to specific projects. However, I am worried that defeats the purpose or applicability of the ELN. After the meeting today, I should be able to assess that after the meeting. If we have biweekly meetings, maybe it makes sense to produce a report. In any case, building a small report is a good idea.
+
+There are several things I feel I should be doing now:
+1. Learn more about rashomon sets.
+2. Think about the project. How would I go on if I were on my own.
+3. Think about specific tasks that I would perform.
+4. Finish table and figures with maximum H.
+This task would be useful and overlaps with #2.
+
+How would I move on with this project if I were on my own? I think I would be interested in the Rashomon set problem.
+How many equations and/or models can explain the same dataset? "The Rashomon set is the set of these all almost-optimal models."
+
+Suppose that I give you some observed data in two dimensions in a subset of the space.
+Now take all models (or a distribution thereof) that explain that observed data with an error smaller than $$\epsilon$$.
+Then I look at what happens out of sample. I might get groups of expressions that have similar expressions. Because "out of sample" is arbitrary, I could keep extending the out-of-sample subset and the groups would become smaller.
+What if I could go to infinite. Maybe, after a number of iterations, I would be getting the same groups, after all.
+This would tell me that there are certain expressions that, despite being different, have the same or very similar fenotypes. What about the genotypes?
+Suppose you call the expressions of equations "genotypes". However, two different genotypes might display the same phenotypes. If that happens, are the genotypes equivalent (do they have the same meta-genotype)?
+
+Another question is how do you measure the similarity of expressions. To measure the similarity of phenotypes, you use the rashomon set, but what about the genotype?
+The MDL is probably not enough. There can be infinite expressions with the same MDL, just as there are many computer programs with the same number of bits. How would you tell one from another in a way that matters?
+
+
+Is it possible that there is a universal meta-genotype for all expressions with the same phenotype. Is it possible that functions have alternative expressions just as it happens with taylor expressions?
+
+**O** A presentation about fertilizers and their importance.
+How would I make that?
+Fertilizers are important because they sustain half of the world population. And they are limited and energy consuming. That is a huge mistake on the long run. That is because the production of fertilizers is energy-dependent and supplies are limited.
+Justus von Liebig realizes that N-P-K matter a lot for agriculture. He comes with the law of the minimum. Maybe that's why carbon appears to be not that important.
+Why are they important?
+Humankind starts exploiting P reserves: human bones, guano, P reserves (Western Sahara)
+Haber process: mix agriculture with fossil fuels.
+1 calorie obtained per 1 calorie input.
+US and corn. What is special about corn?
+They stop rotating crops. Monocrops are bad for several reasons.
+Roosevelt creates a system where you could get money from exceptionally good harvests.
+Nixon breaks the deal and subsidizes over-production of corn. What do you with that corn?
+HFCS, feed animals, biofuels.
+Pesticides, Rachel Carson and DDT.
+Talk about haber as a scientific figure.
+
+**ANN** In pyrenn there are three parameters for an ANN.
+Input layer with R inputs
+M-1 hidden layers
+Output layer with S^m.
+
+Each neuron recieves n p inputs. Each input has a weight.
+First the neuron takes the sum of the inputs multiplied by the weights, then adds a bias and then that becomes the input (n) of transfer functions.
+
+Block 1 - Paper review
+          Keep reading where you left it (at least three pages)
+	  Fill questionnaire (with approximate assessments)
+	  Start drafting a decision
+
+Block 2 - Can you build a neural network with a desired transfer function in pyrenn?
+      	  Can you tune the weights?
+	  If not, what choices would you have?
+	  Clean folder
+
+Block 3 - T and F email. Keep drafting responses.
+      	  Double check calculations.
+	  Think
+
+Block 4 - Think about ANNs
+
+
+## April 11
+
+
+Tomorrow:
+Block 1 - Finish review
+Block 2 - ANN reading and tests (see Block 2 for today)
+Block 3 - Reading - Phosphate
