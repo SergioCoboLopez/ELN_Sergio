@@ -55,4 +55,15 @@ Haber
 
 **thoughts** If you don't want to work you should start writing. Write anything. Sooner or later you will be writing about what you need to do that you don't want to do. And then you will narrow down what is exactly what you are avoiding. And once you have identified a specific task that you need done, it will be easier for you to start working. All I had to do to start was to include the median.
 
-The problem was that the mean looks higher than the max value. And that hints us that something might be wrong. The hypothesis was that something could be wrong with the percentage calculations.
+
+
+What should be the next thing to do? There is nothing wrong with the mean + std exceeding the max, apparently. It can happen because not all distributions are normal. If you have a left-skewed distribution, this can happen. The mean will also be skewed to the left.
+
+There was also an error in the code.
+Now the question becomes: i) do you save percentaged errors? ii) how do you plot the median? Is it costumary to plot it with the std?
+I would not save the percentaged error. Your version is more versatile, because you can easily go to the 'raw' version.
+I don't think it makes sense to plot the median with the std, because the std refers explicitly to the mean.
+
+It is possible to convert a dataframe into numpy array (probably the reverse too) and it is also possible to flatten the numpy array so that we can make calculations on it.
+
+Tomorrow: repeat for all scenarios and all thresholds. Plot median with error.
