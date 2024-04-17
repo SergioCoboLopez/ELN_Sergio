@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Week 1
+title: Week 4
 parent: March 2024
-nav_order: 1
+nav_order: 4
 ---
 
-| Goal | Notes |                                                                                
+| Goal | Notes |                           
 | ----------- | ----------- |
 |(W)|Enaire |
 |(PH)|Error vs critical value; improve code |

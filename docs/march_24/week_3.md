@@ -5,7 +5,7 @@ parent: March 2024
 nav_order: 3
 ---
 
-| Goal | Notes |                                                                                
+| Goal | Notes |                           
 | ----------- | ----------- |
 |(W)| |
 |(PH)|Send figures of the error |
@@ -90,22 +90,6 @@ On the y axis, it has the error (relative or logratio)
 There are phage errors, bacterial errors and mean errors.
 There are max errors, final errors and mean errors
 You want to save all results for every run in a csv (and prepare to have to save more stuff):
-
-| wc | Scenario | Bacteria error | Category | Phage error | Category |                                                                               
-| -- | -------- | -------------- | -------- | ----------- | -------- |
-|    | |
-
-Maybe you don't need the full error because you can extract it later.
-
-I am in a point where I need to choose how will I store my information in a way that it is easy exported as a csv. I should be careful.
-Right now, I am on track to make a dictionary of dictionaries:
-keys are errors+agents which is already ill-defined.
-I think it should be bacteria:{type of error: [statistics]}
-
-Maybe it should be:
-
-| wc | Scenario | Bacteria rel error | Category | Bacteria log error | Category | Phage rel error | Category | ... |                                                                               
-| -- | -------- | ------------------ | -------- | ------------------ | -------- | --------------- | -------- | --- |
 
 This seems reasonable. I might think it's wrong, but seems reasonable right now.
 Problems arise. I cannot name the variables.
