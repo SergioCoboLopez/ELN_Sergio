@@ -55,8 +55,6 @@ Haber
 
 **thoughts** If you don't want to work you should start writing. Write anything. Sooner or later you will be writing about what you need to do that you don't want to do. And then you will narrow down what is exactly what you are avoiding. And once you have identified a specific task that you need done, it will be easier for you to start working. All I had to do to start was to include the median.
 
-
-
 What should be the next thing to do? There is nothing wrong with the mean + std exceeding the max, apparently. It can happen because not all distributions are normal. If you have a left-skewed distribution, this can happen. The mean will also be skewed to the left.
 
 There was also an error in the code.
@@ -66,4 +64,7 @@ I don't think it makes sense to plot the median with the std, because the std re
 
 It is possible to convert a dataframe into numpy array (probably the reverse too) and it is also possible to flatten the numpy array so that we can make calculations on it.
 
-Tomorrow: repeat for all scenarios and all thresholds. Plot median with error.
+## April 18
+
+**PH** Rebuild the datasets
+
