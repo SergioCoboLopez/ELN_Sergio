@@ -114,3 +114,19 @@ How many inputs has this nn? Let us assume the output layer size to be 1, and th
 I am not sure this is what I think it is.
 
 Something's throwing errors back at me. I need to know what is going here. There is something with the syntax.
+
+## April 25
+
+**ANN**
+What is the most reasonable thing to do now? Try to build that neural network again?
+Or train the functions with pyrenn? Maybe I could try once again. And think about the errors that I am getting.
+
+First, you get a warning more than an error. And then the code complains about a lack of memory. Apparently, this is not a problem of the code, but a problem of the gpu (hardware). This suggests two possible solutions:
+1. Ask someone else for help
+2. Use something simpler (scikit or pyrenn)
+
+I am going to try pyrenn to find a fast solution first. How am I going to train the networks?
+I see three possibilities?
+1. Remove a part of the function and train with the rest
+2. Remove intermediate points of the function and train with the rest
+3. Train with the whole function and see how it performs out of sample. For this, you will need to handle normalizations.
