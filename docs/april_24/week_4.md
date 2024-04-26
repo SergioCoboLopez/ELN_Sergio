@@ -130,3 +130,36 @@ I see three possibilities?
 1. Remove a part of the function and train with the rest
 2. Remove intermediate points of the function and train with the rest
 3. Train with the whole function and see how it performs out of sample. For this, you will need to handle normalizations.
+
+You need the functions rather than the weights.
+
+So one dataset is one input.
+
+## April 26
+
+So you are taking a train set with the x and y data.
+Then you train the network.
+
+Then you take the test set, which is the y points you had not seen before.
+ytest is the result of training the dataset.
+
+Somehow it is not understanding anything. Maybe I should give it more time to train or more data to train.
+I don't understand what is going on
+
+What am I trying to do?
+I have the original function, and the function predicted by the NN.
+
+I should plot original vs predicted.
+
+But I want to plot trained and test in different colors.
+My limitation right now is a technical one.
+
+I think this is mostly done. I just need to plot the figures together.
+
+What do you want to plot altogether? Generating 10 panels does not seem like the best strategy to plot figures.
+
+Ok, so we'll plot a big panel of 10 columns, 3 rows. Rows are: function, model function and trained vs. predicted.
+I have to save the information somewhere,though.
+
+Monday: plot errors in panels from datasets: function, model, predicted vs real. Add diagonal and colors. Add error as text.
+Make sure everything makes sense and repeat for the corresponding datasets.
