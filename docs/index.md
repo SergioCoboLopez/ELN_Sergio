@@ -77,7 +77,8 @@ In the general case, you will have to change the 'parent' section. Now, we will 
 
     for i in {2..4};
     do
-    sed "s/title: Week 1/title: Week $i/g ; s/nav_order: 1/nav_order: $i/g"  week_1.md > week_$i.md;    done
+    sed "s/title: Week 1/title: Week $i/g ; s/nav_order: 1/nav_order: $i/g"  week_1.md > week_$i.md;
+    done
 
 If above version does not work, you can use the following one and manually change the parameters for title and nav_order:
 
