@@ -44,3 +44,5 @@ We waste about 80% of the phosphate for food production.
 
 **ANN**
 In my idea of making the code more modular, I will separate the results from the plotting.
+
+The model predicts values beyond 0 and 1. Is it possible to constraint model results? We'll see.
