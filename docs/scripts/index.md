@@ -21,6 +21,13 @@ Load pickle data:
 
 I like to have a general configuration for figures to make sure they are consistent.
 
+    ```python
+    import matplotlib.gridspec as gridspec
+    import matplotlib
+    import matplotlib.pyplot as plt
+    from matplotlib.pyplot import figure
+    ```
+
     #Figure settings
     #===================================================================
     #Path to save figure
@@ -34,7 +41,7 @@ I like to have a general configuration for figures to make sure they are consist
 
     #Figure size
     cm = 1/2.54 #convert inch to cm
-    width = 8*cm*r; height=4*cm*c #8x4cm for each figure
+    width = 8*cm*rows; height=4*cm*cols #8x4cm for each figure
 
     #Fontsizes
     size_axis=7;size_ticks=6;size_title=5
