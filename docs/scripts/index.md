@@ -28,7 +28,10 @@ I like to have a general configuration for figures to make sure they are consist
     import matplotlib.pyplot as plt
     from matplotlib.pyplot import figure
     ```
+
+
 This was a test
+
 
     #Figure settings
     #===================================================================
