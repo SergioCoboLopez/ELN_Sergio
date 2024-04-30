@@ -21,12 +21,14 @@ Load pickle data:
 
 I like to have a general configuration for figures to make sure they are consistent.
 
+
     ```python
     import matplotlib.gridspec as gridspec
     import matplotlib
     import matplotlib.pyplot as plt
     from matplotlib.pyplot import figure
     ```
+This was a test
 
     #Figure settings
     #===================================================================
