@@ -11,7 +11,7 @@ nav_order: 5
 |(PH)|Next tasks |
 |(R)|Phosphorus and Omnivore's dilemma |
 |(ANN)|Generate 10 ANNs |
-|(O)|Fertilizer presentation |
+|(O)|Fertilizer presentation; Enaire |
 
 
 ## April 29
@@ -46,3 +46,8 @@ We waste about 80% of the phosphate for food production.
 In my idea of making the code more modular, I will separate the results from the plotting.
 
 The model predicts values beyond 0 and 1. Is it possible to constraint model results? We'll see.
+
+## May 2
+
+**O** Enaire
+We've got a plan for the next two weeks
