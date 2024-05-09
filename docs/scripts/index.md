@@ -29,21 +29,16 @@ import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 
-
 #Figure settings
-
 Output_Path='../../../results/Plots/' #A path to save figure
 Extensions=['.svg','.png','.pdf']     #Extensions to save figure
 
-rows=r;cols=c #rows and columns of panel (if applicable)
-
-#Define figure size
+#Define figure size in cm
 cm = 1/2.54 #convert inch to cm
-width = 8*cm*rows; height=4*cm*cols #8x4cm for each figure in panel
+width = 8*cm*rows; height=4*cm*cols 
 
 #Fonts and sizes 
 size_axis=7;size_ticks=6;size_title=5
-
 line_w=1;marker_s=3 #width and marker size
 
 
@@ -51,4 +46,6 @@ line_w=1;marker_s=3 #width and marker size
 cmap='RdBu';cmap_pieces= matplotlib.cm.get_cmap(cmap)
 color1=cmap_pieces(0.1);color2=cmap_pieces(0.9)
 color3=cmap_pieces(0.3);color4=cmap_pieces(0.7)
+
+fig=figure(figsize=(width,height), dpi=300)
 ```
