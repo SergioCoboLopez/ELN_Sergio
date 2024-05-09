@@ -13,3 +13,59 @@ nav_order: 1
 |(Code)| |
 |(O)| |
 
+
+
+## May 6
+
+**ANN** I have the functions to start with. There is no reason (in principle) to open the code again.
+I have 10 tanh functions and 10 leaky ReLU functions. What would be the next step?
+
+The next step is do things with the same architechture. That is difficult, because you had 2 layers in the first example.
+And your training code does not like having two layers as an input.
+
+R probably had two input layers, because he had two variables? In that case, I would need to change the architecture again.
+
+
+To have a template figure of a gridspec:
+First define the full size of the figure. Then define the limits.
+The limits are given as fractions:
+
+## May 7
+
+**thoughts**
+coding is a craft. Not coding in a literal sense, but in the context of an academic (at least) project.
+When is your code good enough? When do you know it is time to split your code in modular codes? When is it time to start thinking in another level of structure?
+In other words, when should you be thinking of "meta-coding"? And how much of "meta-coding"? Too little meta-coding and you will be generating a lot of entropy every day.
+Too much, and you will not get enough done.
+
+Right now, I have the following situation: I have one code to generate functions from a nn, another code to train that nn and generate a model (and now save the nn data), and another code to plot the data.
+I could move on and start getting things done. But I feel I am trapped in a step where it is worth stopping: save the neural networks so that I can keep my data there. If I run the code to train my data, I will step over the previous neural network configuration.
+I think I do not have the same architecture.
+
+## May 8
+
+**ANN** I should test my hypothesis about the weights of the NN.
+So if I had a single ILS and 10 nodes in my first layer, I would expect 10 weights.
+
+How the weights are generated does not look so important now that we know there is a bias layer.
+How are the weights "activated"?
+You would expect an initial operation on the first node (or pair of nodes)
+Nothing suggests there is something going on with the first node specifically.
+
+I don't see anything of this happening. Maybe I should try a very small example?
+
+Say that I keep the
+ILS=1
+Then I do LS=2, and NL=2
+I think I would be able to better interpret the data in that case.
+Right now I have ILS=1, LS=10, NL=5
+
+And I am going to go from -4,4 in intervals of 1.
+Instead of intervals of 0.05
+
+
+Everything makes sense now, and we can return to the initial configuration. Everything's good again.
+Next question: Does pyrenn have a bias included? Yes, it does by default.
+
+Our next problem now is how to save data and which data to save.
+Once I have the NN, I very much have the weights.
