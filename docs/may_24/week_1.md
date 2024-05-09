@@ -69,3 +69,12 @@ Next question: Does pyrenn have a bias included? Yes, it does by default.
 
 Our next problem now is how to save data and which data to save.
 Once I have the NN, I very much have the weights.
+
+## May 9
+
+**ANN**
+Now I need to get the distributions of weights from the files and plot them. I need to change the code for plotting the figures.
+
+The BMS is running now and this will be a bunch of tests at the beginning. (there are good reasons to believe the first iteration is not going to work).
+So we need to do something else.
+We will be plotting whatever function comes from the BMS first. And looking at whether it makes sense or not.
