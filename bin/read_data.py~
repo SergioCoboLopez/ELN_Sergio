@@ -1,0 +1,10 @@
+import numpy as np
+import pandas as pd
+
+
+#Read data
+#---------------------------
+data='../data/Sergios_data.csv'
+d=pd.read_csv(data)
+
+print(d)
