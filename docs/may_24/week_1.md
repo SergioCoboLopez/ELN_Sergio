@@ -78,3 +78,18 @@ Now I need to get the distributions of weights from the files and plot them. I n
 The BMS is running now and this will be a bunch of tests at the beginning. (there are good reasons to believe the first iteration is not going to work).
 So we need to do something else.
 We will be plotting whatever function comes from the BMS first. And looking at whether it makes sense or not.
+
+## May 10
+
+**ANN**
+
+The BMS performs great on the train set, but goes out of control in the train set. What is going on here? This does not seem as the expected result.
+
+Nothing really wrong: it is expectable to have weird results from the minimum description length equation found by the BMS.
+
+Here is what we should do:
+ -It is important to look at how your description length looks. If there are no fluctuations, that means that you probably are visiting the same model multiple times. That is not good. If that happens you should be launching the trace differently. Instead of 50000 steps only once, do 10 times 10000.
+ -Grab 100 models every 100 models in the trace.
+ -Take the median of those models and plot it
+ -Out of those 100 models, take the one who resembles the median the most.
+ 
