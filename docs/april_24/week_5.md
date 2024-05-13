@@ -51,3 +51,34 @@ The model predicts values beyond 0 and 1. Is it possible to constraint model res
 
 **O** Enaire
 We've got a plan for the next two weeks
+
+
+**ANN**
+Two problems now:
+1. Does it make sense for the test set to have values larger than 1?
+2. Find the right Neural Networks to train and test.
+
+Ok, so I ran the code that generates the data for tanh and for Leaky ReLU. I have the csv, I have the weights, and I have the figures.
+
+## May 3
+
+**ANN**
+
+The first step will be to reduce the rank from -5, 5 to -1, 1 but with the same number of points (0.05 interval)
+Then  try -2,2 and see what looks better.
+In any case, train from -4,4. (how do I normalize? In which specific interval?)
+
+
+Then you train the NN with the exact same architecture you used to build the functions in the first place.
+And then you train the BMS and look at the results.
+
+Finally you make some adjustments to your figures:
+1. Plot in the same figure the original model, the NN model, and the BMS prediction.
+2. Make sure your scatterplots are squared.
+
+Normalization:
+
+If I generate a function between -4,4, I can normalize all the interval. That ensures that I will not see values higher or lower than 1, -1. However, I could also be constrained between very small values. Who knows.
+If I normalized the interval between 1, -1. Then, I could well get values that are bigger/smaller than 1/-1 when I look at the whole thing. I am thinking I could normalize twice. So far, I think the best strategy is to normalize the whole thing and see what happens.
+
+I will take -1,1. Seems safer.

@@ -30,6 +30,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 
+<<<<<<< HEAD
 #Data                                                                 
 #--------------------------------                                     
 x = np.arange(21)
@@ -44,6 +45,15 @@ mu, sigma, n_points = 200, 20, 21
 y_3 = np.random.normal(mu, sigma, n_points) #random (normal)          
 #--------------------------------                                     
 
+=======
+#Figure settings
+Output_Path='../../../results/Plots/' #A path to save figure
+Extensions=['.svg','.png','.pdf']     #Extensions to save figure
+
+#Define figure size in cm
+cm = 1/2.54 #convert inch to cm
+width = 8*cm*rows; height=4*cm*cols 
+>>>>>>> da1c3b5994abf234370200370c8b14b3615e129c
 
 #Figure settings                                                      
 #--------------------------------                                     
@@ -57,6 +67,7 @@ width = 8*cm; height=4*cm #8x4cm for each figure in panel
 
 #Fonts and sizes                                                      
 size_axis=7;size_ticks=6;size_title=5
+<<<<<<< HEAD
 line_w=1;marker_s=3
 #--------------------------------
 
@@ -65,11 +76,15 @@ line_w=1;marker_s=3
 plt.plot(x,y_1, linewidth=line_w,color='blue', label='linear')
 plt.plot(x,y_2, linewidth=line_w,linestyle='--',color='red',label='qu\
 adratic')
+=======
+line_w=1;marker_s=3 #width and marker size
+>>>>>>> da1c3b5994abf234370200370c8b14b3615e129c
 
 print(type(x[:-1][::2]))
 print(type(y_3))
 plt.scatter(x,y_3, s=marker_s, color='green', label='random')
 
+<<<<<<< HEAD
 #Labels                                                               
 plt.xlabel('x',fontsize=size_axis);plt.ylabel('y',fontsize=size_axis)
 
@@ -91,4 +106,12 @@ for ext in extensions:
 
 plt.show()
 #-------------------------------- 
+=======
+#Select specific colors from a colormap
+cmap='RdBu';cmap_pieces= matplotlib.cm.get_cmap(cmap)
+color1=cmap_pieces(0.1);color2=cmap_pieces(0.9)
+color3=cmap_pieces(0.3);color4=cmap_pieces(0.7)
+
+fig=figure(figsize=(width,height), dpi=300)
+>>>>>>> da1c3b5994abf234370200370c8b14b3615e129c
 ```
