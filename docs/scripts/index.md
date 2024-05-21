@@ -19,7 +19,7 @@ Load pickle data:
 
 ## Figures
 
-This is a general configuration I use for figures in python
+any_figure.py
 
 
 ```python
