@@ -52,3 +52,25 @@ And plot the median.
 I think you might need a specific dataframe for that.
 
 Something seems off with the MDL of the new processes I ran.
+
+## May 22
+
+**airplanes**
+What is the best possible way to store data?
+I think csv is the most versatile.
+
+**ANN** Is there something wrong?
+The MDL is much different now from what it was.
+I could have made a change in the code that I don't remember now.
+Something in the cluster might make things different.
+
+
+## May 23
+
+**ANN** The cluster seems to be doing the same weird thing. Maybe some change in the code?
+
+## May 24
+
+**ANN** The slurm script may break down. If that is the case, the argument syntax is probably to blame.
+Remember that you are calling a test version of the actual python code whenever it works well.
+Remember too you commented a couple of lines of the script.
