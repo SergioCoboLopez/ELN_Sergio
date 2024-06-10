@@ -1,0 +1,41 @@
+---
+layout: default
+title: Week 2
+parent: June 2024
+nav_order: 2
+---
+
+| Goal | Notes |                                                                                
+| ----------- | ----------- |
+|(W)|Finish putting figures in draft; finish first version of caption |
+|(PH)| |
+|(R)|OOP |
+|(ANN)|Get results; find out how to extract best model from MS |
+|(O)| |
+
+## June 10
+
+This is the right way to work with the MS. We can know that. However, there are some questions still open.
+The first one is how to recover the "best" expression if you have them saved in a pdf file. There seems to be two methods that could do that: one builds a tree the other one initializes the machine scientist? The tree building is a good idea. It remains now the question of why the error looks worse in the case of the median sampling.
+
+The second one is whether the model with the minimum dl is the best predicting model. In order to check that, I should check the numbers of the prediction.
+
+If the model that "best predicts" predicts worse than the MDL model something is wrong. We need to look what is going on here.
+
+So I sampled every model out of the 5000 ones.
+I built predictions for every single model and I put them in the dataframe.
+I calculated the median of those predictions and added to the dataframe too.
+
+Then I calculated the mean squared error of every single model vs the median prediction. This assumes that the median prediction is the best one. Then I took the model with the minimum mse. This is the model that most resembles the median prediction of all models.
+This is not the best predicting model, but the model that most resembles the median prediction.
+There might be other ways to get a good performing model, of course. But it seems to me that I did what I wanted to do without major errors, as far as I can tell.
+
+So, what now? I think I should start putting results together. How should my results look?
+First, the energies for different runs. Then the mdl models. Then the MSE error.
+Then the samplings.
+
+
+**R** OOP
+It seems that the Exercises section looks at exactly what I was thinking about: how to apply oop to my current work. MSTraces could probably be though of as classes. And probably are: mathematical expression, parameter values, energy...
+percapfinit could follow the same pattern. Each regime could be thought of as an object of a class (equation).
+The plane project is the most paradigmatic (maybe because I started thinking of it in terms of oop)
