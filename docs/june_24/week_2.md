@@ -44,4 +44,30 @@ The plane project is the most paradigmatic (maybe because I started thinking of 
 
 
 
-## June 11
+## June 13
+
+**ANN** I made a couple of changes to my code yesterday. Both changes were related to dealing with NANs and infinte numbers in dataframes. This was becoming a problem for doing the median of each model sampled from the trace, because you cannot extract the median of a sample with nans or infinite numbers. At least pandas is not happy with that.
+
+For the nans I used the command "drop.na". If I do 'dataframe.dropna(axis="columns")' I get rid of all the columns that contain a nan.
+Getting rid of infinite numbers was more delicate. There was no straightforward way to do that with any pandas command. There was no information on the documentation either. Eventually, I found the following trick on stackoverflow:
+Step 1 - dsample.replace([np.inf, -np.inf], np.nan, inplace=True). This replaces infinites by nans. The first iteration did not work well because I was doing: dsample=dsample.replace([np.inf, -np.inf], np.nan, inplace=True). I don't understand why this did not work. I guess the first version of the command already transformed the dataframe.
+
+Step 2 - dsample=dsample.dropna(axis="columns")
+
+The first change implied a change in how the code was written. More specifically, how the comprehension list was indexing columns (i.e. models extracted from the trace). Before, I was counting over the sampled models, now I am iterating over the models that remain after dropping nans and infinite numbers. Not only does this solve the problem, it is probably more pythonic/elegant.
+
+After doing a couple of tests, everything seemed to work well. Also, it solved the specific problem I was targetting.
+
+The main conclusion is that the model that most resembles the median does not always outperform the mdl model. This is not necesseraly wrong. After all, the sampling can well skip the mdl model, for starters. Then, the median is not biased against high energy models or something like that. You are just taking the model that best resembles the median, i.e. the model that has an intermediate energy between top and lowest ones. On the other hand, one would expect that this sampling method would yield a better predicting model. So, what could be going on here?
+
+1. The sampling - I don't think so, because I've tried more exhaustive samplings with the same results.
+2. The sampling: maybe sample low energies or wait until the energy is more stabilized would help.
+3. Not enough iterations. Maybe the energy is stabilizing by 5000 steps.
+4. Obviously a mistake in the code.
+
+
+**R***
+Parasitoids are not the same as parasites.
+The ancestors of bees were herbivores. Then they started laying their eggs on animals and kill them (parasitoids). Eventually, these hymenoptera realized other predators might kill their hosts and so started digging nests, bringing in paralyized prey and securing food for their offspring. This way, hymenoptera started developing memory to remember the location of their nests (and therefore offspring)
+
+
