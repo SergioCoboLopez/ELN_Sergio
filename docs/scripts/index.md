@@ -4,6 +4,24 @@ title: Scripts and snippets
 nav_order: 3
 ---
 
+# Bash
+
+## Change the name of multiple files with an id
+
+Suppose that I have a folder with 10 files. Like this:
+
+![screenshot](files_figure.png)
+
+Now, I want to remove the "cool" part of those files. How do I do that:
+
+for file in cool_file*;
+do mv $file "${file/cool_/}";
+done
+
+
+
+
+
 # Python
 
 ## Data input/output
