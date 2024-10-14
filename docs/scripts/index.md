@@ -39,8 +39,6 @@ Load pickle data:
 
 any_figure.py
 
-Any_figure.py
-
 ```python
 import numpy as np
 import matplotlib.gridspec as gridspec
@@ -63,13 +61,9 @@ y_3 = np.random.normal(mu, sigma, n_points) #random (normal)
 #--------------------------------                                   
 
 
-#Figure settings
-Output_Path='../../../results/Plots/' #A path to save figure
-Extensions=['.svg','.png','.pdf']     #Extensions to save figure
-
 #Define figure size in cm
 cm = 1/2.54 #convert inch to cm
-width = 8*cm*rows; height=4*cm*cols 
+width = 8*cm; height=4*cm
 
 
 #Figure settings                                                     
